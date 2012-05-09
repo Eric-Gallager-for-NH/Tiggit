@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="json__rated_8hpp" kind="file">
+    <compoundname>json_rated.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">map</includes>
+    <includes refid="filegetter_8hpp" local="yes">filegetter.hpp</includes>
+    <includes refid="readjson_8hpp" local="yes">readjson.hpp</includes>
+    <includedby refid="gameinfo_8hpp" local="yes">gameinfo.hpp</includedby>
+    <includedby refid="tiggit_8cpp" local="yes">tiggit.cpp</includedby>
+    <incdepgraph>
+      <node id="384">
+        <label>config.h</label>
+        <link refid="config_8h_source"/>
+      </node>
+      <node id="372">
+        <label>filegetter.hpp</label>
+        <link refid="filegetter_8hpp_source"/>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>assert.h</label>
+      </node>
+      <node id="385">
+        <label>value.h</label>
+        <link refid="value_8h_source"/>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+      </node>
+      <node id="367">
+        <label>json_rated.hpp</label>
+        <link refid="json_rated.hpp"/>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>forwards.h</label>
+        <link refid="forwards_8h_source"/>
+        <childnode refid="384" relation="include">
+        </childnode>
+      </node>
+      <node id="373">
+        <label>stdlib.h</label>
+      </node>
+      <node id="374">
+        <label>stdexcept</label>
+      </node>
+      <node id="377">
+        <label>curl_get.hpp</label>
+        <link refid="curl__get_8hpp_source"/>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>string</label>
+      </node>
+      <node id="388">
+        <label>reader.h</label>
+        <link refid="reader_8h_source"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>map</label>
+      </node>
+      <node id="379">
+        <label>fstream</label>
+      </node>
+      <node id="378">
+        <label>curl/curl.h</label>
+      </node>
+      <node id="391">
+        <label>stack</label>
+      </node>
+      <node id="387">
+        <label>vector</label>
+      </node>
+      <node id="382">
+        <label>json/json.h</label>
+        <link refid="json_8h_source"/>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="392">
+        <label>writer.h</label>
+        <link refid="writer_8h_source"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>autolink.h</label>
+        <link refid="autolink_8h_source"/>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>tmpdir.hpp</label>
+        <link refid="tmpdir_8hpp_source"/>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>iostream</label>
+      </node>
+      <node id="390">
+        <label>deque</label>
+      </node>
+      <node id="380">
+        <label>decodeurl.hpp</label>
+        <link refid="decodeurl_8hpp_source"/>
+        <childnode refid="368" relation="include">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>features.h</label>
+        <link refid="features_8h_source"/>
+        <childnode refid="386" relation="include">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>readjson.hpp</label>
+        <link refid="readjson_8hpp_source"/>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="393">
+        <label>json_rated.hpp</label>
+        <link refid="json_rated.hpp"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>json_installed.hpp</label>
+        <link refid="json__installed_8hpp_source"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>tiggit.cpp</label>
+        <link refid="tiggit_8cpp_source"/>
+      </node>
+      <node id="394">
+        <label>gameinfo.hpp</label>
+        <link refid="gameinfo_8hpp_source"/>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>listkeeper.hpp</label>
+        <link refid="listkeeper_8hpp_source"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_json_rated" prot="public">JsonRated</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="json__rated_8hpp_1a9368993a57072469fc76d4fe938edca8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_json_rated" kindref="compound">JsonRated</ref></type>
+        <definition>JsonRated ratings</definition>
+        <argsstring></argsstring>
+        <name>ratings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="81" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__JSON_RATED_HPP_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>__JSON_RATED_HPP_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;filegetter.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;readjson.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>This<sp/>class<sp/>maintains<sp/>&quot;ratings.json&quot;,<sp/>the<sp/>database<sp/>of<sp/>how<sp/>the<sp/>local</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>user<sp/>has<sp/>rated<sp/>various<sp/>games.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_json_rated" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_json_rated" kindref="compound">JsonRated</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,int&gt;<sp/>IntMap;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>IntMap<sp/>ratings;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Note:<sp/>at<sp/>first<sp/>we<sp/>tried<sp/>using<sp/>a<sp/>Json::Value<sp/>directly<sp/>here,<sp/>but</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>this<sp/>crashed<sp/>on<sp/>exit.<sp/>I<sp/>suspect<sp/>this<sp/>is<sp/>the<sp/>fault<sp/>of<sp/>the<sp/>jsoncpp</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>lib,<sp/>as<sp/>I&apos;ve<sp/>experienced<sp/>other<sp/>crash<sp/>bugs<sp/>with<sp/>it<sp/>in<sp/>certain</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>(avoidable)<sp/>corner<sp/>cases.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>write()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>Json::Value<sp/>v;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(IntMap::iterator<sp/>it<sp/>=<sp/>ratings.begin();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it<sp/>!=<sp/>ratings.end();<sp/>it++)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v[it-&gt;first]<sp/>=<sp/>it-&gt;second;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>filename<sp/>=<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">.getPath(</highlight><highlight class="stringliteral">&quot;ratings.json&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>writeJson(filename,<sp/>v);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getRating(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;game)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rate<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ratings.find(game)<sp/>!=<sp/>ratings.end())</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rate<sp/>=<sp/>ratings[game];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(rate<sp/>&lt;<sp/>-1<sp/>||<sp/>rate<sp/>&gt;<sp/>5)<sp/>rate<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rate;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setRating(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;game,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rate)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(rate<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>rate<sp/>&lt;=<sp/>5);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>ratings[game]<sp/>=<sp/>rate;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>write();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>read()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Json;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>filename<sp/>=<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">.getPath(</highlight><highlight class="stringliteral">&quot;ratings.json&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>Value<sp/>v;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{<sp/>v<sp/>=<sp/>readJson(filename);<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>A<sp/>missing<sp/>file<sp/>is<sp/>normal,<sp/>just<sp/>ignore<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(...)<sp/>{}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Convert<sp/>json<sp/>value<sp/>into<sp/>std::map</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>Value::Members<sp/>keys<sp/>=<sp/>v.getMemberNames();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>Value::Members::iterator<sp/>it;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(it<sp/>=<sp/>keys.begin();<sp/>it<sp/>!=<sp/>keys.end();<sp/>it++)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ratings[*it]<sp/>=<sp/>v[*it].asInt();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><ref refid="class_json_rated" kindref="compound">JsonRated</ref><sp/>ratings;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/ericgallager/Tiggit/json_rated.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_file_getter" kind="struct" prot="public">
+    <compoundname>FileGetter</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_file_getter_1aff31699a9b1a042765d0afe2de707200" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_tmp_dir" kindref="compound">TmpDir</ref> *</type>
+        <definition>TmpDir* FileGetter::tmp</definition>
+        <argsstring></argsstring>
+        <name>tmp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="12" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_file_getter_1a5b5d602950eb4d3442be28213b33985f" prot="public" static="no" mutable="no">
+        <type>boost::filesystem::path</type>
+        <definition>boost::filesystem::path FileGetter::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="14" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_file_getter_1aac670b490d8a586419196961d8afa8f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileGetter::FileGetter</definition>
+        <argsstring>()</argsstring>
+        <name>FileGetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="16" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_file_getter_1a035e3254227362c120b5855e26614b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileGetter::setBase</definition>
+        <argsstring>(boost::filesystem::path bdir)</argsstring>
+        <name>setBase</name>
+        <param>
+          <type>boost::filesystem::path</type>
+          <declname>bdir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="19" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="18" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_file_getter_1aceb59038af28ad0c2ee21a1ec43f2abe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileGetter::~FileGetter</definition>
+        <argsstring>()</argsstring>
+        <name>~FileGetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="29" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_file_getter_1ac40d3879ef674cd60503c4aa014d58b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string FileGetter::getPath</definition>
+        <argsstring>(const std::string &amp;file)</argsstring>
+        <name>getPath</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="35" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="34" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_file_getter_1a92daf505b223c582ca042a46ffb0d0aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string FileGetter::copyTo</definition>
+        <argsstring>(const std::string &amp;from, const std::string &amp;to)</argsstring>
+        <name>copyTo</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="49" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_file_getter_1a243c9bceb72f3ad7f4ed7ce1438b7a94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string FileGetter::getCache</definition>
+        <argsstring>(const std::string &amp;local, const std::string &amp;url, bool cacheFirst=true)</argsstring>
+        <name>getCache</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>local</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cacheFirst</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="74" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="72" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_file_getter_1a9e92f09ecdf1a4e998d3437275bc5a0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string FileGetter::getFile</definition>
+        <argsstring>(const std::string &amp;from)</argsstring>
+        <name>getFile</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="115" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="114" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_file_getter_1a875560c4fcaa283456bcc43eb9a757f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string FileGetter::getTo</definition>
+        <argsstring>(const std::string &amp;url, const std::string &amp;dest)</argsstring>
+        <name>getTo</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="136" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="135" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="398">
+        <label>TmpDir</label>
+        <link refid="struct_tmp_dir"/>
+      </node>
+      <node id="397">
+        <label>FileGetter</label>
+        <link refid="struct_file_getter"/>
+        <childnode refid="398" relation="usage">
+          <edgelabel>tmp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/filegetter.hpp" line="11" bodyfile="/Users/ericgallager/Tiggit/filegetter.hpp" bodystart="10" bodyend="139"/>
+    <listofallmembers>
+      <member refid="struct_file_getter_1a5b5d602950eb4d3442be28213b33985f" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>base</name></member>
+      <member refid="struct_file_getter_1a92daf505b223c582ca042a46ffb0d0aa" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>copyTo</name></member>
+      <member refid="struct_file_getter_1aac670b490d8a586419196961d8afa8f7" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>FileGetter</name></member>
+      <member refid="struct_file_getter_1a243c9bceb72f3ad7f4ed7ce1438b7a94" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>getCache</name></member>
+      <member refid="struct_file_getter_1a9e92f09ecdf1a4e998d3437275bc5a0f" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>getFile</name></member>
+      <member refid="struct_file_getter_1ac40d3879ef674cd60503c4aa014d58b0" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>getPath</name></member>
+      <member refid="struct_file_getter_1a875560c4fcaa283456bcc43eb9a757f3" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>getTo</name></member>
+      <member refid="struct_file_getter_1a035e3254227362c120b5855e26614b63" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>setBase</name></member>
+      <member refid="struct_file_getter_1aff31699a9b1a042765d0afe2de707200" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>tmp</name></member>
+      <member refid="struct_file_getter_1aceb59038af28ad0c2ee21a1ec43f2abe" prot="public" virt="non-virtual"><scope>FileGetter</scope><name>~FileGetter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

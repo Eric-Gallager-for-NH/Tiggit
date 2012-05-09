@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_my_list" kind="class" prot="public">
+    <compoundname>MyList</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_my_list_1ab59e5ea2611de7790c6df6f75db94255" prot="private" static="no" mutable="no">
+        <type>wxListItemAttr</type>
+        <definition>wxListItemAttr MyList::green</definition>
+        <argsstring></argsstring>
+        <name>green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="112" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_list_1a532645d0a8e98cc2845aa75b562b42cf" prot="private" static="no" mutable="no">
+        <type>wxListItemAttr</type>
+        <definition>wxListItemAttr MyList::orange</definition>
+        <argsstring></argsstring>
+        <name>orange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="112" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_list_1a965ea66290f31e19aba0eacb2fac77db" prot="private" static="no" mutable="no">
+        <type>wxImageList</type>
+        <definition>wxImageList MyList::images</definition>
+        <argsstring></argsstring>
+        <name>images</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="113" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_list_1ac904284fefa315a4af89ae8bc8b6888f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_list_keeper" kindref="compound">ListKeeper</ref> &amp;</type>
+        <definition>ListKeeper&amp; MyList::lister</definition>
+        <argsstring></argsstring>
+        <name>lister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="114" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_list_1a3edc18358fa3cd946104c0c25c0b0dbe" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_column_handler" kindref="compound">ColumnHandler</ref> * &gt;</type>
+        <definition>std::vector&lt;ColumnHandler*&gt; MyList::colHands</definition>
+        <argsstring></argsstring>
+        <name>colHands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="116" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_list_1aebc40b9d1292e7f0fb28df4d6c30bba4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MyList::colNum</definition>
+        <argsstring></argsstring>
+        <name>colNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="119" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_my_list_1a2956c0cd31cbecea84330113f59b087a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MyList::MyList</definition>
+        <argsstring>(wxWindow *parent, int ID, ListKeeper &amp;lst)</argsstring>
+        <name>MyList</name>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ID</declname>
+        </param>
+        <param>
+          <type><ref refid="class_list_keeper" kindref="compound">ListKeeper</ref> &amp;</type>
+          <declname>lst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="126" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="122" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_list_1a3a749f2d162bb361e2b5d0c307fe227a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyList::addColumn</definition>
+        <argsstring>(const wxString &amp;name, int width, ColumnHandler *ch)</argsstring>
+        <name>addColumn</name>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_column_handler" kindref="compound">ColumnHandler</ref> *</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="145" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="144" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_list_1a34d1c691d4c0e8a19eff844f70066fc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyList::setSelect</definition>
+        <argsstring>(int index)</argsstring>
+        <name>setSelect</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="157" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_list_1a5b954099581dd18cff3b65520b2f2c30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyList::update</definition>
+        <argsstring>(bool stay=false)</argsstring>
+        <name>update</name>
+        <param>
+          <type>bool</type>
+          <declname>stay</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="164" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="163" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_list_1a2b7b13538ace3bc0ef4e8aa4971adadf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxListItemAttr *</type>
+        <definition>wxListItemAttr* MyList::OnGetItemAttr</definition>
+        <argsstring>(long item) const </argsstring>
+        <name>OnGetItemAttr</name>
+        <param>
+          <type>long</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="184" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="183" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_list_1a550214b5f066675223d276160d8860db" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MyList::OnGetItemImage</definition>
+        <argsstring>(long item) const </argsstring>
+        <name>OnGetItemImage</name>
+        <param>
+          <type>long</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="195" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_list_1aad3d159a22be0d38de6523a70162bb2a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MyList::OnGetColumnImage</definition>
+        <argsstring>(long item, long column) const </argsstring>
+        <name>OnGetColumnImage</name>
+        <param>
+          <type>long</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="200" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_list_1a2bf64f809cd23949ee3bb55a4855a507" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxString</type>
+        <definition>wxString MyList::OnGetItemText</definition>
+        <argsstring>(long item, long column) const </argsstring>
+        <name>OnGetItemText</name>
+        <param>
+          <type>long</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="205" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="204" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="111" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="110" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_my_list_1a3a749f2d162bb361e2b5d0c307fe227a" prot="public" virt="non-virtual"><scope>MyList</scope><name>addColumn</name></member>
+      <member refid="class_my_list_1a3edc18358fa3cd946104c0c25c0b0dbe" prot="private" virt="non-virtual"><scope>MyList</scope><name>colHands</name></member>
+      <member refid="class_my_list_1aebc40b9d1292e7f0fb28df4d6c30bba4" prot="private" virt="non-virtual"><scope>MyList</scope><name>colNum</name></member>
+      <member refid="class_my_list_1ab59e5ea2611de7790c6df6f75db94255" prot="private" virt="non-virtual"><scope>MyList</scope><name>green</name></member>
+      <member refid="class_my_list_1a965ea66290f31e19aba0eacb2fac77db" prot="private" virt="non-virtual"><scope>MyList</scope><name>images</name></member>
+      <member refid="class_my_list_1ac904284fefa315a4af89ae8bc8b6888f" prot="private" virt="non-virtual"><scope>MyList</scope><name>lister</name></member>
+      <member refid="class_my_list_1a2956c0cd31cbecea84330113f59b087a" prot="public" virt="non-virtual"><scope>MyList</scope><name>MyList</name></member>
+      <member refid="class_my_list_1aad3d159a22be0d38de6523a70162bb2a" prot="public" virt="non-virtual"><scope>MyList</scope><name>OnGetColumnImage</name></member>
+      <member refid="class_my_list_1a2b7b13538ace3bc0ef4e8aa4971adadf" prot="public" virt="non-virtual"><scope>MyList</scope><name>OnGetItemAttr</name></member>
+      <member refid="class_my_list_1a550214b5f066675223d276160d8860db" prot="public" virt="non-virtual"><scope>MyList</scope><name>OnGetItemImage</name></member>
+      <member refid="class_my_list_1a2bf64f809cd23949ee3bb55a4855a507" prot="public" virt="non-virtual"><scope>MyList</scope><name>OnGetItemText</name></member>
+      <member refid="class_my_list_1a532645d0a8e98cc2845aa75b562b42cf" prot="private" virt="non-virtual"><scope>MyList</scope><name>orange</name></member>
+      <member refid="class_my_list_1a34d1c691d4c0e8a19eff844f70066fc7" prot="public" virt="non-virtual"><scope>MyList</scope><name>setSelect</name></member>
+      <member refid="class_my_list_1a5b954099581dd18cff3b65520b2f2c30" prot="public" virt="non-virtual"><scope>MyList</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

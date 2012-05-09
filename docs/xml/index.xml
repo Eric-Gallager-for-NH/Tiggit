@@ -1,0 +1,1299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.0">
+  <compound refid="struct_add_date_col" kind="struct"><name>AddDateCol</name>
+    <member refid="struct_add_date_col_1a57c915272f4093784ede43e57b129983" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_auth" kind="struct"><name>Auth</name>
+    <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1" kind="enum"><name>UserType</name></member>
+    <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a4a1f323cd315f0e2badfbf82d98eb3d0" kind="enumvalue"><name>UT_User</name></member>
+    <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a0a07001b6426b21ca91f2139cf32cb08" kind="enumvalue"><name>UT_Moderator</name></member>
+    <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a829d855f9a9e3b01d1f9c0151256d944" kind="enumvalue"><name>UT_Admin</name></member>
+    <member refid="struct_auth_1a0ba4018434597c9cdb89906d28de6e20" kind="variable"><name>type</name></member>
+    <member refid="struct_auth_1a87fac948884ba2a67f1a8ee700c0ad03" kind="function"><name>Auth</name></member>
+    <member refid="struct_auth_1a3b2f96c60a4e4ac237009a9b53517e16" kind="function"><name>load</name></member>
+    <member refid="struct_auth_1a3c3563b2855ffc510717eabc03e89278" kind="function"><name>isAdmin</name></member>
+  </compound>
+  <compound refid="class_json_1_1_batch_allocator" kind="class"><name>Json::BatchAllocator</name>
+    <member refid="class_json_1_1_batch_allocator_1a031e753885fcb007c20511e15f84d1a4" kind="typedef"><name>Type</name></member>
+    <member refid="class_json_1_1_batch_allocator_1ab96f6d89d8754359cdb59587d8eed5b5" kind="variable"><name>batches_</name></member>
+    <member refid="class_json_1_1_batch_allocator_1af300cf30cc086974f34effcc893e8dea" kind="variable"><name>currentBatch_</name></member>
+    <member refid="class_json_1_1_batch_allocator_1a7532989b88c9f124f83394f24737378a" kind="variable"><name>freeHead_</name></member>
+    <member refid="class_json_1_1_batch_allocator_1aa7a906cb96f6c92cb06f519b15539a5c" kind="variable"><name>objectsPerPage_</name></member>
+    <member refid="class_json_1_1_batch_allocator_1a96aae4d9032847b074e72a0cf32bc9ea" kind="function"><name>BatchAllocator</name></member>
+    <member refid="class_json_1_1_batch_allocator_1a823a98097ec40ccc8d88da9378be228d" kind="function"><name>~BatchAllocator</name></member>
+    <member refid="class_json_1_1_batch_allocator_1a4909756c2d33bd0f07662e88e4f850dd" kind="function"><name>allocate</name></member>
+    <member refid="class_json_1_1_batch_allocator_1aceb116aceb6bb5bbcfd05433abc04ba5" kind="function"><name>release</name></member>
+    <member refid="class_json_1_1_batch_allocator_1af240399628f3cf1099ede92ef1ec4274" kind="function"><name>BatchAllocator</name></member>
+    <member refid="class_json_1_1_batch_allocator_1ad2ab8896da0685b6c7eb5f7bfd5304d3" kind="function"><name>operator=</name></member>
+    <member refid="class_json_1_1_batch_allocator_1a41f6367bbed5bdf39d2c8dc8f6bbf29d" kind="function"><name>allocateBatch</name></member>
+  </compound>
+  <compound refid="struct_json_1_1_batch_allocator_1_1_batch_info" kind="struct"><name>Json::BatchAllocator::BatchInfo</name>
+    <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1acc4f49589b6df51db1a67bf2ee2d336a" kind="variable"><name>next_</name></member>
+    <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1a61f1740851eda82927a3d434179414b0" kind="variable"><name>used_</name></member>
+    <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1a3ae3cfb3e7474cc562929b515dba8453" kind="variable"><name>end_</name></member>
+    <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1a206b15040f6f036303d49f05fe0fed21" kind="variable"><name>buffer_</name></member>
+  </compound>
+  <compound refid="struct_cache_fetcher" kind="struct"><name>CacheFetcher</name>
+    <member refid="struct_cache_fetcher_1abb040b6dad48853c48e7b0cd34e42ebf" kind="function"><name>CacheFetcher</name></member>
+    <member refid="struct_cache_fetcher_1a63555c553b64215451c7309d587ef870" kind="function"><name>goDoItAlready</name></member>
+  </compound>
+  <compound refid="struct_column_handler" kind="struct"><name>ColumnHandler</name>
+    <member refid="struct_column_handler_1acc8693935219ae4e189b9b862e2c735d" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info" kind="struct"><name>Json::JSON_API::CommentInfo</name>
+    <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1ad885288eb3e4ecb28b500458dd8b7027" kind="variable"><name>comment_</name></member>
+    <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1a07909aa39bd06df01ca8ac59f31efc8d" kind="function"><name>CommentInfo</name></member>
+    <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1aec9bcf6628130ddd912a1052096d4dcf" kind="function"><name>~CommentInfo</name></member>
+    <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1a1a0f4bce41cd0b7eee7e2db1adb9fc99" kind="function"><name>setComment</name></member>
+  </compound>
+  <compound refid="struct_config" kind="struct"><name>Config</name>
+    <member refid="struct_config_1ab86ad997e8f2e88a64f061fa70091078" kind="variable"><name>filename</name></member>
+    <member refid="struct_config_1a564d15668d632419798a93d620f81152" kind="variable"><name>updateList</name></member>
+    <member refid="struct_config_1ad1e5ac2a15f384d413b95e121c6d2928" kind="variable"><name>updateTigs</name></member>
+    <member refid="struct_config_1aaf303bdff546fcc4c46767f7f3d3dd69" kind="variable"><name>updateCache</name></member>
+    <member refid="struct_config_1a099a67b516ac62f95fa2f49483721310" kind="variable"><name>first_time</name></member>
+    <member refid="struct_config_1a8ecbe763ad856693ff85cba5182e1f2e" kind="variable"><name>debug</name></member>
+    <member refid="struct_config_1afd23708f8e59e9c696b0fc693739472c" kind="variable"><name>seen_demo_msg</name></member>
+    <member refid="struct_config_1a3d06f58acbb74e2913bd0f044d12394d" kind="variable"><name>lastTime</name></member>
+    <member refid="struct_config_1acc4759baa2fe83106d9a8fae12546f0e" kind="variable"><name>baseUrl</name></member>
+    <member refid="struct_config_1acb5516f84b18e6649286735712cb0a98" kind="variable"><name>imageUrl</name></member>
+    <member refid="struct_config_1a4f4448448427dc5a8b346a4a66e30b92" kind="variable"><name>localPath</name></member>
+    <member refid="struct_config_1a0b584e690f6a34b8462c85c3e11aa859" kind="variable"><name>imagePath</name></member>
+    <member refid="struct_config_1ac14e6be5374dfb749dc441d6ea0f27bf" kind="variable"><name>defDevname</name></member>
+    <member refid="struct_config_1a15077f4171fb0f43a14d9fec23318744" kind="variable"><name>defPaypal</name></member>
+    <member refid="struct_config_1a63486aa0f6e97789ad5bed516ab789c8" kind="variable"><name>user</name></member>
+    <member refid="struct_config_1aaa8708013e3abf31b037ef34269c569b" kind="variable"><name>api_key</name></member>
+    <member refid="struct_config_1a095ae9408d00154699d933256790ebd2" kind="variable"><name>postHook</name></member>
+    <member refid="struct_config_1aa602ce908249dc593bab0b633d246f84" kind="variable"><name>autoPost</name></member>
+    <member refid="struct_config_1abd0c571c116924871e30444b192b792a" kind="function"><name>Config</name></member>
+    <member refid="struct_config_1abd04feb31c5597f231c2b0a846880421" kind="function"><name>fail</name></member>
+    <member refid="struct_config_1ab23cf64dbe467847929cc97a190135f6" kind="function"><name>setLastTime</name></member>
+    <member refid="struct_config_1acd40ebac23c7a2482a5d05c9f45a6431" kind="function"><name>shown_demo_msg</name></member>
+    <member refid="struct_config_1a9a2cf83a170bd24727275d0ceae5d096" kind="function"><name>load</name></member>
+    <member refid="struct_config_1ad4706c80584efb50585338d051a777eb" kind="function"><name>write</name></member>
+    <member refid="struct_config_1a72c04e1d5ec82869d7f99f4dbf4d415d" kind="function"><name>read</name></member>
+    <member refid="struct_config_1abd0c571c116924871e30444b192b792a" kind="function"><name>Config</name></member>
+  </compound>
+  <compound refid="struct_curl_get" kind="struct"><name>CurlGet</name>
+    <member refid="struct_curl_get_1adc0c9ad9ff74214b474d1ca7856d8a2e" kind="typedef"><name>ProgFunc</name></member>
+    <member refid="struct_curl_get_1ac5f276dc342174dbf8b90e1abbc01afb" kind="function"><name>stream_write</name></member>
+    <member refid="struct_curl_get_1a00d4b38041a02b48d9a81c3eab125c00" kind="function"><name>get</name></member>
+    <member refid="struct_curl_get_1a624fe51e5dc40c0c23098ea6c52595c8" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string" kind="class"><name>Json::JSON_API::CZString</name>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60" kind="enum"><name>DuplicationPolicy</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a9c2afce63101ffec9c07c3f750389733" kind="enumvalue"><name>noDuplication</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a0544e14d1dfb13c9f1625bf62fd328dd" kind="enumvalue"><name>duplicate</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a9e11013465e4cd38d031aadc0d20b4d3" kind="enumvalue"><name>duplicateOnCopy</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a6283042fb5e68c1a1adb2a380e1f1335" kind="variable"><name>cstr_</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a78b2a741e380a2cd57b4183a9e7f0f3a" kind="variable"><name>index_</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a655d9561ea1cc7c99688a666f5924194" kind="function"><name>CZString</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a71fffe96f1b98bc0d026b39aac12e895" kind="function"><name>CZString</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a6a0c93122e9ced7eddfcf50290d3fc57" kind="function"><name>CZString</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a8e8e7f3a0211db21833e65d8c290cc75" kind="function"><name>~CZString</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1ac65e957804672ea7f01e96855af28483" kind="function"><name>operator=</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1afab060efed1d079d29e0ba9f13898e93" kind="function"><name>operator&lt;</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a0e700db1cd27c6db4597d845b622ef44" kind="function"><name>operator==</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1af0dfcbd513741af256bec6c23ca498a0" kind="function"><name>index</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a738a08165088dfb3b1be2672a8365646" kind="function"><name>c_str</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adb76ccf654d11aff7bde2995affbd896" kind="function"><name>isStaticString</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1ad06d74c549a97a8b8822764d8ceb5e68" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="struct_data_list" kind="struct"><name>DataList</name>
+    <member refid="struct_data_list_1aefb1fd0053150befa92ae61309812341" kind="variable"><name>arr</name></member>
+    <member refid="struct_data_list_1aae23d36c91eb9581bc8e3b9d574d3d15" kind="function"><name>add</name></member>
+  </compound>
+  <compound refid="struct_list_keeper_1_1_date_sort" kind="struct"><name>ListKeeper::DateSort</name>
+    <member refid="struct_list_keeper_1_1_date_sort_1aa8578c6016aefd5c444313e20a94242d" kind="function"><name>DateSort</name></member>
+    <member refid="struct_list_keeper_1_1_date_sort_1ac51bd984d3da58e375f0b47b9b3dfa16" kind="function"><name>isLess</name></member>
+  </compound>
+  <compound refid="struct_decode_u_r_l" kind="struct"><name>DecodeURL</name>
+    <member refid="struct_decode_u_r_l_1a792308fadc23cc4c8d3a70ed058517da" kind="variable"><name>location</name></member>
+    <member refid="struct_decode_u_r_l_1aa08f18d230eb1679d8f763b21f40a118" kind="variable"><name>isUrl</name></member>
+    <member refid="struct_decode_u_r_l_1a90eef28074e52f6b003a9295d117df1a" kind="variable"><name>basename</name></member>
+    <member refid="struct_decode_u_r_l_1a500412b040290d8993798e3e3fe108db" kind="function"><name>DecodeURL</name></member>
+  </compound>
+  <compound refid="class_json_1_1_default_value_allocator" kind="class"><name>Json::DefaultValueAllocator</name>
+    <member refid="class_json_1_1_default_value_allocator_1a02937856a2a56c1623d5aef97555dc20" kind="function"><name>~DefaultValueAllocator</name></member>
+    <member refid="class_json_1_1_default_value_allocator_1a83643548a23763cd9e8fcc9889ae3428" kind="function"><name>makeMemberName</name></member>
+    <member refid="class_json_1_1_default_value_allocator_1a62df0985d957573f82be4f520bf00043" kind="function"><name>releaseMemberName</name></member>
+    <member refid="class_json_1_1_default_value_allocator_1adc2dc8da259fe1153594787cfcfc68d5" kind="function"><name>duplicateStringValue</name></member>
+    <member refid="class_json_1_1_default_value_allocator_1a5e7f4fbebe7f9263090276e937a6a8d2" kind="function"><name>releaseStringValue</name></member>
+  </compound>
+  <compound refid="class_default_value_array_allocator" kind="class"><name>DefaultValueArrayAllocator</name>
+    <member refid="class_default_value_array_allocator_1a281c7aae08341a4d8c83c0f4991e4c76" kind="variable"><name>arraysAllocator_</name></member>
+    <member refid="class_default_value_array_allocator_1a47d9faedb2abaaada5ba1665c64d37a9" kind="variable"><name>pagesAllocator_</name></member>
+    <member refid="class_default_value_array_allocator_1aa8ed9b17a623feaae4b6b39b0afd4503" kind="function"><name>~DefaultValueArrayAllocator</name></member>
+    <member refid="class_default_value_array_allocator_1a8689ed26ea893863259338c15d838b41" kind="function"><name>newArray</name></member>
+    <member refid="class_default_value_array_allocator_1a2d56726cd560f97c3589026be8a65d95" kind="function"><name>newArrayCopy</name></member>
+    <member refid="class_default_value_array_allocator_1adac32a54d25ee1aee7df3b19527ffb57" kind="function"><name>destructArray</name></member>
+    <member refid="class_default_value_array_allocator_1a2a5376fbd5ac116ef985935e569d0492" kind="function"><name>reallocateArrayPageIndex</name></member>
+    <member refid="class_default_value_array_allocator_1a315ffaf5d7d8ca65c10f9468814866f4" kind="function"><name>releaseArrayPageIndex</name></member>
+    <member refid="class_default_value_array_allocator_1a7b5bf432a9564dbfe5c1e8c38f54f64a" kind="function"><name>allocateArrayPage</name></member>
+    <member refid="class_default_value_array_allocator_1a4f01eadeb6149a2417f8a7fff2e3ea6d" kind="function"><name>releaseArrayPage</name></member>
+  </compound>
+  <compound refid="class_default_value_map_allocator" kind="class"><name>DefaultValueMapAllocator</name>
+    <member refid="class_default_value_map_allocator_1a0efd0c7645f050effc2830e95174fdb8" kind="variable"><name>mapsAllocator_</name></member>
+    <member refid="class_default_value_map_allocator_1a36bcfe24217f819dd656fe8aca949384" kind="variable"><name>linksAllocator_</name></member>
+    <member refid="class_default_value_map_allocator_1af58f1000da938b453f499270642db381" kind="function"><name>newMap</name></member>
+    <member refid="class_default_value_map_allocator_1a4edf94de1fe95c7722421694c3ac101f" kind="function"><name>newMapCopy</name></member>
+    <member refid="class_default_value_map_allocator_1aa37cddbdf061065dbe6cb12e9de5ac08" kind="function"><name>destructMap</name></member>
+    <member refid="class_default_value_map_allocator_1a1dc9a181273b90fa7098313316c53fcf" kind="function"><name>allocateMapBuckets</name></member>
+    <member refid="class_default_value_map_allocator_1a45a33b35da50dc69c47dfd31e49c1b0e" kind="function"><name>releaseMapBuckets</name></member>
+    <member refid="class_default_value_map_allocator_1acc658ce4f2d738fd4db6222c8f89defd" kind="function"><name>allocateMapLink</name></member>
+    <member refid="class_default_value_map_allocator_1ad6998891b5b25c53d28055eed8e4a355" kind="function"><name>releaseMapLink</name></member>
+  </compound>
+  <compound refid="struct_demo_list_tab" kind="struct"><name>DemoListTab</name>
+    <member refid="struct_demo_list_tab_1af6f5f41dd3935b9f364d9512e5f43554" kind="function"><name>DemoListTab</name></member>
+  </compound>
+  <compound refid="struct_download_job" kind="struct"><name>DownloadJob</name>
+    <member refid="struct_download_job_1a72c19444d6a3110124ed78a6b335e443" kind="variable"><name>url</name></member>
+    <member refid="struct_download_job_1a0731eb84fbe6d54d677d1132a54eefa5" kind="variable"><name>file</name></member>
+    <member refid="struct_download_job_1a446b49f06dd1fff42260bcca3b9c1c03" kind="variable"><name>current</name></member>
+    <member refid="struct_download_job_1a244e86498b90238f33501395608db188" kind="variable"><name>total</name></member>
+    <member refid="struct_download_job_1ab467c8476dd69b58e9adef121919ea4a" kind="variable"><name>completed</name></member>
+    <member refid="struct_download_job_1aa7f2822b6fb2214f42118a09f8106cbf" kind="function"><name>DownloadJob</name></member>
+    <member refid="struct_download_job_1aa7659c9a2baee37b8bc5f9cf4768e0a5" kind="function"><name>executeJob</name></member>
+    <member refid="struct_download_job_1a3547b211e06190186ec09330cf70bdfa" kind="function"><name>progress</name></member>
+    <member refid="struct_download_job_1afbde21be21ab5b49d6dbf49519fae396" kind="function"><name>curl_progress</name></member>
+  </compound>
+  <compound refid="struct_downloads_col" kind="struct"><name>DownloadsCol</name>
+    <member refid="struct_downloads_col_1a30363fcca8ef3a4c92906e262305c9ff" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_list_keeper_1_1_download_sort" kind="struct"><name>ListKeeper::DownloadSort</name>
+    <member refid="struct_list_keeper_1_1_download_sort_1ae0d75d348a4abb6dc49a9f3e7b428999" kind="function"><name>DownloadSort</name></member>
+    <member refid="struct_list_keeper_1_1_download_sort_1aee3f16e6c71d97c0905321ece4b88a96" kind="function"><name>isLess</name></member>
+  </compound>
+  <compound refid="struct_dummy_array_allocator_initializer" kind="struct"><name>DummyArrayAllocatorInitializer</name>
+    <member refid="struct_dummy_array_allocator_initializer_1aad787af8d4898651f65c01c854f5bcf5" kind="function"><name>DummyArrayAllocatorInitializer</name></member>
+  </compound>
+  <compound refid="struct_dummy_map_allocator_initializer" kind="struct"><name>DummyMapAllocatorInitializer</name>
+    <member refid="struct_dummy_map_allocator_initializer_1a2637ae0bd54c10f99475af6e08d4b439" kind="function"><name>DummyMapAllocatorInitializer</name></member>
+  </compound>
+  <compound refid="struct_json_1_1_dummy_value_allocator_initializer" kind="struct"><name>Json::DummyValueAllocatorInitializer</name>
+    <member refid="struct_json_1_1_dummy_value_allocator_initializer_1ac95d0bc0dee2d5159b116dbe214671e4" kind="function"><name>DummyValueAllocatorInitializer</name></member>
+  </compound>
+  <compound refid="struct_data_list_1_1_entry" kind="struct"><name>DataList::Entry</name>
+    <member refid="struct_data_list_1_1_entry_1a3570d10a0a91b36f2aa168358780fb26" kind="variable"><name>add_time</name></member>
+    <member refid="struct_data_list_1_1_entry_1a7e228cc6a51be4121e6046c520db834d" kind="variable"><name>isNew</name></member>
+    <member refid="struct_data_list_1_1_entry_1a463b8dffcc4795702cfa07e6e5e85226" kind="variable"><name>rating</name></member>
+    <member refid="struct_data_list_1_1_entry_1a4569e2cc7972bde2c9fc76cfc8f2c5a4" kind="variable"><name>rateCount</name></member>
+    <member refid="struct_data_list_1_1_entry_1aa9c367fa7ff5a9dedad2b218bf236fb1" kind="variable"><name>dlCount</name></member>
+    <member refid="struct_data_list_1_1_entry_1a7daddeb1b5a554f5e90c6d2412f7bf87" kind="variable"><name>urlname</name></member>
+    <member refid="struct_data_list_1_1_entry_1acfb0798ef471cacca9eb9ddbcdcf652e" kind="variable"><name>idname</name></member>
+    <member refid="struct_data_list_1_1_entry_1aa6005496790c98b990851fd318d7638b" kind="variable"><name>name</name></member>
+    <member refid="struct_data_list_1_1_entry_1aebe64f40bc0f9b49539ea93f07e28404" kind="variable"><name>tigurl</name></member>
+    <member refid="struct_data_list_1_1_entry_1ac4d5d7719f43bfa907065ce2e9ccd4fb" kind="variable"><name>tigInfo</name></member>
+    <member refid="struct_data_list_1_1_entry_1ae79a1cc41ad00797a2df1c70c4a4e604" kind="variable"><name>info</name></member>
+  </compound>
+  <compound refid="struct_tag_sorter_1_1_entry" kind="struct"><name>TagSorter::Entry</name>
+    <member refid="struct_tag_sorter_1_1_entry_1aba6b22382c6f86c043c0e66affeb7c83" kind="variable"><name>tag</name></member>
+    <member refid="struct_tag_sorter_1_1_entry_1a83ddb24161db23f4fcf78414dec92209" kind="variable"><name>games</name></member>
+    <member refid="struct_tag_sorter_1_1_entry_1a8c8e3460c17533175c189862f70ab251" kind="variable"><name>important</name></member>
+    <member refid="struct_tag_sorter_1_1_entry_1a9d66aff1ff44d1c519c0c25382cc9085" kind="function"><name>operator&lt;</name></member>
+  </compound>
+  <compound refid="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info" kind="class"><name>Json::JSON_API::ErrorInfo</name>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1ad73dc53616c7d7c47d88b1d6abcd0917" kind="variable"><name>token_</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1ae957e0333abd8941123683c5444da17b" kind="variable"><name>message_</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1a450c451b46c93fb91074393f8973b703" kind="variable"><name>extra_</name></member>
+  </compound>
+  <compound refid="struct_file_getter" kind="struct"><name>FileGetter</name>
+    <member refid="struct_file_getter_1aff31699a9b1a042765d0afe2de707200" kind="variable"><name>tmp</name></member>
+    <member refid="struct_file_getter_1a5b5d602950eb4d3442be28213b33985f" kind="variable"><name>base</name></member>
+    <member refid="struct_file_getter_1aac670b490d8a586419196961d8afa8f7" kind="function"><name>FileGetter</name></member>
+    <member refid="struct_file_getter_1a035e3254227362c120b5855e26614b63" kind="function"><name>setBase</name></member>
+    <member refid="struct_file_getter_1aceb59038af28ad0c2ee21a1ec43f2abe" kind="function"><name>~FileGetter</name></member>
+    <member refid="struct_file_getter_1ac40d3879ef674cd60503c4aa014d58b0" kind="function"><name>getPath</name></member>
+    <member refid="struct_file_getter_1a92daf505b223c582ca042a46ffb0d0aa" kind="function"><name>copyTo</name></member>
+    <member refid="struct_file_getter_1a243c9bceb72f3ad7f4ed7ce1438b7a94" kind="function"><name>getCache</name></member>
+    <member refid="struct_file_getter_1a9e92f09ecdf1a4e998d3437275bc5a0f" kind="function"><name>getFile</name></member>
+    <member refid="struct_file_getter_1a875560c4fcaa283456bcc43eb9a757f3" kind="function"><name>getTo</name></member>
+  </compound>
+  <compound refid="struct_freeware_list_tab" kind="struct"><name>FreewareListTab</name>
+    <member refid="struct_freeware_list_tab_1a87d7dda30081d7e72a400a0ab6e77201" kind="function"><name>FreewareListTab</name></member>
+    <member refid="struct_freeware_list_tab_1ac5a683e408ef8d4c4fbef035a004643d" kind="function"><name>insertMe</name></member>
+  </compound>
+  <compound refid="struct_game_info" kind="struct"><name>GameInfo</name>
+    <member refid="struct_game_info_1aa207ee4bfcebec16fcef64c2b0f6bfca" kind="variable"><name>entry</name></member>
+    <member refid="struct_game_info_1aba474f531fb97a06211f05413f111e02" kind="variable"><name>urlname</name></member>
+    <member refid="struct_game_info_1af961f7540b9fb7ca93eff924ee573558" kind="variable"><name>idname</name></member>
+    <member refid="struct_game_info_1a633a412612e2144dfbfb370d18f97720" kind="variable"><name>name</name></member>
+    <member refid="struct_game_info_1a907380dc6fd528c9806196780402423a" kind="variable"><name>tigurl</name></member>
+    <member refid="struct_game_info_1a4ffd5954ea71f92ff977e368d251b87a" kind="variable"><name>timeString</name></member>
+    <member refid="struct_game_info_1adde89478e87a5ce417a3f75aaf8c9381" kind="variable"><name>rating</name></member>
+    <member refid="struct_game_info_1a3b6fae2b20901fcf9ef266c584976503" kind="variable"><name>dlCount</name></member>
+    <member refid="struct_game_info_1ab0605f63186107f4d96868775b5acf40" kind="variable"><name>price</name></member>
+    <member refid="struct_game_info_1a52d181b6c3f07dbd847f141efedbc878" kind="variable"><name>status</name></member>
+    <member refid="struct_game_info_1aec77cd7d7d4605e113bdd09f1357c801" kind="variable"><name>job</name></member>
+    <member refid="struct_game_info_1a0f6c8d26e9b12c0d1843a5d580ff5734" kind="variable"><name>msg</name></member>
+    <member refid="struct_game_info_1adc4a3cded41b0d8bf104f4fee74f26d1" kind="variable"><name>screen</name></member>
+    <member refid="struct_game_info_1a2a709ceaa4edb84f1e3f08eeafe9d17e" kind="function"><name>isInstalled</name></member>
+    <member refid="struct_game_info_1a0a71afc85ba8cf5e470fdc0825bc751e" kind="function"><name>isWorking</name></member>
+    <member refid="struct_game_info_1a58a48b11381e016e88d580177eaa6139" kind="function"><name>isUnpacking</name></member>
+    <member refid="struct_game_info_1a685c55a5e2fee6af7c800a460df6a8e8" kind="function"><name>isDownloading</name></member>
+    <member refid="struct_game_info_1a8047e6a6df266b91fffcbcc359e06701" kind="function"><name>isNone</name></member>
+    <member refid="struct_game_info_1a57a16e880b689e6111a14e961b5bbcef" kind="function"><name>rateGame</name></member>
+    <member refid="struct_game_info_1af0d17cc502f6302a341abeed1c9f53a4" kind="function"><name>myRating</name></member>
+    <member refid="struct_game_info_1a98db2c16d0342333c5a60d14d28eac38" kind="function"><name>startDownload</name></member>
+    <member refid="struct_game_info_1acfbacf7a61b452f9f371d93dbb48c5d1" kind="function"><name>updateStatus</name></member>
+    <member refid="struct_game_info_1aef1cf58d4fa76510fbb628a91b7cb086" kind="function"><name>requestShot</name></member>
+    <member refid="struct_game_info_1ab215e599c4d10634db667bb128012170" kind="function"><name>abortJob</name></member>
+    <member refid="struct_game_info_1af4fe6666fb744e716b4953b2e83a2d5c" kind="function"><name>getStatus</name></member>
+    <member refid="struct_game_info_1aeb4267b9235b836bd748a4dcfedab075" kind="function"><name>setInstalled</name></member>
+    <member refid="struct_game_info_1af5ebf3dd171e83709cc6072b1200d5f7" kind="function"><name>setUninstalled</name></member>
+    <member refid="struct_game_info_1a9010b4758082c1f904224505f3efcecb" kind="function"><name>GameInfo</name></member>
+    <member refid="struct_game_info_1a611d2e932e53685c0acf0692839d9d0d" kind="function"><name>conv</name></member>
+    <member refid="struct_game_info_1adb2878ef769e26af7747bf5bd00a87a0" kind="function"><name>setDownloading</name></member>
+    <member refid="struct_game_info_1af9f680fcd3f42e886a5df8784f5f26c9" kind="function"><name>setUnpacking</name></member>
+    <member refid="struct_game_info_1a547417d4f920d0ae70ce593495849e63" kind="function"><name>setStatus</name></member>
+    <member refid="struct_game_info_1a0eb51615e77a9c605f86ebc9e5d8b8c1" kind="function"><name>sizify</name></member>
+  </compound>
+  <compound refid="struct_game_sort_options" kind="struct"><name>GameSortOptions</name>
+    <member refid="struct_game_sort_options_1a07d340aa5c46550a502278036b9d23ca" kind="function"><name>addSortOptions</name></member>
+  </compound>
+  <compound refid="struct_image_viewer" kind="struct"><name>ImageViewer</name>
+    <member refid="struct_image_viewer_1ac8e0ad9ed0c618e94eac8e1c13c6c7ab" kind="variable"><name>bitmap</name></member>
+    <member refid="struct_image_viewer_1a160db4ceca77d27ff007719cd5ca504d" kind="function"><name>ImageViewer</name></member>
+    <member refid="struct_image_viewer_1a82937676f4052088110e88fa912ba5f0" kind="function"><name>loadImage</name></member>
+    <member refid="struct_image_viewer_1a2c58e9fcabf5a7f43fbc93b749ce67e5" kind="function"><name>loadImage</name></member>
+    <member refid="struct_image_viewer_1a3f5a657ee79054ddc9252ac8cb1ce9ff" kind="function"><name>clear</name></member>
+    <member refid="struct_image_viewer_1a341a9a677b6838d24a180a22465a7200" kind="function"><name>OnPaint</name></member>
+  </compound>
+  <compound refid="struct_installed_list_tab" kind="struct"><name>InstalledListTab</name>
+    <member refid="struct_installed_list_tab_1ad6fb22213de354e358acd4a21d904586" kind="function"><name>InstalledListTab</name></member>
+    <member refid="struct_installed_list_tab_1a79542db9b0a8cff839218b7b470feded" kind="function"><name>tick</name></member>
+  </compound>
+  <compound refid="struct_screenshot_loader_1_1_invoker" kind="struct"><name>ScreenshotLoader::Invoker</name>
+    <member refid="struct_screenshot_loader_1_1_invoker_1a40483970008786807cb9b1930b6b4961" kind="variable"><name>loader</name></member>
+    <member refid="struct_screenshot_loader_1_1_invoker_1a0e1c8fd04fc94f0cfbead53c11ec858f" kind="variable"><name>cb</name></member>
+    <member refid="struct_screenshot_loader_1_1_invoker_1af01088107acd0842d82decc189b79251" kind="function"><name>Invoker</name></member>
+    <member refid="struct_screenshot_loader_1_1_invoker_1a4c2cd4835e83d900947fbc0b3b2b31b4" kind="function"><name>executeJob</name></member>
+  </compound>
+  <compound refid="struct_job_queue" kind="struct"><name>JobQueue</name>
+    <member refid="struct_job_queue_1ad787a7e4929d8232d89d57ccd06e1dd2" kind="variable"><name>list</name></member>
+    <member refid="struct_job_queue_1aa1932c00d578042d0f7c4a5504cb14d1" kind="variable"><name>current</name></member>
+    <member refid="struct_job_queue_1a099c34f8ed34eb355a01635b23235a06" kind="variable"><name>mutex</name></member>
+    <member refid="struct_job_queue_1aed770e1578fe6cf644cc707755d2a0c1" kind="function"><name>JobQueue</name></member>
+    <member refid="struct_job_queue_1a1481b2b329815e064d108e078ad86a40" kind="function"><name>queue</name></member>
+    <member refid="struct_job_queue_1aa97130eb26603ec90cae7883c0f83f94" kind="function"><name>unlink</name></member>
+    <member refid="struct_job_queue_1a642e5a86cee74874a6c6ae3e8ff47da2" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="protocol_json_1_1_j_s_o_n___a_p_i" kind="protocol"><name>Json::JSON_API</name>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437" kind="enum"><name>TokenType</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a958c81b8f87d8b3131278388a9010a93" kind="enumvalue"><name>tokenEndOfStream</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a6d001037293238d0c43804c79711a25a" kind="enumvalue"><name>tokenObjectBegin</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a9c8dd56f830ba2bf5c7f8a27fa016fb3" kind="enumvalue"><name>tokenObjectEnd</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437ad74e3cba39004934e5ad4ea54956b86b" kind="enumvalue"><name>tokenArrayBegin</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a13bde27eea60377968e7abadf3dcfada" kind="enumvalue"><name>tokenArrayEnd</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a92633e5c58823ec8bdbe4af1b7f33221" kind="enumvalue"><name>tokenString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a8ecd1dcf97b2c253e3c875056a387301" kind="enumvalue"><name>tokenNumber</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437ac1aeb4ca0f83f3b69a273af561ede753" kind="enumvalue"><name>tokenTrue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a30cfd7d1f253df03e2c356358ffe50f3" kind="enumvalue"><name>tokenFalse</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437ac64d3219a888c9324c7517cd226776f6" kind="enumvalue"><name>tokenNull</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437ab31f0f4fc3853995ed142b219c78de49" kind="enumvalue"><name>tokenArraySeparator</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437a81b9a5adb576b71d48945f0e9e1f238e" kind="enumvalue"><name>tokenMemberSeparator</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437ace85506cf139917136422872856ebe13" kind="enumvalue"><name>tokenComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aea7c1a046fb9921b72676b519d1b0437adfbb88efb3b884477b71999d51fc8e49" kind="enumvalue"><name>tokenError</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a618935c31ecce0bc20781f4cc4941993" kind="typedef"><name>Errors</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a958e0c34279abb7523fec2f25263d729" kind="typedef"><name>Nodes</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a22fb69662c4b38f0bc786fa6c521cd96" kind="typedef"><name>ChildValues</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a22fb69662c4b38f0bc786fa6c521cd96" kind="typedef"><name>ChildValues</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aaa40995a01a083f11fdb518ab1546366" kind="typedef"><name>Char</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac78c2a0788236409a83cd3fbb15cc27e" kind="typedef"><name>Location</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a69a83395b9a01ee28dbc5026a322ad56" kind="typedef"><name>Members</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a682f4e1bbed287f1ab85ee0912d68b3e" kind="typedef"><name>iterator</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8f629afe15b29cf656d532bb9b4509e4" kind="typedef"><name>const_iterator</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a065237d47a9dffbf14ad04842ff50586" kind="typedef"><name>UInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1abed1de75991fb8d5afe4a4854def6293" kind="typedef"><name>Int</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad35740d876f51395815a4fa8a353859f" kind="typedef"><name>ArrayIndex</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a10657a8f9bc6f360dae4016fe8cc7650" kind="typedef"><name>ObjectValues</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a647b2843efe8a0a69353ab915527eafe" kind="variable"><name>allowComments_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a309a273d34b98d60ba6479343f4974e3" kind="variable"><name>strictRoot_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a51ad6d6b3a5ea20cf9137f888966daef" kind="variable"><name>nodes_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a3cded0478b67af467cc28672b1d31cc7" kind="variable"><name>errors_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a739e7eb36b3ec600098552ac41f6694e" kind="variable"><name>document_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aaa0ac9885fe640a3b325f1ddb635ca75" kind="variable"><name>begin_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a917b0105bd7ca5d4ecf4c0224b19b651" kind="variable"><name>end_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a9ac13ed9bd17d9f33cbfba7b9bdc815a" kind="variable"><name>current_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ace28ad0599793b726d56c5acb2a49edc" kind="variable"><name>lastValueEnd_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a045f4f0f3aa8e40aaab0629fd5fed602" kind="variable"><name>lastValue_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a0bb4b295b0c27a9615dc800056086ac3" kind="variable"><name>commentsBefore_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8b4220b31ddb5fd914835948530976a2" kind="variable"><name>features_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa4075c3bc6c013c56205e9afa2f3f669" kind="variable"><name>collectComments_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1abf19bda5d8c7ae59ac29d4cbe3343e6b" kind="variable"><name>str_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a2b920a9d8fece23404a4b83d832d53cc" kind="variable"><name>value_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a1f7a428d732e68aabca929ee461906ed" kind="variable"><name>type_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1adee6b57e03696111f43a63bf7fd061df" kind="variable"><name>allocated_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a648a4a1df8f56f17a46f7099475cf570" kind="variable"><name>comments_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a33a745033d492318b405f942c20b71fc" kind="variable"><name>yamlCompatiblityEnabled_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae2f833c27cfe1781c9310b636753b0c7" kind="variable"><name>childValues_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aeb8eb61e51b97303f2d5b78aee21f912" kind="variable"><name>indentString_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a95ca65dc659117738cb24c121ff9ce87" kind="variable"><name>rightMargin_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad12c896fb698a0f3b0af2ca6f341225f" kind="variable"><name>indentSize_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a12ef3b78e9d41df3dcac2301ed775e00" kind="variable"><name>addChildValues_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a0f922489b81e313f6b00e0e73fe7d424" kind="variable"><name>document_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad4f19ad2c841690576eadfb42cafa039" kind="variable"><name>indentation_</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad016df56489e5d360735457afba2f649" kind="friend"><name>ValueIteratorBase</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac93090d15c633f942a091a876dcb8f9c" kind="variable"><name>null</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a3c6b7f48958ebf357522e14c82f21a90" kind="variable"><name>minInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a34e3ac05230d2b91916958f036b4badd" kind="variable"><name>maxInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a3cdaa96e9bbf12202d61005e87f70697" kind="variable"><name>maxUInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a597c6015488c43c485760edda8cfdf5c" kind="function"><name>all</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1af354da64e0f08333590de851180e1b41" kind="function"><name>strictMode</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad689444ef42491b89324975696f0ed58" kind="function"><name>Features</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8d5594b46204fb65661a8c96c015ea54" kind="function"><name>Reader</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ada43ccb4bc15d260528629cb7aebb8ff" kind="function"><name>Reader</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae59036936fda704af5ff0dd27d759d61" kind="function"><name>parse</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a30735cd943a02164996275abe1712224" kind="function"><name>parse</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a54923dcea65f8fc8d91f5625e7aa3cc7" kind="function"><name>parse</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad2995c11c6aeb7719af179c0eacb6c85" kind="function"><name>getFormatedErrorMessages</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1afdc014f5f606d49f78bae1467f6b28d5" kind="function"><name>StaticString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad2611e5ce83556c555cdc40ef5f52c8e" kind="function"><name>operator const char *</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1adc66a5168f8d6578974acfb0d8f5a1e6" kind="function"><name>c_str</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a3a85c4423131080eb9300546d6130dfd" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae81d6899887463e4fe0bdad8b06e1214" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1af3c698ea7116db3d779d92ad50feb2ee" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1abd1299b9965e82812a6494522cc3c804" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a87d184b04b4759a059f396df660834b9" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae288a97eaaf54fe2d16f3b73d060d22a" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5514e83243c886dbb4594877ada2ce05" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a58fa65d882bdcdea20e5764f8f0d2292" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a6266f6b439a379762e4ed9ee05dbf304" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a709821fe15c19a356dc3abc00b8ad292" kind="function"><name>Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a7743ab953190495bd6639073143f4481" kind="function"><name>~Value</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ab245ee01674caee18a91e8cc87c2f7ac" kind="function"><name>operator=</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1acd0deaad6c3835fd057f329218f6c78b" kind="function"><name>swap</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a1e05ba0c1b4c635981f7db242f536aa9" kind="function"><name>type</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a37c9af31151c60153def8e3c53c26fef" kind="function"><name>operator&lt;</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1afe7405443a6a9777e146d7b835532af6" kind="function"><name>operator&lt;=</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a1d58bf0d52f6a5760b5f1e770b8c6c54" kind="function"><name>operator&gt;=</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a18055d5016d673fb207be6518f325b40" kind="function"><name>operator&gt;</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa773b3cbd476257324a8579d339b60ae" kind="function"><name>operator==</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac9b1d8303479e87d9dca80f1971e468e" kind="function"><name>operator!=</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a98c906aed283705945ea693031f105b3" kind="function"><name>compare</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a56ad69d36b4b27a573b3493e0bf0212a" kind="function"><name>asCString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a3f32deabbc8f4ed1d9da1a3545babd23" kind="function"><name>asString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a1da1c5b1138be15feede099d947ed158" kind="function"><name>asInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1afb2e6a5c3d381cde5e7e02a1a4641329" kind="function"><name>asUInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a7921fd40211de8aa1b61326c79a58d9e" kind="function"><name>asDouble</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac5e3e813258a7637b4467c88ca585871" kind="function"><name>asBool</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a63c0f5de55c4fcd72c6269684885f425" kind="function"><name>isNull</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a86a66d68a18c0b152fa31e10b0cb2c95" kind="function"><name>isBool</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa1b6301097515a678d6a744f3de5fc22" kind="function"><name>isInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a1fee24acc606c8332b2940504e479057" kind="function"><name>isUInt</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a0202a62646e9308ea82e560b6295f526" kind="function"><name>isIntegral</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1acfe1475c5adbc1b3f4dd9bcbb8301c8d" kind="function"><name>isDouble</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ab6ff52ba51fd5228a3ed66dbd4efaaa8" kind="function"><name>isNumeric</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a17ed6283d9e74a8a078020fd8771f749" kind="function"><name>isString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a6afef1570befb40341239347856d9e59" kind="function"><name>isArray</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a67e726c5b4ce4a58890cc97ba8b29207" kind="function"><name>isObject</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1abc53ac28592be34fea30939b6b4aaf84" kind="function"><name>isConvertibleTo</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a59da16946e6731036931b55a99a75515" kind="function"><name>size</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac4df215181adfe71317a5a378ebca834" kind="function"><name>empty</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a3c4925561838c0a32698efeea2c983d6" kind="function"><name>operator!</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a797068fda331886f3d122d851d1d1927" kind="function"><name>clear</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ab50185f6fb23e943d6af6fbac8ffde7a" kind="function"><name>resize</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1afde1c2fbf32013aa59a1cf1d34d772e4" kind="function"><name>operator[]</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5208dd58be0836ad3fdc975eae30d8f2" kind="function"><name>operator[]</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a9d2d6f0eee92a5f5f5a671a0aecab038" kind="function"><name>get</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8b89e8a408b6011c0b91d95a04de4298" kind="function"><name>isValidIndex</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a31921682fc5b1489f9c8c877f713bfba" kind="function"><name>append</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad8f864b718e965c32025be4baa6eef1a" kind="function"><name>operator[]</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1abe48631bc52b7503787da386a7ecba99" kind="function"><name>operator[]</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae9013b28547b7723932674da5fe738d6" kind="function"><name>operator[]</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae6d008b652a42b7d67d91114193df82b" kind="function"><name>operator[]</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8e5d70129219a62c3d54e0a230c74523" kind="function"><name>operator[]</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a883d6ce140e5bd2dac32f0321b2f0b96" kind="function"><name>get</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa21732e6c5e1eced8a7eaafa00502521" kind="function"><name>get</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1adfff71c85ae69604406249612234959c" kind="function"><name>removeMember</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a9a8efed29e3f58cf60a12a519ab389e3" kind="function"><name>removeMember</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a819238e22ec268c91bfdfdc5b3b5a3eb" kind="function"><name>isMember</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ad9013e5497326a588f6a964ca7bc84e9" kind="function"><name>isMember</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a0c5199d4810f25527d0fba6833b7b85b" kind="function"><name>getMemberNames</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aff860343cf603b1710489977991cac53" kind="function"><name>setComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa8749c9a1e02179c70a54dd5fe75594c" kind="function"><name>setComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1adf2053f4104f527e65d5d2dde6d04b8a" kind="function"><name>hasComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1adcc81670e36675e2be93f68f24d1d621" kind="function"><name>getComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1af39a693bbc2f3f9596dac0d5cd053924" kind="function"><name>toStyledString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a9de7e8069f73c1dbf86f86716bc01e78" kind="function"><name>begin</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a64e93247c3079bf3b4aa078a05581391" kind="function"><name>end</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae919de999d9edd844b8853660b448db4" kind="function"><name>begin</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a41f8f58a62416e4da34edb26f8d880c1" kind="function"><name>end</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a056236ca82be4a2069b073d679a96593" kind="function"><name>~Writer</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aeb007c2dc036bd1accab064f36e591c9" kind="function"><name>write</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a4cd498bc45daeff40b5a9d07bf880822" kind="function"><name>FastWriter</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8f72d6ab8133781a5a694e852b8c39f1" kind="function"><name>~FastWriter</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a4a9b42293fcfb7bb8415f4b23f44f353" kind="function"><name>enableYAMLCompatibility</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1acfac8c5774ac05e3fd04f4a8b8a59785" kind="function"><name>write</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5c86edefaffa6a79ef2e2dba5a1c359c" kind="function"><name>StyledWriter</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae2f2034aaa5582578ad471e4d3b9e6da" kind="function"><name>~StyledWriter</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1acfac8c5774ac05e3fd04f4a8b8a59785" kind="function"><name>write</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aad71cf3227df61afb2b7402ab03eba2e" kind="function"><name>StyledStreamWriter</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aedd23804822038d83051f849ce9a6b69" kind="function"><name>~StyledStreamWriter</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ae61ccd20341537c6f7b7212097db574d" kind="function"><name>write</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5793648e58a78e806e05aa4273788724" kind="function"><name>expectToken</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a48a888d808ac32daf150ae5a85441f8b" kind="function"><name>readToken</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a15dd10b8c6e49c10cc9f3ec8ba96504e" kind="function"><name>skipSpaces</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa8d05e177067cf94c0e03807ed5b23cf" kind="function"><name>match</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a1873cac01be4dee42e9d71585a9e2962" kind="function"><name>readComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a38b7fe576a2a01442909a4eeb94d9889" kind="function"><name>readCStyleComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aae200c5ce1733a5e016509b94ffbe0a6" kind="function"><name>readCppStyleComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1af86ccc28f33e415368148dabec68e407" kind="function"><name>readString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac6af37574b90a91715841e4798a0cf0d" kind="function"><name>readNumber</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a06899e17cafb82b4d4a36c1f854b9c49" kind="function"><name>readValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a81eb9aac78f2ae0ba94b85a037f59884" kind="function"><name>readObject</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a4983743558cc624e579a0d82c408e9ed" kind="function"><name>readArray</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a9f2d1eae63ce302ef22938acf9f4a66d" kind="function"><name>decodeNumber</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a1db41a421df83dc643c3db883b383e46" kind="function"><name>decodeString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a27bf7924727370d79f1d873a4ac4e697" kind="function"><name>decodeString</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a9f24fe3ae0646184cc52a4f8edb8643f" kind="function"><name>decodeDouble</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a2eb3703710214dcea69921447bafdb53" kind="function"><name>decodeUnicodeCodePoint</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a23677fa20ec1633d3a1bd41e1d6d7261" kind="function"><name>decodeUnicodeEscapeSequence</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a2d7c25ca0c970ab70b75b224d1ae1a7f" kind="function"><name>addError</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ab5945e589075de39089a08da6e092020" kind="function"><name>recoverFromError</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ab15c60cb1f8ca7701e6684bbef7b4208" kind="function"><name>addErrorAndRecover</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a636efe137264450dcbd54e449c7ffc4a" kind="function"><name>skipUntilSpace</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa3eda78fe61a892044d2ada771ba4e1c" kind="function"><name>currentValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8a7a7678c6c0616ff9f5c2ebfb71de69" kind="function"><name>getNextChar</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1af1946bc87ada272f5e91362552db0477" kind="function"><name>getLocationLineAndColumn</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a38ab8f90a9a5a914ef876afb19d36115" kind="function"><name>getLocationLineAndColumn</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a748be9a0fe02d8476e9be75d4cbf02c4" kind="function"><name>addComment</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1adecc457a62377c13d3d60806536f92ff" kind="function"><name>skipCommentTokens</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aa55543729948ff8d64b6fc6cb7cc2a3d" kind="function"><name>resolveReference</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8d70af3925a1f51795a6c5b7443f83ad" kind="function"><name>writeValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8d70af3925a1f51795a6c5b7443f83ad" kind="function"><name>writeValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5689d02f8b45ce4380d67aec3063320c" kind="function"><name>writeArrayValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ade4d26877749387cddb9775fe67e4c1c" kind="function"><name>isMultineArray</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a78da7b94ff2d70f73f55c53381e6e620" kind="function"><name>pushValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aeb24742b60657c9c3089a1ba397e20a7" kind="function"><name>writeIndent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a22273c75778f083d2295507723504030" kind="function"><name>writeWithIndent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac12a144e53729cc3428e36abd678de29" kind="function"><name>indent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a0b4df49db703c25d8f2ad11ae0a0d8d2" kind="function"><name>unindent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5895acf55bab2ad2c5b1614f8c751014" kind="function"><name>writeCommentBeforeValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a95c93c80f20ad9b605fb26391048711a" kind="function"><name>writeCommentAfterValueOnSameLine</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac0b69507b90f963708d822b064e65ed4" kind="function"><name>hasCommentForValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a8d70af3925a1f51795a6c5b7443f83ad" kind="function"><name>writeValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5689d02f8b45ce4380d67aec3063320c" kind="function"><name>writeArrayValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ade4d26877749387cddb9775fe67e4c1c" kind="function"><name>isMultineArray</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a78da7b94ff2d70f73f55c53381e6e620" kind="function"><name>pushValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1aeb24742b60657c9c3089a1ba397e20a7" kind="function"><name>writeIndent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a22273c75778f083d2295507723504030" kind="function"><name>writeWithIndent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac12a144e53729cc3428e36abd678de29" kind="function"><name>indent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a0b4df49db703c25d8f2ad11ae0a0d8d2" kind="function"><name>unindent</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a5895acf55bab2ad2c5b1614f8c751014" kind="function"><name>writeCommentBeforeValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1a95c93c80f20ad9b605fb26391048711a" kind="function"><name>writeCommentAfterValueOnSameLine</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1ac0b69507b90f963708d822b064e65ed4" kind="function"><name>hasCommentForValue</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1afff0ecce21af8bb0b63ac7c2595464b2" kind="function"><name>normalizeEOL</name></member>
+    <member refid="protocol_json_1_1_j_s_o_n___a_p_i_1afff0ecce21af8bb0b63ac7c2595464b2" kind="function"><name>normalizeEOL</name></member>
+  </compound>
+  <compound refid="struct_json_installed" kind="struct"><name>JsonInstalled</name>
+    <member refid="struct_json_installed_1ab43b0de0bcdbe5ddf56b621e97c62274" kind="function"><name>write</name></member>
+    <member refid="struct_json_installed_1ab2bfcfc2831a7e089b42f9abbe7d1d93" kind="function"><name>read</name></member>
+  </compound>
+  <compound refid="class_json_rated" kind="class"><name>JsonRated</name>
+    <member refid="class_json_rated_1a12fd11c407616db346d7a09550434263" kind="typedef"><name>IntMap</name></member>
+    <member refid="class_json_rated_1abfc0c8813a8c0bd78fa6e6b7a199e5df" kind="variable"><name>ratings</name></member>
+    <member refid="class_json_rated_1a3cbe753ce0c89a3fb3ce46ec8eb418d5" kind="function"><name>write</name></member>
+    <member refid="class_json_rated_1acf15844e0a46d7a2ad16edd1d0ad9d3c" kind="function"><name>getRating</name></member>
+    <member refid="class_json_rated_1a5802c607bf342bde984d3a1d2f8011c1" kind="function"><name>setRating</name></member>
+    <member refid="class_json_rated_1a8019dffa3e9c7d6e6e1338f821aa2b92" kind="function"><name>read</name></member>
+  </compound>
+  <compound refid="class_list_keeper" kind="class"><name>ListKeeper</name>
+    <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985" kind="enum"><name>@1</name></member>
+    <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985ab329e47f1aa8f0f66c224abf9053f30b" kind="enumvalue"><name>SL_ALL</name></member>
+    <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985ae5769f858aefc01a52db00e2da40049a" kind="enumvalue"><name>SL_FREEWARE</name></member>
+    <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a15b5854b1e3650684a70cbd40883a6de" kind="enumvalue"><name>SL_DEMOS</name></member>
+    <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a79f5c0bff1798cd7f4268608fcf442cb" kind="enumvalue"><name>SL_NEW</name></member>
+    <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a6ba0a20890ba830398a4379148e3acdf" kind="enumvalue"><name>SL_INSTALL</name></member>
+    <member refid="class_list_keeper_1a20c39dfbc0a1fe1e5f8335fc68eca2f9" kind="variable"><name>base</name></member>
+    <member refid="class_list_keeper_1a457b92492a9ffea31af76ded3dd1f0ff" kind="variable"><name>subSelect</name></member>
+    <member refid="class_list_keeper_1a58da3fb8ec7bd2bf840bece262f77f27" kind="variable"><name>selection</name></member>
+    <member refid="class_list_keeper_1a7024ebc16cf0e2008dfdf26d65e065c1" kind="variable"><name>searched</name></member>
+    <member refid="class_list_keeper_1a61b7db41e113b7fb4eecb4b547c4e2e5" kind="variable"><name>isSearched</name></member>
+    <member refid="class_list_keeper_1ac858e65b61c5c4ee7b947207b9edb9fd" kind="variable"><name>isSorted</name></member>
+    <member refid="class_list_keeper_1ad25af6f103a0cd2478215739868748d2" kind="variable"><name>sortBy</name></member>
+    <member refid="class_list_keeper_1af1fbeef5c0660cb432cefedf16b8b0d7" kind="variable"><name>reverse</name></member>
+    <member refid="class_list_keeper_1a15c085619f92438d759199b31c1030e3" kind="variable"><name>search</name></member>
+    <member refid="class_list_keeper_1a3d6b0e73b28cf9c2ac761a31f603b3c7" kind="variable"><name>data</name></member>
+    <member refid="class_list_keeper_1a933136d6b7a3d5c5f776eeada22a17c5" kind="function"><name>makeReady</name></member>
+    <member refid="class_list_keeper_1a590c8e58143a777f3821b133717078e5" kind="function"><name>setSort</name></member>
+    <member refid="class_list_keeper_1a95c2c91604f3392c75ba2a9f5795e568" kind="function"><name>ListKeeper</name></member>
+    <member refid="class_list_keeper_1a8ca3060cec18ba687076c8aad8ec0303" kind="function"><name>sortTitle</name></member>
+    <member refid="class_list_keeper_1acf69e7b0ef65ea2513dcab9716147ec3" kind="function"><name>sortDate</name></member>
+    <member refid="class_list_keeper_1a2585e76fcd54315ab6fee645b95e82fb" kind="function"><name>sortRating</name></member>
+    <member refid="class_list_keeper_1ab4dc65a6d5654a19cac4b40870f1e1dc" kind="function"><name>setSubSelection</name></member>
+    <member refid="class_list_keeper_1abb1d448730317cffc617559514a8425c" kind="function"><name>clearSubSelection</name></member>
+    <member refid="class_list_keeper_1ac26d1ea0157a568bb18f2e7f2660051f" kind="function"><name>setReverse</name></member>
+    <member refid="class_list_keeper_1ad75a551a7da3eb197bbead89c9f1d2df" kind="function"><name>setSearch</name></member>
+    <member refid="class_list_keeper_1aa51f63a11d4e5aa4ebc8a39bc7253201" kind="function"><name>get</name></member>
+    <member refid="class_list_keeper_1a6a1db853a1b82b7aab43a02ca2f21b30" kind="function"><name>reset</name></member>
+    <member refid="class_list_keeper_1a9e5718e2efd3cccd90228928fb9a419e" kind="function"><name>baseSize</name></member>
+    <member refid="class_list_keeper_1a4f0e62ecaa44cfadd91822da007730f3" kind="function"><name>size</name></member>
+    <member refid="class_list_keeper_1aa9972fe6e4f917980366e7d89428e59d" kind="function"><name>getBaseList</name></member>
+  </compound>
+  <compound refid="struct_list_tab" kind="struct"><name>ListTab</name>
+    <member refid="struct_list_tab_1a717880bb4007ad796d693c40dee5a235" kind="variable"><name>b1</name></member>
+    <member refid="struct_list_tab_1ae710bdff9444264da4547870352b8f7e" kind="variable"><name>b2</name></member>
+    <member refid="struct_list_tab_1a21e9abb2480d7a8e829853c9e5c5dcb9" kind="variable"><name>supportButton</name></member>
+    <member refid="struct_list_tab_1ae338fee99b46c8e34b6dd6f5682c1c4a" kind="variable"><name>list</name></member>
+    <member refid="struct_list_tab_1afcd593559b802e861a66a658a60c645a" kind="variable"><name>textView</name></member>
+    <member refid="struct_list_tab_1a6908d6262334eda4cf4ad03ff3c399e9" kind="variable"><name>screenshot</name></member>
+    <member refid="struct_list_tab_1a2e50792652938b8951b5f5cd8375e676" kind="variable"><name>ad_img</name></member>
+    <member refid="struct_list_tab_1a63daf34961a1c832eb936fbf7761846b" kind="variable"><name>select</name></member>
+    <member refid="struct_list_tab_1afde1244ddb9ad9256bbb8e06b2d042cf" kind="variable"><name>last_launch</name></member>
+    <member refid="struct_list_tab_1a8cb4eb9896f9daef228123c00f6a9434" kind="variable"><name>lister</name></member>
+    <member refid="struct_list_tab_1ab890f6a57f3841ba918853aa2e87a5d4" kind="variable"><name>tags</name></member>
+    <member refid="struct_list_tab_1a1440cd81fe735ee69c052d9736d37c02" kind="variable"><name>tabName</name></member>
+    <member refid="struct_list_tab_1a517e64070a34971184ce0b3845327045" kind="variable"><name>stat</name></member>
+    <member refid="struct_list_tab_1a1df919aeb4e6e4dd48ab0da3292311fe" kind="variable"><name>rateBox</name></member>
+    <member refid="struct_list_tab_1a0340593c73e4e54d9736c82dfc8ee6b5" kind="variable"><name>rateText</name></member>
+    <member refid="struct_list_tab_1a25203a99208d6288ca3f54fe86936751" kind="variable"><name>rateString</name></member>
+    <member refid="struct_list_tab_1af108fa3fbdbfd6932d24793bac2edfe7" kind="variable"><name>taglist</name></member>
+    <member refid="struct_list_tab_1ae6cd15376dc53a931817fba5f1106dc4" kind="function"><name>ListTab</name></member>
+    <member refid="struct_list_tab_1a7d2c1821b95a97f4586d52df15bc1e30" kind="function"><name>createTagList</name></member>
+    <member refid="struct_list_tab_1ad329091d9da6e2bcb40f6073dc3564ee" kind="function"><name>onUrlEvent</name></member>
+    <member refid="struct_list_tab_1a0787fa1f6df1f6fe44326a5a144895ca" kind="function"><name>onRating</name></member>
+    <member refid="struct_list_tab_1aeaa3bc9c78c225387d50c6f8c2b7f036" kind="function"><name>onTagSelect</name></member>
+    <member refid="struct_list_tab_1ab8df7d076344af460db847ee365c9f55" kind="function"><name>insertMe</name></member>
+    <member refid="struct_list_tab_1ae57fa84a43f1e1ad95ee2747247f749d" kind="function"><name>takeFocus</name></member>
+    <member refid="struct_list_tab_1a70c339cd735a3a3b45a9e6a5649ebe83" kind="function"><name>listHasChanged</name></member>
+    <member refid="struct_list_tab_1a73445ff0fc8883e21d1ed20a051d95fc" kind="function"><name>updateGameInfo</name></member>
+    <member refid="struct_list_tab_1a5aff2789c36a9d39abc5efb2f2b0c0b1" kind="function"><name>shotIsReady</name></member>
+    <member refid="struct_list_tab_1aadb7063955574c13d9eea164a32fdb5b" kind="function"><name>updateSelection</name></member>
+    <member refid="struct_list_tab_1a62965404468a435a88f9be74f8723a9a" kind="function"><name>fixButtons</name></member>
+    <member refid="struct_list_tab_1ad8eb6ed06371784633dd1cf96b734490" kind="function"><name>onSearch</name></member>
+    <member refid="struct_list_tab_1a7e159fadab965b718ab25ac1f0803c47" kind="function"><name>onSortChange</name></member>
+    <member refid="struct_list_tab_1a9b8d8bc1ae764b235c7445b3d1ca196a" kind="function"><name>updateStatus</name></member>
+    <member refid="struct_list_tab_1a6f6ea57ef9c4e90c5ca094aec8b7a2b7" kind="function"><name>startDownload</name></member>
+    <member refid="struct_list_tab_1a77ce1163d4dd1c18f445a1166aab77b3" kind="function"><name>statusChanged</name></member>
+    <member refid="struct_list_tab_1afc980d99c305488242a583bc61225fe0" kind="function"><name>doAction</name></member>
+    <member refid="struct_list_tab_1a7052d63cb8a4552553f794c257c06675" kind="function"><name>onGamePage</name></member>
+    <member refid="struct_list_tab_1a0c24b27f20cdb38e0eb673245f7c0542" kind="function"><name>onButton</name></member>
+    <member refid="struct_list_tab_1ad2dfddbd6e0083f682a5689cc5411352" kind="function"><name>onListDeselect</name></member>
+    <member refid="struct_list_tab_1adadc2db079b8ad23165040e50ad77831" kind="function"><name>onListSelect</name></member>
+    <member refid="struct_list_tab_1ac062d6e7b531ad8ec65a9ad307ea7022" kind="function"><name>onListRightClick</name></member>
+    <member refid="struct_list_tab_1a65e30fb2ab50bc4a324dec7a0a8a5014" kind="function"><name>onContextClick</name></member>
+    <member refid="struct_list_tab_1a7adba5f85eb8d87734efe27efd40c5ca" kind="function"><name>onListActivate</name></member>
+    <member refid="struct_list_tab_1a05044166fa2e690c3f17a71f2e27121f" kind="function"><name>dataChanged</name></member>
+  </compound>
+  <compound refid="struct_list_tab_non_empty" kind="struct"><name>ListTabNonEmpty</name>
+    <member refid="struct_list_tab_non_empty_1a2d51affea22726ec818f2f7568be15cf" kind="function"><name>ListTabNonEmpty</name></member>
+    <member refid="struct_list_tab_non_empty_1a7bd81757123eda9b7c317c321bf32e30" kind="function"><name>insertMe</name></member>
+  </compound>
+  <compound refid="class_my_app" kind="class"><name>MyApp</name>
+    <member refid="class_my_app_1a6a2971fe8b8bd9e95bc6ba03c41f9fa1" kind="variable"><name>time</name></member>
+    <member refid="class_my_app_1a1d2cf26494945ce12930ede58f0261e7" kind="function"><name>OnInit</name></member>
+    <member refid="class_my_app_1a79fa75d1155f0e85e20f2869538296d6" kind="function"><name>OnInit</name></member>
+    <member refid="class_my_app_1a0737f74bb2a29ce1ab637177cff9b9cf" kind="function"><name>OnInitCmdLine</name></member>
+    <member refid="class_my_app_1ac9629e2b065ee07c7d7475b5e3727d31" kind="function"><name>OnCmdLineParsed</name></member>
+  </compound>
+  <compound refid="class_my_frame" kind="class"><name>MyFrame</name>
+    <member refid="class_my_frame_1a322fe804b6922b39494d2d929c4a5326" kind="variable"><name>version</name></member>
+    <member refid="class_my_frame_1afc9d16c6b67dbe639b13877b11c2e8ad" kind="variable"><name>book</name></member>
+    <member refid="class_my_frame_1a7ee3a8cabaabff2259f67f00bc06f70a" kind="variable"><name>newTab</name></member>
+    <member refid="class_my_frame_1ad9af19eee556302304edbcbb01949917" kind="variable"><name>freewareTab</name></member>
+    <member refid="class_my_frame_1a7a8d5f56a97c590279729b89192225eb" kind="variable"><name>demoTab</name></member>
+    <member refid="class_my_frame_1ade503beda88eff4e634f58b1f888d617" kind="variable"><name>installedTab</name></member>
+    <member refid="class_my_frame_1a547ceb37526b41c5833eb387ce12a9f8" kind="variable"><name>newsTab</name></member>
+    <member refid="class_my_frame_1a17aed00b027b724394d8d9b54cbb11c5" kind="function"><name>MyFrame</name></member>
+    <member refid="class_my_frame_1a3fe105979ec2adda44e1186fa76e3bd0" kind="function"><name>getTab</name></member>
+    <member refid="class_my_frame_1a35e0ed5ec58942931cfd13064491afc3" kind="function"><name>getCurrentTab</name></member>
+    <member refid="class_my_frame_1a1255afa204a661d6ba8d2a78323c96b4" kind="function"><name>setTabFocus</name></member>
+    <member refid="class_my_frame_1a65ad2d52518a6729a59c94f41641944d" kind="function"><name>setupTabs</name></member>
+    <member refid="class_my_frame_1a71ad5403432c811d9d58850517b937d7" kind="function"><name>onLeftRight</name></member>
+    <member refid="class_my_frame_1ac1e5030023f4ec7199a0bdc0b98372ca" kind="function"><name>onDataChanged</name></member>
+    <member refid="class_my_frame_1a2a5cb03ea4228f4929add644f5c56f83" kind="function"><name>switchToInstalled</name></member>
+    <member refid="class_my_frame_1a0a68fcf35cde7bf0cc1c2c66bd7683a0" kind="function"><name>onRefresh</name></member>
+    <member refid="class_my_frame_1a541ab015e0d63755625d7b2a9173b305" kind="function"><name>onAbout</name></member>
+    <member refid="class_my_frame_1acd6b9b007ba77be5ff19bd494d5811a7" kind="function"><name>onExit</name></member>
+    <member refid="class_my_frame_1ab7b0fe33a09b9a71c92dcdc968c44e13" kind="function"><name>tick</name></member>
+  </compound>
+  <compound refid="class_my_list" kind="class"><name>MyList</name>
+    <member refid="class_my_list_1ab59e5ea2611de7790c6df6f75db94255" kind="variable"><name>green</name></member>
+    <member refid="class_my_list_1a532645d0a8e98cc2845aa75b562b42cf" kind="variable"><name>orange</name></member>
+    <member refid="class_my_list_1a965ea66290f31e19aba0eacb2fac77db" kind="variable"><name>images</name></member>
+    <member refid="class_my_list_1ac904284fefa315a4af89ae8bc8b6888f" kind="variable"><name>lister</name></member>
+    <member refid="class_my_list_1a3edc18358fa3cd946104c0c25c0b0dbe" kind="variable"><name>colHands</name></member>
+    <member refid="class_my_list_1aebc40b9d1292e7f0fb28df4d6c30bba4" kind="variable"><name>colNum</name></member>
+    <member refid="class_my_list_1a2956c0cd31cbecea84330113f59b087a" kind="function"><name>MyList</name></member>
+    <member refid="class_my_list_1a3a749f2d162bb361e2b5d0c307fe227a" kind="function"><name>addColumn</name></member>
+    <member refid="class_my_list_1a34d1c691d4c0e8a19eff844f70066fc7" kind="function"><name>setSelect</name></member>
+    <member refid="class_my_list_1a5b954099581dd18cff3b65520b2f2c30" kind="function"><name>update</name></member>
+    <member refid="class_my_list_1a2b7b13538ace3bc0ef4e8aa4971adadf" kind="function"><name>OnGetItemAttr</name></member>
+    <member refid="class_my_list_1a550214b5f066675223d276160d8860db" kind="function"><name>OnGetItemImage</name></member>
+    <member refid="class_my_list_1aad3d159a22be0d38de6523a70162bb2a" kind="function"><name>OnGetColumnImage</name></member>
+    <member refid="class_my_list_1a2bf64f809cd23949ee3bb55a4855a507" kind="function"><name>OnGetItemText</name></member>
+  </compound>
+  <compound refid="struct_my_timer" kind="struct"><name>MyTimer</name>
+    <member refid="struct_my_timer_1a669500ae63fd7531addf55a812a94c87" kind="variable"><name>frame</name></member>
+    <member refid="struct_my_timer_1a4461236b599486bab666cdd483e7a947" kind="function"><name>MyTimer</name></member>
+    <member refid="struct_my_timer_1a15adea38e648c9f31a6d78e134b744ec" kind="function"><name>Notify</name></member>
+  </compound>
+  <compound refid="struct_new_game_list_tab" kind="struct"><name>NewGameListTab</name>
+    <member refid="struct_new_game_list_tab_1aed520c852a1c799ab27302147a1e89fe" kind="function"><name>NewGameListTab</name></member>
+  </compound>
+  <compound refid="struct_news_holder" kind="struct"><name>NewsHolder</name>
+    <member refid="struct_news_holder_1a5662cdc4eac38a9c6a919a945ad450ff" kind="variable"><name>items</name></member>
+    <member refid="struct_news_holder_1a3066673800034ade96e7f9ea0f0f3c38" kind="function"><name>addItem</name></member>
+    <member refid="struct_news_holder_1a40e573fbb8eed20431b25195ae154c48" kind="function"><name>addItem</name></member>
+    <member refid="struct_news_holder_1ac8fb0907404b1ae52138bac62f8808b6" kind="function"><name>writeStatus</name></member>
+    <member refid="struct_news_holder_1a49e4596d7f38230fb41aa30e1930c2af" kind="function"><name>reload</name></member>
+  </compound>
+  <compound refid="struct_news_item" kind="struct"><name>NewsItem</name>
+    <member refid="struct_news_item_1a51cbbdc6566ae3c36d928ca479c7d546" kind="variable"><name>id</name></member>
+    <member refid="struct_news_item_1abcffbf67b6350249e1a0fd89ac3adfb2" kind="variable"><name>dateNum</name></member>
+    <member refid="struct_news_item_1abea175dc61f718ee32dc487e82f7e755" kind="variable"><name>date</name></member>
+    <member refid="struct_news_item_1a11b5e1611209408a8d87503343fb9249" kind="variable"><name>subject</name></member>
+    <member refid="struct_news_item_1aef9acd681d7b2aa956b45f56d409e359" kind="variable"><name>body</name></member>
+    <member refid="struct_news_item_1a39d9e4e9a664935156b66995b5adac38" kind="variable"><name>read</name></member>
+    <member refid="struct_news_item_1a01879804aa536b4ff202dc1038c9acdf" kind="function"><name>operator&lt;</name></member>
+  </compound>
+  <compound refid="class_news_list" kind="class"><name>NewsList</name>
+    <member refid="class_news_list_1a2242e0f3603d28a05c4983fe6f276704" kind="variable"><name>unreadStyle</name></member>
+    <member refid="class_news_list_1a834358746a9ea933e23ae016ae4d2381" kind="variable"><name>readStyle</name></member>
+    <member refid="class_news_list_1a74e1c4f6f7623e21f39a855b02c99122" kind="variable"><name>news</name></member>
+    <member refid="class_news_list_1a8dd5d835b29b97afadb83e768e82eb84" kind="function"><name>NewsList</name></member>
+    <member refid="class_news_list_1a15ef3e8f9ef33b360989190f70bb54a8" kind="function"><name>setData</name></member>
+    <member refid="class_news_list_1a6718379f53da5081e30f57e26bae1817" kind="function"><name>getItem</name></member>
+    <member refid="class_news_list_1a426242320c93c5920d4e141c1555e1f3" kind="function"><name>OnGetItemAttr</name></member>
+    <member refid="class_news_list_1a7f469ead3d8693a35944c395cce9c6f6" kind="function"><name>OnGetItemText</name></member>
+    <member refid="class_news_list_1a584e20f0de7d0970469d2a0013e3dd6b" kind="function"><name>markAsRead</name></member>
+  </compound>
+  <compound refid="struct_news_tab" kind="struct"><name>NewsTab</name>
+    <member refid="struct_news_tab_1a3f0fc116ca5ce5e7cf3dfc9aa62501ca" kind="variable"><name>list</name></member>
+    <member refid="struct_news_tab_1a4b1361cf9d8dbfaefc4570ee7883ffbf" kind="variable"><name>textView</name></member>
+    <member refid="struct_news_tab_1a57330a8c7df10f9e15dce62d733822d5" kind="variable"><name>data</name></member>
+    <member refid="struct_news_tab_1a26891e84a277b53155d728a81656788b" kind="function"><name>NewsTab</name></member>
+    <member refid="struct_news_tab_1ad1beae83135fabcb9f273986cffb652e" kind="function"><name>reloadData</name></member>
+    <member refid="struct_news_tab_1ae1db997ca2fb9a030a6e26a1229f4916" kind="function"><name>onWebsite</name></member>
+    <member refid="struct_news_tab_1a8cd14a0315d4c2474a5a7f174cef1766" kind="function"><name>onGetNews</name></member>
+    <member refid="struct_news_tab_1a2e62d6db19c9c0ea19796f6907eed2ce" kind="function"><name>onReadAll</name></member>
+    <member refid="struct_news_tab_1a64ebd2fda35c1db71c8f1443b61368a2" kind="function"><name>onListSelect</name></member>
+    <member refid="struct_news_tab_1a3fbd97fa384fd8ea6a04a14c33b9897d" kind="function"><name>updateTabName</name></member>
+    <member refid="struct_news_tab_1ad2748bcf03633e621ac3cc1da08700c3" kind="function"><name>onListDeselect</name></member>
+    <member refid="struct_news_tab_1a32e0ad41f8d49e689816e08d52f43ee0" kind="function"><name>onUrlEvent</name></member>
+    <member refid="struct_news_tab_1ab7f276b0d863e45af46df1b4caf56ad4" kind="function"><name>takeFocus</name></member>
+    <member refid="struct_news_tab_1ae338ae593a329a92f4bb360e47adb3e9" kind="function"><name>dataChanged</name></member>
+    <member refid="struct_news_tab_1a92cd045fe93885b4052682eaa8a7ab3e" kind="function"><name>insertMe</name></member>
+  </compound>
+  <compound refid="class_json_1_1_path" kind="class"><name>Json::Path</name>
+    <member refid="class_json_1_1_path_1a763349989466ac275fad176708378f95" kind="typedef"><name>InArgs</name></member>
+    <member refid="class_json_1_1_path_1a27d96232d034d7a78286468676f9cb3e" kind="typedef"><name>Args</name></member>
+    <member refid="class_json_1_1_path_1af33d0de7ee9f99d3e361bdf504dc2bc7" kind="variable"><name>args_</name></member>
+    <member refid="class_json_1_1_path_1aaa37a99650e770d0cd680bf53585ec99" kind="function"><name>Path</name></member>
+    <member refid="class_json_1_1_path_1ae1d05fa985a6ee3c57f2b8ed186b5982" kind="function"><name>resolve</name></member>
+    <member refid="class_json_1_1_path_1a33d1749770a4cf74e9a3de419bc7febe" kind="function"><name>resolve</name></member>
+    <member refid="class_json_1_1_path_1a5289901fc58ad1fdca1de7fb5a0b620c" kind="function"><name>make</name></member>
+    <member refid="class_json_1_1_path_1a874e5339f8059ebeef049721f8897277" kind="function"><name>makePath</name></member>
+    <member refid="class_json_1_1_path_1af4d2ab3a6f09b69bab3d3e9fcdf13328" kind="function"><name>addPathInArg</name></member>
+    <member refid="class_json_1_1_path_1a3729e6d3682338b2cfad2c10d4746f53" kind="function"><name>invalidPath</name></member>
+  </compound>
+  <compound refid="class_json_1_1_path_argument" kind="class"><name>Json::PathArgument</name>
+    <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9" kind="enum"><name>Kind</name></member>
+    <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9afa8c7a261ccb8ae5171d2372321c2698" kind="enumvalue"><name>kindNone</name></member>
+    <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9ae5a976b898111903334cb131f5e03dc4" kind="enumvalue"><name>kindIndex</name></member>
+    <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9a74f5968d06c01701b7a46092c33ba7d1" kind="enumvalue"><name>kindKey</name></member>
+    <member refid="class_json_1_1_path_argument_1a4877239a6b7f09fbf5a61ca68a49d74c" kind="friend"><name>Path</name></member>
+    <member refid="class_json_1_1_path_argument_1a5d901b404323b61f066fb1adb3babfe1" kind="variable"><name>key_</name></member>
+    <member refid="class_json_1_1_path_argument_1a22cec332c6d6c9a7ffae886020fff45d" kind="variable"><name>index_</name></member>
+    <member refid="class_json_1_1_path_argument_1ad4bc4b544b155a3d9c7788572ecf991b" kind="variable"><name>kind_</name></member>
+    <member refid="class_json_1_1_path_argument_1a3c96ed20c56a55eb76d37a11553c528e" kind="function"><name>PathArgument</name></member>
+    <member refid="class_json_1_1_path_argument_1aac8f1bee92e1955d4902acccbbc73a70" kind="function"><name>PathArgument</name></member>
+    <member refid="class_json_1_1_path_argument_1a9690417a8a40e6e49f2acdf6c9281345" kind="function"><name>PathArgument</name></member>
+    <member refid="class_json_1_1_path_argument_1a08f872cfee4fc600f7fa3bcaaff0d41c" kind="function"><name>PathArgument</name></member>
+  </compound>
+  <compound refid="struct_pre_load" kind="struct"><name>PreLoad</name>
+    <member refid="struct_pre_load_1a3887a213a5f86c90bed182a532d0c215" kind="variable"><name>hasLoaded</name></member>
+    <member refid="struct_pre_load_1ab30eb6705a5a66bf991799d53a17bbee" kind="variable"><name>isSf</name></member>
+    <member refid="struct_pre_load_1a948b30de075df3f7ddd26ce4af7dd2e7" kind="variable"><name>isHost</name></member>
+    <member refid="struct_pre_load_1aea3e11eade8bc0e5618ae555e5246d54" kind="variable"><name>version</name></member>
+    <member refid="struct_pre_load_1a3f2c49a50c9ebdec81879cea585f7e33" kind="variable"><name>desc</name></member>
+    <member refid="struct_pre_load_1a572b282861cd3f8339817aa2ac96da7c" kind="variable"><name>homepage</name></member>
+    <member refid="struct_pre_load_1a13ebb093dd9aa677658d19e50bdcb3e8" kind="variable"><name>url</name></member>
+    <member refid="struct_pre_load_1ac135e82974ee2ab2096a4b9b8e9a25a5" kind="function"><name>PreLoad</name></member>
+    <member refid="struct_pre_load_1a2ce8fa8a12cc11bca593ce8ab3baca4c" kind="function"><name>process</name></member>
+    <member refid="struct_pre_load_1a6c381d8bba74741b1d72598027159ea1" kind="function"><name>load</name></member>
+  </compound>
+  <compound refid="struct_price_col" kind="struct"><name>PriceCol</name>
+    <member refid="struct_price_col_1ad92d347be672e3f78fd8fb3786c67acd" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_list_keeper_1_1_price_sort" kind="struct"><name>ListKeeper::PriceSort</name>
+    <member refid="struct_list_keeper_1_1_price_sort_1a4a7892890e21e5c6bbd4113bd7518b79" kind="function"><name>PriceSort</name></member>
+    <member refid="struct_list_keeper_1_1_price_sort_1a2e1e348ede3db6594d587e22d1454881" kind="function"><name>isLess</name></member>
+  </compound>
+  <compound refid="class_progress_holder" kind="class"><name>ProgressHolder</name>
+    <member refid="class_progress_holder_1a1ccf8db9cc0a5077d73bb4a4869f4e16" kind="variable"><name>app</name></member>
+    <member refid="class_progress_holder_1aed1d2d3001f3498ae06ecfae8a794458" kind="variable"><name>dlg</name></member>
+    <member refid="class_progress_holder_1ab768d833bea7d8b96f9875b95fc43cce" kind="function"><name>ProgressHolder</name></member>
+    <member refid="class_progress_holder_1ae19b37d810d58c5497b6befeeb2f66d5" kind="function"><name>~ProgressHolder</name></member>
+    <member refid="class_progress_holder_1aa5d4a3606651c7c6b6d18d88b9d1a059" kind="function"><name>setMsg</name></member>
+    <member refid="class_progress_holder_1ad63d5b6b5623add47e065a773ba0b832" kind="function"><name>update</name></member>
+    <member refid="class_progress_holder_1a8d6e91204bedfe650ef3c03e4da264a1" kind="function"><name>pulse</name></member>
+    <member refid="class_progress_holder_1a8e5222f876b4ad904f12f0c4e14ab88c" kind="function"><name>yield</name></member>
+    <member refid="class_progress_holder_1a8c13297dc5ad35585dd476c25d415a27" kind="function"><name>setMsg</name></member>
+  </compound>
+  <compound refid="struct_rate_sort" kind="struct"><name>RateSort</name>
+    <member refid="struct_rate_sort_1ac171c6c76faacffb5707dff02ef07f2e" kind="function"><name>RateSort</name></member>
+    <member refid="struct_rate_sort_1a7b71733cdbde194799aa0644c0796658" kind="function"><name>isLess</name></member>
+  </compound>
+  <compound refid="struct_list_keeper_1_1_rate_sort" kind="struct"><name>ListKeeper::RateSort</name>
+    <member refid="struct_list_keeper_1_1_rate_sort_1a4c6264b1619357243743fab6a3925a4f" kind="function"><name>RateSort</name></member>
+    <member refid="struct_list_keeper_1_1_rate_sort_1a82fc24f16b33dfda1ff4df10c793e151" kind="function"><name>isLess</name></member>
+  </compound>
+  <compound refid="struct_rating_col" kind="struct"><name>RatingCol</name>
+    <member refid="struct_rating_col_1a4515abb05881ab3f67dbeeb58765de22" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_screenshot_callback" kind="struct"><name>ScreenshotCallback</name>
+    <member refid="struct_screenshot_callback_1ad07ade488ea05e0b397baee0ef2dc923" kind="function"><name>shotIsReady</name></member>
+  </compound>
+  <compound refid="class_screenshot_loader" kind="class"><name>ScreenshotLoader</name>
+    <member refid="class_screenshot_loader_1a60ead08622c8ac315193f1294081fd5f" kind="variable"><name>isLoaded</name></member>
+    <member refid="class_screenshot_loader_1a2990e9418854fd5a5e2bd6e1a1450768" kind="variable"><name>memImage</name></member>
+    <member refid="class_screenshot_loader_1a77c510518cb7a6a3284fac5ae209c897" kind="variable"><name>id</name></member>
+    <member refid="class_screenshot_loader_1a12e59e546729981237a220c600c17d7c" kind="variable"><name>filename</name></member>
+    <member refid="class_screenshot_loader_1a1abef0cb60a454bb2be063f725607412" kind="variable"><name>url</name></member>
+    <member refid="class_screenshot_loader_1a13b53fe9a2d2e146292d856a04797f1c" kind="variable"><name>cb</name></member>
+    <member refid="class_screenshot_loader_1ae50a489fb9b72b3cc37d3ec061446662" kind="variable"><name>invoker</name></member>
+    <member refid="class_screenshot_loader_1a3028de0d93ff8460a53d56fc9dad1a3e" kind="function"><name>loadImage</name></member>
+    <member refid="class_screenshot_loader_1af6dd3f9a99a6fc5d1cd15bcb71bf2ae4" kind="function"><name>executeJob</name></member>
+    <member refid="class_screenshot_loader_1afeeb6185def727162eb3c6126034b9f9" kind="function"><name>ScreenshotLoader</name></member>
+    <member refid="class_screenshot_loader_1ac8536cd462acca81df0873e6f78c42fe" kind="function"><name>handleRequest</name></member>
+  </compound>
+  <compound refid="struct_list_keeper_1_1_sort_base" kind="struct"><name>ListKeeper::SortBase</name>
+    <member refid="struct_list_keeper_1_1_sort_base_1a59cc3a966c6ad77e8d2aed632448d5f6" kind="variable"><name>data</name></member>
+    <member refid="struct_list_keeper_1_1_sort_base_1ac03394fb5503d3ab09ea463e80ba05b5" kind="function"><name>SortBase</name></member>
+    <member refid="struct_list_keeper_1_1_sort_base_1ab70899c5c7f5ce2b0ddc5e266751580e" kind="function"><name>isLess</name></member>
+    <member refid="struct_list_keeper_1_1_sort_base_1a46a7074f8c4d1c68dfa246147f108c44" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="struct_sort_base" kind="struct"><name>SortBase</name>
+    <member refid="struct_sort_base_1aeb81ba981eef0dadea992a757de4d9f7" kind="variable"><name>data</name></member>
+    <member refid="struct_sort_base_1a2210fd5de8bae48ec2009d76861484c2" kind="function"><name>SortBase</name></member>
+    <member refid="struct_sort_base_1aee784043cb25b5a10781d6af35081110" kind="function"><name>isLess</name></member>
+    <member refid="struct_sort_base_1a94103419bf8956d1d15e143dd166fd8f" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="struct_sort_options" kind="struct"><name>SortOptions</name>
+    <member refid="struct_sort_options_1a717e586bc0927918693720ae30a66394" kind="function"><name>addSortOptions</name></member>
+  </compound>
+  <compound refid="struct_status_col" kind="struct"><name>StatusCol</name>
+    <member refid="struct_status_col_1acc73c933bc916d9868fdef1bad316471" kind="variable"><name>textNotInst</name></member>
+    <member refid="struct_status_col_1a4d9fb49d4419e9be1b1b54bdce15cf11" kind="variable"><name>textReady</name></member>
+    <member refid="struct_status_col_1ad5737293640b34d976bfafa151b4cde3" kind="function"><name>StatusCol</name></member>
+    <member refid="struct_status_col_1a49713fd019525a7389f66db0b17d372b" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_status_job" kind="struct"><name>StatusJob</name>
+    <member refid="struct_status_job_1ae33559a32cd69d1bcfdca1aec93ab8ce" kind="enum"><name>Status</name></member>
+    <member refid="struct_status_job_1ae33559a32cd69d1bcfdca1aec93ab8ceaf5ff1dce2dbe74ecd48ad23eee8f7d7e" kind="enumvalue"><name>ST_NONE</name></member>
+    <member refid="struct_status_job_1ae33559a32cd69d1bcfdca1aec93ab8ceaa4cd45b679b86e0e0b4d07a746cd6d4f" kind="enumvalue"><name>ST_BUSY</name></member>
+    <member refid="struct_status_job_1ae33559a32cd69d1bcfdca1aec93ab8cea405b2e356e38b51a6820eeee8390abf5" kind="enumvalue"><name>ST_DONE</name></member>
+    <member refid="struct_status_job_1ae33559a32cd69d1bcfdca1aec93ab8cea4636b4cd6edfb883b508dda5d997f300" kind="enumvalue"><name>ST_ERROR</name></member>
+    <member refid="struct_status_job_1ae33559a32cd69d1bcfdca1aec93ab8cea7efa02db60b68e80f3f9b91352540ef9" kind="enumvalue"><name>ST_ABORT</name></member>
+    <member refid="struct_status_job_1a177daa3b23744b0853beb16a9c2882c8" kind="variable"><name>status</name></member>
+    <member refid="struct_status_job_1a0a1f55e432e9935fe55d4fe420f20243" kind="variable"><name>doAbort</name></member>
+    <member refid="struct_status_job_1a35524a2c4363608e4c82775094e9423c" kind="variable"><name>errMsg</name></member>
+    <member refid="struct_status_job_1ac5b169cdbe634bdc4a205229982e2e8b" kind="function"><name>StatusJob</name></member>
+    <member refid="struct_status_job_1adaccfd7adffb90324fd94afce80d05d2" kind="function"><name>~StatusJob</name></member>
+    <member refid="struct_status_job_1a06e0afdd705e4c9873de208a5fc40579" kind="function"><name>abort</name></member>
+    <member refid="struct_status_job_1ad759e3f36454061c889e6172bb600e3a" kind="function"><name>hasStarted</name></member>
+    <member refid="struct_status_job_1ace0dda0b3f7e7fb958f970877052ef14" kind="function"><name>isBusy</name></member>
+    <member refid="struct_status_job_1a147ccff65fd3e287cff5df61fb0b85c4" kind="function"><name>isSuccess</name></member>
+    <member refid="struct_status_job_1a9ab1cde6269061b8de7bcf829c8435f5" kind="function"><name>isError</name></member>
+    <member refid="struct_status_job_1a2bb0bca42f45961de04636eaa680e51e" kind="function"><name>isAbort</name></member>
+    <member refid="struct_status_job_1abdc7540975bb641ec05ad225cafaf752" kind="function"><name>isNonSuccess</name></member>
+    <member refid="struct_status_job_1a9493c6bbbfc33be95016785b8f979d83" kind="function"><name>isFinished</name></member>
+    <member refid="struct_status_job_1a48bef51411d1ea0513a452efeb729937" kind="function"><name>abortRequested</name></member>
+    <member refid="struct_status_job_1a96846d13ece51fcc292fb8de0f170f42" kind="function"><name>getError</name></member>
+    <member refid="struct_status_job_1a99748d85fb79590ac93d756e11c7a23b" kind="function"><name>executeJob</name></member>
+    <member refid="struct_status_job_1a43292a61c894235e4d7c41468a1c67ba" kind="function"><name>run</name></member>
+    <member refid="struct_status_job_1af02e101615feba1c7c573ffd47e4bf7f" kind="function"><name>runNoThread</name></member>
+    <member refid="struct_status_job_1adcf8da2ad775e9426112ed39db5f7d3b" kind="function"><name>setError</name></member>
+    <member refid="struct_status_job_1a027e316e0d11862f130c153d86a7bcb2" kind="function"><name>setNone</name></member>
+    <member refid="struct_status_job_1a7ffbcc5914a8de0f05e6277f557590ca" kind="function"><name>setBusy</name></member>
+    <member refid="struct_status_job_1a27329cdb3ecb7af96174c2d82990ee40" kind="function"><name>setDone</name></member>
+    <member refid="struct_status_job_1abe811fbc93ef865a8cfe1b9e846c535f" kind="function"><name>setAbort</name></member>
+  </compound>
+  <compound refid="struct_status_notify" kind="struct"><name>StatusNotify</name>
+    <member refid="struct_status_notify_1afcf37ad77a3d23537ddbb098bed1a19b" kind="function"><name>onDataChanged</name></member>
+    <member refid="struct_status_notify_1ac6e45da5a5caf36785a32ae6ad70f711" kind="function"><name>switchToInstalled</name></member>
+  </compound>
+  <compound refid="struct_tab_base" kind="struct"><name>TabBase</name>
+    <member refid="struct_tab_base_1a4274555386ba73360e42ac1162deb0ee" kind="variable"><name>book</name></member>
+    <member refid="struct_tab_base_1a3c2fcafc0c5e81f7815749e24374145d" kind="variable"><name>tabNum</name></member>
+    <member refid="struct_tab_base_1af426aaeb43b31c090cbc30c5dd692c1b" kind="function"><name>TabBase</name></member>
+    <member refid="struct_tab_base_1ab3e91bf9e981c736d15800324ac22dbb" kind="function"><name>takeFocus</name></member>
+    <member refid="struct_tab_base_1ab9384b404604ca14a9a5e105410b4a1d" kind="function"><name>tick</name></member>
+    <member refid="struct_tab_base_1a612044dd2c5cf7a1dd81fb6e3a4779f0" kind="function"><name>dataChanged</name></member>
+    <member refid="struct_tab_base_1a7369a5f3cbe3fe6a9d2185ceb0ed26fe" kind="function"><name>insertMe</name></member>
+    <member refid="struct_tab_base_1acc8a88abc1a420c704c8bc5143c4c8bd" kind="function"><name>selectMe</name></member>
+  </compound>
+  <compound refid="struct_tag_sorter" kind="struct"><name>TagSorter</name>
+    <member refid="struct_tag_sorter_1a78d113d99b9e79aa1dd8cdd378226273" kind="variable"><name>allTags</name></member>
+    <member refid="struct_tag_sorter_1a85d9bb52fa8c1b7864883ae9ef0c240a" kind="function"><name>makeTagList</name></member>
+    <member refid="struct_tag_sorter_1a9042c82ca3bd3264c699159b43f25851" kind="function"><name>process</name></member>
+  </compound>
+  <compound refid="struct_the_frame" kind="struct"><name>TheFrame</name>
+    <member refid="struct_the_frame_1af6010efde01e0794faddedc72e9eac97" kind="variable"><name>title</name></member>
+    <member refid="struct_the_frame_1aaec391e39d3889423449cadfbb29dedd" kind="variable"><name>urlname</name></member>
+    <member refid="struct_the_frame_1a5d04a58aa1d746c35881fc6fbffad5aa" kind="variable"><name>url</name></member>
+    <member refid="struct_the_frame_1a48698e0f4c7b4a1db42491d0143758c0" kind="variable"><name>launch</name></member>
+    <member refid="struct_the_frame_1a2ec780680616cd64db368f7c39f28a1c" kind="variable"><name>version</name></member>
+    <member refid="struct_the_frame_1addb6dd16069e457b08799de2e53b7ef2" kind="variable"><name>desc</name></member>
+    <member refid="struct_the_frame_1a257dfb4c7b3076b0ff0cf49bd45f3836" kind="variable"><name>homepage</name></member>
+    <member refid="struct_the_frame_1aa6a5fa2e6df89cae92395f8202f3881b" kind="variable"><name>devname</name></member>
+    <member refid="struct_the_frame_1a6aae57bd50626fbf8cc38e7e09452b43" kind="variable"><name>shot</name></member>
+    <member refid="struct_the_frame_1aa7c44c9ff43d20a07b516d27ee06c92f" kind="variable"><name>paypal</name></member>
+    <member refid="struct_the_frame_1ada2dd050eda7659c3a68572ce52422db" kind="variable"><name>buypage</name></member>
+    <member refid="struct_the_frame_1a2b2b76468fa284d39c1bc21c67dfdcde" kind="variable"><name>type</name></member>
+    <member refid="struct_the_frame_1a091ebeaec82a9703c898eb7ffd0c9fe5" kind="variable"><name>tags</name></member>
+    <member refid="struct_the_frame_1ac30c1cecc3315fa527fdc333b4f18dde" kind="variable"><name>panel</name></member>
+    <member refid="struct_the_frame_1ac54ac3f656876082566591d9622323e0" kind="variable"><name>sizer</name></member>
+    <member refid="struct_the_frame_1a31d1e4b9cd1fa6fc9be8eb4f1484d561" kind="variable"><name>urlChanged</name></member>
+    <member refid="struct_the_frame_1a8e85fd4a635ab80ef171d22208c846e8" kind="function"><name>addText</name></member>
+    <member refid="struct_the_frame_1ac97010df2b6347ede1ab359dc6b996ba" kind="function"><name>addMultiText</name></member>
+    <member refid="struct_the_frame_1ae034ad586fea4cf0e2bc9b4e2d659dac" kind="function"><name>TheFrame</name></member>
+    <member refid="struct_the_frame_1a299f106f69543e75c8f4c2b26246516e" kind="function"><name>onTitleChange</name></member>
+    <member refid="struct_the_frame_1aa3f4279cc4ced529fe31d44a24c23f23" kind="function"><name>onURLChange</name></member>
+    <member refid="struct_the_frame_1a9042a0a3277c7ac1e9e628ea7327ea0a" kind="function"><name>set</name></member>
+    <member refid="struct_the_frame_1ae8a29d6e5f0df491dfde4d41182b6cfa" kind="function"><name>set</name></member>
+    <member refid="struct_the_frame_1ac06553e384df8d78b6e43f6ec2e07569" kind="function"><name>fixImage</name></member>
+    <member refid="struct_the_frame_1ad0c8b9f18646b6b9d0787241409bd0d1" kind="function"><name>onSave</name></member>
+    <member refid="struct_the_frame_1af65b416093b66925a7884709b52fab77" kind="function"><name>onClear</name></member>
+    <member refid="struct_the_frame_1aa6fc0c5ccb328dfa6dba6d251026a93c" kind="function"><name>onWebsite</name></member>
+    <member refid="struct_the_frame_1a8a83eff87c5c265f1c0bd195849808b9" kind="function"><name>clear</name></member>
+  </compound>
+  <compound refid="struct_thread_job" kind="struct"><name>ThreadJob</name>
+    <member refid="struct_thread_job_1a3db7a86ca4c03924cc693416a7fef240" kind="function"><name>run</name></member>
+    <member refid="struct_thread_job_1af1f2c090908c3df0cc55c102b7cb11ae" kind="function"><name>runAndDelete</name></member>
+  </compound>
+  <compound refid="struct_data_list_1_1_tig_info" kind="struct"><name>DataList::TigInfo</name>
+    <member refid="struct_data_list_1_1_tig_info_1acf42884c216fed475b5e34535b2d0409" kind="variable"><name>url</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1ab46ca1de22a7ed5ffc17cf59b7acccdb" kind="variable"><name>launch</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a9b38732f0b25e41ac91ceef71fe1d94d" kind="variable"><name>subdir</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1aa064346ea84e59511eb426559467167f" kind="variable"><name>version</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1ab0eb73b0afb3223368664646fcc77957" kind="variable"><name>title</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1ad2a8b04726f4f3a51b67fc484eb703c8" kind="variable"><name>desc</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1aff8bb88265df399a024f6b32253465ed" kind="variable"><name>shot</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a822426126743eba0279b4d39ad6453cb" kind="variable"><name>shot80x50</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1af875f159d24f61fb3056ed158297829f" kind="variable"><name>shot300x260</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1aa4ddff451d3819ff6bddc181b7fa2b1f" kind="variable"><name>location</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a10f9dcc8107bb4739387753e2920485f" kind="variable"><name>devname</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a24b8d1bf789b800811db2d40ce73ae5d" kind="variable"><name>homepage</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a48d3394960e1555e2b59d123c2f79da6" kind="variable"><name>buypage</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a9723b66f1c66923e54a1f0a14ed287a9" kind="variable"><name>tags</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a302ea5a3bb49ec1cbd2524e831dd6d65" kind="variable"><name>price</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1a7b3d322dc58e9319e46cb65af660a61c" kind="variable"><name>isDemo</name></member>
+    <member refid="struct_data_list_1_1_tig_info_1af8fc507248040cfd567ed0492f42bf6e" kind="variable"><name>hasPaypal</name></member>
+  </compound>
+  <compound refid="struct_tig_list_reader" kind="struct"><name>TigListReader</name>
+    <member refid="struct_tig_list_reader_1aaa60a48156f69359f58e4362743f5eaf" kind="variable"><name>filename</name></member>
+    <member refid="struct_tig_list_reader_1a8dd3a2f72ac238bff02c17b66d65772c" kind="variable"><name>channel</name></member>
+    <member refid="struct_tig_list_reader_1a9669bd8cac702a9488dc4a0238cc669e" kind="variable"><name>desc</name></member>
+    <member refid="struct_tig_list_reader_1ad27903d76be03131812f93c82d91a240" kind="variable"><name>location</name></member>
+    <member refid="struct_tig_list_reader_1ae3f2670c81427bf36f7c3889a28daa43" kind="variable"><name>homepage</name></member>
+    <member refid="struct_tig_list_reader_1a6748272859c72f46360a328ff541cc85" kind="function"><name>fail</name></member>
+    <member refid="struct_tig_list_reader_1a8f449c7e4157fd71dc340c036a326cb7" kind="function"><name>URL</name></member>
+    <member refid="struct_tig_list_reader_1af29a36cd17c2975c595b8882c2b1c01b" kind="function"><name>decodeTigFile</name></member>
+    <member refid="struct_tig_list_reader_1aea851ee05be59dda427ab57ccec2e00f" kind="function"><name>failThis</name></member>
+    <member refid="struct_tig_list_reader_1a769b49fc8aca9f04ca0408eb54851032" kind="function"><name>getTigFile</name></member>
+    <member refid="struct_tig_list_reader_1a560febf693e55b548a54d0601285b57e" kind="function"><name>decodeTigUrl</name></member>
+    <member refid="struct_tig_list_reader_1af0ff5bc33bb00380a3835b1231ce1cd8" kind="function"><name>addTests</name></member>
+    <member refid="struct_tig_list_reader_1ace2eb943f1db6d0091ade31bcfb3eb58" kind="function"><name>loadData</name></member>
+  </compound>
+  <compound refid="struct_title_col" kind="struct"><name>TitleCol</name>
+    <member refid="struct_title_col_1a866c193a5b41be256b38738689f6bcd3" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_list_keeper_1_1_title_sort" kind="struct"><name>ListKeeper::TitleSort</name>
+    <member refid="struct_list_keeper_1_1_title_sort_1a57c12a0a440842da3d79a276a81f3d5c" kind="function"><name>TitleSort</name></member>
+    <member refid="struct_list_keeper_1_1_title_sort_1a7ede068cec9b73e9961c817673118997" kind="function"><name>isLess</name></member>
+    <member refid="struct_list_keeper_1_1_title_sort_1a1dd8241afc153b328916d888b61dcf87" kind="function"><name>isLessStatic</name></member>
+  </compound>
+  <compound refid="struct_title_sort" kind="struct"><name>TitleSort</name>
+    <member refid="struct_title_sort_1a09bc57a31b79d01570f817e4083a8526" kind="function"><name>TitleSort</name></member>
+    <member refid="struct_title_sort_1aff6baf921f0f274c5434e30cc39f35d2" kind="function"><name>isLess</name></member>
+    <member refid="struct_title_sort_1a2b7f13d663350b3f8339ae1309163ccb" kind="function"><name>isLessStatic</name></member>
+  </compound>
+  <compound refid="struct_tmp_dir" kind="struct"><name>TmpDir</name>
+    <member refid="struct_tmp_dir_1a08da41cc77d03afe359b7deb49229105" kind="variable"><name>dir</name></member>
+    <member refid="struct_tmp_dir_1ab485557a85cf415394ddbcae7d0fe4f7" kind="variable"><name>created</name></member>
+    <member refid="struct_tmp_dir_1ab6eb3c14ad940888b62323724d288b0e" kind="function"><name>TmpDir</name></member>
+    <member refid="struct_tmp_dir_1a4e472400ff21a5390200d605bf5e358b" kind="function"><name>~TmpDir</name></member>
+    <member refid="struct_tmp_dir_1a676580b8e88aa59aecf47e4dbf60c046" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="class_json_1_1_j_s_o_n___a_p_i_1_1_token" kind="class"><name>Json::JSON_API::Token</name>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_token_1a0fb26e49e09d19b9c1f7cf42faa47a49" kind="variable"><name>type_</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_token_1a9214fa7b5842625ec5754690d9c0fc56" kind="variable"><name>start_</name></member>
+    <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_token_1a60c6f221c06669039408d040406c18c1" kind="variable"><name>end_</name></member>
+  </compound>
+  <compound refid="struct_type_col" kind="struct"><name>TypeCol</name>
+    <member refid="struct_type_col_1a94ca8f67b5da32f95950fb90e38fcebc" kind="function"><name>getText</name></member>
+  </compound>
+  <compound refid="struct_un_zip" kind="struct"><name>UnZip</name>
+    <member refid="struct_un_zip_1ad6b4ca8cdcf71819383209ef79e3de52" kind="variable"><name>file</name></member>
+    <member refid="struct_un_zip_1a360f3aedef8bb2ccf0568cfe806eef29" kind="function"><name>fail</name></member>
+    <member refid="struct_un_zip_1aa974eb0103450810ff86bbbd5374925a" kind="function"><name>checkErr</name></member>
+    <member refid="struct_un_zip_1a7b4614f41dcb93da1b21011444b0d16d" kind="function"><name>unpack</name></member>
+  </compound>
+  <compound refid="struct_updater" kind="struct"><name>Updater</name>
+    <member refid="struct_updater_1a71ce18699f5ae41809ceabc89ad79dc4" kind="variable"><name>version</name></member>
+    <member refid="struct_updater_1ade31bebff72229b5800d285efdd19827" kind="function"><name>Updater</name></member>
+    <member refid="struct_updater_1ac75f04a645b62e96c9ff7414f9940fcb" kind="function"><name>checkVersion</name></member>
+    <member refid="struct_updater_1afc377b7fd896168d89252cafbcd405f9" kind="function"><name>doAutoUpdate</name></member>
+    <member refid="struct_updater_1a4f1e4bdd6189f9fb62e167e5b2c2da64" kind="function"><name>doUpdate</name></member>
+  </compound>
+  <compound refid="class_json_1_1_value_allocator" kind="class"><name>Json::ValueAllocator</name>
+    <member refid="class_json_1_1_value_allocator_1a8ae4b347009c7a1eea42c5b944baddc8" kind="enum"><name>@0</name></member>
+    <member refid="class_json_1_1_value_allocator_1a8ae4b347009c7a1eea42c5b944baddc8a44ee3be5d5610907974eb88656bc22fd" kind="enumvalue"><name>unknown</name></member>
+    <member refid="class_json_1_1_value_allocator_1a3c31c9a2de499fffad6711672d686b7c" kind="function"><name>~ValueAllocator</name></member>
+    <member refid="class_json_1_1_value_allocator_1af2370043912c62bb2f3d3277b2c0a125" kind="function"><name>makeMemberName</name></member>
+    <member refid="class_json_1_1_value_allocator_1ae8206cbaf1004994696a1ffec0d7e29a" kind="function"><name>releaseMemberName</name></member>
+    <member refid="class_json_1_1_value_allocator_1aaa63197291f55d060541a01fcf5a5dfc" kind="function"><name>duplicateStringValue</name></member>
+    <member refid="class_json_1_1_value_allocator_1aa75c50f08bab7db386673ab355668c99" kind="function"><name>releaseStringValue</name></member>
+  </compound>
+  <compound refid="class_json_1_1_value_const_iterator" kind="class"><name>Json::ValueConstIterator</name>
+    <member refid="class_json_1_1_value_const_iterator_1a8685219d214dbd2b763357ae94fb0f27" kind="typedef"><name>size_t</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a32b36aa9d76e2b48ca74fb6e1979a95a" kind="typedef"><name>difference_type</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1aa9b05c6a37cd352ea1ee6e13b816f709" kind="typedef"><name>reference</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a400136bd8bc09e9fddec0785fa2cff14" kind="typedef"><name>pointer</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a0c2e33e7eb5a80dd8709fb28ece83933" kind="typedef"><name>SelfType</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1aeceedf6e1a7d48a588516ce2b1983d6f" kind="friend"><name>Value</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a9fe846b895c39cdf6422e8b47ddb683e" kind="function"><name>ValueConstIterator</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1ade307721f874f4474d1565753ce76523" kind="function"><name>operator=</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1ab3f0c2edbfc8f7d60645f3d597d05e28" kind="function"><name>operator++</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a94935961e9331c6f7b907b05ec8df75e" kind="function"><name>operator--</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a31415e44e44e56fb2bfda7e8bb784646" kind="function"><name>operator--</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a2cfe2f7a94a688186efdafb1b181c319" kind="function"><name>operator++</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1aeb44153d71c61ac9397a84d5ecc244c5" kind="function"><name>operator*</name></member>
+    <member refid="class_json_1_1_value_const_iterator_1a918e12a14549069c0e01bddd921be2c2" kind="function"><name>ValueConstIterator</name></member>
+  </compound>
+  <compound refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder" kind="union"><name>Json::JSON_API::ValueHolder</name>
+    <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a69447aef976ba698b1309849c5a8b1ec" kind="variable"><name>int_</name></member>
+    <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1aa6fbfc68f7cd548212c6bbbfbad8217c" kind="variable"><name>uint_</name></member>
+    <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a160f620371ac748a39a55160fe234f65" kind="variable"><name>real_</name></member>
+    <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a2a1cf84b55e8cc909b7586d5708be273" kind="variable"><name>bool_</name></member>
+    <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a0a4d74cbc666629281cb320b6128ce97" kind="variable"><name>string_</name></member>
+    <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a19d9be6fc2db18235fff356bb4788076" kind="variable"><name>map_</name></member>
+  </compound>
+  <compound refid="class_json_1_1_value_iterator" kind="class"><name>Json::ValueIterator</name>
+    <member refid="class_json_1_1_value_iterator_1a308b8932ffc83eaa9d12dadd5c11a7dd" kind="typedef"><name>size_t</name></member>
+    <member refid="class_json_1_1_value_iterator_1a2be1a9aa60bbfc8812e9dd1a7f1a8786" kind="typedef"><name>difference_type</name></member>
+    <member refid="class_json_1_1_value_iterator_1ae87929b4567aa00372cf602c43b57160" kind="typedef"><name>reference</name></member>
+    <member refid="class_json_1_1_value_iterator_1acec45feb1ef1f3bf81240157d06d5432" kind="typedef"><name>pointer</name></member>
+    <member refid="class_json_1_1_value_iterator_1a23357670fdad61792670d86f62db7e16" kind="typedef"><name>SelfType</name></member>
+    <member refid="class_json_1_1_value_iterator_1aeceedf6e1a7d48a588516ce2b1983d6f" kind="friend"><name>Value</name></member>
+    <member refid="class_json_1_1_value_iterator_1ab26cc73806c61ef54962ff28b69de16a" kind="function"><name>ValueIterator</name></member>
+    <member refid="class_json_1_1_value_iterator_1ad799532bd4ef8815011f72d687460ffd" kind="function"><name>ValueIterator</name></member>
+    <member refid="class_json_1_1_value_iterator_1a08398583fe03f474f24779fb8001d999" kind="function"><name>ValueIterator</name></member>
+    <member refid="class_json_1_1_value_iterator_1a0ce103c2e383e3c9574f95aed4934271" kind="function"><name>operator=</name></member>
+    <member refid="class_json_1_1_value_iterator_1abcf4ddd994a010742cd4a436d65acd08" kind="function"><name>operator++</name></member>
+    <member refid="class_json_1_1_value_iterator_1a06d6a29d96caf6af324a53973159e12b" kind="function"><name>operator--</name></member>
+    <member refid="class_json_1_1_value_iterator_1a811302a868518a0995a9def955df5720" kind="function"><name>operator--</name></member>
+    <member refid="class_json_1_1_value_iterator_1a92146c46f8249e2b2d12869e70cd4cee" kind="function"><name>operator++</name></member>
+    <member refid="class_json_1_1_value_iterator_1aaa5be3457eedf0526a03b8a3b4c7c0a0" kind="function"><name>operator*</name></member>
+    <member refid="class_json_1_1_value_iterator_1a6318e60a47bcf05472b42c55e8598b5a" kind="function"><name>ValueIterator</name></member>
+  </compound>
+  <compound refid="class_json_1_1_value_iterator_base" kind="class"><name>Json::ValueIteratorBase</name>
+    <member refid="class_json_1_1_value_iterator_base_1a9d3a3c7ce5cdefe23cb486239cf07bb5" kind="typedef"><name>size_t</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a4e44bf8cbd17ec8d6e2c185904a15ebd" kind="typedef"><name>difference_type</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a9d2a940d03ea06d20d972f41a89149ee" kind="typedef"><name>SelfType</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1ab3138ce8af8301cca3b041ea55cb922a" kind="variable"><name>current_</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a3e08b114a1aed9bde518c527f94a8c59" kind="variable"><name>isNull_</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a9ea825541dda0d057fbc0ff8a3d2c76f" kind="function"><name>ValueIteratorBase</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a38e5d4351341621d69ec0647bebd6393" kind="function"><name>ValueIteratorBase</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1afc656672ac28502f640ade32c38c1b56" kind="function"><name>operator==</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a18c2dd42e0bb989ace141bfe9de52792" kind="function"><name>operator!=</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1ab786787fcad68ca5e8745aaf520fa17f" kind="function"><name>operator-</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a7fe8b45ba67da5f01dc54273242c5f46" kind="function"><name>key</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a5671376c32cb0fb95cbe0934be3ea5af" kind="function"><name>index</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1ac71f27274c0326832dedec3060133a0d" kind="function"><name>memberName</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a4ca11f1e5a984554b79fc98dd69577c0" kind="function"><name>deref</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a5ed55be0046592580110a79d16003c2b" kind="function"><name>increment</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1ab1a5b6694984a2c53567174126938d8c" kind="function"><name>decrement</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a79eff2632ecabafeb19aa74d066061fe" kind="function"><name>computeDistance</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a1ffe2d20b6476f84e055aa1094fe70c6" kind="function"><name>isEqual</name></member>
+    <member refid="class_json_1_1_value_iterator_base_1a938659a563d99d0199b655b3747367f2" kind="function"><name>copy</name></member>
+  </compound>
+  <compound refid="struct_thread_job_1_1wx_job_runner" kind="struct"><name>ThreadJob::wxJobRunner</name>
+    <member refid="struct_thread_job_1_1wx_job_runner_1a99294cda41e051e27d3798dced14714b" kind="variable"><name>job</name></member>
+    <member refid="struct_thread_job_1_1wx_job_runner_1a39728e9818d88e0d6e7ae34418eec603" kind="variable"><name>killOwner</name></member>
+    <member refid="struct_thread_job_1_1wx_job_runner_1ae312162c0bf98ab26ffaa902e5871391" kind="function"><name>wxJobRunner</name></member>
+    <member refid="struct_thread_job_1_1wx_job_runner_1a4985a0b50ba52d72278776b91b1ebca2" kind="function"><name>Entry</name></member>
+  </compound>
+  <compound refid="struct_zip_job" kind="struct"><name>ZipJob</name>
+    <member refid="struct_zip_job_1a77647773a25c5da19ffaaaba604a37d2" kind="variable"><name>status</name></member>
+    <member refid="struct_zip_job_1afb568c60d3dabe2f93b16e4e7c8acf33" kind="variable"><name>zip</name></member>
+    <member refid="struct_zip_job_1a8e14689c742b93415d6e5e58eda28b77" kind="variable"><name>dir</name></member>
+    <member refid="struct_zip_job_1a557139fc2a919d504dadf66881bde7ef" kind="function"><name>ZipJob</name></member>
+    <member refid="struct_zip_job_1a76610a05040414fc8ddf4a49380d4146" kind="function"><name>executeJob</name></member>
+  </compound>
+  <compound refid="namespace_json" kind="namespace"><name>Json</name>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4e" kind="enum"><name>ValueType</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4ea7d9899633b4409bd3fc107e6737f8391" kind="enumvalue"><name>nullValue</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4eae5a9d708d5c9e23ae9bf98898522512d" kind="enumvalue"><name>intValue</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4eaea788d9a3bb00adc6d68d97d43e1ccd3" kind="enumvalue"><name>uintValue</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4eab837c7b869c14d8be712deb45c9e490e" kind="enumvalue"><name>realValue</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4ea804ef857affea2d415843c73f261c258" kind="enumvalue"><name>stringValue</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4ea14c30dbf4da86f7b809be299f671f7fd" kind="enumvalue"><name>booleanValue</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4eadc8f264f36b55b063c78126b335415f4" kind="enumvalue"><name>arrayValue</name></member>
+    <member refid="namespace_json_1a7d654b75c16a57007925868e38212b4eae8386dcfc36d1ae897745f7b4f77a1f6" kind="enumvalue"><name>objectValue</name></member>
+    <member refid="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351" kind="enum"><name>CommentPlacement</name></member>
+    <member refid="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351a52f1733775460517b2ea6bedf4906d52" kind="enumvalue"><name>commentBefore</name></member>
+    <member refid="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351a008a230a0586de54f30b76afe70fdcfa" kind="enumvalue"><name>commentAfterOnSameLine</name></member>
+    <member refid="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351ac5784ca53b12250888ddb642b06aebef" kind="enumvalue"><name>commentAfter</name></member>
+    <member refid="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351abcbd3eb00417335e094e4a03379659b5" kind="enumvalue"><name>numberOfCommentPlacement</name></member>
+    <member refid="namespace_json_1a08122e8005b706d982e48cca1e2119c7" kind="typedef"><name>Int</name></member>
+    <member refid="namespace_json_1a800fb90eb6ee8d5d62b600c06f87f7d4" kind="typedef"><name>UInt</name></member>
+    <member refid="namespace_json_1a9367f953132a439a4336c014414643bd" kind="variable"><name>dummyValueAllocatorInitializer</name></member>
+    <member refid="namespace_json_1a4d245ef719cc0853e8e78eb5f99c16e5" kind="function"><name>operator&gt;&gt;</name></member>
+    <member refid="namespace_json_1a5d3eba6789f9a9c1ab563ff8b4a5090f" kind="function"><name>valueToString</name></member>
+    <member refid="namespace_json_1a4d43b0ff222bd3975bcf1babca0b978f" kind="function"><name>valueToString</name></member>
+    <member refid="namespace_json_1a99995d7dafa4f4970b349d7d3c8d1d99" kind="function"><name>valueToString</name></member>
+    <member refid="namespace_json_1a979ed531f091985e22f0051cd2a8e341" kind="function"><name>valueToString</name></member>
+    <member refid="namespace_json_1aa0c8235a4a5c6599da5d3332743db8ac" kind="function"><name>valueToQuotedString</name></member>
+    <member refid="namespace_json_1a87bc83d7e90fc666d28aa16727deda2f" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespace_json_1a7378f09d8f10ef3ccbb2aeefe7ff41d3" kind="function"><name>in</name></member>
+    <member refid="namespace_json_1af3dfd6ed13183fdcfaab3ca57b42d3e7" kind="function"><name>in</name></member>
+    <member refid="namespace_json_1a4d6ab0f651348832e5cc49b577a854d2" kind="function"><name>containsNewLine</name></member>
+    <member refid="namespace_json_1adf0456e397a18cd7218a7b51dfc13c73" kind="function"><name>codePointToUTF8</name></member>
+    <member refid="namespace_json_1a55c29a5375e53382368f928692bd2d4d" kind="function"><name>valueAllocator</name></member>
+    <member refid="namespace_json_1a0381e631737f51331065a388f4f59197" kind="function"><name>isControlCharacter</name></member>
+    <member refid="namespace_json_1aa11b210ff98a4f4dd4e2df19260f8c3a" kind="function"><name>containsControlCharacter</name></member>
+    <member refid="namespace_json_1a0c9ecf21515ffa8092201ad908609dc7" kind="function"><name>uintToString</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="auth_8hpp" kind="file"><name>auth.hpp</name>
+    <member refid="auth_8hpp_1a8064aee091ca3ce6a4e966b04ff0cd0c" kind="variable"><name>auth</name></member>
+  </compound>
+  <compound refid="auto__update_8hpp" kind="file"><name>auto_update.hpp</name>
+  </compound>
+  <compound refid="cache__fetcher_8hpp" kind="file"><name>cache_fetcher.hpp</name>
+  </compound>
+  <compound refid="_c_make_c_compiler_id_8c" kind="file"><name>CMakeCCompilerId.c</name>
+    <member refid="_c_make_c_compiler_id_8c_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_c_make_c_x_x_compiler_id_8cpp" kind="file"><name>CMakeCXXCompilerId.cpp</name>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="config_8hpp" kind="file"><name>config.hpp</name>
+    <member refid="config_8hpp_1a5e28539b888bf3253b60c2c7dfd8e8b9" kind="variable"><name>conf</name></member>
+  </compound>
+  <compound refid="curl__get_8hpp" kind="file"><name>curl_get.hpp</name>
+  </compound>
+  <compound refid="data__reader_8hpp" kind="file"><name>data_reader.hpp</name>
+  </compound>
+  <compound refid="datalist_8hpp" kind="file"><name>datalist.hpp</name>
+  </compound>
+  <compound refid="decodeurl_8hpp" kind="file"><name>decodeurl.hpp</name>
+  </compound>
+  <compound refid="downloadjob_8hpp" kind="file"><name>downloadjob.hpp</name>
+  </compound>
+  <compound refid="filegetter_8hpp" kind="file"><name>filegetter.hpp</name>
+    <member refid="filegetter_8hpp_1a77a9e0f15fd28dd9439c9965a951ecf2" kind="variable"><name>get</name></member>
+  </compound>
+  <compound refid="fix__json_8cpp" kind="file"><name>fix_json.cpp</name>
+    <member refid="fix__json_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="gameinfo_8hpp" kind="file"><name>gameinfo.hpp</name>
+  </compound>
+  <compound refid="image__viewer_8hpp" kind="file"><name>image_viewer.hpp</name>
+  </compound>
+  <compound refid="jobify_8hpp" kind="file"><name>jobify.hpp</name>
+    <member refid="jobify_8hpp_1a4f8573d8c08360b8fecd340fc79bb257" kind="define"><name>wxUSE_UNICODE</name></member>
+  </compound>
+  <compound refid="jobqueue_8hpp" kind="file"><name>jobqueue.hpp</name>
+    <member refid="jobqueue_8hpp_1a5f7e3c9f29c307ce04199dc34159d45a" kind="variable"><name>jobQueue</name></member>
+  </compound>
+  <compound refid="json__installed_8hpp" kind="file"><name>json_installed.hpp</name>
+  </compound>
+  <compound refid="json__rated_8hpp" kind="file"><name>json_rated.hpp</name>
+    <member refid="json__rated_8hpp_1a9368993a57072469fc76d4fe938edca8" kind="variable"><name>ratings</name></member>
+  </compound>
+  <compound refid="autolink_8h" kind="file"><name>autolink.h</name>
+    <member refid="autolink_8h_1a378eb08cf9d54d7c187a9447f353433e" kind="define"><name>CPPTL_AUTOLINK_NAME</name></member>
+  </compound>
+  <compound refid="config_8h" kind="file"><name>config.h</name>
+    <member refid="config_8h_1a51968e67b1462ac893f87a0fc8b791cd" kind="define"><name>JSON_USE_EXCEPTION</name></member>
+    <member refid="config_8h_1a1d61ffde86ce1a18fd83194ff0d9a206" kind="define"><name>JSON_API</name></member>
+  </compound>
+  <compound refid="features_8h" kind="file"><name>features.h</name>
+  </compound>
+  <compound refid="forwards_8h" kind="file"><name>forwards.h</name>
+  </compound>
+  <compound refid="json_8h" kind="file"><name>json.h</name>
+  </compound>
+  <compound refid="reader_8h" kind="file"><name>reader.h</name>
+  </compound>
+  <compound refid="value_8h" kind="file"><name>value.h</name>
+  </compound>
+  <compound refid="writer_8h" kind="file"><name>writer.h</name>
+  </compound>
+  <compound refid="json__batchallocator_8h" kind="file"><name>json_batchallocator.h</name>
+  </compound>
+  <compound refid="json__internalarray_8inl" kind="file"><name>json_internalarray.inl</name>
+    <member refid="json__internalarray_8inl_1a156aac34ce735123a1e5353d3099a8eb" kind="variable"><name>dummyArrayAllocatorInitializer</name></member>
+    <member refid="json__internalarray_8inl_1abd84f13b9a7f64f79c67d22a7b0a8136" kind="function"><name>arrayAllocator</name></member>
+  </compound>
+  <compound refid="json__internalmap_8inl" kind="file"><name>json_internalmap.inl</name>
+    <member refid="json__internalmap_8inl_1a3247543fb9356684ae51c89bb166f671" kind="variable"><name>dummyMapAllocatorInitializer</name></member>
+    <member refid="json__internalmap_8inl_1a61f84122d9f0d9fbd6f991895edc92f3" kind="function"><name>mapAllocator</name></member>
+  </compound>
+  <compound refid="json__reader_8cpp" kind="file"><name>json_reader.cpp</name>
+  </compound>
+  <compound refid="json__value_8cpp" kind="file"><name>json_value.cpp</name>
+    <member refid="json__value_8cpp_1aa5e619e3e9388f6376a344dd8462c9cc" kind="define"><name>JSON_ASSERT_UNREACHABLE</name></member>
+    <member refid="json__value_8cpp_1a188941dcc789ccb6539c3d6f41405582" kind="define"><name>JSON_ASSERT</name></member>
+    <member refid="json__value_8cpp_1ad7facdeeca0f495765e3b204c265eadb" kind="define"><name>JSON_ASSERT_MESSAGE</name></member>
+  </compound>
+  <compound refid="json__valueiterator_8inl" kind="file"><name>json_valueiterator.inl</name>
+  </compound>
+  <compound refid="json__writer_8cpp" kind="file"><name>json_writer.cpp</name>
+  </compound>
+  <compound refid="listkeeper_8hpp" kind="file"><name>listkeeper.hpp</name>
+  </compound>
+  <compound refid="newstab_8hpp" kind="file"><name>newstab.hpp</name>
+    <member refid="newstab_8hpp_1ab7762c03326dc8790bea8d73986b6ebc" kind="define"><name>myID_NEWSLIST</name></member>
+    <member refid="newstab_8hpp_1a966764c2ddd2cb323e30f7d75ac5106a" kind="define"><name>myID_NEWSVIEW</name></member>
+    <member refid="newstab_8hpp_1a80a95589f087fbbca65d73cc068569cc" kind="define"><name>myID_BGETNEWS</name></member>
+    <member refid="newstab_8hpp_1a8f83ece1400c4b9dd2c890a967da5626" kind="define"><name>myID_BMARKALL</name></member>
+    <member refid="newstab_8hpp_1aa449b59dfa54ffb91d17fa18a5bf20cd" kind="define"><name>myID_TIGHOME</name></member>
+    <member refid="newstab_8hpp_1afa90adae4412a05448b1627c145cec79" kind="define"><name>myID_TIGFORUM</name></member>
+    <member refid="newstab_8hpp_1a61befb1a8ec1997daa8c4374b25ae476" kind="define"><name>myID_TIGBLOG</name></member>
+  </compound>
+  <compound refid="os_8hpp" kind="file"><name>os.hpp</name>
+    <member refid="os_8hpp_1a251ab0a7cc7e8ae6a1870e6990ae2fe0" kind="define"><name>RESPONSE_32_BIT</name></member>
+    <member refid="os_8hpp_1a633816c32fc07c8426d91f1e9f1f4616" kind="define"><name>RESPONSE_64_BIT</name></member>
+    <member refid="os_8hpp_1a85034d593737d48c261ab72668335324" kind="typedef"><name>IW64PFP</name></member>
+    <member refid="os_8hpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="progress__holder_8hpp" kind="file"><name>progress_holder.hpp</name>
+  </compound>
+  <compound refid="readjson_8hpp" kind="file"><name>readjson.hpp</name>
+    <member refid="readjson_8hpp_1a049437e4cffc2b99359f409bd31d1071" kind="function"><name>writeJson</name></member>
+    <member refid="readjson_8hpp_1ae3451c8a6b7be6bc517e229b5392e952" kind="function"><name>readJson</name></member>
+  </compound>
+  <compound refid="screenshot__loader_8hpp" kind="file"><name>screenshot_loader.hpp</name>
+  </compound>
+  <compound refid="tabbase_8hpp" kind="file"><name>tabbase.hpp</name>
+  </compound>
+  <compound refid="tag__sorter_8hpp" kind="file"><name>tag_sorter.hpp</name>
+    <member refid="tag__sorter_8hpp_1a1b3fd91d535629803e99dd454b4d9cc1" kind="variable"><name>itags</name></member>
+  </compound>
+  <compound refid="tiggit_8cpp" kind="file"><name>tiggit.cpp</name>
+    <member refid="tiggit_8cpp_1a4f8573d8c08360b8fecd340fc79bb257" kind="define"><name>wxUSE_UNICODE</name></member>
+    <member refid="tiggit_8cpp_1a5aa4c5c38886c6b0651e9e1dae384d58" kind="define"><name>myID_BUTTON1</name></member>
+    <member refid="tiggit_8cpp_1a16ee4584e96fdba16b774b8815e2b2c6" kind="define"><name>myID_BUTTON2</name></member>
+    <member refid="tiggit_8cpp_1a5b5389725553748b0f6acc5247b89456" kind="define"><name>myID_SUPPORT</name></member>
+    <member refid="tiggit_8cpp_1af1550d894c6ac5b3422170aefde372dd" kind="define"><name>myID_GAMEPAGE</name></member>
+    <member refid="tiggit_8cpp_1a0aa4d1634cd5c4422653db7ba6524f81" kind="define"><name>myID_LIST</name></member>
+    <member refid="tiggit_8cpp_1a7f26b9d5680db0e537c29ab95ed37d51" kind="define"><name>myID_RATE</name></member>
+    <member refid="tiggit_8cpp_1acf5f5ec36ea1ab6d6401f4562b24509e" kind="define"><name>myID_TEXTVIEW</name></member>
+    <member refid="tiggit_8cpp_1a46f4dc8a9d7af12f67b9fbd31d4897f0" kind="define"><name>myID_SCREENSHOT</name></member>
+    <member refid="tiggit_8cpp_1a4241ff6ef3f655929f63fa6eb5dd0e3a" kind="define"><name>myID_SORT_TITLE</name></member>
+    <member refid="tiggit_8cpp_1acd9f1eca07ad262d5c0f1c84997af95c" kind="define"><name>myID_SORT_DATE</name></member>
+    <member refid="tiggit_8cpp_1ad1eb8d78c2729355498cd96f9d76db22" kind="define"><name>myID_SORT_REVERSE</name></member>
+    <member refid="tiggit_8cpp_1a4702050511b8f469b09986eabafabf02" kind="define"><name>myID_SORT_RATING</name></member>
+    <member refid="tiggit_8cpp_1a857caf3bb020256a7e74b43027afe0c4" kind="define"><name>myID_SEARCH_BOX</name></member>
+    <member refid="tiggit_8cpp_1aacabcb117737af55ff06940fa8407a5c" kind="define"><name>myID_TIGGIT_PAGE</name></member>
+    <member refid="tiggit_8cpp_1a08b22f2decefb435be30f15c1cf37849" kind="define"><name>myID_OPEN_LOCATION</name></member>
+    <member refid="tiggit_8cpp_1ae06b5c3b0499672addf8585061bf9c6b" kind="define"><name>myID_REFRESH_ITEM</name></member>
+    <member refid="tiggit_8cpp_1ac2adf2fefc1387aa86f65f8b64f059a2" kind="define"><name>myID_TAGS</name></member>
+    <member refid="tiggit_8cpp_1a2415db217d2d4077a837e29667a6826a" kind="define"><name>myID_MENU_REFRESH</name></member>
+    <member refid="tiggit_8cpp_1a8f5ab1e91529df84f66e30d0a7c1478d" kind="define"><name>myID_MENU_REFRESH_TOTAL</name></member>
+    <member refid="tiggit_8cpp_1abb79dfecbf141b951302541734743522" kind="define"><name>myID_GOLEFT</name></member>
+    <member refid="tiggit_8cpp_1ad138ca3e44cf426bac31fa216159622c" kind="define"><name>myID_GORIGHT</name></member>
+    <member refid="tiggit_8cpp_1a6e2f84f6544842989ddd7f82b5a312b2" kind="define"><name>myID_BOOK</name></member>
+    <member refid="tiggit_8cpp_1af2a849958c858356e13b2fdd019c88f3" kind="variable"><name>data</name></member>
+    <member refid="tiggit_8cpp_1a57175a54e4dd4f2169d1296565a969d7" kind="variable"><name>jinst</name></member>
+    <member refid="tiggit_8cpp_1afbe034ae702d29aeac1df265e970e681" kind="variable"><name>tig_reader</name></member>
+    <member refid="tiggit_8cpp_1a02f01ae2026ff2140c193c47d91c292e" kind="variable"><name>tagSorter</name></member>
+    <member refid="tiggit_8cpp_1a2034ae16a0cc37d2faa01b19a99eaa96" kind="variable"><name>gHasDemos</name></member>
+    <member refid="tiggit_8cpp_1ab18e9d3d5fd9966cdbe2addb2fbd7e5b" kind="function"><name>updateData</name></member>
+    <member refid="tiggit_8cpp_1af8b43067f5e62b067af1104a1a50976e" kind="function"><name>ask</name></member>
+    <member refid="tiggit_8cpp_1a1fe019714590faaa0de6bc358b0cf314" kind="function"><name>errorBox</name></member>
+  </compound>
+  <compound refid="tigmaker_8cpp" kind="file"><name>tigmaker.cpp</name>
+    <member refid="tigmaker_8cpp_1a4f8573d8c08360b8fecd340fc79bb257" kind="define"><name>wxUSE_UNICODE</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320" kind="enum"><name>MyIDs</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a372453fbc0c7593c10d2f0d1952fdbfb" kind="enumvalue"><name>myID_TITLE</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a4239ecef3d21de940285395bd8bf3684" kind="enumvalue"><name>myID_URLNAME</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a8156c4631d3d6dcfd55a1b2e3ed783f4" kind="enumvalue"><name>myID_URL</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a648eecf3c7b35d181decfbbe9c4f846d" kind="enumvalue"><name>myID_LAUNCH</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a526490c2d5190f89faf950205b71df8c" kind="enumvalue"><name>myID_VERSION</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320ab130064857d7cb86425a9ad098c0929f" kind="enumvalue"><name>myID_DESC</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320acafac26d5dd8e85bca10c2ae185eaca5" kind="enumvalue"><name>myID_HOMEPAGE</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320abe3dfbd19830c894f9f55e61fe69c576" kind="enumvalue"><name>myID_DEVNAME</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320ade4179bec2c784436784c56296fd124d" kind="enumvalue"><name>myID_SHOT</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320aed08332e4108b6a6cd5486f0beb52669" kind="enumvalue"><name>myID_PAYPAL</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320ad7f8f4169e925c19ddc5b7d4e5c71d0f" kind="enumvalue"><name>myID_BUYPAGE</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a0d8f6e126c1c5a3ae4db873719532c2e" kind="enumvalue"><name>myID_TYPE</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320ac36c6d93880d65d1f7070c724abebb97" kind="enumvalue"><name>myID_TAGS</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a48ccce5ca066fd5d0e663a00e7520655" kind="enumvalue"><name>myID_SAVE</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a00ef006008b8852e6d15c4131dd6e8aa" kind="enumvalue"><name>myID_CLEAR</name></member>
+    <member refid="tigmaker_8cpp_1ac761d03a642d8018d82d5627eed10320a16b4ff9cab98ec8babc4e5fd3d516ec9" kind="enumvalue"><name>myID_WEBSITE</name></member>
+    <member refid="tigmaker_8cpp_1a5e28539b888bf3253b60c2c7dfd8e8b9" kind="variable"><name>conf</name></member>
+    <member refid="tigmaker_8cpp_1aaa8a893d496c551f942f6bc78d0fcf22" kind="variable"><name>preload</name></member>
+    <member refid="tigmaker_8cpp_1a16c41e7a8c517ff067fbb607a2463f24" kind="variable"><name>exitAfterSave</name></member>
+    <member refid="tigmaker_8cpp_1ad771f03e891169a0dff49d51582a53e0" kind="variable"><name>cmdLineDesc</name></member>
+    <member refid="tigmaker_8cpp_1a21402e610f380d124ec2d552a97e5289" kind="function"><name>char2hex</name></member>
+    <member refid="tigmaker_8cpp_1af8b43067f5e62b067af1104a1a50976e" kind="function"><name>ask</name></member>
+    <member refid="tigmaker_8cpp_1aab42b43bcecee071fbf7405134f63517" kind="function"><name>ask</name></member>
+    <member refid="tigmaker_8cpp_1ad83fefe54f5548a1128ea210f1af2b75" kind="function"><name>urlencode</name></member>
+  </compound>
+  <compound refid="tmpdir_8hpp" kind="file"><name>tmpdir.hpp</name>
+  </compound>
+  <compound refid="unzip_8hpp" kind="file"><name>unzip.hpp</name>
+  </compound>
+  <compound refid="gen__webdata_8cpp" kind="file"><name>gen_webdata.cpp</name>
+    <member refid="gen__webdata_8cpp_1a511b988e5403b786f858b2554e645bf2" kind="variable"><name>basedir</name></member>
+    <member refid="gen__webdata_8cpp_1a81c2843a174f86b4125eaf2dcd3c8d47" kind="variable"><name>writeFast</name></member>
+    <member refid="gen__webdata_8cpp_1af2a849958c858356e13b2fdd019c88f3" kind="variable"><name>data</name></member>
+    <member refid="gen__webdata_8cpp_1aa3f149a85d297b073f6eee82fb6b95e8" kind="variable"><name>reader</name></member>
+    <member refid="gen__webdata_8cpp_1aaf524accc45839ceb117824f399618e7" kind="function"><name>write</name></member>
+    <member refid="gen__webdata_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="win32__setup_8cpp" kind="file"><name>win32_setup.cpp</name>
+    <member refid="win32__setup_8cpp_1ac35de693d4d779c539c1804a796d7c13" kind="variable"><name>pathbuf</name></member>
+    <member refid="win32__setup_8cpp_1a7099019568b624998479b21c8c702e9b" kind="variable"><name>wbuf</name></member>
+    <member refid="win32__setup_8cpp_1aaf6b4bbb50c8858dd2dfe69df46c86c2" kind="function"><name>getPathCSIDL</name></member>
+    <member refid="win32__setup_8cpp_1a4278e6b4c9e9e3dc3544f9948d52c8fb" kind="function"><name>getBinPath</name></member>
+    <member refid="win32__setup_8cpp_1a5bffa27a564345281432c357f3b77047" kind="function"><name>getExe</name></member>
+    <member refid="win32__setup_8cpp_1a1c86c7e624db230f3145dbd9e5cb7491" kind="function"><name>toWide</name></member>
+    <member refid="win32__setup_8cpp_1a89676a335e5f795005c8efabc4322f7d" kind="function"><name>fail</name></member>
+    <member refid="win32__setup_8cpp_1a0d25ec31069528699d51c2b38f3b6967" kind="function"><name>createLinks</name></member>
+    <member refid="win32__setup_8cpp_1a5e1173b5d176328ee074f8f3bf9f845f" kind="function"><name>copy_files</name></member>
+    <member refid="win32__setup_8cpp_1a64003026af65adda19bfdd071fe6f566" kind="function"><name>WinMain</name></member>
+  </compound>
+  <compound refid="zipjob_8hpp" kind="file"><name>zipjob.hpp</name>
+  </compound>
+  <compound refid="todo" kind="page"><name>todo</name>
+  </compound>
+  <compound refid="dir_017ad5e908c41501f6a06b5119b37293" kind="dir"><name>CMakeFiles/</name>
+  </compound>
+  <compound refid="dir_1ea40b781fec8b1cba0ea979f37f0baf" kind="dir"><name>CMakeFiles/CompilerIdC/</name>
+  </compound>
+  <compound refid="dir_e07af2d8a620e641b44fcb6be23c1650" kind="dir"><name>CMakeFiles/CompilerIdCXX/</name>
+  </compound>
+  <compound refid="dir_b7e040a2e4bf497614c856e961f9beaa" kind="dir"><name>libs/jsoncpp/include/</name>
+  </compound>
+  <compound refid="dir_01f9697b4e7e4329e13edeed3e014182" kind="dir"><name>libs/jsoncpp/include/json/</name>
+  </compound>
+  <compound refid="dir_6f104e58d17ff534e3a03c61e883a715" kind="dir"><name>libs/jsoncpp/</name>
+  </compound>
+  <compound refid="dir_6719ab1f1f7655efc2fa43f7eb574fd1" kind="dir"><name>libs/</name>
+  </compound>
+  <compound refid="dir_c2df278eb659a2cb8119305da464ca07" kind="dir"><name>libs/jsoncpp/src/</name>
+  </compound>
+  <compound refid="dir_562abdcd8625d4bf7bad2fe6fe01354c" kind="dir"><name>web/</name>
+  </compound>
+</doxygenindex>

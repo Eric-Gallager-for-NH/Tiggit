@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_column_handler" kind="struct" prot="public">
+    <compoundname>ColumnHandler</compoundname>
+    <derivedcompoundref refid="struct_add_date_col" prot="public" virt="non-virtual">AddDateCol</derivedcompoundref>
+    <derivedcompoundref refid="struct_downloads_col" prot="public" virt="non-virtual">DownloadsCol</derivedcompoundref>
+    <derivedcompoundref refid="struct_price_col" prot="public" virt="non-virtual">PriceCol</derivedcompoundref>
+    <derivedcompoundref refid="struct_rating_col" prot="public" virt="non-virtual">RatingCol</derivedcompoundref>
+    <derivedcompoundref refid="struct_status_col" prot="public" virt="non-virtual">StatusCol</derivedcompoundref>
+    <derivedcompoundref refid="struct_title_col" prot="public" virt="non-virtual">TitleCol</derivedcompoundref>
+    <derivedcompoundref refid="struct_type_col" prot="public" virt="non-virtual">TypeCol</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_column_handler_1acc8693935219ae4e189b9b862e2c735d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>wxString</type>
+        <definition>virtual wxString ColumnHandler::getText</definition>
+        <argsstring>(GameInfo &amp;e)=0</argsstring>
+        <name>getText</name>
+        <reimplementedby refid="struct_title_col_1a866c193a5b41be256b38738689f6bcd3">getText</reimplementedby>
+        <reimplementedby refid="struct_add_date_col_1a57c915272f4093784ede43e57b129983">getText</reimplementedby>
+        <reimplementedby refid="struct_type_col_1a94ca8f67b5da32f95950fb90e38fcebc">getText</reimplementedby>
+        <reimplementedby refid="struct_rating_col_1a4515abb05881ab3f67dbeeb58765de22">getText</reimplementedby>
+        <reimplementedby refid="struct_downloads_col_1a30363fcca8ef3a4c92906e262305c9ff">getText</reimplementedby>
+        <reimplementedby refid="struct_price_col_1ad92d347be672e3f78fd8fb3786c67acd">getText</reimplementedby>
+        <reimplementedby refid="struct_status_col_1a49713fd019525a7389f66db0b17d372b">getText</reimplementedby>
+        <param>
+          <type><ref refid="struct_game_info" kindref="compound">GameInfo</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="322">
+        <label>PriceCol</label>
+        <link refid="struct_price_col"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>TitleCol</label>
+        <link refid="struct_title_col"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>ColumnHandler</label>
+        <link refid="struct_column_handler"/>
+      </node>
+      <node id="321">
+        <label>DownloadsCol</label>
+        <link refid="struct_downloads_col"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>TypeCol</label>
+        <link refid="struct_type_col"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>RatingCol</label>
+        <link refid="struct_rating_col"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>StatusCol</label>
+        <link refid="struct_status_col"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>AddDateCol</label>
+        <link refid="struct_add_date_col"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="106" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="105" bodyend="108"/>
+    <listofallmembers>
+      <member refid="struct_column_handler_1acc8693935219ae4e189b9b862e2c735d" prot="public" virt="pure-virtual"><scope>ColumnHandler</scope><name>getText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

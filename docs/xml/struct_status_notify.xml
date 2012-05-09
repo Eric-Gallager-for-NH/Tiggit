@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_status_notify" kind="struct" prot="public">
+    <compoundname>StatusNotify</compoundname>
+    <derivedcompoundref refid="class_my_frame" prot="public" virt="non-virtual">MyFrame</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_status_notify_1afcf37ad77a3d23537ddbb098bed1a19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void StatusNotify::onDataChanged</definition>
+        <argsstring>()=0</argsstring>
+        <name>onDataChanged</name>
+        <reimplementedby refid="class_my_frame_1ac1e5030023f4ec7199a0bdc0b98372ca">onDataChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="335"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_status_notify_1ac6e45da5a5caf36785a32ae6ad70f711" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void StatusNotify::switchToInstalled</definition>
+        <argsstring>()=0</argsstring>
+        <name>switchToInstalled</name>
+        <reimplementedby refid="class_my_frame_1a2a5cb03ea4228f4929add644f5c56f83">switchToInstalled</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="336"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="592">
+        <label>MyFrame</label>
+        <link refid="class_my_frame"/>
+        <childnode refid="591" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="591">
+        <label>StatusNotify</label>
+        <link refid="struct_status_notify"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="334" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="333" bodyend="337"/>
+    <listofallmembers>
+      <member refid="struct_status_notify_1afcf37ad77a3d23537ddbb098bed1a19b" prot="public" virt="pure-virtual"><scope>StatusNotify</scope><name>onDataChanged</name></member>
+      <member refid="struct_status_notify_1ac6e45da5a5caf36785a32ae6ad70f711" prot="public" virt="pure-virtual"><scope>StatusNotify</scope><name>switchToInstalled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+.TH "StatusJob" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+StatusJob \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by ScreenshotLoader::Invoker, and \fBThreadJob\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBabort\fP ()"
+.br
+.ti -1c
+.RI "bool \fBhasStarted\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisBusy\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisSuccess\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisError\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisAbort\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisNonSuccess\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisFinished\fP () const "
+.br
+.ti -1c
+.RI "bool \fBabortRequested\fP () const "
+.br
+.ti -1c
+.RI "std::string \fBgetError\fP () const "
+.br
+.ti -1c
+.RI "virtual void \fBexecuteJob\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBrunNoThread\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetError\fP (const std::string &msg)"
+.br
+.ti -1c
+.RI "void \fBsetNone\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetBusy\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetDone\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetAbort\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 14 of file jobify\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

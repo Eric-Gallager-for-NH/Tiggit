@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_list_tab" kind="struct" prot="public">
+    <compoundname>ListTab</compoundname>
+    <basecompoundref refid="struct_tab_base" prot="public" virt="non-virtual">TabBase</basecompoundref>
+    <basecompoundref refid="struct_screenshot_callback" prot="public" virt="non-virtual">ScreenshotCallback</basecompoundref>
+    <derivedcompoundref refid="struct_freeware_list_tab" prot="public" virt="non-virtual">FreewareListTab</derivedcompoundref>
+    <derivedcompoundref refid="struct_installed_list_tab" prot="public" virt="non-virtual">InstalledListTab</derivedcompoundref>
+    <derivedcompoundref refid="struct_list_tab_non_empty" prot="public" virt="non-virtual">ListTabNonEmpty</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_list_tab_1a717880bb4007ad796d693c40dee5a235" prot="public" static="no" mutable="no">
+        <type>wxButton *</type>
+        <definition>wxButton* ListTab::b1</definition>
+        <argsstring></argsstring>
+        <name>b1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="341" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1ae710bdff9444264da4547870352b8f7e" prot="public" static="no" mutable="no">
+        <type>wxButton *</type>
+        <definition>wxButton * ListTab::b2</definition>
+        <argsstring></argsstring>
+        <name>b2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="341" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a21e9abb2480d7a8e829853c9e5c5dcb9" prot="public" static="no" mutable="no">
+        <type>wxButton *</type>
+        <definition>wxButton * ListTab::supportButton</definition>
+        <argsstring></argsstring>
+        <name>supportButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="341" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1ae338fee99b46c8e34b6dd6f5682c1c4a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_my_list" kindref="compound">MyList</ref> *</type>
+        <definition>MyList* ListTab::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="342" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1afcd593559b802e861a66a658a60c645a" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl* ListTab::textView</definition>
+        <argsstring></argsstring>
+        <name>textView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="343" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a6908d6262334eda4cf4ad03ff3c399e9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_image_viewer" kindref="compound">ImageViewer</ref> *</type>
+        <definition>ImageViewer* ListTab::screenshot</definition>
+        <argsstring></argsstring>
+        <name>screenshot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="344" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a2e50792652938b8951b5f5cd8375e676" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_image_viewer" kindref="compound">ImageViewer</ref> *</type>
+        <definition>ImageViewer * ListTab::ad_img</definition>
+        <argsstring></argsstring>
+        <name>ad_img</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="344" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a63daf34961a1c832eb936fbf7761846b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ListTab::select</definition>
+        <argsstring></argsstring>
+        <name>select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="345" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1afde1244ddb9ad9256bbb8e06b2d042cf" prot="public" static="no" mutable="no">
+        <type>time_t</type>
+        <definition>time_t ListTab::last_launch</definition>
+        <argsstring></argsstring>
+        <name>last_launch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="346" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a8cb4eb9896f9daef228123c00f6a9434" prot="public" static="no" mutable="no">
+        <type><ref refid="class_list_keeper" kindref="compound">ListKeeper</ref></type>
+        <definition>ListKeeper ListTab::lister</definition>
+        <argsstring></argsstring>
+        <name>lister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="347" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1ab890f6a57f3841ba918853aa2e87a5d4" prot="public" static="no" mutable="no">
+        <type>wxListBox *</type>
+        <definition>wxListBox* ListTab::tags</definition>
+        <argsstring></argsstring>
+        <name>tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="348" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a1440cd81fe735ee69c052d9736d37c02" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString ListTab::tabName</definition>
+        <argsstring></argsstring>
+        <name>tabName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="349" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a517e64070a34971184ce0b3845327045" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_status_notify" kindref="compound">StatusNotify</ref> *</type>
+        <definition>StatusNotify* ListTab::stat</definition>
+        <argsstring></argsstring>
+        <name>stat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="350" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a1df919aeb4e6e4dd48ab0da3292311fe" prot="public" static="no" mutable="no">
+        <type>wxChoice *</type>
+        <definition>wxChoice* ListTab::rateBox</definition>
+        <argsstring></argsstring>
+        <name>rateBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="351" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a0340593c73e4e54d9736c82dfc8ee6b5" prot="public" static="no" mutable="no">
+        <type>wxStaticText *</type>
+        <definition>wxStaticText* ListTab::rateText</definition>
+        <argsstring></argsstring>
+        <name>rateText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="352" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1a25203a99208d6288ca3f54fe86936751" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString ListTab::rateString[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>rateString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="353" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_list_tab_1af108fa3fbdbfd6932d24793bac2edfe7" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_tag_sorter_1_1_entry" kindref="compound">TagSorter::Entry</ref> &gt;</type>
+        <definition>std::vector&lt;TagSorter::Entry&gt; ListTab::taglist</definition>
+        <argsstring></argsstring>
+        <name>taglist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="355" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_list_tab_1ae6cd15376dc53a931817fba5f1106dc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListTab::ListTab</definition>
+        <argsstring>(wxNotebook *parent, const wxString &amp;name, int listType, StatusNotify *s, const SortOptions *sop=NULL)</argsstring>
+        <name>ListTab</name>
+        <param>
+          <type>wxNotebook *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>listType</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_status_notify" kindref="compound">StatusNotify</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_sort_options" kindref="compound">SortOptions</ref> *</type>
+          <declname>sop</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="361" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="357" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a7d2c1821b95a97f4586d52df15bc1e30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::createTagList</definition>
+        <argsstring>()</argsstring>
+        <name>createTagList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="512" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="511" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1ad329091d9da6e2bcb40f6073dc3564ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onUrlEvent</definition>
+        <argsstring>(wxTextUrlEvent &amp;event)</argsstring>
+        <name>onUrlEvent</name>
+        <param>
+          <type>wxTextUrlEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="539" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="538" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a0787fa1f6df1f6fe44326a5a144895ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onRating</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onRating</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="548" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="547" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1aeaa3bc9c78c225387d50c6f8c2b7f036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onTagSelect</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onTagSelect</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="565" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="564" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1ab8df7d076344af460db847ee365c9f55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ListTab::insertMe</definition>
+        <argsstring>()</argsstring>
+        <name>insertMe</name>
+        <reimplements refid="struct_tab_base_1a7369a5f3cbe3fe6a9d2185ceb0ed26fe">insertMe</reimplements>
+        <reimplementedby refid="struct_list_tab_non_empty_1a7bd81757123eda9b7c317c321bf32e30">insertMe</reimplementedby>
+        <reimplementedby refid="struct_freeware_list_tab_1ac5a683e408ef8d4c4fbef035a004643d">insertMe</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="584" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="583" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1ae57fa84a43f1e1ad95ee2747247f749d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ListTab::takeFocus</definition>
+        <argsstring>()</argsstring>
+        <name>takeFocus</name>
+        <reimplements refid="struct_tab_base_1ab3e91bf9e981c736d15800324ac22dbb">takeFocus</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="591" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="590" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a70c339cd735a3a3b45a9e6a5649ebe83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::listHasChanged</definition>
+        <argsstring>(bool stay=false)</argsstring>
+        <name>listHasChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>stay</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="599" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="598" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a73445ff0fc8883e21d1ed20a051d95fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::updateGameInfo</definition>
+        <argsstring>()</argsstring>
+        <name>updateGameInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="605" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="604" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a5aff2789c36a9d39abc5efb2f2b0c0b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ListTab::shotIsReady</definition>
+        <argsstring>(const std::string &amp;idname, const wxImage &amp;shot)</argsstring>
+        <name>shotIsReady</name>
+        <reimplements refid="struct_screenshot_callback_1ad07ade488ea05e0b397baee0ef2dc923">shotIsReady</reimplements>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>idname</declname>
+        </param>
+        <param>
+          <type>const wxImage &amp;</type>
+          <declname>shot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="648" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="647" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1aadb7063955574c13d9eea164a32fdb5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::updateSelection</definition>
+        <argsstring>()</argsstring>
+        <name>updateSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="663" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="662" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a62965404468a435a88f9be74f8723a9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::fixButtons</definition>
+        <argsstring>()</argsstring>
+        <name>fixButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="670" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="669" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1ad8eb6ed06371784633dd1cf96b734490" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onSearch</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onSearch</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="722" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="721" bodyend="726"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a7e159fadab965b718ab25ac1f0803c47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onSortChange</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onSortChange</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="730" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="729" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a9b8d8bc1ae764b235c7445b3d1ca196a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::updateStatus</definition>
+        <argsstring>(int index)</argsstring>
+        <name>updateStatus</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="751" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="750" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a6f6ea57ef9c4e90c5ca094aec8b7a2b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::startDownload</definition>
+        <argsstring>(int index)</argsstring>
+        <name>startDownload</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="776" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="775" bodyend="810"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a77ce1163d4dd1c18f445a1166aab77b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::statusChanged</definition>
+        <argsstring>(bool newInst=false, bool dataChange=true)</argsstring>
+        <name>statusChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>newInst</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>dataChange</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="818" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="817" bodyend="828"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1afc980d99c305488242a583bc61225fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::doAction</definition>
+        <argsstring>(int index, int b)</argsstring>
+        <name>doAction</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="831" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="830" bodyend="957"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a7052d63cb8a4552553f794c257c06675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onGamePage</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onGamePage</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="960" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="959" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a0c24b27f20cdb38e0eb673245f7c0542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onButton</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onButton</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1010" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1009" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1ad2dfddbd6e0083f682a5689cc5411352" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onListDeselect</definition>
+        <argsstring>(wxListEvent &amp;event)</argsstring>
+        <name>onListDeselect</name>
+        <param>
+          <type>wxListEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1017" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1016" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1adadc2db079b8ad23165040e50ad77831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onListSelect</definition>
+        <argsstring>(wxListEvent &amp;event)</argsstring>
+        <name>onListSelect</name>
+        <param>
+          <type>wxListEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1023" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1022" bodyend="1026"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1ac062d6e7b531ad8ec65a9ad307ea7022" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onListRightClick</definition>
+        <argsstring>(wxListEvent &amp;event)</argsstring>
+        <name>onListRightClick</name>
+        <param>
+          <type>wxListEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1029" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1028" bodyend="1068"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a65e30fb2ab50bc4a324dec7a0a8a5014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onContextClick</definition>
+        <argsstring>(wxCommandEvent &amp;evt)</argsstring>
+        <name>onContextClick</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1072" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1071" bodyend="1103"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a7adba5f85eb8d87734efe27efd40c5ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListTab::onListActivate</definition>
+        <argsstring>(wxListEvent &amp;event)</argsstring>
+        <name>onListActivate</name>
+        <param>
+          <type>wxListEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1106" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1105" bodyend="1108"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_tab_1a05044166fa2e690c3f17a71f2e27121f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ListTab::dataChanged</definition>
+        <argsstring>()</argsstring>
+        <name>dataChanged</name>
+        <reimplements refid="struct_tab_base_1a612044dd2c5cf7a1dd81fb6e3a4779f0">dataChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1111" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1110" bodyend="1115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="455">
+        <label>ListTabNonEmpty</label>
+        <link refid="struct_list_tab_non_empty"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="453">
+        <label>FreewareListTab</label>
+        <link refid="struct_freeware_list_tab"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="450">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+        <childnode refid="452" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="452">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="456">
+        <label>DemoListTab</label>
+        <link refid="struct_demo_list_tab"/>
+        <childnode refid="455" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>InstalledListTab</label>
+        <link refid="struct_installed_list_tab"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="451">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+      <node id="457">
+        <label>NewGameListTab</label>
+        <link refid="struct_new_game_list_tab"/>
+        <childnode refid="455" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="462">
+        <label>ListKeeper</label>
+        <link refid="class_list_keeper"/>
+      </node>
+      <node id="458">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="459" relation="public-inheritance">
+        </childnode>
+        <childnode refid="460" relation="public-inheritance">
+        </childnode>
+        <childnode refid="461" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+        <childnode refid="462" relation="usage">
+          <edgelabel>lister</edgelabel>
+        </childnode>
+        <childnode refid="463" relation="usage">
+          <edgelabel>stat</edgelabel>
+        </childnode>
+        <childnode refid="464" relation="usage">
+          <edgelabel>ad_img</edgelabel>
+          <edgelabel>screenshot</edgelabel>
+        </childnode>
+      </node>
+      <node id="461">
+        <label>MyList</label>
+        <link refid="class_my_list"/>
+      </node>
+      <node id="464">
+        <label>ImageViewer</label>
+        <link refid="struct_image_viewer"/>
+      </node>
+      <node id="460">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="463">
+        <label>StatusNotify</label>
+        <link refid="struct_status_notify"/>
+      </node>
+      <node id="459">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="340" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="339" bodyend="1116"/>
+    <listofallmembers>
+      <member refid="struct_list_tab_1a2e50792652938b8951b5f5cd8375e676" prot="public" virt="non-virtual"><scope>ListTab</scope><name>ad_img</name></member>
+      <member refid="struct_list_tab_1a717880bb4007ad796d693c40dee5a235" prot="public" virt="non-virtual"><scope>ListTab</scope><name>b1</name></member>
+      <member refid="struct_list_tab_1ae710bdff9444264da4547870352b8f7e" prot="public" virt="non-virtual"><scope>ListTab</scope><name>b2</name></member>
+      <member refid="struct_tab_base_1a4274555386ba73360e42ac1162deb0ee" prot="public" virt="non-virtual"><scope>ListTab</scope><name>book</name></member>
+      <member refid="struct_list_tab_1a7d2c1821b95a97f4586d52df15bc1e30" prot="public" virt="non-virtual"><scope>ListTab</scope><name>createTagList</name></member>
+      <member refid="struct_list_tab_1a05044166fa2e690c3f17a71f2e27121f" prot="public" virt="virtual"><scope>ListTab</scope><name>dataChanged</name></member>
+      <member refid="struct_list_tab_1afc980d99c305488242a583bc61225fe0" prot="public" virt="non-virtual"><scope>ListTab</scope><name>doAction</name></member>
+      <member refid="struct_list_tab_1a62965404468a435a88f9be74f8723a9a" prot="public" virt="non-virtual"><scope>ListTab</scope><name>fixButtons</name></member>
+      <member refid="struct_list_tab_1ab8df7d076344af460db847ee365c9f55" prot="public" virt="virtual"><scope>ListTab</scope><name>insertMe</name></member>
+      <member refid="struct_list_tab_1afde1244ddb9ad9256bbb8e06b2d042cf" prot="public" virt="non-virtual"><scope>ListTab</scope><name>last_launch</name></member>
+      <member refid="struct_list_tab_1ae338fee99b46c8e34b6dd6f5682c1c4a" prot="public" virt="non-virtual"><scope>ListTab</scope><name>list</name></member>
+      <member refid="struct_list_tab_1a8cb4eb9896f9daef228123c00f6a9434" prot="public" virt="non-virtual"><scope>ListTab</scope><name>lister</name></member>
+      <member refid="struct_list_tab_1a70c339cd735a3a3b45a9e6a5649ebe83" prot="public" virt="non-virtual"><scope>ListTab</scope><name>listHasChanged</name></member>
+      <member refid="struct_list_tab_1ae6cd15376dc53a931817fba5f1106dc4" prot="public" virt="non-virtual"><scope>ListTab</scope><name>ListTab</name></member>
+      <member refid="struct_list_tab_1a0c24b27f20cdb38e0eb673245f7c0542" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onButton</name></member>
+      <member refid="struct_list_tab_1a65e30fb2ab50bc4a324dec7a0a8a5014" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onContextClick</name></member>
+      <member refid="struct_list_tab_1a7052d63cb8a4552553f794c257c06675" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onGamePage</name></member>
+      <member refid="struct_list_tab_1a7adba5f85eb8d87734efe27efd40c5ca" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onListActivate</name></member>
+      <member refid="struct_list_tab_1ad2dfddbd6e0083f682a5689cc5411352" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onListDeselect</name></member>
+      <member refid="struct_list_tab_1ac062d6e7b531ad8ec65a9ad307ea7022" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onListRightClick</name></member>
+      <member refid="struct_list_tab_1adadc2db079b8ad23165040e50ad77831" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onListSelect</name></member>
+      <member refid="struct_list_tab_1a0787fa1f6df1f6fe44326a5a144895ca" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onRating</name></member>
+      <member refid="struct_list_tab_1ad8eb6ed06371784633dd1cf96b734490" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onSearch</name></member>
+      <member refid="struct_list_tab_1a7e159fadab965b718ab25ac1f0803c47" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onSortChange</name></member>
+      <member refid="struct_list_tab_1aeaa3bc9c78c225387d50c6f8c2b7f036" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onTagSelect</name></member>
+      <member refid="struct_list_tab_1ad329091d9da6e2bcb40f6073dc3564ee" prot="public" virt="non-virtual"><scope>ListTab</scope><name>onUrlEvent</name></member>
+      <member refid="struct_list_tab_1a1df919aeb4e6e4dd48ab0da3292311fe" prot="public" virt="non-virtual"><scope>ListTab</scope><name>rateBox</name></member>
+      <member refid="struct_list_tab_1a25203a99208d6288ca3f54fe86936751" prot="public" virt="non-virtual"><scope>ListTab</scope><name>rateString</name></member>
+      <member refid="struct_list_tab_1a0340593c73e4e54d9736c82dfc8ee6b5" prot="public" virt="non-virtual"><scope>ListTab</scope><name>rateText</name></member>
+      <member refid="struct_list_tab_1a6908d6262334eda4cf4ad03ff3c399e9" prot="public" virt="non-virtual"><scope>ListTab</scope><name>screenshot</name></member>
+      <member refid="struct_list_tab_1a63daf34961a1c832eb936fbf7761846b" prot="public" virt="non-virtual"><scope>ListTab</scope><name>select</name></member>
+      <member refid="struct_tab_base_1acc8a88abc1a420c704c8bc5143c4c8bd" prot="public" virt="non-virtual"><scope>ListTab</scope><name>selectMe</name></member>
+      <member refid="struct_list_tab_1a5aff2789c36a9d39abc5efb2f2b0c0b1" prot="public" virt="virtual"><scope>ListTab</scope><name>shotIsReady</name></member>
+      <member refid="struct_list_tab_1a6f6ea57ef9c4e90c5ca094aec8b7a2b7" prot="public" virt="non-virtual"><scope>ListTab</scope><name>startDownload</name></member>
+      <member refid="struct_list_tab_1a517e64070a34971184ce0b3845327045" prot="public" virt="non-virtual"><scope>ListTab</scope><name>stat</name></member>
+      <member refid="struct_list_tab_1a77ce1163d4dd1c18f445a1166aab77b3" prot="public" virt="non-virtual"><scope>ListTab</scope><name>statusChanged</name></member>
+      <member refid="struct_list_tab_1a21e9abb2480d7a8e829853c9e5c5dcb9" prot="public" virt="non-virtual"><scope>ListTab</scope><name>supportButton</name></member>
+      <member refid="struct_tab_base_1af426aaeb43b31c090cbc30c5dd692c1b" prot="public" virt="non-virtual"><scope>ListTab</scope><name>TabBase</name></member>
+      <member refid="struct_list_tab_1a1440cd81fe735ee69c052d9736d37c02" prot="public" virt="non-virtual"><scope>ListTab</scope><name>tabName</name></member>
+      <member refid="struct_tab_base_1a3c2fcafc0c5e81f7815749e24374145d" prot="public" virt="non-virtual"><scope>ListTab</scope><name>tabNum</name></member>
+      <member refid="struct_list_tab_1af108fa3fbdbfd6932d24793bac2edfe7" prot="public" virt="non-virtual"><scope>ListTab</scope><name>taglist</name></member>
+      <member refid="struct_list_tab_1ab890f6a57f3841ba918853aa2e87a5d4" prot="public" virt="non-virtual"><scope>ListTab</scope><name>tags</name></member>
+      <member refid="struct_list_tab_1ae57fa84a43f1e1ad95ee2747247f749d" prot="public" virt="virtual"><scope>ListTab</scope><name>takeFocus</name></member>
+      <member refid="struct_list_tab_1afcd593559b802e861a66a658a60c645a" prot="public" virt="non-virtual"><scope>ListTab</scope><name>textView</name></member>
+      <member refid="struct_tab_base_1ab9384b404604ca14a9a5e105410b4a1d" prot="public" virt="virtual"><scope>ListTab</scope><name>tick</name></member>
+      <member refid="struct_list_tab_1a73445ff0fc8883e21d1ed20a051d95fc" prot="public" virt="non-virtual"><scope>ListTab</scope><name>updateGameInfo</name></member>
+      <member refid="struct_list_tab_1aadb7063955574c13d9eea164a32fdb5b" prot="public" virt="non-virtual"><scope>ListTab</scope><name>updateSelection</name></member>
+      <member refid="struct_list_tab_1a9b8d8bc1ae764b235c7445b3d1ca196a" prot="public" virt="non-virtual"><scope>ListTab</scope><name>updateStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

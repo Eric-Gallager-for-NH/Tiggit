@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="os_8hpp" kind="file">
+    <compoundname>os.hpp</compoundname>
+    <includes local="yes">stdafx.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="yes">comutil.h</includes>
+    <incdepgraph>
+      <node id="746">
+        <label>stdafx.h</label>
+      </node>
+      <node id="748">
+        <label>comutil.h</label>
+      </node>
+      <node id="745">
+        <label>os.hpp</label>
+        <link refid="os.hpp"/>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="747" relation="include">
+        </childnode>
+        <childnode refid="748" relation="include">
+        </childnode>
+      </node>
+      <node id="747">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="os_8hpp_1a251ab0a7cc7e8ae6a1870e6990ae2fe0" prot="public" static="no">
+        <name>RESPONSE_32_BIT</name>
+        <initializer>&quot;32&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/os.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/os.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="os_8hpp_1a633816c32fc07c8426d91f1e9f1f4616" prot="public" static="no">
+        <name>RESPONSE_64_BIT</name>
+        <initializer>&quot;64&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/os.hpp" line="34" bodyfile="/Users/ericgallager/Tiggit/os.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="os_8hpp_1a85034d593737d48c261ab72668335324" prot="public" static="no">
+        <type>BOOL(WINAPI *</type>
+        <definition>typedef BOOL(WINAPI * IW64PFP)(HANDLE, BOOL *)</definition>
+        <argsstring>)(HANDLE, BOOL *)</argsstring>
+        <name>IW64PFP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/os.hpp" line="38" bodyfile="/Users/ericgallager/Tiggit/os.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="os_8hpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/os.hpp" line="40" bodyfile="/Users/ericgallager/Tiggit/os.hpp" bodystart="40" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>scrap<sp/>file,<sp/>it&apos;s<sp/>not<sp/>yet<sp/>in<sp/>use.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/>isWin<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__linux__</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/>isLin<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>TARGET_OS_MAC</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/>isMac<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>Windows<sp/>bit-ness<sp/>checker.<sp/>Not<sp/>in<sp/>use<sp/>yet.<sp/>Checks<sp/>if<sp/>the<sp/>client</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>system<sp/>is<sp/>32-bit<sp/>or<sp/>64-bit<sp/>(regardless<sp/>of<sp/>whether<sp/>THIS<sp/>is<sp/>a<sp/>32<sp/>or<sp/>64</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>bit<sp/>application!)</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"></highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>Taken<sp/>from:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/>http://mark.koli.ch/2009/10/reliably-checking-os-bitness-32-or-64-bit-on-windows-with-a-tiny-c-app.html</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/>A<sp/>linux<sp/>version<sp/>would<sp/>need<sp/>to<sp/>check<sp/>the<sp/>kernel<sp/>some<sp/>way<sp/>or</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/>another.<sp/>At<sp/>any<sp/>rate,<sp/>we&apos;d<sp/>normally<sp/>only<sp/>run<sp/>this<sp/>at<sp/>startup<sp/>-<sp/>in</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/>fact,<sp/>just<sp/>create<sp/>a<sp/>platform-independent<sp/>OS<sp/>class<sp/>that<sp/>checks<sp/>this</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/>as<sp/>well<sp/>as<sp/>what<sp/>OS<sp/>we<sp/>have<sp/>and<sp/>other<sp/>pertinent<sp/>information.</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdafx.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;comutil.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RESPONSE_32_BIT<sp/>&quot;32&quot;</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RESPONSE_64_BIT<sp/>&quot;64&quot;</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BOOL<sp/>(WINAPI<sp/>*IW64PFP)(HANDLE,<sp/>BOOL<sp/>*);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**argv){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>BOOL<sp/>res<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>When<sp/>this<sp/>application<sp/>is<sp/>compiled<sp/>as<sp/>a<sp/>32-bit<sp/>app,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>run<sp/>on<sp/>a<sp/>native<sp/>64-bit<sp/>system,<sp/>Windows<sp/>will<sp/>run</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>application<sp/>under<sp/>WOW64.<sp/><sp/>WOW64<sp/>is<sp/>the<sp/>Windows-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>on-Windows<sp/>subsystem<sp/>that<sp/>lets<sp/>native<sp/>32-bit<sp/>applications</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>run<sp/>in<sp/>64-bit<sp/>land.<sp/><sp/>This<sp/>calls<sp/>the<sp/>kernel32.dll</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>API<sp/>to<sp/>see<sp/>if<sp/>this<sp/>process<sp/>is<sp/>running<sp/>under<sp/>WOW64.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>it<sp/>is<sp/>running<sp/>under<sp/>WOW64,<sp/>then<sp/>that<sp/>clearly<sp/>means</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>32-bit<sp/>application<sp/>is<sp/>running<sp/>on<sp/>a<sp/>64-bit<sp/>OS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>IsWow64Process<sp/>will<sp/>return<sp/>true.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>IW64PFP<sp/>IW64P<sp/>=<sp/>(IW64PFP)GetProcAddress(</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetModuleHandle(L</highlight><highlight class="stringliteral">&quot;kernel32&quot;</highlight><highlight class="normal">),<sp/></highlight><highlight class="stringliteral">&quot;IsWow64Process&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IW64P<sp/>!=<sp/>NULL){</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>IW64P(GetCurrentProcess(),<sp/>&amp;res);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>cout<sp/>&lt;&lt;<sp/>((res)<sp/>?<sp/>RESPONSE_64_BIT<sp/>:<sp/>RESPONSE_32_BIT)<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/ericgallager/Tiggit/os.hpp"/>
+  </compounddef>
+</doxygen>

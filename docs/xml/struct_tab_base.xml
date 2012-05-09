@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_tab_base" kind="struct" prot="public">
+    <compoundname>TabBase</compoundname>
+    <derivedcompoundref refid="struct_list_tab" prot="public" virt="non-virtual">ListTab</derivedcompoundref>
+    <derivedcompoundref refid="struct_news_tab" prot="public" virt="non-virtual">NewsTab</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_tab_base_1a4274555386ba73360e42ac1162deb0ee" prot="public" static="no" mutable="no">
+        <type>wxNotebook *</type>
+        <definition>wxNotebook* TabBase::book</definition>
+        <argsstring></argsstring>
+        <name>book</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="9" bodyfile="/Users/ericgallager/Tiggit/tabbase.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tab_base_1a3c2fcafc0c5e81f7815749e24374145d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TabBase::tabNum</definition>
+        <argsstring></argsstring>
+        <name>tabNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="13" bodyfile="/Users/ericgallager/Tiggit/tabbase.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_tab_base_1af426aaeb43b31c090cbc30c5dd692c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TabBase::TabBase</definition>
+        <argsstring>(wxNotebook *parent)</argsstring>
+        <name>TabBase</name>
+        <param>
+          <type>wxNotebook *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="17" bodyfile="/Users/ericgallager/Tiggit/tabbase.hpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tab_base_1ab3e91bf9e981c736d15800324ac22dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void TabBase::takeFocus</definition>
+        <argsstring>()=0</argsstring>
+        <name>takeFocus</name>
+        <reimplementedby refid="struct_news_tab_1ab7f276b0d863e45af46df1b4caf56ad4">takeFocus</reimplementedby>
+        <reimplementedby refid="struct_list_tab_1ae57fa84a43f1e1ad95ee2747247f749d">takeFocus</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tab_base_1ab9384b404604ca14a9a5e105410b4a1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TabBase::tick</definition>
+        <argsstring>()</argsstring>
+        <name>tick</name>
+        <reimplementedby refid="struct_installed_list_tab_1a79542db9b0a8cff839218b7b470feded">tick</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="26" bodyfile="/Users/ericgallager/Tiggit/tabbase.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tab_base_1a612044dd2c5cf7a1dd81fb6e3a4779f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void TabBase::dataChanged</definition>
+        <argsstring>()=0</argsstring>
+        <name>dataChanged</name>
+        <reimplementedby refid="struct_news_tab_1ae338ae593a329a92f4bb360e47adb3e9">dataChanged</reimplementedby>
+        <reimplementedby refid="struct_list_tab_1a05044166fa2e690c3f17a71f2e27121f">dataChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="31"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tab_base_1a7369a5f3cbe3fe6a9d2185ceb0ed26fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TabBase::insertMe</definition>
+        <argsstring>()</argsstring>
+        <name>insertMe</name>
+        <reimplementedby refid="struct_news_tab_1a92cd045fe93885b4052682eaa8a7ab3e">insertMe</reimplementedby>
+        <reimplementedby refid="struct_list_tab_1ab8df7d076344af460db847ee365c9f55">insertMe</reimplementedby>
+        <reimplementedby refid="struct_list_tab_non_empty_1a7bd81757123eda9b7c317c321bf32e30">insertMe</reimplementedby>
+        <reimplementedby refid="struct_freeware_list_tab_1ac5a683e408ef8d4c4fbef035a004643d">insertMe</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="35" bodyfile="/Users/ericgallager/Tiggit/tabbase.hpp" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tab_base_1acc8a88abc1a420c704c8bc5143c4c8bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TabBase::selectMe</definition>
+        <argsstring>()</argsstring>
+        <name>selectMe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="44" bodyfile="/Users/ericgallager/Tiggit/tabbase.hpp" bodystart="43" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="598">
+        <label>ListTabNonEmpty</label>
+        <link refid="struct_list_tab_non_empty"/>
+        <childnode refid="595" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="596">
+        <label>FreewareListTab</label>
+        <link refid="struct_freeware_list_tab"/>
+        <childnode refid="595" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="601">
+        <label>NewsTab</label>
+        <link refid="struct_news_tab"/>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="595">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="599">
+        <label>DemoListTab</label>
+        <link refid="struct_demo_list_tab"/>
+        <childnode refid="598" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="597">
+        <label>InstalledListTab</label>
+        <link refid="struct_installed_list_tab"/>
+        <childnode refid="595" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="594">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+      <node id="600">
+        <label>NewGameListTab</label>
+        <link refid="struct_new_game_list_tab"/>
+        <childnode refid="598" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/ericgallager/Tiggit/tabbase.hpp" line="8" bodyfile="/Users/ericgallager/Tiggit/tabbase.hpp" bodystart="7" bodyend="53"/>
+    <listofallmembers>
+      <member refid="struct_tab_base_1a4274555386ba73360e42ac1162deb0ee" prot="public" virt="non-virtual"><scope>TabBase</scope><name>book</name></member>
+      <member refid="struct_tab_base_1a612044dd2c5cf7a1dd81fb6e3a4779f0" prot="public" virt="pure-virtual"><scope>TabBase</scope><name>dataChanged</name></member>
+      <member refid="struct_tab_base_1a7369a5f3cbe3fe6a9d2185ceb0ed26fe" prot="public" virt="virtual"><scope>TabBase</scope><name>insertMe</name></member>
+      <member refid="struct_tab_base_1acc8a88abc1a420c704c8bc5143c4c8bd" prot="public" virt="non-virtual"><scope>TabBase</scope><name>selectMe</name></member>
+      <member refid="struct_tab_base_1af426aaeb43b31c090cbc30c5dd692c1b" prot="public" virt="non-virtual"><scope>TabBase</scope><name>TabBase</name></member>
+      <member refid="struct_tab_base_1a3c2fcafc0c5e81f7815749e24374145d" prot="public" virt="non-virtual"><scope>TabBase</scope><name>tabNum</name></member>
+      <member refid="struct_tab_base_1ab3e91bf9e981c736d15800324ac22dbb" prot="public" virt="pure-virtual"><scope>TabBase</scope><name>takeFocus</name></member>
+      <member refid="struct_tab_base_1ab9384b404604ca14a9a5e105410b4a1d" prot="public" virt="virtual"><scope>TabBase</scope><name>tick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

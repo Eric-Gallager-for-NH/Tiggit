@@ -1,0 +1,102 @@
+.TH "GameInfo" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GameInfo \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBisInstalled\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisWorking\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisUnpacking\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisDownloading\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisNone\fP () const "
+.br
+.ti -1c
+.RI "void \fBrateGame\fP (int rating)"
+.br
+.ti -1c
+.RI "int \fBmyRating\fP ()"
+.br
+.ti -1c
+.RI "void \fBstartDownload\fP ()"
+.br
+.ti -1c
+.RI "int \fBupdateStatus\fP ()"
+.br
+.ti -1c
+.RI "void \fBrequestShot\fP (\fBScreenshotCallback\fP *cb=NULL)"
+.br
+.ti -1c
+.RI "void \fBabortJob\fP ()"
+.br
+.ti -1c
+.RI "const wxString & \fBgetStatus\fP () const "
+.br
+.ti -1c
+.RI "void \fBsetInstalled\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetUninstalled\fP ()"
+.br
+.ti -1c
+.RI "\fBGameInfo\fP (\fBDataList::Entry\fP &e)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBGameInfo\fP & \fBconv\fP (\fBDataList::Entry\fP &e)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBDataList::Entry\fP & \fBentry\fP"
+.br
+.ti -1c
+.RI "wxString \fBurlname\fP"
+.br
+.ti -1c
+.RI "wxString \fBidname\fP"
+.br
+.ti -1c
+.RI "wxString \fBname\fP"
+.br
+.ti -1c
+.RI "wxString \fBtigurl\fP"
+.br
+.ti -1c
+.RI "wxString \fBtimeString\fP"
+.br
+.ti -1c
+.RI "wxString \fBrating\fP"
+.br
+.ti -1c
+.RI "wxString \fBdlCount\fP"
+.br
+.ti -1c
+.RI "wxString \fBprice\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 26 of file gameinfo\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

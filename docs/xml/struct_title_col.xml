@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_title_col" kind="struct" prot="public">
+    <compoundname>TitleCol</compoundname>
+    <basecompoundref refid="struct_column_handler" prot="public" virt="non-virtual">ColumnHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_title_col_1a866c193a5b41be256b38738689f6bcd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>wxString</type>
+        <definition>wxString TitleCol::getText</definition>
+        <argsstring>(GameInfo &amp;e)</argsstring>
+        <name>getText</name>
+        <reimplements refid="struct_column_handler_1acc8693935219ae4e189b9b862e2c735d">getText</reimplements>
+        <param>
+          <type><ref refid="struct_game_info" kindref="compound">GameInfo</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="253" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="252" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="618">
+        <label>TitleCol</label>
+        <link refid="struct_title_col"/>
+        <childnode refid="619" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="619">
+        <label>ColumnHandler</label>
+        <link refid="struct_column_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="620">
+        <label>TitleCol</label>
+        <link refid="struct_title_col"/>
+        <childnode refid="621" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="621">
+        <label>ColumnHandler</label>
+        <link refid="struct_column_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="251" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="250" bodyend="256"/>
+    <listofallmembers>
+      <member refid="struct_title_col_1a866c193a5b41be256b38738689f6bcd3" prot="public" virt="virtual"><scope>TitleCol</scope><name>getText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

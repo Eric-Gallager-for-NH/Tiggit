@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$struct_thread_job.html" title="ThreadJob" alt="" coords="217,80,303,107"/>
+<area shape="rect" id="node7" href="$struct_download_job.html" title="DownloadJob" alt="" coords="61,155,168,181"/>
+<area shape="rect" id="node9" href="$class_screenshot_loader.html" title="ScreenshotLoader" alt="" coords="192,155,328,181"/>
+<area shape="rect" id="node11" href="$struct_zip_job.html" title="ZipJob" alt="" coords="352,155,416,181"/>
+</map>

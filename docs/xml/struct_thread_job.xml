@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_thread_job" kind="struct" prot="public">
+    <compoundname>ThreadJob</compoundname>
+    <basecompoundref refid="struct_status_job" prot="public" virt="non-virtual">StatusJob</basecompoundref>
+    <derivedcompoundref refid="struct_download_job" prot="public" virt="non-virtual">DownloadJob</derivedcompoundref>
+    <derivedcompoundref refid="class_screenshot_loader" prot="public" virt="non-virtual">ScreenshotLoader</derivedcompoundref>
+    <derivedcompoundref refid="struct_zip_job" prot="public" virt="non-virtual">ZipJob</derivedcompoundref>
+    <innerclass refid="struct_thread_job_1_1wx_job_runner" prot="private">ThreadJob::wxJobRunner</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_thread_job_1a3db7a86ca4c03924cc693416a7fef240" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ThreadJob::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <reimplements refid="struct_status_job_1a43292a61c894235e4d7c41468a1c67ba">run</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="79" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_thread_job_1af1f2c090908c3df0cc55c102b7cb11ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ThreadJob::runAndDelete</definition>
+        <argsstring>()</argsstring>
+        <name>runAndDelete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="88" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="87" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="609">
+        <label>DownloadJob</label>
+        <link refid="struct_download_job"/>
+        <childnode refid="607" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="611">
+        <label>ZipJob</label>
+        <link refid="struct_zip_job"/>
+        <childnode refid="607" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="607">
+        <label>ThreadJob</label>
+        <link refid="struct_thread_job"/>
+        <childnode refid="608" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="608">
+        <label>StatusJob</label>
+        <link refid="struct_status_job"/>
+      </node>
+      <node id="610">
+        <label>ScreenshotLoader</label>
+        <link refid="class_screenshot_loader"/>
+        <childnode refid="607" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="612">
+        <label>ThreadJob</label>
+        <link refid="struct_thread_job"/>
+        <childnode refid="613" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="613">
+        <label>StatusJob</label>
+        <link refid="struct_status_job"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="76" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="75" bodyend="119"/>
+    <listofallmembers>
+      <member refid="struct_status_job_1a06e0afdd705e4c9873de208a5fc40579" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>abort</name></member>
+      <member refid="struct_status_job_1a48bef51411d1ea0513a452efeb729937" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>abortRequested</name></member>
+      <member refid="struct_status_job_1a99748d85fb79590ac93d756e11c7a23b" prot="public" virt="pure-virtual"><scope>ThreadJob</scope><name>executeJob</name></member>
+      <member refid="struct_status_job_1a96846d13ece51fcc292fb8de0f170f42" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>getError</name></member>
+      <member refid="struct_status_job_1ad759e3f36454061c889e6172bb600e3a" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>hasStarted</name></member>
+      <member refid="struct_status_job_1a2bb0bca42f45961de04636eaa680e51e" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>isAbort</name></member>
+      <member refid="struct_status_job_1ace0dda0b3f7e7fb958f970877052ef14" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>isBusy</name></member>
+      <member refid="struct_status_job_1a9ab1cde6269061b8de7bcf829c8435f5" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>isError</name></member>
+      <member refid="struct_status_job_1a9493c6bbbfc33be95016785b8f979d83" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>isFinished</name></member>
+      <member refid="struct_status_job_1abdc7540975bb641ec05ad225cafaf752" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>isNonSuccess</name></member>
+      <member refid="struct_status_job_1a147ccff65fd3e287cff5df61fb0b85c4" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>isSuccess</name></member>
+      <member refid="struct_thread_job_1a3db7a86ca4c03924cc693416a7fef240" prot="public" virt="virtual"><scope>ThreadJob</scope><name>run</name></member>
+      <member refid="struct_thread_job_1af1f2c090908c3df0cc55c102b7cb11ae" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>runAndDelete</name></member>
+      <member refid="struct_status_job_1af02e101615feba1c7c573ffd47e4bf7f" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>runNoThread</name></member>
+      <member refid="struct_status_job_1abe811fbc93ef865a8cfe1b9e846c535f" prot="protected" virt="non-virtual"><scope>ThreadJob</scope><name>setAbort</name></member>
+      <member refid="struct_status_job_1a7ffbcc5914a8de0f05e6277f557590ca" prot="protected" virt="non-virtual"><scope>ThreadJob</scope><name>setBusy</name></member>
+      <member refid="struct_status_job_1a27329cdb3ecb7af96174c2d82990ee40" prot="protected" virt="non-virtual"><scope>ThreadJob</scope><name>setDone</name></member>
+      <member refid="struct_status_job_1adcf8da2ad775e9426112ed39db5f7d3b" prot="protected" virt="non-virtual"><scope>ThreadJob</scope><name>setError</name></member>
+      <member refid="struct_status_job_1a027e316e0d11862f130c153d86a7bcb2" prot="protected" virt="non-virtual"><scope>ThreadJob</scope><name>setNone</name></member>
+      <member refid="struct_status_job_1ac5b169cdbe634bdc4a205229982e2e8b" prot="public" virt="non-virtual"><scope>ThreadJob</scope><name>StatusJob</name></member>
+      <member refid="struct_status_job_1adaccfd7adffb90324fd94afce80d05d2" prot="public" virt="virtual"><scope>ThreadJob</scope><name>~StatusJob</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

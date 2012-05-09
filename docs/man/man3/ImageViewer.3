@@ -1,0 +1,45 @@
+.TH "ImageViewer" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ImageViewer \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBImageViewer\fP (wxWindow *parent, wxWindowID id=-1, const wxPoint &pos=wxDefaultPosition, const wxSize &size=wxDefaultSize)"
+.br
+.ti -1c
+.RI "void \fBloadImage\fP (const wxImage &image)"
+.br
+.ti -1c
+.RI "void \fBloadImage\fP (const std::string &file)"
+.br
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnPaint\fP (wxPaintEvent &event)"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "wxBitmap \fBbitmap\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file image_viewer\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

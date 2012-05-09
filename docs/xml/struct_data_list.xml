@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_data_list" kind="struct" prot="public">
+    <compoundname>DataList</compoundname>
+    <innerclass refid="struct_data_list_1_1_entry" prot="public">DataList::Entry</innerclass>
+    <innerclass refid="struct_data_list_1_1_tig_info" prot="public">DataList::TigInfo</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_data_list_1aefb1fd0053150befa92ae61309812341" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_data_list_1_1_entry" kindref="compound">Entry</ref> &gt;</type>
+        <definition>std::vector&lt;Entry&gt; DataList::arr</definition>
+        <argsstring></argsstring>
+        <name>arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="42" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_data_list_1aae23d36c91eb9581bc8e3b9d574d3d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DataList::add</definition>
+        <argsstring>(const std::string &amp;urlname, const std::string &amp;idname, const std::string &amp;name, const std::string &amp;tigurl, int64_t add_time, bool isNew, const TigInfo &amp;tigInfo, float rating, int rateCount, int dlCount)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>urlname</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>idname</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tigurl</declname>
+        </param>
+        <param>
+          <type>int64_t</type>
+          <declname>add_time</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isNew</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_data_list_1_1_tig_info" kindref="compound">TigInfo</ref> &amp;</type>
+          <declname>tigInfo</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rating</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rateCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dlCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="48" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="44" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="9" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="8" bodyend="64"/>
+    <listofallmembers>
+      <member refid="struct_data_list_1aae23d36c91eb9581bc8e3b9d574d3d15" prot="public" virt="non-virtual"><scope>DataList</scope><name>add</name></member>
+      <member refid="struct_data_list_1aefb1fd0053150befa92ae61309812341" prot="public" virt="non-virtual"><scope>DataList</scope><name>arr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

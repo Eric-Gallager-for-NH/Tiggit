@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_list_keeper" kind="class" prot="public">
+    <compoundname>ListKeeper</compoundname>
+    <innerclass refid="struct_list_keeper_1_1_date_sort" prot="private">ListKeeper::DateSort</innerclass>
+    <innerclass refid="struct_list_keeper_1_1_download_sort" prot="private">ListKeeper::DownloadSort</innerclass>
+    <innerclass refid="struct_list_keeper_1_1_price_sort" prot="private">ListKeeper::PriceSort</innerclass>
+    <innerclass refid="struct_list_keeper_1_1_rate_sort" prot="private">ListKeeper::RateSort</innerclass>
+    <innerclass refid="struct_list_keeper_1_1_sort_base" prot="private">ListKeeper::SortBase</innerclass>
+    <innerclass refid="struct_list_keeper_1_1_title_sort" prot="private">ListKeeper::TitleSort</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985" prot="public" static="no">
+        <name>@1</name>
+        <enumvalue id="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985ab329e47f1aa8f0f66c224abf9053f30b" prot="public">
+          <name>SL_ALL</name>
+          <initializer> 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985ae5769f858aefc01a52db00e2da40049a" prot="public">
+          <name>SL_FREEWARE</name>
+          <initializer> 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a15b5854b1e3650684a70cbd40883a6de" prot="public">
+          <name>SL_DEMOS</name>
+          <initializer> 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a79f5c0bff1798cd7f4268608fcf442cb" prot="public">
+          <name>SL_NEW</name>
+          <initializer> 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a6ba0a20890ba830398a4379148e3acdf" prot="public">
+          <name>SL_INSTALL</name>
+          <initializer> 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="215" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="214" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_list_keeper_1a20c39dfbc0a1fe1e5f8335fc68eca2f9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; ListKeeper::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="14" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1a457b92492a9ffea31af76ded3dd1f0ff" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; ListKeeper::subSelect</definition>
+        <argsstring></argsstring>
+        <name>subSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="18" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1a58da3fb8ec7bd2bf840bece262f77f27" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ListKeeper::selection</definition>
+        <argsstring></argsstring>
+        <name>selection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="22" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1a7024ebc16cf0e2008dfdf26d65e065c1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; ListKeeper::searched</definition>
+        <argsstring></argsstring>
+        <name>searched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="25" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1a61b7db41e113b7fb4eecb4b547c4e2e5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ListKeeper::isSearched</definition>
+        <argsstring></argsstring>
+        <name>isSearched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="27" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1ac858e65b61c5c4ee7b947207b9edb9fd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ListKeeper::isSorted</definition>
+        <argsstring></argsstring>
+        <name>isSorted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="28" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1ad25af6f103a0cd2478215739868748d2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ListKeeper::sortBy</definition>
+        <argsstring></argsstring>
+        <name>sortBy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="34" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1af1fbeef5c0660cb432cefedf16b8b0d7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ListKeeper::reverse</definition>
+        <argsstring></argsstring>
+        <name>reverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="35" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1a15c085619f92438d759199b31c1030e3" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ListKeeper::search</definition>
+        <argsstring></argsstring>
+        <name>search</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="38" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_list_keeper_1a3d6b0e73b28cf9c2ac761a31f603b3c7" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+        <definition>DataList&amp; ListKeeper::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="40" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_list_keeper_1a933136d6b7a3d5c5f776eeada22a17c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::makeReady</definition>
+        <argsstring>()</argsstring>
+        <name>makeReady</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="131" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="130" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1a590c8e58143a777f3821b133717078e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::setSort</definition>
+        <argsstring>(int type)</argsstring>
+        <name>setSort</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="200" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="199" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_list_keeper_1a95c2c91604f3392c75ba2a9f5795e568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListKeeper::ListKeeper</definition>
+        <argsstring>(DataList &amp;dt, int select=SL_ALL)</argsstring>
+        <name>ListKeeper</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>select</declname>
+          <defval>SL_ALL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="226" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1a8ca3060cec18ba687076c8aad8ec0303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::sortTitle</definition>
+        <argsstring>()</argsstring>
+        <name>sortTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="228" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="228" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1acf69e7b0ef65ea2513dcab9716147ec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::sortDate</definition>
+        <argsstring>()</argsstring>
+        <name>sortDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="229" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1a2585e76fcd54315ab6fee645b95e82fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::sortRating</definition>
+        <argsstring>()</argsstring>
+        <name>sortRating</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="230" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="230" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1ab4dc65a6d5654a19cac4b40870f1e1dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::setSubSelection</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;sel)</argsstring>
+        <name>setSubSelection</name>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>sel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="233" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="232" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1abb1d448730317cffc617559514a8425c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::clearSubSelection</definition>
+        <argsstring>()</argsstring>
+        <name>clearSubSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="247" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="246" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1ac26d1ea0157a568bb18f2e7f2660051f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::setReverse</definition>
+        <argsstring>(bool rev)</argsstring>
+        <name>setReverse</name>
+        <param>
+          <type>bool</type>
+          <declname>rev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="257" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="256" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1ad75a551a7da3eb197bbead89c9f1d2df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::setSearch</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>setSearch</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="263" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="262" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1aa51f63a11d4e5aa4ebc8a39bc7253201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+        <definition>DataList::Entry&amp; ListKeeper::get</definition>
+        <argsstring>(int index)</argsstring>
+        <name>get</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="269" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="268" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1a6a1db853a1b82b7aab43a02ca2f21b30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ListKeeper::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="286" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="285" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1a9e5718e2efd3cccd90228928fb9a419e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ListKeeper::baseSize</definition>
+        <argsstring>()</argsstring>
+        <name>baseSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="336" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="336" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1a4f0e62ecaa44cfadd91822da007730f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ListKeeper::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="338" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="337" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="class_list_keeper_1aa9972fe6e4f917980366e7d89428e59d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; int &gt; &amp;</type>
+        <definition>const std::vector&lt;int&gt;&amp; ListKeeper::getBaseList</definition>
+        <argsstring>()</argsstring>
+        <name>getBaseList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="343" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="343" bodyend="343"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="11" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="10" bodyend="344"/>
+    <listofallmembers>
+      <member refid="class_list_keeper_1a20c39dfbc0a1fe1e5f8335fc68eca2f9" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>base</name></member>
+      <member refid="class_list_keeper_1a9e5718e2efd3cccd90228928fb9a419e" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>baseSize</name></member>
+      <member refid="class_list_keeper_1abb1d448730317cffc617559514a8425c" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>clearSubSelection</name></member>
+      <member refid="class_list_keeper_1a3d6b0e73b28cf9c2ac761a31f603b3c7" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>data</name></member>
+      <member refid="class_list_keeper_1aa51f63a11d4e5aa4ebc8a39bc7253201" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>get</name></member>
+      <member refid="class_list_keeper_1aa9972fe6e4f917980366e7d89428e59d" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>getBaseList</name></member>
+      <member refid="class_list_keeper_1a61b7db41e113b7fb4eecb4b547c4e2e5" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>isSearched</name></member>
+      <member refid="class_list_keeper_1ac858e65b61c5c4ee7b947207b9edb9fd" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>isSorted</name></member>
+      <member refid="class_list_keeper_1a95c2c91604f3392c75ba2a9f5795e568" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>ListKeeper</name></member>
+      <member refid="class_list_keeper_1a933136d6b7a3d5c5f776eeada22a17c5" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>makeReady</name></member>
+      <member refid="class_list_keeper_1a6a1db853a1b82b7aab43a02ca2f21b30" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>reset</name></member>
+      <member refid="class_list_keeper_1af1fbeef5c0660cb432cefedf16b8b0d7" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>reverse</name></member>
+      <member refid="class_list_keeper_1a15c085619f92438d759199b31c1030e3" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>search</name></member>
+      <member refid="class_list_keeper_1a7024ebc16cf0e2008dfdf26d65e065c1" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>searched</name></member>
+      <member refid="class_list_keeper_1a58da3fb8ec7bd2bf840bece262f77f27" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>selection</name></member>
+      <member refid="class_list_keeper_1ac26d1ea0157a568bb18f2e7f2660051f" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>setReverse</name></member>
+      <member refid="class_list_keeper_1ad75a551a7da3eb197bbead89c9f1d2df" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>setSearch</name></member>
+      <member refid="class_list_keeper_1a590c8e58143a777f3821b133717078e5" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>setSort</name></member>
+      <member refid="class_list_keeper_1ab4dc65a6d5654a19cac4b40870f1e1dc" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>setSubSelection</name></member>
+      <member refid="class_list_keeper_1a4f0e62ecaa44cfadd91822da007730f3" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>size</name></member>
+      <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985ab329e47f1aa8f0f66c224abf9053f30b" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>SL_ALL</name></member>
+      <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a15b5854b1e3650684a70cbd40883a6de" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>SL_DEMOS</name></member>
+      <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985ae5769f858aefc01a52db00e2da40049a" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>SL_FREEWARE</name></member>
+      <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a6ba0a20890ba830398a4379148e3acdf" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>SL_INSTALL</name></member>
+      <member refid="class_list_keeper_1abb3ff92facae4b31414c1f4eff12b985a79f5c0bff1798cd7f4268608fcf442cb" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>SL_NEW</name></member>
+      <member refid="class_list_keeper_1ad25af6f103a0cd2478215739868748d2" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>sortBy</name></member>
+      <member refid="class_list_keeper_1acf69e7b0ef65ea2513dcab9716147ec3" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>sortDate</name></member>
+      <member refid="class_list_keeper_1a2585e76fcd54315ab6fee645b95e82fb" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>sortRating</name></member>
+      <member refid="class_list_keeper_1a8ca3060cec18ba687076c8aad8ec0303" prot="public" virt="non-virtual"><scope>ListKeeper</scope><name>sortTitle</name></member>
+      <member refid="class_list_keeper_1a457b92492a9ffea31af76ded3dd1f0ff" prot="private" virt="non-virtual"><scope>ListKeeper</scope><name>subSelect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

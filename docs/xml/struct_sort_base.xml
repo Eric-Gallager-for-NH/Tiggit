@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_sort_base" kind="struct" prot="public">
+    <compoundname>SortBase</compoundname>
+    <derivedcompoundref refid="struct_rate_sort" prot="public" virt="non-virtual">RateSort</derivedcompoundref>
+    <derivedcompoundref refid="struct_title_sort" prot="public" virt="non-virtual">TitleSort</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sort_base_1aeb81ba981eef0dadea992a757de4d9f7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+        <definition>DataList&amp; SortBase::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="22" bodyfile="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sort_base_1a2210fd5de8bae48ec2009d76861484c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SortBase::SortBase</definition>
+        <argsstring>(DataList &amp;d)</argsstring>
+        <name>SortBase</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="23" bodyfile="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sort_base_1aee784043cb25b5a10781d6af35081110" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool SortBase::isLess</definition>
+        <argsstring>(DataList::Entry &amp;a, DataList::Entry &amp;b)=0</argsstring>
+        <name>isLess</name>
+        <reimplementedby refid="struct_title_sort_1aff6baf921f0f274c5434e30cc39f35d2">isLess</reimplementedby>
+        <reimplementedby refid="struct_rate_sort_1a7b71733cdbde194799aa0644c0796658">isLess</reimplementedby>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sort_base_1a94103419bf8956d1d15e143dd166fd8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SortBase::operator()</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="29" bodyfile="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="574">
+        <label>TitleSort</label>
+        <link refid="struct_title_sort"/>
+        <childnode refid="572" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="573">
+        <label>RateSort</label>
+        <link refid="struct_rate_sort"/>
+        <childnode refid="572" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="572">
+        <label>SortBase</label>
+        <link refid="struct_sort_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="576">
+        <label>DataList</label>
+        <link refid="struct_data_list"/>
+      </node>
+      <node id="575">
+        <label>SortBase</label>
+        <link refid="struct_sort_base"/>
+        <childnode refid="576" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="21" bodyfile="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" bodystart="20" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct_sort_base_1aeb81ba981eef0dadea992a757de4d9f7" prot="public" virt="non-virtual"><scope>SortBase</scope><name>data</name></member>
+      <member refid="struct_sort_base_1aee784043cb25b5a10781d6af35081110" prot="public" virt="pure-virtual"><scope>SortBase</scope><name>isLess</name></member>
+      <member refid="struct_sort_base_1a94103419bf8956d1d15e143dd166fd8f" prot="public" virt="non-virtual"><scope>SortBase</scope><name>operator()</name></member>
+      <member refid="struct_sort_base_1a2210fd5de8bae48ec2009d76861484c2" prot="public" virt="non-virtual"><scope>SortBase</scope><name>SortBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_rate_sort" kind="struct" prot="public">
+    <compoundname>RateSort</compoundname>
+    <basecompoundref refid="struct_sort_base" prot="public" virt="non-virtual">SortBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_rate_sort_1ac171c6c76faacffb5707dff02ef07f2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RateSort::RateSort</definition>
+        <argsstring>(DataList &amp;d)</argsstring>
+        <name>RateSort</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="50" bodyfile="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_rate_sort_1a7b71733cdbde194799aa0644c0796658" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool RateSort::isLess</definition>
+        <argsstring>(DataList::Entry &amp;a, DataList::Entry &amp;b)</argsstring>
+        <name>isLess</name>
+        <reimplements refid="struct_sort_base_1aee784043cb25b5a10781d6af35081110">isLess</reimplements>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="52" bodyfile="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" bodystart="51" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="536">
+        <label>RateSort</label>
+        <link refid="struct_rate_sort"/>
+        <childnode refid="537" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="537">
+        <label>SortBase</label>
+        <link refid="struct_sort_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="538">
+        <label>RateSort</label>
+        <link refid="struct_rate_sort"/>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>DataList</label>
+        <link refid="struct_data_list"/>
+      </node>
+      <node id="539">
+        <label>SortBase</label>
+        <link refid="struct_sort_base"/>
+        <childnode refid="540" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" line="49" bodyfile="/Users/ericgallager/Tiggit/web/gen_webdata.cpp" bodystart="48" bodyend="75"/>
+    <listofallmembers>
+      <member refid="struct_sort_base_1aeb81ba981eef0dadea992a757de4d9f7" prot="public" virt="non-virtual"><scope>RateSort</scope><name>data</name></member>
+      <member refid="struct_rate_sort_1a7b71733cdbde194799aa0644c0796658" prot="public" virt="virtual"><scope>RateSort</scope><name>isLess</name></member>
+      <member refid="struct_sort_base_1a94103419bf8956d1d15e143dd166fd8f" prot="public" virt="non-virtual"><scope>RateSort</scope><name>operator()</name></member>
+      <member refid="struct_rate_sort_1ac171c6c76faacffb5707dff02ef07f2e" prot="public" virt="non-virtual"><scope>RateSort</scope><name>RateSort</name></member>
+      <member refid="struct_sort_base_1a2210fd5de8bae48ec2009d76861484c2" prot="public" virt="non-virtual"><scope>RateSort</scope><name>SortBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

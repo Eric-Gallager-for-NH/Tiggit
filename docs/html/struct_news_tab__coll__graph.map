@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$struct_tab_base.html" title="TabBase" alt="" coords="5,5,83,32"/>
+<area shape="rect" id="node4" href="$struct_news_holder.html" title="NewsHolder" alt="" coords="107,5,205,32"/>
+<area shape="rect" id="node6" href="$class_news_list.html" title="NewsList" alt="" coords="230,5,311,32"/>
+</map>

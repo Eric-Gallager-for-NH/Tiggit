@@ -1,0 +1,47 @@
+.TH "DefaultValueMapAllocator" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DefaultValueMapAllocator \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual ValueInternalMap * \fBnewMap\fP ()"
+.br
+.ti -1c
+.RI "virtual ValueInternalMap * \fBnewMapCopy\fP (const ValueInternalMap &other)"
+.br
+.ti -1c
+.RI "virtual void \fBdestructMap\fP (ValueInternalMap *map)"
+.br
+.ti -1c
+.RI "virtual ValueInternalLink * \fBallocateMapBuckets\fP (unsigned int size)"
+.br
+.ti -1c
+.RI "virtual void \fBreleaseMapBuckets\fP (ValueInternalLink *links)"
+.br
+.ti -1c
+.RI "virtual ValueInternalLink * \fBallocateMapLink\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBreleaseMapLink\fP (ValueInternalLink *link)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTodo\fP
+.RS 4
+make this thread-safe (lock when accessign batch allocator) 
+.RE
+.PP
+
+.PP
+Definition at line 82 of file json_internalmap\&.inl\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

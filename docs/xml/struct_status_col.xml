@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_status_col" kind="struct" prot="public">
+    <compoundname>StatusCol</compoundname>
+    <basecompoundref refid="struct_column_handler" prot="public" virt="non-virtual">ColumnHandler</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_status_col_1acc73c933bc916d9868fdef1bad316471" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString StatusCol::textNotInst</definition>
+        <argsstring></argsstring>
+        <name>textNotInst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="302" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_status_col_1a4d9fb49d4419e9be1b1b54bdce15cf11" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString StatusCol::textReady</definition>
+        <argsstring></argsstring>
+        <name>textReady</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="302" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_status_col_1ad5737293640b34d976bfafa151b4cde3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StatusCol::StatusCol</definition>
+        <argsstring>()</argsstring>
+        <name>StatusCol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="305" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="304" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_status_col_1a49713fd019525a7389f66db0b17d372b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>wxString</type>
+        <definition>wxString StatusCol::getText</definition>
+        <argsstring>(GameInfo &amp;g)</argsstring>
+        <name>getText</name>
+        <reimplements refid="struct_column_handler_1acc8693935219ae4e189b9b862e2c735d">getText</reimplements>
+        <param>
+          <type><ref refid="struct_game_info" kindref="compound">GameInfo</ref> &amp;</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="311" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="310" bodyend="322"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="581">
+        <label>ColumnHandler</label>
+        <link refid="struct_column_handler"/>
+      </node>
+      <node id="580">
+        <label>StatusCol</label>
+        <link refid="struct_status_col"/>
+        <childnode refid="581" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="583">
+        <label>ColumnHandler</label>
+        <link refid="struct_column_handler"/>
+      </node>
+      <node id="582">
+        <label>StatusCol</label>
+        <link refid="struct_status_col"/>
+        <childnode refid="583" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="301" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="300" bodyend="323"/>
+    <listofallmembers>
+      <member refid="struct_status_col_1a49713fd019525a7389f66db0b17d372b" prot="public" virt="virtual"><scope>StatusCol</scope><name>getText</name></member>
+      <member refid="struct_status_col_1ad5737293640b34d976bfafa151b4cde3" prot="public" virt="non-virtual"><scope>StatusCol</scope><name>StatusCol</name></member>
+      <member refid="struct_status_col_1acc73c933bc916d9868fdef1bad316471" prot="public" virt="non-virtual"><scope>StatusCol</scope><name>textNotInst</name></member>
+      <member refid="struct_status_col_1a4d9fb49d4419e9be1b1b54bdce15cf11" prot="public" virt="non-virtual"><scope>StatusCol</scope><name>textReady</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_image_viewer" kind="struct" prot="public">
+    <compoundname>ImageViewer</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="struct_image_viewer_1ac8e0ad9ed0c618e94eac8e1c13c6c7ab" prot="protected" static="no" mutable="no">
+        <type>wxBitmap</type>
+        <definition>wxBitmap ImageViewer::bitmap</definition>
+        <argsstring></argsstring>
+        <name>bitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/image_viewer.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/image_viewer.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_image_viewer_1a160db4ceca77d27ff007719cd5ca504d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ImageViewer::ImageViewer</definition>
+        <argsstring>(wxWindow *parent, wxWindowID id=-1, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize)</argsstring>
+        <name>ImageViewer</name>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>wxWindowID</type>
+          <declname>id</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>const wxPoint &amp;</type>
+          <declname>pos</declname>
+          <defval>wxDefaultPosition</defval>
+        </param>
+        <param>
+          <type>const wxSize &amp;</type>
+          <declname>size</declname>
+          <defval>wxDefaultSize</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/image_viewer.hpp" line="13" bodyfile="/Users/ericgallager/Tiggit/image_viewer.hpp" bodystart="8" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_image_viewer_1a82937676f4052088110e88fa912ba5f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImageViewer::loadImage</definition>
+        <argsstring>(const wxImage &amp;image)</argsstring>
+        <name>loadImage</name>
+        <param>
+          <type>const wxImage &amp;</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/image_viewer.hpp" line="16" bodyfile="/Users/ericgallager/Tiggit/image_viewer.hpp" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_image_viewer_1a2c58e9fcabf5a7f43fbc93b749ce67e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImageViewer::loadImage</definition>
+        <argsstring>(const std::string &amp;file)</argsstring>
+        <name>loadImage</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/image_viewer.hpp" line="23" bodyfile="/Users/ericgallager/Tiggit/image_viewer.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_image_viewer_1a3f5a657ee79054ddc9252ac8cb1ce9ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImageViewer::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/image_viewer.hpp" line="28" bodyfile="/Users/ericgallager/Tiggit/image_viewer.hpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="struct_image_viewer_1a341a9a677b6838d24a180a22465a7200" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImageViewer::OnPaint</definition>
+        <argsstring>(wxPaintEvent &amp;event)</argsstring>
+        <name>OnPaint</name>
+        <param>
+          <type>wxPaintEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/image_viewer.hpp" line="36" bodyfile="/Users/ericgallager/Tiggit/image_viewer.hpp" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/image_viewer.hpp" line="7" bodyfile="/Users/ericgallager/Tiggit/image_viewer.hpp" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="struct_image_viewer_1ac8e0ad9ed0c618e94eac8e1c13c6c7ab" prot="protected" virt="non-virtual"><scope>ImageViewer</scope><name>bitmap</name></member>
+      <member refid="struct_image_viewer_1a3f5a657ee79054ddc9252ac8cb1ce9ff" prot="public" virt="non-virtual"><scope>ImageViewer</scope><name>clear</name></member>
+      <member refid="struct_image_viewer_1a160db4ceca77d27ff007719cd5ca504d" prot="public" virt="non-virtual"><scope>ImageViewer</scope><name>ImageViewer</name></member>
+      <member refid="struct_image_viewer_1a82937676f4052088110e88fa912ba5f0" prot="public" virt="non-virtual"><scope>ImageViewer</scope><name>loadImage</name></member>
+      <member refid="struct_image_viewer_1a2c58e9fcabf5a7f43fbc93b749ce67e5" prot="public" virt="non-virtual"><scope>ImageViewer</scope><name>loadImage</name></member>
+      <member refid="struct_image_viewer_1a341a9a677b6838d24a180a22465a7200" prot="protected" virt="non-virtual"><scope>ImageViewer</scope><name>OnPaint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,104 @@
+.TH "TheFrame" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TheFrame \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "wxTextCtrl * \fBaddText\fP (const std::string &name, int id, int spacing=6)"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBaddMultiText\fP (const std::string &name, int id, int spacing=6)"
+.br
+.ti -1c
+.RI "void \fBonTitleChange\fP (wxCommandEvent &event)"
+.br
+.ti -1c
+.RI "void \fBonURLChange\fP (wxCommandEvent &event)"
+.br
+.ti -1c
+.RI "void \fBset\fP (Json::Value &v, const std::string &key, const wxTextCtrl *txt)"
+.br
+.ti -1c
+.RI "void \fBset\fP (Json::Value &v, const std::string &key, const std::string &value)"
+.br
+.ti -1c
+.RI "bool \fBfixImage\fP (const std::string &url, const std::string &imgfile)"
+.br
+.ti -1c
+.RI "void \fBonSave\fP (wxCommandEvent &event)"
+.br
+.ti -1c
+.RI "void \fBonClear\fP (wxCommandEvent &event)"
+.br
+.ti -1c
+.RI "void \fBonWebsite\fP (wxCommandEvent &event)"
+.br
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "wxTextCtrl * \fBtitle\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBurlname\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBurl\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBlaunch\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBversion\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBdesc\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBhomepage\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBdevname\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBshot\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBpaypal\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBbuypage\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBtype\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBtags\fP"
+.br
+.ti -1c
+.RI "wxPanel * \fBpanel\fP"
+.br
+.ti -1c
+.RI "wxBoxSizer * \fBsizer\fP"
+.br
+.ti -1c
+.RI "bool \fBurlChanged\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 207 of file tigmaker\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

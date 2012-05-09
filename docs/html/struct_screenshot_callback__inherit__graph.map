@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$struct_list_tab.html" title="ListTab" alt="" coords="182,80,249,107"/>
+<area shape="rect" id="node5" href="$struct_freeware_list_tab.html" title="FreewareListTab" alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node7" href="$struct_installed_list_tab.html" title="InstalledListTab" alt="" coords="156,155,276,181"/>
+<area shape="rect" id="node9" href="$struct_list_tab_non_empty.html" title="ListTabNonEmpty" alt="" coords="300,155,433,181"/>
+<area shape="rect" id="node11" href="$struct_demo_list_tab.html" title="DemoListTab" alt="" coords="242,229,347,256"/>
+<area shape="rect" id="node13" href="$struct_new_game_list_tab.html" title="NewGameListTab" alt="" coords="371,229,505,256"/>
+</map>

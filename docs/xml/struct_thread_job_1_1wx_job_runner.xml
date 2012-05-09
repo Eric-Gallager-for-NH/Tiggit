@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_thread_job_1_1wx_job_runner" kind="struct" prot="private">
+    <compoundname>ThreadJob::wxJobRunner</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_thread_job_1_1wx_job_runner_1a99294cda41e051e27d3798dced14714b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_status_job" kindref="compound">StatusJob</ref> *</type>
+        <definition>StatusJob* ThreadJob::wxJobRunner::job</definition>
+        <argsstring></argsstring>
+        <name>job</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="97" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_thread_job_1_1wx_job_runner_1a39728e9818d88e0d6e7ae34418eec603" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ThreadJob::wxJobRunner::killOwner</definition>
+        <argsstring></argsstring>
+        <name>killOwner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="98" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_thread_job_1_1wx_job_runner_1ae312162c0bf98ab26ffaa902e5871391" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThreadJob::wxJobRunner::wxJobRunner</definition>
+        <argsstring>(StatusJob *j, bool del=false)</argsstring>
+        <name>wxJobRunner</name>
+        <param>
+          <type><ref refid="struct_status_job" kindref="compound">StatusJob</ref> *</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>del</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="101" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_thread_job_1_1wx_job_runner_1a4985a0b50ba52d72278776b91b1ebca2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ExitCode</type>
+        <definition>ExitCode ThreadJob::wxJobRunner::Entry</definition>
+        <argsstring>()</argsstring>
+        <name>Entry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="108" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="107" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="664">
+        <label>ThreadJob::wxJobRunner</label>
+        <childnode refid="665" relation="usage">
+          <edgelabel>job</edgelabel>
+        </childnode>
+      </node>
+      <node id="665">
+        <label>StatusJob</label>
+        <link refid="struct_status_job"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/jobify.hpp" line="96" bodyfile="/Users/ericgallager/Tiggit/jobify.hpp" bodystart="95" bodyend="118"/>
+    <listofallmembers>
+      <member refid="struct_thread_job_1_1wx_job_runner_1a4985a0b50ba52d72278776b91b1ebca2" prot="public" virt="non-virtual"><scope>ThreadJob::wxJobRunner</scope><name>Entry</name></member>
+      <member refid="struct_thread_job_1_1wx_job_runner_1a99294cda41e051e27d3798dced14714b" prot="public" virt="non-virtual"><scope>ThreadJob::wxJobRunner</scope><name>job</name></member>
+      <member refid="struct_thread_job_1_1wx_job_runner_1a39728e9818d88e0d6e7ae34418eec603" prot="public" virt="non-virtual"><scope>ThreadJob::wxJobRunner</scope><name>killOwner</name></member>
+      <member refid="struct_thread_job_1_1wx_job_runner_1ae312162c0bf98ab26ffaa902e5871391" prot="public" virt="non-virtual"><scope>ThreadJob::wxJobRunner</scope><name>wxJobRunner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_curl_get" kind="struct" prot="public">
+    <compoundname>CurlGet</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_curl_get_1adc0c9ad9ff74214b474d1ca7856d8a2e" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* CurlGet::ProgFunc)(void *, double, double, double, double)</definition>
+        <argsstring>)(void *, double, double, double, double)</argsstring>
+        <name>ProgFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/curl_get.hpp" line="16" bodyfile="/Users/ericgallager/Tiggit/curl_get.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_curl_get_1ac5f276dc342174dbf8b90e1abbc01afb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>static size_t CurlGet::stream_write</definition>
+        <argsstring>(void *buffer, size_t size, size_t num, void *strm)</argsstring>
+        <name>stream_write</name>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>strm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/curl_get.hpp" line="19" bodyfile="/Users/ericgallager/Tiggit/curl_get.hpp" bodystart="18" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_curl_get_1a00d4b38041a02b48d9a81c3eab125c00" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CurlGet::get</definition>
+        <argsstring>(const std::string &amp;url, const std::string &amp;file, ProgFunc fn=NULL, void *data=NULL)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>ProgFunc</type>
+          <declname>fn</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/curl_get.hpp" line="32" bodyfile="/Users/ericgallager/Tiggit/curl_get.hpp" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_curl_get_1a624fe51e5dc40c0c23098ea6c52595c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CurlGet::get</definition>
+        <argsstring>(const std::string &amp;url, std::ostream &amp;out, ProgFunc fn=NULL, void *data=NULL)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>ProgFunc</type>
+          <declname>fn</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/curl_get.hpp" line="40" bodyfile="/Users/ericgallager/Tiggit/curl_get.hpp" bodystart="38" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/curl_get.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/curl_get.hpp" bodystart="14" bodyend="99"/>
+    <listofallmembers>
+      <member refid="struct_curl_get_1a00d4b38041a02b48d9a81c3eab125c00" prot="public" virt="non-virtual"><scope>CurlGet</scope><name>get</name></member>
+      <member refid="struct_curl_get_1a624fe51e5dc40c0c23098ea6c52595c8" prot="public" virt="non-virtual"><scope>CurlGet</scope><name>get</name></member>
+      <member refid="struct_curl_get_1adc0c9ad9ff74214b474d1ca7856d8a2e" prot="public" virt="non-virtual"><scope>CurlGet</scope><name>ProgFunc</name></member>
+      <member refid="struct_curl_get_1ac5f276dc342174dbf8b90e1abbc01afb" prot="public" virt="non-virtual"><scope>CurlGet</scope><name>stream_write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

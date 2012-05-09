@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_decode_u_r_l" kind="struct" prot="public">
+    <compoundname>DecodeURL</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_decode_u_r_l_1a792308fadc23cc4c8d3a70ed058517da" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DecodeURL::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/decodeurl.hpp" line="8" bodyfile="/Users/ericgallager/Tiggit/decodeurl.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_decode_u_r_l_1aa08f18d230eb1679d8f763b21f40a118" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DecodeURL::isUrl</definition>
+        <argsstring></argsstring>
+        <name>isUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/decodeurl.hpp" line="9" bodyfile="/Users/ericgallager/Tiggit/decodeurl.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_decode_u_r_l_1a90eef28074e52f6b003a9295d117df1a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DecodeURL::basename</definition>
+        <argsstring></argsstring>
+        <name>basename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/decodeurl.hpp" line="12" bodyfile="/Users/ericgallager/Tiggit/decodeurl.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_decode_u_r_l_1a500412b040290d8993798e3e3fe108db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DecodeURL::DecodeURL</definition>
+        <argsstring>(const std::string &amp;url)</argsstring>
+        <name>DecodeURL</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/decodeurl.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/decodeurl.hpp" bodystart="14" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/decodeurl.hpp" line="7" bodyfile="/Users/ericgallager/Tiggit/decodeurl.hpp" bodystart="6" bodyend="46"/>
+    <listofallmembers>
+      <member refid="struct_decode_u_r_l_1a90eef28074e52f6b003a9295d117df1a" prot="public" virt="non-virtual"><scope>DecodeURL</scope><name>basename</name></member>
+      <member refid="struct_decode_u_r_l_1a500412b040290d8993798e3e3fe108db" prot="public" virt="non-virtual"><scope>DecodeURL</scope><name>DecodeURL</name></member>
+      <member refid="struct_decode_u_r_l_1aa08f18d230eb1679d8f763b21f40a118" prot="public" virt="non-virtual"><scope>DecodeURL</scope><name>isUrl</name></member>
+      <member refid="struct_decode_u_r_l_1a792308fadc23cc4c8d3a70ed058517da" prot="public" virt="non-virtual"><scope>DecodeURL</scope><name>location</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

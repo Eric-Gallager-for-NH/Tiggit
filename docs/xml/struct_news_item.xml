@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_news_item" kind="struct" prot="public">
+    <compoundname>NewsItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_news_item_1a51cbbdc6566ae3c36d928ca479c7d546" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NewsItem::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_news_item_1abcffbf67b6350249e1a0fd89ac3adfb2" prot="public" static="no" mutable="no">
+        <type>time_t</type>
+        <definition>time_t NewsItem::dateNum</definition>
+        <argsstring></argsstring>
+        <name>dateNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="16" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_news_item_1abea175dc61f718ee32dc487e82f7e755" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString NewsItem::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="17" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_news_item_1a11b5e1611209408a8d87503343fb9249" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString NewsItem::subject</definition>
+        <argsstring></argsstring>
+        <name>subject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="17" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_news_item_1aef9acd681d7b2aa956b45f56d409e359" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString NewsItem::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="17" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_news_item_1a39d9e4e9a664935156b66995b5adac38" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NewsItem::read</definition>
+        <argsstring></argsstring>
+        <name>read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="18" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_news_item_1a01879804aa536b4ff202dc1038c9acdf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NewsItem::operator&lt;</definition>
+        <argsstring>(const NewsItem &amp;other) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="struct_news_item" kindref="compound">NewsItem</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="21" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="14" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="13" bodyend="25"/>
+    <listofallmembers>
+      <member refid="struct_news_item_1aef9acd681d7b2aa956b45f56d409e359" prot="public" virt="non-virtual"><scope>NewsItem</scope><name>body</name></member>
+      <member refid="struct_news_item_1abea175dc61f718ee32dc487e82f7e755" prot="public" virt="non-virtual"><scope>NewsItem</scope><name>date</name></member>
+      <member refid="struct_news_item_1abcffbf67b6350249e1a0fd89ac3adfb2" prot="public" virt="non-virtual"><scope>NewsItem</scope><name>dateNum</name></member>
+      <member refid="struct_news_item_1a51cbbdc6566ae3c36d928ca479c7d546" prot="public" virt="non-virtual"><scope>NewsItem</scope><name>id</name></member>
+      <member refid="struct_news_item_1a01879804aa536b4ff202dc1038c9acdf" prot="public" virt="non-virtual"><scope>NewsItem</scope><name>operator&lt;</name></member>
+      <member refid="struct_news_item_1a39d9e4e9a664935156b66995b5adac38" prot="public" virt="non-virtual"><scope>NewsItem</scope><name>read</name></member>
+      <member refid="struct_news_item_1a11b5e1611209408a8d87503343fb9249" prot="public" virt="non-virtual"><scope>NewsItem</scope><name>subject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

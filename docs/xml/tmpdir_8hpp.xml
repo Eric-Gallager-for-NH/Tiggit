@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="tmpdir_8hpp" kind="file">
+    <compoundname>tmpdir.hpp</compoundname>
+    <includes local="no">boost/filesystem.hpp</includes>
+    <includes local="no">string</includes>
+    <includedby refid="filegetter_8hpp" local="yes">filegetter.hpp</includedby>
+    <incdepgraph>
+      <node id="921">
+        <label>string</label>
+      </node>
+      <node id="920">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="919">
+        <label>tmpdir.hpp</label>
+        <link refid="tmpdir.hpp"/>
+        <childnode refid="920" relation="include">
+        </childnode>
+        <childnode refid="921" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="923">
+        <label>filegetter.hpp</label>
+        <link refid="filegetter_8hpp_source"/>
+        <childnode refid="924" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="931" relation="include">
+        </childnode>
+        <childnode refid="929" relation="include">
+        </childnode>
+        <childnode refid="932" relation="include">
+        </childnode>
+        <childnode refid="926" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+      </node>
+      <node id="932">
+        <label>newstab.hpp</label>
+        <link refid="newstab_8hpp_source"/>
+        <childnode refid="926" relation="include">
+        </childnode>
+      </node>
+      <node id="931">
+        <label>json_rated.hpp</label>
+        <link refid="json__rated_8hpp_source"/>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="926" relation="include">
+        </childnode>
+      </node>
+      <node id="929">
+        <label>json_installed.hpp</label>
+        <link refid="json__installed_8hpp_source"/>
+        <childnode refid="926" relation="include">
+        </childnode>
+      </node>
+      <node id="926">
+        <label>tiggit.cpp</label>
+        <link refid="tiggit_8cpp_source"/>
+      </node>
+      <node id="928">
+        <label>gameinfo.hpp</label>
+        <link refid="gameinfo_8hpp_source"/>
+        <childnode refid="929" relation="include">
+        </childnode>
+        <childnode refid="930" relation="include">
+        </childnode>
+        <childnode refid="926" relation="include">
+        </childnode>
+      </node>
+      <node id="927">
+        <label>web/gen_webdata.cpp</label>
+        <link refid="gen__webdata_8cpp_source"/>
+      </node>
+      <node id="924">
+        <label>data_reader.hpp</label>
+        <link refid="data__reader_8hpp_source"/>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="926" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+      </node>
+      <node id="925">
+        <label>auto_update.hpp</label>
+        <link refid="auto__update_8hpp_source"/>
+        <childnode refid="926" relation="include">
+        </childnode>
+      </node>
+      <node id="922">
+        <label>tmpdir.hpp</label>
+        <link refid="tmpdir.hpp"/>
+        <childnode refid="923" relation="include">
+        </childnode>
+      </node>
+      <node id="930">
+        <label>listkeeper.hpp</label>
+        <link refid="listkeeper_8hpp_source"/>
+        <childnode refid="926" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_tmp_dir" prot="public">TmpDir</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_TMPDIR_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_TMPDIR_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/filesystem.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="struct_tmp_dir" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_tmp_dir" kindref="compound">TmpDir</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>boost::filesystem::path<sp/>dir;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>created;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><ref refid="struct_tmp_dir" kindref="compound">TmpDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::filesystem::path<sp/>&amp;_dir)<sp/>:<sp/>dir(_dir),<sp/>created(</highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>{}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>~<ref refid="struct_tmp_dir" kindref="compound">TmpDir</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(created)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>boost::filesystem::remove_all(dir);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>std::string<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;file)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!created)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>create_directory(dir);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>created<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(dir<sp/>/<sp/>file).string();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/Users/ericgallager/Tiggit/tmpdir.hpp"/>
+  </compounddef>
+</doxygen>

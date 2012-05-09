@@ -1,0 +1,211 @@
+.TH "Json" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Json \- 
+.PP
+JSON (JavaScript Object Notation)\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "protocol \fBJSON_API\fP"
+.br
+.RI "\fIConfiguration passed to reader and writer\&. This configuration object can be used to force the Reader or Writer to behave in a standard conforming way\&. \fP"
+.ti -1c
+.RI "class \fBPathArgument\fP"
+.br
+.RI "\fIExperimental and untested: represents an element of the 'path' to access a node\&. \fP"
+.ti -1c
+.RI "class \fBPath\fP"
+.br
+.RI "\fIExperimental and untested: represents a 'path' to access a node\&. \fP"
+.ti -1c
+.RI "class \fBValueAllocator\fP"
+.br
+.RI "\fIExperimental do not use: Allocator to customize member name and string value memory management done by Value\&. \fP"
+.ti -1c
+.RI "class \fBValueIteratorBase\fP"
+.br
+.RI "\fIbase class for Value iterators\&. \fP"
+.ti -1c
+.RI "class \fBValueConstIterator\fP"
+.br
+.RI "\fIconst iterator for object and array value\&. \fP"
+.ti -1c
+.RI "class \fBValueIterator\fP"
+.br
+.RI "\fIIterator for object and array value\&. \fP"
+.ti -1c
+.RI "class \fBBatchAllocator\fP"
+.br
+.ti -1c
+.RI "class \fBDefaultValueAllocator\fP"
+.br
+.ti -1c
+.RI "struct \fBDummyValueAllocatorInitializer\fP"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef int \fBInt\fP"
+.br
+.ti -1c
+.RI "typedef unsigned int \fBUInt\fP"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBValueType\fP { \fBnullValue\fP =  0, \fBintValue\fP, \fBuintValue\fP, \fBrealValue\fP, \fBstringValue\fP, \fBbooleanValue\fP, \fBarrayValue\fP, \fBobjectValue\fP }"
+.br
+.RI "\fIType of the value held by a Value object\&. \fP"
+.ti -1c
+.RI "enum \fBCommentPlacement\fP { \fBcommentBefore\fP =  0, \fBcommentAfterOnSameLine\fP, \fBcommentAfter\fP, \fBnumberOfCommentPlacement\fP }"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "std::istream & \fBoperator>>\fP (std::istream &, Value &)"
+.br
+.RI "\fIRead from 'sin' into 'root'\&. \fP"
+.ti -1c
+.RI "std::string \fBJSON_API\fP \fBvalueToString\fP (Int value)"
+.br
+.ti -1c
+.RI "std::string \fBJSON_API\fP \fBvalueToString\fP (UInt value)"
+.br
+.ti -1c
+.RI "std::string \fBJSON_API\fP \fBvalueToString\fP (double value)"
+.br
+.ti -1c
+.RI "std::string \fBJSON_API\fP \fBvalueToString\fP (bool value)"
+.br
+.ti -1c
+.RI "std::string \fBJSON_API\fP \fBvalueToQuotedString\fP (const char *value)"
+.br
+.ti -1c
+.RI "std::ostream & \fBoperator<<\fP (std::ostream &, const Value &root)"
+.br
+.RI "\fIOutput using the StyledStreamWriter\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+JSON (JavaScript Object Notation)\&. 
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBJson::CommentPlacement\fP"
+
+.PP
+\fBEnumerator: \fP
+.in +1c
+.TP
+\fB\fIcommentBefore \fP\fP
+a comment placed on the line before a value 
+.TP
+\fB\fIcommentAfterOnSameLine \fP\fP
+a comment just after a value on the same line 
+.TP
+\fB\fIcommentAfter \fP\fP
+a comment on the line after a value (only make sense for root value) 
+.PP
+Definition at line 35 of file value\&.h\&.
+.SS "enum \fBJson::ValueType\fP"
+
+.PP
+Type of the value held by a Value object\&. 
+.PP
+\fBEnumerator: \fP
+.in +1c
+.TP
+\fB\fInullValue \fP\fP
+'null' value 
+.TP
+\fB\fIintValue \fP\fP
+signed integer value 
+.TP
+\fB\fIuintValue \fP\fP
+unsigned integer value 
+.TP
+\fB\fIrealValue \fP\fP
+double value 
+.TP
+\fB\fIstringValue \fP\fP
+UTF-8 string value\&. 
+.TP
+\fB\fIbooleanValue \fP\fP
+bool value 
+.TP
+\fB\fIarrayValue \fP\fP
+array value (ordered list) 
+.TP
+\fB\fIobjectValue \fP\fP
+object value (collection of name/value pairs)\&. 
+.PP
+Definition at line 23 of file value\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "std::ostream & Json::operator<< (std::ostream &sout, const Value &root)"
+
+.PP
+Output using the StyledStreamWriter\&. \fBSee also:\fP
+.RS 4
+\fBJson::operator>>()\fP 
+.RE
+.PP
+
+.PP
+Definition at line 821 of file json_writer\&.cpp\&.
+.SS "std::istream & Json::operator>> (std::istream &sin, Value &root)"
+
+.PP
+Read from 'sin' into 'root'\&. Always keep comments from the input JSON\&.
+.PP
+This can be used to read a file into a particular sub-object\&. For example: 
+.PP
+.nf
+    Json::Value root;
+    cin >> root['dir']['file'];
+    cout << root;
+
+.fi
+.PP
+ Result: 
+.PP
+.nf
+    {
+        "dir": {
+            "file": {
+                // The input stream JSON would be nested here.
+            }
+        }
+    }
+.fi
+.PP
+ 
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIstd::exception\fP on parse error\&. 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBJson::operator<<()\fP 
+.RE
+.PP
+
+.PP
+Definition at line 875 of file json_reader\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

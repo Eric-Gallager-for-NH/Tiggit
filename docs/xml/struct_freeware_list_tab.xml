@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_freeware_list_tab" kind="struct" prot="public">
+    <compoundname>FreewareListTab</compoundname>
+    <basecompoundref refid="struct_list_tab" prot="public" virt="non-virtual">ListTab</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_freeware_list_tab_1a87d7dda30081d7e72a400a0ab6e77201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FreewareListTab::FreewareListTab</definition>
+        <argsstring>(wxNotebook *parent, StatusNotify *s)</argsstring>
+        <name>FreewareListTab</name>
+        <param>
+          <type>wxNotebook *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_status_notify" kindref="compound">StatusNotify</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1173" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1171" bodyend="1181"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_freeware_list_tab_1ac5a683e408ef8d4c4fbef035a004643d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void FreewareListTab::insertMe</definition>
+        <argsstring>()</argsstring>
+        <name>insertMe</name>
+        <reimplements refid="struct_list_tab_1ab8df7d076344af460db847ee365c9f55">insertMe</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1185" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1184" bodyend="1192"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="399">
+        <label>FreewareListTab</label>
+        <link refid="struct_freeware_list_tab"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="401" relation="public-inheritance">
+        </childnode>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="401">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="408">
+        <label>ListKeeper</label>
+        <link refid="class_list_keeper"/>
+      </node>
+      <node id="403">
+        <label>FreewareListTab</label>
+        <link refid="struct_freeware_list_tab"/>
+        <childnode refid="404" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+        <childnode refid="407" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+        <childnode refid="408" relation="usage">
+          <edgelabel>lister</edgelabel>
+        </childnode>
+        <childnode refid="409" relation="usage">
+          <edgelabel>stat</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>ad_img</edgelabel>
+          <edgelabel>screenshot</edgelabel>
+        </childnode>
+      </node>
+      <node id="407">
+        <label>MyList</label>
+        <link refid="class_my_list"/>
+      </node>
+      <node id="410">
+        <label>ImageViewer</label>
+        <link refid="struct_image_viewer"/>
+      </node>
+      <node id="406">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="409">
+        <label>StatusNotify</label>
+        <link refid="struct_status_notify"/>
+      </node>
+      <node id="405">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1170" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1169" bodyend="1193"/>
+    <listofallmembers>
+      <member refid="struct_list_tab_1a2e50792652938b8951b5f5cd8375e676" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>ad_img</name></member>
+      <member refid="struct_list_tab_1a717880bb4007ad796d693c40dee5a235" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>b1</name></member>
+      <member refid="struct_list_tab_1ae710bdff9444264da4547870352b8f7e" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>b2</name></member>
+      <member refid="struct_tab_base_1a4274555386ba73360e42ac1162deb0ee" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>book</name></member>
+      <member refid="struct_list_tab_1a7d2c1821b95a97f4586d52df15bc1e30" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>createTagList</name></member>
+      <member refid="struct_list_tab_1a05044166fa2e690c3f17a71f2e27121f" prot="public" virt="virtual"><scope>FreewareListTab</scope><name>dataChanged</name></member>
+      <member refid="struct_list_tab_1afc980d99c305488242a583bc61225fe0" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>doAction</name></member>
+      <member refid="struct_list_tab_1a62965404468a435a88f9be74f8723a9a" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>fixButtons</name></member>
+      <member refid="struct_freeware_list_tab_1a87d7dda30081d7e72a400a0ab6e77201" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>FreewareListTab</name></member>
+      <member refid="struct_freeware_list_tab_1ac5a683e408ef8d4c4fbef035a004643d" prot="public" virt="virtual"><scope>FreewareListTab</scope><name>insertMe</name></member>
+      <member refid="struct_list_tab_1afde1244ddb9ad9256bbb8e06b2d042cf" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>last_launch</name></member>
+      <member refid="struct_list_tab_1ae338fee99b46c8e34b6dd6f5682c1c4a" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>list</name></member>
+      <member refid="struct_list_tab_1a8cb4eb9896f9daef228123c00f6a9434" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>lister</name></member>
+      <member refid="struct_list_tab_1a70c339cd735a3a3b45a9e6a5649ebe83" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>listHasChanged</name></member>
+      <member refid="struct_list_tab_1ae6cd15376dc53a931817fba5f1106dc4" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>ListTab</name></member>
+      <member refid="struct_list_tab_1a0c24b27f20cdb38e0eb673245f7c0542" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onButton</name></member>
+      <member refid="struct_list_tab_1a65e30fb2ab50bc4a324dec7a0a8a5014" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onContextClick</name></member>
+      <member refid="struct_list_tab_1a7052d63cb8a4552553f794c257c06675" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onGamePage</name></member>
+      <member refid="struct_list_tab_1a7adba5f85eb8d87734efe27efd40c5ca" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onListActivate</name></member>
+      <member refid="struct_list_tab_1ad2dfddbd6e0083f682a5689cc5411352" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onListDeselect</name></member>
+      <member refid="struct_list_tab_1ac062d6e7b531ad8ec65a9ad307ea7022" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onListRightClick</name></member>
+      <member refid="struct_list_tab_1adadc2db079b8ad23165040e50ad77831" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onListSelect</name></member>
+      <member refid="struct_list_tab_1a0787fa1f6df1f6fe44326a5a144895ca" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onRating</name></member>
+      <member refid="struct_list_tab_1ad8eb6ed06371784633dd1cf96b734490" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onSearch</name></member>
+      <member refid="struct_list_tab_1a7e159fadab965b718ab25ac1f0803c47" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onSortChange</name></member>
+      <member refid="struct_list_tab_1aeaa3bc9c78c225387d50c6f8c2b7f036" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onTagSelect</name></member>
+      <member refid="struct_list_tab_1ad329091d9da6e2bcb40f6073dc3564ee" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>onUrlEvent</name></member>
+      <member refid="struct_list_tab_1a1df919aeb4e6e4dd48ab0da3292311fe" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>rateBox</name></member>
+      <member refid="struct_list_tab_1a25203a99208d6288ca3f54fe86936751" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>rateString</name></member>
+      <member refid="struct_list_tab_1a0340593c73e4e54d9736c82dfc8ee6b5" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>rateText</name></member>
+      <member refid="struct_list_tab_1a6908d6262334eda4cf4ad03ff3c399e9" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>screenshot</name></member>
+      <member refid="struct_list_tab_1a63daf34961a1c832eb936fbf7761846b" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>select</name></member>
+      <member refid="struct_tab_base_1acc8a88abc1a420c704c8bc5143c4c8bd" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>selectMe</name></member>
+      <member refid="struct_list_tab_1a5aff2789c36a9d39abc5efb2f2b0c0b1" prot="public" virt="virtual"><scope>FreewareListTab</scope><name>shotIsReady</name></member>
+      <member refid="struct_list_tab_1a6f6ea57ef9c4e90c5ca094aec8b7a2b7" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>startDownload</name></member>
+      <member refid="struct_list_tab_1a517e64070a34971184ce0b3845327045" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>stat</name></member>
+      <member refid="struct_list_tab_1a77ce1163d4dd1c18f445a1166aab77b3" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>statusChanged</name></member>
+      <member refid="struct_list_tab_1a21e9abb2480d7a8e829853c9e5c5dcb9" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>supportButton</name></member>
+      <member refid="struct_tab_base_1af426aaeb43b31c090cbc30c5dd692c1b" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>TabBase</name></member>
+      <member refid="struct_list_tab_1a1440cd81fe735ee69c052d9736d37c02" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>tabName</name></member>
+      <member refid="struct_tab_base_1a3c2fcafc0c5e81f7815749e24374145d" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>tabNum</name></member>
+      <member refid="struct_list_tab_1af108fa3fbdbfd6932d24793bac2edfe7" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>taglist</name></member>
+      <member refid="struct_list_tab_1ab890f6a57f3841ba918853aa2e87a5d4" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>tags</name></member>
+      <member refid="struct_list_tab_1ae57fa84a43f1e1ad95ee2747247f749d" prot="public" virt="virtual"><scope>FreewareListTab</scope><name>takeFocus</name></member>
+      <member refid="struct_list_tab_1afcd593559b802e861a66a658a60c645a" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>textView</name></member>
+      <member refid="struct_tab_base_1ab9384b404604ca14a9a5e105410b4a1d" prot="public" virt="virtual"><scope>FreewareListTab</scope><name>tick</name></member>
+      <member refid="struct_list_tab_1a73445ff0fc8883e21d1ed20a051d95fc" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>updateGameInfo</name></member>
+      <member refid="struct_list_tab_1aadb7063955574c13d9eea164a32fdb5b" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>updateSelection</name></member>
+      <member refid="struct_list_tab_1a9b8d8bc1ae764b235c7445b3d1ca196a" prot="public" virt="non-virtual"><scope>FreewareListTab</scope><name>updateStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

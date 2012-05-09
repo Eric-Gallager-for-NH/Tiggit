@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="autolink_8h" kind="file">
+    <compoundname>autolink.h</compoundname>
+    <includes refid="config_8h" local="yes">config.h</includes>
+    <includes refid="autolink_8h" local="yes">autolink.h</includes>
+    <includedby refid="autolink_8h" local="yes">libs/jsoncpp/include/json/autolink.h</includedby>
+    <includedby refid="json_8h" local="yes">libs/jsoncpp/include/json/json.h</includedby>
+    <incdepgraph>
+      <node id="399">
+        <label>config.h</label>
+        <link refid="config_8h_source"/>
+      </node>
+      <node id="398">
+        <label>libs/jsoncpp/include/json/autolink.h</label>
+        <link refid="autolink.h"/>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="408">
+        <label>config.hpp</label>
+        <link refid="config_8hpp_source"/>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>newstab.hpp</label>
+        <link refid="newstab_8hpp_source"/>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>json_rated.hpp</label>
+        <link refid="json__rated_8hpp_source"/>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>json_installed.hpp</label>
+        <link refid="json__installed_8hpp_source"/>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>tiggit.cpp</label>
+        <link refid="tiggit_8cpp_source"/>
+      </node>
+      <node id="409">
+        <label>gameinfo.hpp</label>
+        <link refid="gameinfo_8hpp_source"/>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>web/gen_webdata.cpp</label>
+        <link refid="gen__webdata_8cpp_source"/>
+      </node>
+      <node id="405">
+        <label>data_reader.hpp</label>
+        <link refid="data__reader_8hpp_source"/>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>auto_update.hpp</label>
+        <link refid="auto__update_8hpp_source"/>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>auth.hpp</label>
+        <link refid="auth_8hpp_source"/>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>libs/jsoncpp/include/json/json.h</label>
+        <link refid="json_8h_source"/>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>libs/jsoncpp/include/json/autolink.h</label>
+        <link refid="autolink.h"/>
+        <childnode refid="400" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>listkeeper.hpp</label>
+        <link refid="listkeeper_8hpp_source"/>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>readjson.hpp</label>
+        <link refid="readjson_8hpp_source"/>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>fix_json.cpp</label>
+        <link refid="fix__json_8cpp_source"/>
+      </node>
+      <node id="415">
+        <label>tigmaker.cpp</label>
+        <link refid="tigmaker_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="autolink_8h_1a378eb08cf9d54d7c187a9447f353433e" prot="public" static="no">
+        <name>CPPTL_AUTOLINK_NAME</name>
+        <initializer>&quot;json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/autolink.h" line="11" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/autolink.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>JSON_AUTOLINK_H_INCLUDED</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/>define<sp/>JSON_AUTOLINK_H_INCLUDED</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>ifdef<sp/>JSON_IN_CPPTL</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/>include<sp/>&lt;cpptl/cpptl_autolink.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>if<sp/>!defined(JSON_NO_AUTOLINK)<sp/><sp/>&amp;&amp;<sp/><sp/>!defined(JSON_DLL_BUILD)<sp/><sp/>&amp;&amp;<sp/><sp/>!defined(JSON_IN_CPPTL)</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>CPPTL_AUTOLINK_NAME<sp/>&quot;json&quot;</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/>CPPTL_AUTOLINK_DLL</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/>ifdef<sp/>JSON_DLL</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>CPPTL_AUTOLINK_DLL</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/><sp/>include<sp/>&quot;autolink.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>JSON_AUTOLINK_H_INCLUDED</highlight></codeline>
+    </programlisting>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/autolink.h"/>
+  </compounddef>
+</doxygen>

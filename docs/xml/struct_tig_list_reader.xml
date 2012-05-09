@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_tig_list_reader" kind="struct" prot="public">
+    <compoundname>TigListReader</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_tig_list_reader_1aaa60a48156f69359f58e4362743f5eaf" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TigListReader::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="13" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tig_list_reader_1a8dd3a2f72ac238bff02c17b66d65772c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TigListReader::channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="13" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tig_list_reader_1a9669bd8cac702a9488dc4a0238cc669e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TigListReader::desc</definition>
+        <argsstring></argsstring>
+        <name>desc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="13" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tig_list_reader_1ad27903d76be03131812f93c82d91a240" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TigListReader::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="13" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tig_list_reader_1ae3f2670c81427bf36f7c3889a28daa43" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TigListReader::homepage</definition>
+        <argsstring></argsstring>
+        <name>homepage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="13" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_tig_list_reader_1a6748272859c72f46360a328ff541cc85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TigListReader::fail</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>fail</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="16" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tig_list_reader_1a8f449c7e4157fd71dc340c036a326cb7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string TigListReader::URL</definition>
+        <argsstring>(std::string res)</argsstring>
+        <name>URL</name>
+        <param>
+          <type>std::string</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="28" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="27" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tig_list_reader_1af29a36cd17c2975c595b8882c2b1c01b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool TigListReader::decodeTigFile</definition>
+        <argsstring>(const std::string &amp;file, DataList::TigInfo &amp;t)</argsstring>
+        <name>decodeTigFile</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_tig_info" kindref="compound">DataList::TigInfo</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="68" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="67" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_tig_list_reader_1aea851ee05be59dda427ab57ccec2e00f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TigListReader::failThis</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>failThis</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="21" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tig_list_reader_1a769b49fc8aca9f04ca0408eb54851032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string TigListReader::getTigFile</definition>
+        <argsstring>(const std::string &amp;name, const std::string &amp;url, bool cacheFirst=true)</argsstring>
+        <name>getTigFile</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cacheFirst</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="49" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="47" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tig_list_reader_1a560febf693e55b548a54d0601285b57e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TigListReader::decodeTigUrl</definition>
+        <argsstring>(const std::string &amp;name, const std::string &amp;url, DataList::TigInfo &amp;data, bool cacheFirst=true)</argsstring>
+        <name>decodeTigUrl</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_tig_info" kindref="compound">DataList::TigInfo</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cacheFirst</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="109" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="105" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tig_list_reader_1af0ff5bc33bb00380a3835b1231ce1cd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TigListReader::addTests</definition>
+        <argsstring>(DataList &amp;data)</argsstring>
+        <name>addTests</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="123" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="122" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tig_list_reader_1ace2eb943f1db6d0091ade31bcfb3eb58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TigListReader::loadData</definition>
+        <argsstring>(const std::string &amp;file, DataList &amp;data)</argsstring>
+        <name>loadData</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="146" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="145" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/data_reader.hpp" line="12" bodyfile="/Users/ericgallager/Tiggit/data_reader.hpp" bodystart="11" bodyend="247"/>
+    <listofallmembers>
+      <member refid="struct_tig_list_reader_1af0ff5bc33bb00380a3835b1231ce1cd8" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>addTests</name></member>
+      <member refid="struct_tig_list_reader_1a8dd3a2f72ac238bff02c17b66d65772c" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>channel</name></member>
+      <member refid="struct_tig_list_reader_1af29a36cd17c2975c595b8882c2b1c01b" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>decodeTigFile</name></member>
+      <member refid="struct_tig_list_reader_1a560febf693e55b548a54d0601285b57e" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>decodeTigUrl</name></member>
+      <member refid="struct_tig_list_reader_1a9669bd8cac702a9488dc4a0238cc669e" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>desc</name></member>
+      <member refid="struct_tig_list_reader_1a6748272859c72f46360a328ff541cc85" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>fail</name></member>
+      <member refid="struct_tig_list_reader_1aea851ee05be59dda427ab57ccec2e00f" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>failThis</name></member>
+      <member refid="struct_tig_list_reader_1aaa60a48156f69359f58e4362743f5eaf" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>filename</name></member>
+      <member refid="struct_tig_list_reader_1a769b49fc8aca9f04ca0408eb54851032" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>getTigFile</name></member>
+      <member refid="struct_tig_list_reader_1ae3f2670c81427bf36f7c3889a28daa43" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>homepage</name></member>
+      <member refid="struct_tig_list_reader_1ace2eb943f1db6d0091ade31bcfb3eb58" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>loadData</name></member>
+      <member refid="struct_tig_list_reader_1ad27903d76be03131812f93c82d91a240" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>location</name></member>
+      <member refid="struct_tig_list_reader_1a8f449c7e4157fd71dc340c036a326cb7" prot="public" virt="non-virtual"><scope>TigListReader</scope><name>URL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

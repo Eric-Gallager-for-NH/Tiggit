@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_json_rated" kind="class" prot="public">
+    <compoundname>JsonRated</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_json_rated_1a12fd11c407616db346d7a09550434263" prot="private" static="no">
+        <type>std::map&lt; std::string, int &gt;</type>
+        <definition>typedef std::map&lt;std::string,int&gt; JsonRated::IntMap</definition>
+        <argsstring></argsstring>
+        <name>IntMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="19" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_rated_1abfc0c8813a8c0bd78fa6e6b7a199e5df" prot="private" static="no" mutable="no">
+        <type>IntMap</type>
+        <definition>IntMap JsonRated::ratings</definition>
+        <argsstring></argsstring>
+        <name>ratings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="20" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_json_rated_1a3cbe753ce0c89a3fb3ce46ec8eb418d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JsonRated::write</definition>
+        <argsstring>()</argsstring>
+        <name>write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="29" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="28" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_rated_1acf15844e0a46d7a2ad16edd1d0ad9d3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int JsonRated::getRating</definition>
+        <argsstring>(const std::string &amp;game)</argsstring>
+        <name>getRating</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>game</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="44" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_rated_1a5802c607bf342bde984d3a1d2f8011c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JsonRated::setRating</definition>
+        <argsstring>(const std::string &amp;game, int rate)</argsstring>
+        <name>setRating</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>game</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="53" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_rated_1a8019dffa3e9c7d6e6e1338f821aa2b92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JsonRated::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="60" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="59" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/json_rated.hpp" line="18" bodyfile="/Users/ericgallager/Tiggit/json_rated.hpp" bodystart="17" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_json_rated_1acf15844e0a46d7a2ad16edd1d0ad9d3c" prot="public" virt="non-virtual"><scope>JsonRated</scope><name>getRating</name></member>
+      <member refid="class_json_rated_1a12fd11c407616db346d7a09550434263" prot="private" virt="non-virtual"><scope>JsonRated</scope><name>IntMap</name></member>
+      <member refid="class_json_rated_1abfc0c8813a8c0bd78fa6e6b7a199e5df" prot="private" virt="non-virtual"><scope>JsonRated</scope><name>ratings</name></member>
+      <member refid="class_json_rated_1a8019dffa3e9c7d6e6e1338f821aa2b92" prot="public" virt="non-virtual"><scope>JsonRated</scope><name>read</name></member>
+      <member refid="class_json_rated_1a5802c607bf342bde984d3a1d2f8011c1" prot="public" virt="non-virtual"><scope>JsonRated</scope><name>setRating</name></member>
+      <member refid="class_json_rated_1a3cbe753ce0c89a3fb3ce46ec8eb418d5" prot="private" virt="non-virtual"><scope>JsonRated</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

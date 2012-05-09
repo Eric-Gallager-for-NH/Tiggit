@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_auth" kind="struct" prot="public">
+    <compoundname>Auth</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1" prot="public" static="no">
+        <name>UserType</name>
+        <enumvalue id="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a4a1f323cd315f0e2badfbf82d98eb3d0" prot="public">
+          <name>UT_User</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a0a07001b6426b21ca91f2139cf32cb08" prot="public">
+          <name>UT_Moderator</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a829d855f9a9e3b01d1f9c0151256d944" prot="public">
+          <name>UT_Admin</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auth.hpp" line="9" bodyfile="/Users/ericgallager/Tiggit/auth.hpp" bodystart="8" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_auth_1a0ba4018434597c9cdb89906d28de6e20" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Auth::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auth.hpp" line="18" bodyfile="/Users/ericgallager/Tiggit/auth.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_auth_1a87fac948884ba2a67f1a8ee700c0ad03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Auth::Auth</definition>
+        <argsstring>()</argsstring>
+        <name>Auth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auth.hpp" line="20" bodyfile="/Users/ericgallager/Tiggit/auth.hpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_auth_1a3b2f96c60a4e4ac237009a9b53517e16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Auth::load</definition>
+        <argsstring>()</argsstring>
+        <name>load</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auth.hpp" line="23" bodyfile="/Users/ericgallager/Tiggit/auth.hpp" bodystart="22" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_auth_1a3c3563b2855ffc510717eabc03e89278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Auth::isAdmin</definition>
+        <argsstring>()</argsstring>
+        <name>isAdmin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auth.hpp" line="39" bodyfile="/Users/ericgallager/Tiggit/auth.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/auth.hpp" line="7" bodyfile="/Users/ericgallager/Tiggit/auth.hpp" bodystart="6" bodyend="40"/>
+    <listofallmembers>
+      <member refid="struct_auth_1a87fac948884ba2a67f1a8ee700c0ad03" prot="public" virt="non-virtual"><scope>Auth</scope><name>Auth</name></member>
+      <member refid="struct_auth_1a3c3563b2855ffc510717eabc03e89278" prot="public" virt="non-virtual"><scope>Auth</scope><name>isAdmin</name></member>
+      <member refid="struct_auth_1a3b2f96c60a4e4ac237009a9b53517e16" prot="public" virt="non-virtual"><scope>Auth</scope><name>load</name></member>
+      <member refid="struct_auth_1a0ba4018434597c9cdb89906d28de6e20" prot="public" virt="non-virtual"><scope>Auth</scope><name>type</name></member>
+      <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1" prot="public" virt="non-virtual"><scope>Auth</scope><name>UserType</name></member>
+      <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a829d855f9a9e3b01d1f9c0151256d944" prot="public" virt="non-virtual"><scope>Auth</scope><name>UT_Admin</name></member>
+      <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a0a07001b6426b21ca91f2139cf32cb08" prot="public" virt="non-virtual"><scope>Auth</scope><name>UT_Moderator</name></member>
+      <member refid="struct_auth_1ac9da94769fbdb3d9f65a45b2bfc22bf1a4a1f323cd315f0e2badfbf82d98eb3d0" prot="public" virt="non-virtual"><scope>Auth</scope><name>UT_User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

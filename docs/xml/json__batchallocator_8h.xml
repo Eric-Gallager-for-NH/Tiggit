@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="json__batchallocator_8h" kind="file">
+    <compoundname>json_batchallocator.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">assert.h</includes>
+    <includedby refid="json__value_8cpp" local="yes">libs/jsoncpp/src/json_value.cpp</includedby>
+    <incdepgraph>
+      <node id="600">
+        <label>assert.h</label>
+      </node>
+      <node id="598">
+        <label>libs/jsoncpp/src/json_batchallocator.h</label>
+        <link refid="json_batchallocator.h"/>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="600" relation="include">
+        </childnode>
+      </node>
+      <node id="599">
+        <label>stdlib.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="601">
+        <label>libs/jsoncpp/src/json_batchallocator.h</label>
+        <link refid="json_batchallocator.h"/>
+        <childnode refid="602" relation="include">
+        </childnode>
+      </node>
+      <node id="602">
+        <label>libs/jsoncpp/src/json_value.cpp</label>
+        <link refid="json__value_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_json_1_1_batch_allocator" prot="public">Json::BatchAllocator</innerclass>
+    <innerclass refid="struct_json_1_1_batch_allocator_1_1_batch_info" prot="private">Json::BatchAllocator::BatchInfo</innerclass>
+    <innernamespace refid="namespace_json">Json</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>JSONCPP_BATCHALLOCATOR_H_INCLUDED</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#<sp/>define<sp/>JSONCPP_BATCHALLOCATOR_H_INCLUDED</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>ifndef<sp/>JSONCPP_DOC_EXCLUDE_IMPLEMENTATION</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Json<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Fast<sp/>memory<sp/>allocator.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>This<sp/>memory<sp/>allocator<sp/>allocates<sp/>memory<sp/>for<sp/>a<sp/>batch<sp/>of<sp/>object<sp/>(specified<sp/>by</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>the<sp/>page<sp/>size,<sp/>the<sp/>number<sp/>of<sp/>object<sp/>in<sp/>each<sp/>page).</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>It<sp/>does<sp/>not<sp/>allow<sp/>the<sp/>destruction<sp/>of<sp/>a<sp/>single<sp/>object.<sp/>All<sp/>the<sp/>allocated<sp/>objects</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>can<sp/>be<sp/>destroyed<sp/>at<sp/>once.<sp/>The<sp/>memory<sp/>can<sp/>be<sp/>either<sp/>released<sp/>or<sp/>reused<sp/>for<sp/>future</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>allocation.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>The<sp/>in-place<sp/>new<sp/>operator<sp/>must<sp/>be<sp/>used<sp/>to<sp/>construct<sp/>the<sp/>object<sp/>using<sp/>the<sp/>pointer</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>returned<sp/>by<sp/>allocate.</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>AllocatedType</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objectPerAllocation&gt;</highlight></codeline>
+<codeline lineno="25" refid="class_json_1_1_batch_allocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_json_1_1_batch_allocator" kindref="compound">BatchAllocator</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>AllocatedType<sp/>Type;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><ref refid="class_json_1_1_batch_allocator" kindref="compound">BatchAllocator</ref>(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objectsPerPage<sp/>=<sp/>255<sp/>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>freeHead_(<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>objectsPerPage_(<sp/>objectsPerPage<sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>printf(<sp/>&quot;Size:<sp/>%d<sp/>=&gt;<sp/>%s\n&quot;,<sp/>sizeof(AllocatedType),<sp/>typeid(AllocatedType).name()<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(AllocatedType)<sp/>*<sp/>objectPerAllocation<sp/>&gt;=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(AllocatedType<sp/>*)<sp/>);<sp/></highlight><highlight class="comment">//<sp/>We<sp/>must<sp/>be<sp/>able<sp/>to<sp/>store<sp/>a<sp/>slist<sp/>in<sp/>the<sp/>object<sp/>free<sp/>space.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>objectsPerPage<sp/>&gt;=<sp/>16<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>batches_<sp/>=<sp/>allocateBatch(<sp/>0<sp/>);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>allocated<sp/>a<sp/>dummy<sp/>page</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>currentBatch_<sp/>=<sp/>batches_;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="class_json_1_1_batch_allocator" kindref="compound">BatchAllocator</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/>BatchInfo<sp/>*batch<sp/>=<sp/>batches_;<sp/>batch;<sp/><sp/>)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BatchInfo<sp/>*nextBatch<sp/>=<sp/>batch-&gt;next_;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(<sp/>batch<sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>batch<sp/>=<sp/>nextBatch;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_json_1_1_batch_allocator_1a4909756c2d33bd0f07662e88e4f850dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/>AllocatedType<sp/>*<ref refid="class_json_1_1_batch_allocator_1a4909756c2d33bd0f07662e88e4f850dd" kindref="member">allocate</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>freeHead_<sp/>)<sp/></highlight><highlight class="comment">//<sp/>returns<sp/>node<sp/>from<sp/>free<sp/>list.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AllocatedType<sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/>freeHead_;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>freeHead_<sp/>=<sp/>*(AllocatedType<sp/>**)</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>object;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>currentBatch_-&gt;used_<sp/>==<sp/>currentBatch_-&gt;end_<sp/>)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentBatch_<sp/>=<sp/>currentBatch_-&gt;next_;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>currentBatch_<sp/><sp/>&amp;&amp;<sp/><sp/>currentBatch_-&gt;used_<sp/>==<sp/>currentBatch_-&gt;end_<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentBatch_<sp/>=<sp/>currentBatch_-&gt;next_;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!currentBatch_<sp/><sp/>)<sp/></highlight><highlight class="comment">//<sp/>no<sp/>free<sp/>batch<sp/>found,<sp/>allocate<sp/>a<sp/>new<sp/>one</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentBatch_<sp/>=<sp/>allocateBatch(<sp/>objectsPerPage_<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentBatch_-&gt;next_<sp/>=<sp/>batches_;<sp/></highlight><highlight class="comment">//<sp/>insert<sp/>at<sp/>the<sp/>head<sp/>of<sp/>the<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>batches_<sp/>=<sp/>currentBatch_;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>AllocatedType<sp/>*allocated<sp/>=<sp/>currentBatch_-&gt;used_;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>currentBatch_-&gt;used_<sp/>+=<sp/>objectPerAllocation;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>allocated;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_json_1_1_batch_allocator_1aceb116aceb6bb5bbcfd05433abc04ba5" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_json_1_1_batch_allocator_1aceb116aceb6bb5bbcfd05433abc04ba5" kindref="member">release</ref>(<sp/>AllocatedType<sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>!=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*(AllocatedType<sp/>**)</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/>freeHead_;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>freeHead_<sp/>=<sp/>object;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">BatchInfo</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>BatchInfo<sp/>*next_;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>AllocatedType<sp/>*used_;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>AllocatedType<sp/>*end_;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>AllocatedType<sp/>buffer_[objectPerAllocation];</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>disabled<sp/>copy<sp/>constructor<sp/>and<sp/>assignement<sp/>operator.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/>BatchAllocator(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BatchAllocator<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>operator<sp/>=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BatchAllocator<sp/>&amp;);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>BatchInfo<sp/>*allocateBatch(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objectsPerPage<sp/>)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mallocSize<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(BatchInfo)<sp/>-<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(AllocatedType)*<sp/>objectPerAllocation</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(AllocatedType)<sp/>*<sp/>objectPerAllocation<sp/>*<sp/>objectsPerPage;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>BatchInfo<sp/>*batch<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">BatchInfo*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>malloc(<sp/>mallocSize<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>batch-&gt;next_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>batch-&gt;used_<sp/>=<sp/>batch-&gt;buffer_;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>batch-&gt;end_<sp/>=<sp/>batch-&gt;buffer_<sp/>+<sp/>objectsPerPage;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>batch;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/>BatchInfo<sp/>*batches_;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/>BatchInfo<sp/>*currentBatch_;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/>AllocatedType<sp/>*freeHead_;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>objectsPerPage_;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Json</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif<sp/>//<sp/>ifndef<sp/>JSONCPP_DOC_INCLUDE_IMPLEMENTATION</highlight></codeline>
+<codeline lineno="123"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>JSONCPP_BATCHALLOCATOR_H_INCLUDED</highlight></codeline>
+<codeline lineno="125"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_pre_load" kind="struct" prot="public">
+    <compoundname>PreLoad</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pre_load_1a3887a213a5f86c90bed182a532d0c215" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PreLoad::hasLoaded</definition>
+        <argsstring></argsstring>
+        <name>hasLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="66" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_load_1ab30eb6705a5a66bf991799d53a17bbee" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PreLoad::isSf</definition>
+        <argsstring></argsstring>
+        <name>isSf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="68" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_load_1a948b30de075df3f7ddd26ce4af7dd2e7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PreLoad::isHost</definition>
+        <argsstring></argsstring>
+        <name>isHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="68" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_load_1aea3e11eade8bc0e5618ae555e5246d54" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString PreLoad::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="72" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_load_1a3f2c49a50c9ebdec81879cea585f7e33" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString PreLoad::desc</definition>
+        <argsstring></argsstring>
+        <name>desc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="72" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_load_1a572b282861cd3f8339817aa2ac96da7c" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString PreLoad::homepage</definition>
+        <argsstring></argsstring>
+        <name>homepage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="72" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pre_load_1a13ebb093dd9aa677658d19e50bdcb3e8" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString PreLoad::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="72" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_pre_load_1ac135e82974ee2ab2096a4b9b8e9a25a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PreLoad::PreLoad</definition>
+        <argsstring>()</argsstring>
+        <name>PreLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="70" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_pre_load_1a2ce8fa8a12cc11bca593ce8ab3baca4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PreLoad::process</definition>
+        <argsstring>(const wxString &amp;line)</argsstring>
+        <name>process</name>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="75" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="74" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_pre_load_1a6c381d8bba74741b1d72598027159ea1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PreLoad::load</definition>
+        <argsstring>(const wxString &amp;file)</argsstring>
+        <name>load</name>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="96" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="95" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="65" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="64" bodyend="106"/>
+    <listofallmembers>
+      <member refid="struct_pre_load_1a3f2c49a50c9ebdec81879cea585f7e33" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>desc</name></member>
+      <member refid="struct_pre_load_1a3887a213a5f86c90bed182a532d0c215" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>hasLoaded</name></member>
+      <member refid="struct_pre_load_1a572b282861cd3f8339817aa2ac96da7c" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>homepage</name></member>
+      <member refid="struct_pre_load_1a948b30de075df3f7ddd26ce4af7dd2e7" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>isHost</name></member>
+      <member refid="struct_pre_load_1ab30eb6705a5a66bf991799d53a17bbee" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>isSf</name></member>
+      <member refid="struct_pre_load_1a6c381d8bba74741b1d72598027159ea1" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>load</name></member>
+      <member refid="struct_pre_load_1ac135e82974ee2ab2096a4b9b8e9a25a5" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>PreLoad</name></member>
+      <member refid="struct_pre_load_1a2ce8fa8a12cc11bca593ce8ab3baca4c" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>process</name></member>
+      <member refid="struct_pre_load_1a13ebb093dd9aa677658d19e50bdcb3e8" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>url</name></member>
+      <member refid="struct_pre_load_1aea3e11eade8bc0e5618ae555e5246d54" prot="public" virt="non-virtual"><scope>PreLoad</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

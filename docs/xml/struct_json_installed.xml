@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_json_installed" kind="struct" prot="public">
+    <compoundname>JsonInstalled</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_json_installed_1ab43b0de0bcdbe5ddf56b621e97c62274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JsonInstalled::write</definition>
+        <argsstring>(DataList &amp;data)</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_installed.hpp" line="25" bodyfile="/Users/ericgallager/Tiggit/json_installed.hpp" bodystart="24" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_json_installed_1ab2bfcfc2831a7e089b42f9abbe7d1d93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JsonInstalled::read</definition>
+        <argsstring>(DataList &amp;data)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/json_installed.hpp" line="54" bodyfile="/Users/ericgallager/Tiggit/json_installed.hpp" bodystart="53" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/json_installed.hpp" line="22" bodyfile="/Users/ericgallager/Tiggit/json_installed.hpp" bodystart="21" bodyend="98"/>
+    <listofallmembers>
+      <member refid="struct_json_installed_1ab2bfcfc2831a7e089b42f9abbe7d1d93" prot="public" virt="non-virtual"><scope>JsonInstalled</scope><name>read</name></member>
+      <member refid="struct_json_installed_1ab43b0de0bcdbe5ddf56b621e97c62274" prot="public" virt="non-virtual"><scope>JsonInstalled</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

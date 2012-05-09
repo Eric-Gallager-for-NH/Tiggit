@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_json_1_1_default_value_allocator" kind="class" prot="public">
+    <compoundname>Json::DefaultValueAllocator</compoundname>
+    <basecompoundref refid="class_json_1_1_value_allocator" prot="public" virt="non-virtual">Json::ValueAllocator</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_1_1_default_value_allocator_1a02937856a2a56c1623d5aef97555dc20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Json::DefaultValueAllocator::~DefaultValueAllocator</definition>
+        <argsstring>()</argsstring>
+        <name>~DefaultValueAllocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="63" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_default_value_allocator_1a83643548a23763cd9e8fcc9889ae3428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>char *</type>
+        <definition>virtual char* Json::DefaultValueAllocator::makeMemberName</definition>
+        <argsstring>(const char *memberName)</argsstring>
+        <name>makeMemberName</name>
+        <reimplements refid="class_json_1_1_value_allocator_1af2370043912c62bb2f3d3277b2c0a125">makeMemberName</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>memberName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="67" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_default_value_allocator_1a62df0985d957573f82be4f520bf00043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Json::DefaultValueAllocator::releaseMemberName</definition>
+        <argsstring>(char *memberName)</argsstring>
+        <name>releaseMemberName</name>
+        <reimplements refid="class_json_1_1_value_allocator_1ae8206cbaf1004994696a1ffec0d7e29a">releaseMemberName</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>memberName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="72" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_default_value_allocator_1adc2dc8da259fe1153594787cfcfc68d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>char *</type>
+        <definition>virtual char* Json::DefaultValueAllocator::duplicateStringValue</definition>
+        <argsstring>(const char *value, unsigned int length=unknown)</argsstring>
+        <name>duplicateStringValue</name>
+        <reimplements refid="class_json_1_1_value_allocator_1aaa63197291f55d060541a01fcf5a5dfc">duplicateStringValue</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+          <defval>unknown</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="78" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="76" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_default_value_allocator_1a5e7f4fbebe7f9263090276e937a6a8d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Json::DefaultValueAllocator::releaseStringValue</definition>
+        <argsstring>(char *value)</argsstring>
+        <name>releaseStringValue</name>
+        <reimplements refid="class_json_1_1_value_allocator_1aa75c50f08bab7db386673ab355668c99">releaseStringValue</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="92" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="91" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="346">
+        <label>Json::ValueAllocator</label>
+        <link refid="class_json_1_1_value_allocator"/>
+      </node>
+      <node id="345">
+        <label>Json::DefaultValueAllocator</label>
+        <link refid="class_json_1_1_default_value_allocator"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="348">
+        <label>Json::ValueAllocator</label>
+        <link refid="class_json_1_1_value_allocator"/>
+      </node>
+      <node id="347">
+        <label>Json::DefaultValueAllocator</label>
+        <link refid="class_json_1_1_default_value_allocator"/>
+        <childnode refid="348" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="60" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="59" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_json_1_1_default_value_allocator_1adc2dc8da259fe1153594787cfcfc68d5" prot="public" virt="virtual"><scope>Json::DefaultValueAllocator</scope><name>duplicateStringValue</name></member>
+      <member refid="class_json_1_1_default_value_allocator_1a83643548a23763cd9e8fcc9889ae3428" prot="public" virt="virtual"><scope>Json::DefaultValueAllocator</scope><name>makeMemberName</name></member>
+      <member refid="class_json_1_1_default_value_allocator_1a62df0985d957573f82be4f520bf00043" prot="public" virt="virtual"><scope>Json::DefaultValueAllocator</scope><name>releaseMemberName</name></member>
+      <member refid="class_json_1_1_default_value_allocator_1a5e7f4fbebe7f9263090276e937a6a8d2" prot="public" virt="virtual"><scope>Json::DefaultValueAllocator</scope><name>releaseStringValue</name></member>
+      <member refid="class_json_1_1_value_allocator_1a8ae4b347009c7a1eea42c5b944baddc8a44ee3be5d5610907974eb88656bc22fd" prot="public" virt="non-virtual"><scope>Json::DefaultValueAllocator</scope><name>unknown</name></member>
+      <member refid="class_json_1_1_default_value_allocator_1a02937856a2a56c1623d5aef97555dc20" prot="public" virt="virtual"><scope>Json::DefaultValueAllocator</scope><name>~DefaultValueAllocator</name></member>
+      <member refid="class_json_1_1_value_allocator_1a3c31c9a2de499fffad6711672d686b7c" prot="public" virt="virtual"><scope>Json::DefaultValueAllocator</scope><name>~ValueAllocator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

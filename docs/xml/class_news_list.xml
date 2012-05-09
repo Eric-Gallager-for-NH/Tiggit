@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_news_list" kind="class" prot="public">
+    <compoundname>NewsList</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_news_list_1a2242e0f3603d28a05c4983fe6f276704" prot="private" static="no" mutable="no">
+        <type>wxListItemAttr</type>
+        <definition>wxListItemAttr NewsList::unreadStyle</definition>
+        <argsstring></argsstring>
+        <name>unreadStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="134" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_news_list_1a834358746a9ea933e23ae016ae4d2381" prot="private" static="no" mutable="no">
+        <type>wxListItemAttr</type>
+        <definition>wxListItemAttr NewsList::readStyle</definition>
+        <argsstring></argsstring>
+        <name>readStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="134" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_news_list_1a74e1c4f6f7623e21f39a855b02c99122" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_news_holder" kindref="compound">NewsHolder</ref> *</type>
+        <definition>NewsHolder* NewsList::news</definition>
+        <argsstring></argsstring>
+        <name>news</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="135" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_news_list_1a8dd5d835b29b97afadb83e768e82eb84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NewsList::NewsList</definition>
+        <argsstring>(wxWindow *parent, int ID)</argsstring>
+        <name>NewsList</name>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="142" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="138" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_news_list_1a15ef3e8f9ef33b360989190f70bb54a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsList::setData</definition>
+        <argsstring>(NewsHolder &amp;n)</argsstring>
+        <name>setData</name>
+        <param>
+          <type><ref refid="struct_news_holder" kindref="compound">NewsHolder</ref> &amp;</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="161" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_news_list_1a6718379f53da5081e30f57e26bae1817" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_news_item" kindref="compound">NewsItem</ref> *</type>
+        <definition>NewsItem* NewsList::getItem</definition>
+        <argsstring>(int item) const </argsstring>
+        <name>getItem</name>
+        <param>
+          <type>int</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="168" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="167" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_news_list_1a426242320c93c5920d4e141c1555e1f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxListItemAttr *</type>
+        <definition>wxListItemAttr* NewsList::OnGetItemAttr</definition>
+        <argsstring>(long item) const </argsstring>
+        <name>OnGetItemAttr</name>
+        <param>
+          <type>long</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="176" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="175" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_news_list_1a7f469ead3d8693a35944c395cce9c6f6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxString</type>
+        <definition>wxString NewsList::OnGetItemText</definition>
+        <argsstring>(long item, long column) const </argsstring>
+        <name>OnGetItemText</name>
+        <param>
+          <type>long</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="185" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="184" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_news_list_1a584e20f0de7d0970469d2a0013e3dd6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NewsList::markAsRead</definition>
+        <argsstring>(int item)</argsstring>
+        <name>markAsRead</name>
+        <param>
+          <type>int</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="196" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="195" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="133" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="132" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_news_list_1a6718379f53da5081e30f57e26bae1817" prot="public" virt="non-virtual"><scope>NewsList</scope><name>getItem</name></member>
+      <member refid="class_news_list_1a584e20f0de7d0970469d2a0013e3dd6b" prot="public" virt="non-virtual"><scope>NewsList</scope><name>markAsRead</name></member>
+      <member refid="class_news_list_1a74e1c4f6f7623e21f39a855b02c99122" prot="private" virt="non-virtual"><scope>NewsList</scope><name>news</name></member>
+      <member refid="class_news_list_1a8dd5d835b29b97afadb83e768e82eb84" prot="public" virt="non-virtual"><scope>NewsList</scope><name>NewsList</name></member>
+      <member refid="class_news_list_1a426242320c93c5920d4e141c1555e1f3" prot="public" virt="non-virtual"><scope>NewsList</scope><name>OnGetItemAttr</name></member>
+      <member refid="class_news_list_1a7f469ead3d8693a35944c395cce9c6f6" prot="public" virt="non-virtual"><scope>NewsList</scope><name>OnGetItemText</name></member>
+      <member refid="class_news_list_1a834358746a9ea933e23ae016ae4d2381" prot="private" virt="non-virtual"><scope>NewsList</scope><name>readStyle</name></member>
+      <member refid="class_news_list_1a15ef3e8f9ef33b360989190f70bb54a8" prot="public" virt="non-virtual"><scope>NewsList</scope><name>setData</name></member>
+      <member refid="class_news_list_1a2242e0f3603d28a05c4983fe6f276704" prot="private" virt="non-virtual"><scope>NewsList</scope><name>unreadStyle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

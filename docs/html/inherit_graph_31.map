@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$struct_sort_base.html" title="SortBase" alt="" coords="6,31,87,57"/>
+<area shape="rect" id="node3" href="$struct_rate_sort.html" title="RateSort" alt="" coords="137,5,215,32"/>
+<area shape="rect" id="node5" href="$struct_title_sort.html" title="TitleSort" alt="" coords="138,56,214,83"/>
+</map>

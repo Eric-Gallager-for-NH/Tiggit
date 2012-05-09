@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_dummy_array_allocator_initializer" kind="struct" prot="public">
+    <compoundname>DummyArrayAllocatorInitializer</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_dummy_array_allocator_initializer_1aad787af8d4898651f65c01c854f5bcf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DummyArrayAllocatorInitializer::DummyArrayAllocatorInitializer</definition>
+        <argsstring>()</argsstring>
+        <name>DummyArrayAllocatorInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="151" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="150" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="149" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="149" bodyend="154"/>
+    <listofallmembers>
+      <member refid="struct_dummy_array_allocator_initializer_1aad787af8d4898651f65c01c854f5bcf5" prot="public" virt="non-virtual"><scope>DummyArrayAllocatorInitializer</scope><name>DummyArrayAllocatorInitializer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

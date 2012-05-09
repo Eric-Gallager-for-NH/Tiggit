@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info" kind="struct" prot="private">
+    <compoundname>Json::JSON_API::CommentInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1ad885288eb3e4ecb28b500458dd8b7027" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* Json::JSON_API::CommentInfo::comment_</definition>
+        <argsstring></argsstring>
+        <name>comment_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="413" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1a07909aa39bd06df01ca8ac59f31efc8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::JSON_API::CommentInfo::CommentInfo</definition>
+        <argsstring>()</argsstring>
+        <name>CommentInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="408"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1aec9bcf6628130ddd912a1052096d4dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::JSON_API::CommentInfo::~CommentInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~CommentInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="409"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1a1a0f4bce41cd0b7eee7e2db1adb9fc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Json::JSON_API::CommentInfo::setComment</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>setComment</name>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="411"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="407" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="406" bodyend="414"/>
+    <listofallmembers>
+      <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1ad885288eb3e4ecb28b500458dd8b7027" prot="public" virt="non-virtual"><scope>Json::JSON_API::CommentInfo</scope><name>comment_</name></member>
+      <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1a07909aa39bd06df01ca8ac59f31efc8d" prot="public" virt="non-virtual"><scope>Json::JSON_API::CommentInfo</scope><name>CommentInfo</name></member>
+      <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1a1a0f4bce41cd0b7eee7e2db1adb9fc99" prot="public" virt="non-virtual"><scope>Json::JSON_API::CommentInfo</scope><name>setComment</name></member>
+      <member refid="struct_json_1_1_j_s_o_n___a_p_i_1_1_comment_info_1aec9bcf6628130ddd912a1052096d4dcf" prot="public" virt="non-virtual"><scope>Json::JSON_API::CommentInfo</scope><name>~CommentInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

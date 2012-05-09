@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_my_frame" kind="class" prot="public">
+    <compoundname>MyFrame</compoundname>
+    <basecompoundref refid="struct_status_notify" prot="public" virt="non-virtual">StatusNotify</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_my_frame_1a322fe804b6922b39494d2d929c4a5326" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MyFrame::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1241" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_frame_1afc9d16c6b67dbe639b13877b11c2e8ad" prot="private" static="no" mutable="no">
+        <type>wxNotebook *</type>
+        <definition>wxNotebook* MyFrame::book</definition>
+        <argsstring></argsstring>
+        <name>book</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1242" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_frame_1a7ee3a8cabaabff2259f67f00bc06f70a" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_new_game_list_tab" kindref="compound">NewGameListTab</ref> *</type>
+        <definition>NewGameListTab* MyFrame::newTab</definition>
+        <argsstring></argsstring>
+        <name>newTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1244" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_frame_1ad9af19eee556302304edbcbb01949917" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_freeware_list_tab" kindref="compound">FreewareListTab</ref> *</type>
+        <definition>FreewareListTab* MyFrame::freewareTab</definition>
+        <argsstring></argsstring>
+        <name>freewareTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1245" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_frame_1a7a8d5f56a97c590279729b89192225eb" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_demo_list_tab" kindref="compound">DemoListTab</ref> *</type>
+        <definition>DemoListTab* MyFrame::demoTab</definition>
+        <argsstring></argsstring>
+        <name>demoTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1246" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_frame_1ade503beda88eff4e634f58b1f888d617" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_installed_list_tab" kindref="compound">InstalledListTab</ref> *</type>
+        <definition>InstalledListTab* MyFrame::installedTab</definition>
+        <argsstring></argsstring>
+        <name>installedTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1247" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_my_frame_1a547ceb37526b41c5833eb387ce12a9f8" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_news_tab" kindref="compound">NewsTab</ref> *</type>
+        <definition>NewsTab* MyFrame::newsTab</definition>
+        <argsstring></argsstring>
+        <name>newsTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1248" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1248" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_my_frame_1a17aed00b027b724394d8d9b54cbb11c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MyFrame::MyFrame</definition>
+        <argsstring>(const wxString &amp;title, const std::string &amp;ver)</argsstring>
+        <name>MyFrame</name>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>ver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1254" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1251" bodyend="1329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a3fe105979ec2adda44e1186fa76e3bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_tab_base" kindref="compound">TabBase</ref> *</type>
+        <definition>TabBase* MyFrame::getTab</definition>
+        <argsstring>(int i)</argsstring>
+        <name>getTab</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1332" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1331" bodyend="1337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a35e0ed5ec58942931cfd13064491afc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_tab_base" kindref="compound">TabBase</ref> *</type>
+        <definition>TabBase* MyFrame::getCurrentTab</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1346" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1345" bodyend="1350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a1255afa204a661d6ba8d2a78323c96b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyFrame::setTabFocus</definition>
+        <argsstring>()</argsstring>
+        <name>setTabFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1353" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1352" bodyend="1356"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a65ad2d52518a6729a59c94f41641944d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyFrame::setupTabs</definition>
+        <argsstring>()</argsstring>
+        <name>setupTabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1359" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1358" bodyend="1396"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a71ad5403432c811d9d58850517b937d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyFrame::onLeftRight</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onLeftRight</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1399" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1398" bodyend="1402"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1ac1e5030023f4ec7199a0bdc0b98372ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void MyFrame::onDataChanged</definition>
+        <argsstring>()</argsstring>
+        <name>onDataChanged</name>
+        <reimplements refid="struct_status_notify_1afcf37ad77a3d23537ddbb098bed1a19b">onDataChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1408" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1407" bodyend="1417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a2a5cb03ea4228f4929add644f5c56f83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void MyFrame::switchToInstalled</definition>
+        <argsstring>()</argsstring>
+        <name>switchToInstalled</name>
+        <reimplements refid="struct_status_notify_1ac6e45da5a5caf36785a32ae6ad70f711">switchToInstalled</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1422" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1421" bodyend="1425"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a0a68fcf35cde7bf0cc1c2c66bd7683a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyFrame::onRefresh</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onRefresh</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1428" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1427" bodyend="1442"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1a541ab015e0d63755625d7b2a9173b305" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyFrame::onAbout</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onAbout</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1445" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1444" bodyend="1448"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1acd6b9b007ba77be5ff19bd494d5811a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyFrame::onExit</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onExit</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1451" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1450" bodyend="1453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_frame_1ab7b0fe33a09b9a71c92dcdc968c44e13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyFrame::tick</definition>
+        <argsstring>()</argsstring>
+        <name>tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1458" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1457" bodyend="1475"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="481">
+        <label>MyFrame</label>
+        <link refid="class_my_frame"/>
+        <childnode refid="482" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="482">
+        <label>StatusNotify</label>
+        <link refid="struct_status_notify"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="483">
+        <label>MyFrame</label>
+        <link refid="class_my_frame"/>
+        <childnode refid="484" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>StatusNotify</label>
+        <link refid="struct_status_notify"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1240" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1239" bodyend="1476"/>
+    <listofallmembers>
+      <member refid="class_my_frame_1afc9d16c6b67dbe639b13877b11c2e8ad" prot="private" virt="non-virtual"><scope>MyFrame</scope><name>book</name></member>
+      <member refid="class_my_frame_1a7a8d5f56a97c590279729b89192225eb" prot="private" virt="non-virtual"><scope>MyFrame</scope><name>demoTab</name></member>
+      <member refid="class_my_frame_1ad9af19eee556302304edbcbb01949917" prot="private" virt="non-virtual"><scope>MyFrame</scope><name>freewareTab</name></member>
+      <member refid="class_my_frame_1a35e0ed5ec58942931cfd13064491afc3" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>getCurrentTab</name></member>
+      <member refid="class_my_frame_1a3fe105979ec2adda44e1186fa76e3bd0" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>getTab</name></member>
+      <member refid="class_my_frame_1ade503beda88eff4e634f58b1f888d617" prot="private" virt="non-virtual"><scope>MyFrame</scope><name>installedTab</name></member>
+      <member refid="class_my_frame_1a17aed00b027b724394d8d9b54cbb11c5" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>MyFrame</name></member>
+      <member refid="class_my_frame_1a547ceb37526b41c5833eb387ce12a9f8" prot="private" virt="non-virtual"><scope>MyFrame</scope><name>newsTab</name></member>
+      <member refid="class_my_frame_1a7ee3a8cabaabff2259f67f00bc06f70a" prot="private" virt="non-virtual"><scope>MyFrame</scope><name>newTab</name></member>
+      <member refid="class_my_frame_1a541ab015e0d63755625d7b2a9173b305" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>onAbout</name></member>
+      <member refid="class_my_frame_1ac1e5030023f4ec7199a0bdc0b98372ca" prot="public" virt="virtual"><scope>MyFrame</scope><name>onDataChanged</name></member>
+      <member refid="class_my_frame_1acd6b9b007ba77be5ff19bd494d5811a7" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>onExit</name></member>
+      <member refid="class_my_frame_1a71ad5403432c811d9d58850517b937d7" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>onLeftRight</name></member>
+      <member refid="class_my_frame_1a0a68fcf35cde7bf0cc1c2c66bd7683a0" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>onRefresh</name></member>
+      <member refid="class_my_frame_1a1255afa204a661d6ba8d2a78323c96b4" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>setTabFocus</name></member>
+      <member refid="class_my_frame_1a65ad2d52518a6729a59c94f41641944d" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>setupTabs</name></member>
+      <member refid="class_my_frame_1a2a5cb03ea4228f4929add644f5c56f83" prot="public" virt="virtual"><scope>MyFrame</scope><name>switchToInstalled</name></member>
+      <member refid="class_my_frame_1ab7b0fe33a09b9a71c92dcdc968c44e13" prot="public" virt="non-virtual"><scope>MyFrame</scope><name>tick</name></member>
+      <member refid="class_my_frame_1a322fe804b6922b39494d2d929c4a5326" prot="private" virt="non-virtual"><scope>MyFrame</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

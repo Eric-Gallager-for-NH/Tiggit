@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_updater" kind="struct" prot="public">
+    <compoundname>Updater</compoundname>
+    <basecompoundref refid="class_progress_holder" prot="public" virt="non-virtual">ProgressHolder</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_updater_1a71ce18699f5ae41809ceabc89ad79dc4" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Updater::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auto_update.hpp" line="11" bodyfile="/Users/ericgallager/Tiggit/auto_update.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_updater_1ade31bebff72229b5800d285efdd19827" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Updater::Updater</definition>
+        <argsstring>(wxApp *_app)</argsstring>
+        <name>Updater</name>
+        <param>
+          <type>wxApp *</type>
+          <declname>_app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auto_update.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/auto_update.hpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_updater_1ac75f04a645b62e96c9ff7414f9940fcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Updater::checkVersion</definition>
+        <argsstring>(const std::string &amp;url, DataList::TigInfo &amp;ti, const std::string &amp;ver)</argsstring>
+        <name>checkVersion</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_tig_info" kindref="compound">DataList::TigInfo</ref> &amp;</type>
+          <declname>ti</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>ver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auto_update.hpp" line="22" bodyfile="/Users/ericgallager/Tiggit/auto_update.hpp" bodystart="19" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_updater_1afc377b7fd896168d89252cafbcd405f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Updater::doAutoUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>doAutoUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auto_update.hpp" line="43" bodyfile="/Users/ericgallager/Tiggit/auto_update.hpp" bodystart="42" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_updater_1a4f1e4bdd6189f9fb62e167e5b2c2da64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Updater::doUpdate</definition>
+        <argsstring>(const std::string &amp;url, const std::string &amp;up_dest, const std::string &amp;vermsg)</argsstring>
+        <name>doUpdate</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>up_dest</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>vermsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/auto_update.hpp" line="206" bodyfile="/Users/ericgallager/Tiggit/auto_update.hpp" bodystart="203" bodyend="273"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="643">
+        <label>ProgressHolder</label>
+        <link refid="class_progress_holder"/>
+      </node>
+      <node id="642">
+        <label>Updater</label>
+        <link refid="struct_updater"/>
+        <childnode refid="643" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="645">
+        <label>ProgressHolder</label>
+        <link refid="class_progress_holder"/>
+      </node>
+      <node id="644">
+        <label>Updater</label>
+        <link refid="struct_updater"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/auto_update.hpp" line="9" bodyfile="/Users/ericgallager/Tiggit/auto_update.hpp" bodystart="8" bodyend="274"/>
+    <listofallmembers>
+      <member refid="struct_updater_1ac75f04a645b62e96c9ff7414f9940fcb" prot="public" virt="non-virtual"><scope>Updater</scope><name>checkVersion</name></member>
+      <member refid="struct_updater_1afc377b7fd896168d89252cafbcd405f9" prot="public" virt="non-virtual"><scope>Updater</scope><name>doAutoUpdate</name></member>
+      <member refid="struct_updater_1a4f1e4bdd6189f9fb62e167e5b2c2da64" prot="public" virt="non-virtual"><scope>Updater</scope><name>doUpdate</name></member>
+      <member refid="class_progress_holder_1ab768d833bea7d8b96f9875b95fc43cce" prot="public" virt="non-virtual"><scope>Updater</scope><name>ProgressHolder</name></member>
+      <member refid="class_progress_holder_1a8d6e91204bedfe650ef3c03e4da264a1" prot="public" virt="non-virtual"><scope>Updater</scope><name>pulse</name></member>
+      <member refid="class_progress_holder_1aa5d4a3606651c7c6b6d18d88b9d1a059" prot="public" virt="non-virtual"><scope>Updater</scope><name>setMsg</name></member>
+      <member refid="class_progress_holder_1a8c13297dc5ad35585dd476c25d415a27" prot="public" virt="non-virtual"><scope>Updater</scope><name>setMsg</name></member>
+      <member refid="class_progress_holder_1ad63d5b6b5623add47e065a773ba0b832" prot="public" virt="non-virtual"><scope>Updater</scope><name>update</name></member>
+      <member refid="struct_updater_1ade31bebff72229b5800d285efdd19827" prot="public" virt="non-virtual"><scope>Updater</scope><name>Updater</name></member>
+      <member refid="struct_updater_1a71ce18699f5ae41809ceabc89ad79dc4" prot="public" virt="non-virtual"><scope>Updater</scope><name>version</name></member>
+      <member refid="class_progress_holder_1a8e5222f876b4ad904f12f0c4e14ab88c" prot="public" virt="non-virtual"><scope>Updater</scope><name>yield</name></member>
+      <member refid="class_progress_holder_1ae19b37d810d58c5497b6befeeb2f66d5" prot="public" virt="non-virtual"><scope>Updater</scope><name>~ProgressHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

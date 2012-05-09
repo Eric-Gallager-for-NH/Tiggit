@@ -1,0 +1,57 @@
+.TH "Json::Path" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Json::Path \- 
+.PP
+Experimental and untested: represents a 'path' to access a node\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <value\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPath\fP (const std::string &path, const \fBPathArgument\fP &a1=\fBPathArgument\fP(), const \fBPathArgument\fP &a2=\fBPathArgument\fP(), const \fBPathArgument\fP &a3=\fBPathArgument\fP(), const \fBPathArgument\fP &a4=\fBPathArgument\fP(), const \fBPathArgument\fP &a5=\fBPathArgument\fP())"
+.br
+.ti -1c
+.RI "const Value & \fBresolve\fP (const Value &root) const "
+.br
+.ti -1c
+.RI "Value \fBresolve\fP (const Value &root, const Value &defaultValue) const "
+.br
+.ti -1c
+.RI "Value & \fBmake\fP (Value &root) const "
+.br
+.RI "\fICreates the 'path' to access the specified node and returns a reference on the node\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Experimental and untested: represents a 'path' to access a node\&. 
+
+Syntax:
+.IP "\(bu" 2
+'\&.' => root node
+.IP "\(bu" 2
+'\&.[n]' => elements at index 'n' of root node (an array value)
+.IP "\(bu" 2
+'\&.name' => member named 'name' of root node (an object value)
+.IP "\(bu" 2
+'\&.name1\&.name2\&.name3'
+.IP "\(bu" 2
+'\&.[0][1][2]\&.name1[3]'
+.IP "\(bu" 2
+'\&.%' => member name is provided as parameter
+.IP "\(bu" 2
+'\&.[%]' => index is provied as parameter 
+.PP
+
+.PP
+Definition at line 484 of file value\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

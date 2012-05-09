@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info" kind="class" prot="private">
+    <compoundname>Json::JSON_API::ErrorInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1ad73dc53616c7d7c47d88b1d6abcd0917" prot="public" static="no" mutable="no">
+        <type>Token</type>
+        <definition>Token Json::JSON_API::ErrorInfo::token_</definition>
+        <argsstring></argsstring>
+        <name>token_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" line="103" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1ae957e0333abd8941123683c5444da17b" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Json::JSON_API::ErrorInfo::message_</definition>
+        <argsstring></argsstring>
+        <name>message_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" line="104" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1a450c451b46c93fb91074393f8973b703" prot="public" static="no" mutable="no">
+        <type>Location</type>
+        <definition>Location Json::JSON_API::ErrorInfo::extra_</definition>
+        <argsstring></argsstring>
+        <name>extra_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" line="105" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="395">
+        <label>Json::JSON_API::Token</label>
+      </node>
+      <node id="394">
+        <label>Json::JSON_API::ErrorInfo</label>
+        <childnode refid="395" relation="usage">
+          <edgelabel>token_</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" line="101" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" bodystart="100" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1a450c451b46c93fb91074393f8973b703" prot="public" virt="non-virtual"><scope>Json::JSON_API::ErrorInfo</scope><name>extra_</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1ae957e0333abd8941123683c5444da17b" prot="public" virt="non-virtual"><scope>Json::JSON_API::ErrorInfo</scope><name>message_</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_error_info_1ad73dc53616c7d7c47d88b1d6abcd0917" prot="public" virt="non-virtual"><scope>Json::JSON_API::ErrorInfo</scope><name>token_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

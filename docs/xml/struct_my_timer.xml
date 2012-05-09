@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_my_timer" kind="struct" prot="public">
+    <compoundname>MyTimer</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_my_timer_1a669500ae63fd7531addf55a812a94c87" prot="public" static="no" mutable="no">
+        <type><ref refid="class_my_frame" kindref="compound">MyFrame</ref> *</type>
+        <definition>MyFrame* MyTimer::frame</definition>
+        <argsstring></argsstring>
+        <name>frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1480" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1480" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_my_timer_1a4461236b599486bab666cdd483e7a947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MyTimer::MyTimer</definition>
+        <argsstring>(MyFrame *f)</argsstring>
+        <name>MyTimer</name>
+        <param>
+          <type><ref refid="class_my_frame" kindref="compound">MyFrame</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1484" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1482" bodyend="1486"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_my_timer_1a15adea38e648c9f31a6d78e134b744ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyTimer::Notify</definition>
+        <argsstring>()</argsstring>
+        <name>Notify</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1489" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1488" bodyend="1491"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="489">
+        <label>MyFrame</label>
+        <link refid="class_my_frame"/>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="490">
+        <label>StatusNotify</label>
+        <link refid="struct_status_notify"/>
+      </node>
+      <node id="488">
+        <label>MyTimer</label>
+        <link refid="struct_my_timer"/>
+        <childnode refid="489" relation="usage">
+          <edgelabel>frame</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1479" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1478" bodyend="1492"/>
+    <listofallmembers>
+      <member refid="struct_my_timer_1a669500ae63fd7531addf55a812a94c87" prot="public" virt="non-virtual"><scope>MyTimer</scope><name>frame</name></member>
+      <member refid="struct_my_timer_1a4461236b599486bab666cdd483e7a947" prot="public" virt="non-virtual"><scope>MyTimer</scope><name>MyTimer</name></member>
+      <member refid="struct_my_timer_1a15adea38e648c9f31a6d78e134b744ec" prot="public" virt="non-virtual"><scope>MyTimer</scope><name>Notify</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

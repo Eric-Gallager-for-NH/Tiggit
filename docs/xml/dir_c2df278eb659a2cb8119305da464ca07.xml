@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_c2df278eb659a2cb8119305da464ca07" kind="dir">
+    <compoundname>libs/jsoncpp/src/</compoundname>
+    <innerfile refid="json__batchallocator_8h">json_batchallocator.h</innerfile>
+    <innerfile refid="json__internalarray_8inl">json_internalarray.inl</innerfile>
+    <innerfile refid="json__internalmap_8inl">json_internalmap.inl</innerfile>
+    <innerfile refid="json__reader_8cpp">json_reader.cpp</innerfile>
+    <innerfile refid="json__value_8cpp">json_value.cpp</innerfile>
+    <innerfile refid="json__valueiterator_8inl">json_valueiterator.inl</innerfile>
+    <innerfile refid="json__writer_8cpp">json_writer.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/"/>
+  </compounddef>
+</doxygen>

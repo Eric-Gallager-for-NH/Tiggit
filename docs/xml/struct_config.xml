@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_config" kind="struct" prot="public">
+    <compoundname>Config</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_config_1ab86ad997e8f2e88a64f061fa70091078" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="12" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a564d15668d632419798a93d620f81152" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::updateList</definition>
+        <argsstring></argsstring>
+        <name>updateList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ad1e5ac2a15f384d413b95e121c6d2928" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::updateTigs</definition>
+        <argsstring></argsstring>
+        <name>updateTigs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1aaf303bdff546fcc4c46767f7f3d3dd69" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::updateCache</definition>
+        <argsstring></argsstring>
+        <name>updateCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a099a67b516ac62f95fa2f49483721310" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::first_time</definition>
+        <argsstring></argsstring>
+        <name>first_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="18" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a8ecbe763ad856693ff85cba5182e1f2e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::debug</definition>
+        <argsstring></argsstring>
+        <name>debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="21" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1afd23708f8e59e9c696b0fc693739472c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::seen_demo_msg</definition>
+        <argsstring></argsstring>
+        <name>seen_demo_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="24" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a3d06f58acbb74e2913bd0f044d12394d" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t Config::lastTime</definition>
+        <argsstring></argsstring>
+        <name>lastTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="26" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1acc4759baa2fe83106d9a8fae12546f0e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::baseUrl</definition>
+        <argsstring></argsstring>
+        <name>baseUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="111" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1acb5516f84b18e6649286735712cb0a98" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::imageUrl</definition>
+        <argsstring></argsstring>
+        <name>imageUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="111" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a4f4448448427dc5a8b346a4a66e30b92" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::localPath</definition>
+        <argsstring></argsstring>
+        <name>localPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="114" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a0b584e690f6a34b8462c85c3e11aa859" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::imagePath</definition>
+        <argsstring></argsstring>
+        <name>imagePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="114" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1ac14e6be5374dfb749dc441d6ea0f27bf" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::defDevname</definition>
+        <argsstring></argsstring>
+        <name>defDevname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="117" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a15077f4171fb0f43a14d9fec23318744" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::defPaypal</definition>
+        <argsstring></argsstring>
+        <name>defPaypal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="118" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a63486aa0f6e97789ad5bed516ab789c8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="121" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1aaa8708013e3abf31b037ef34269c569b" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::api_key</definition>
+        <argsstring></argsstring>
+        <name>api_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="122" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1a095ae9408d00154699d933256790ebd2" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Config::postHook</definition>
+        <argsstring></argsstring>
+        <name>postHook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="126" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_config_1aa602ce908249dc593bab0b633d246f84" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Config::autoPost</definition>
+        <argsstring></argsstring>
+        <name>autoPost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="134" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_config_1abd0c571c116924871e30444b192b792a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Config::Config</definition>
+        <argsstring>()</argsstring>
+        <name>Config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="30" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_config_1abd04feb31c5597f231c2b0a846880421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Config::fail</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>fail</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_config_1ab23cf64dbe467847929cc97a190135f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Config::setLastTime</definition>
+        <argsstring>(int64_t newTime)</argsstring>
+        <name>setLastTime</name>
+        <param>
+          <type>int64_t</type>
+          <declname>newTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="40" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_config_1acd40ebac23c7a2482a5d05c9f45a6431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Config::shown_demo_msg</definition>
+        <argsstring>()</argsstring>
+        <name>shown_demo_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="49" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_config_1a9a2cf83a170bd24727275d0ceae5d096" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Config::load</definition>
+        <argsstring>(const boost::filesystem::path &amp;where)</argsstring>
+        <name>load</name>
+        <param>
+          <type>const boost::filesystem::path &amp;</type>
+          <declname>where</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="58" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="57" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_config_1ad4706c80584efb50585338d051a777eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Config::write</definition>
+        <argsstring>()</argsstring>
+        <name>write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/config.hpp" line="127" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="126" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_config_1a72c04e1d5ec82869d7f99f4dbf4d415d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Config::read</definition>
+        <argsstring>(const std::string &amp;filename)</argsstring>
+        <name>read</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="137" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="136" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_config_1abd0c571c116924871e30444b192b792a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Config::Config</definition>
+        <argsstring>()</argsstring>
+        <name>Config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="175" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="175" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/config.hpp" line="11" bodyfile="/Users/ericgallager/Tiggit/config.hpp" bodystart="10" bodyend="138"/>
+    <listofallmembers>
+      <member refid="struct_config_1aaa8708013e3abf31b037ef34269c569b" prot="public" virt="non-virtual"><scope>Config</scope><name>api_key</name></member>
+      <member refid="struct_config_1aa602ce908249dc593bab0b633d246f84" prot="public" virt="non-virtual"><scope>Config</scope><name>autoPost</name></member>
+      <member refid="struct_config_1acc4759baa2fe83106d9a8fae12546f0e" prot="public" virt="non-virtual"><scope>Config</scope><name>baseUrl</name></member>
+      <member refid="struct_config_1abd0c571c116924871e30444b192b792a" prot="public" virt="non-virtual"><scope>Config</scope><name>Config</name></member>
+      <member refid="struct_config_1abd0c571c116924871e30444b192b792a" prot="public" virt="non-virtual"><scope>Config</scope><name>Config</name></member>
+      <member refid="struct_config_1a8ecbe763ad856693ff85cba5182e1f2e" prot="public" virt="non-virtual"><scope>Config</scope><name>debug</name></member>
+      <member refid="struct_config_1ac14e6be5374dfb749dc441d6ea0f27bf" prot="public" virt="non-virtual"><scope>Config</scope><name>defDevname</name></member>
+      <member refid="struct_config_1a15077f4171fb0f43a14d9fec23318744" prot="public" virt="non-virtual"><scope>Config</scope><name>defPaypal</name></member>
+      <member refid="struct_config_1abd04feb31c5597f231c2b0a846880421" prot="public" virt="non-virtual"><scope>Config</scope><name>fail</name></member>
+      <member refid="struct_config_1ab86ad997e8f2e88a64f061fa70091078" prot="public" virt="non-virtual"><scope>Config</scope><name>filename</name></member>
+      <member refid="struct_config_1a099a67b516ac62f95fa2f49483721310" prot="public" virt="non-virtual"><scope>Config</scope><name>first_time</name></member>
+      <member refid="struct_config_1a0b584e690f6a34b8462c85c3e11aa859" prot="public" virt="non-virtual"><scope>Config</scope><name>imagePath</name></member>
+      <member refid="struct_config_1acb5516f84b18e6649286735712cb0a98" prot="public" virt="non-virtual"><scope>Config</scope><name>imageUrl</name></member>
+      <member refid="struct_config_1a3d06f58acbb74e2913bd0f044d12394d" prot="public" virt="non-virtual"><scope>Config</scope><name>lastTime</name></member>
+      <member refid="struct_config_1a9a2cf83a170bd24727275d0ceae5d096" prot="public" virt="non-virtual"><scope>Config</scope><name>load</name></member>
+      <member refid="struct_config_1a4f4448448427dc5a8b346a4a66e30b92" prot="public" virt="non-virtual"><scope>Config</scope><name>localPath</name></member>
+      <member refid="struct_config_1a095ae9408d00154699d933256790ebd2" prot="public" virt="non-virtual"><scope>Config</scope><name>postHook</name></member>
+      <member refid="struct_config_1a72c04e1d5ec82869d7f99f4dbf4d415d" prot="public" virt="non-virtual"><scope>Config</scope><name>read</name></member>
+      <member refid="struct_config_1afd23708f8e59e9c696b0fc693739472c" prot="public" virt="non-virtual"><scope>Config</scope><name>seen_demo_msg</name></member>
+      <member refid="struct_config_1ab23cf64dbe467847929cc97a190135f6" prot="public" virt="non-virtual"><scope>Config</scope><name>setLastTime</name></member>
+      <member refid="struct_config_1acd40ebac23c7a2482a5d05c9f45a6431" prot="public" virt="non-virtual"><scope>Config</scope><name>shown_demo_msg</name></member>
+      <member refid="struct_config_1aaf303bdff546fcc4c46767f7f3d3dd69" prot="public" virt="non-virtual"><scope>Config</scope><name>updateCache</name></member>
+      <member refid="struct_config_1a564d15668d632419798a93d620f81152" prot="public" virt="non-virtual"><scope>Config</scope><name>updateList</name></member>
+      <member refid="struct_config_1ad1e5ac2a15f384d413b95e121c6d2928" prot="public" virt="non-virtual"><scope>Config</scope><name>updateTigs</name></member>
+      <member refid="struct_config_1a63486aa0f6e97789ad5bed516ab789c8" prot="public" virt="non-virtual"><scope>Config</scope><name>user</name></member>
+      <member refid="struct_config_1ad4706c80584efb50585338d051a777eb" prot="public" virt="non-virtual"><scope>Config</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

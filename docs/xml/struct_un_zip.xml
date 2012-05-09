@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_un_zip" kind="struct" prot="public">
+    <compoundname>UnZip</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_un_zip_1ad6b4ca8cdcf71819383209ef79e3de52" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string UnZip::file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/unzip.hpp" line="11" bodyfile="/Users/ericgallager/Tiggit/unzip.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_un_zip_1a360f3aedef8bb2ccf0568cfe806eef29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnZip::fail</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>fail</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/unzip.hpp" line="14" bodyfile="/Users/ericgallager/Tiggit/unzip.hpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_un_zip_1aa974eb0103450810ff86bbbd5374925a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnZip::checkErr</definition>
+        <argsstring>(int err)</argsstring>
+        <name>checkErr</name>
+        <param>
+          <type>int</type>
+          <declname>err</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/unzip.hpp" line="19" bodyfile="/Users/ericgallager/Tiggit/unzip.hpp" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_un_zip_1a7b4614f41dcb93da1b21011444b0d16d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnZip::unpack</definition>
+        <argsstring>(const std::string &amp;_file, const std::string &amp;where)</argsstring>
+        <name>unpack</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_file</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>where</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/unzip.hpp" line="25" bodyfile="/Users/ericgallager/Tiggit/unzip.hpp" bodystart="24" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/unzip.hpp" line="10" bodyfile="/Users/ericgallager/Tiggit/unzip.hpp" bodystart="9" bodyend="90"/>
+    <listofallmembers>
+      <member refid="struct_un_zip_1aa974eb0103450810ff86bbbd5374925a" prot="public" virt="non-virtual"><scope>UnZip</scope><name>checkErr</name></member>
+      <member refid="struct_un_zip_1a360f3aedef8bb2ccf0568cfe806eef29" prot="public" virt="non-virtual"><scope>UnZip</scope><name>fail</name></member>
+      <member refid="struct_un_zip_1ad6b4ca8cdcf71819383209ef79e3de52" prot="public" virt="non-virtual"><scope>UnZip</scope><name>file</name></member>
+      <member refid="struct_un_zip_1a7b4614f41dcb93da1b21011444b0d16d" prot="public" virt="non-virtual"><scope>UnZip</scope><name>unpack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

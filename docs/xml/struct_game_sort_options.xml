@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_game_sort_options" kind="struct" prot="public">
+    <compoundname>GameSortOptions</compoundname>
+    <basecompoundref refid="struct_sort_options" prot="public" virt="non-virtual">SortOptions</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_game_sort_options_1a07d340aa5c46550a502278036b9d23ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void GameSortOptions::addSortOptions</definition>
+        <argsstring>(wxWindow *parent, wxBoxSizer *pane) const </argsstring>
+        <name>addSortOptions</name>
+        <reimplements refid="struct_sort_options_1a717e586bc0927918693720ae30a66394">addSortOptions</reimplements>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>wxBoxSizer *</type>
+          <declname>pane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1125" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1124" bodyend="1131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="415">
+        <label>GameSortOptions</label>
+        <link refid="struct_game_sort_options"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>SortOptions</label>
+        <link refid="struct_sort_options"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="417">
+        <label>GameSortOptions</label>
+        <link refid="struct_game_sort_options"/>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>SortOptions</label>
+        <link refid="struct_sort_options"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1123" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1122" bodyend="1132"/>
+    <listofallmembers>
+      <member refid="struct_game_sort_options_1a07d340aa5c46550a502278036b9d23ca" prot="public" virt="virtual"><scope>GameSortOptions</scope><name>addSortOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

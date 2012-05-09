@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_job_queue" kind="struct" prot="public">
+    <compoundname>JobQueue</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_job_queue_1ad787a7e4929d8232d89d57ccd06e1dd2" prot="private" static="no" mutable="no">
+        <type>std::queue&lt; <ref refid="struct_status_job" kindref="compound">StatusJob</ref> * &gt;</type>
+        <definition>std::queue&lt;StatusJob*&gt; JobQueue::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="62" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_job_queue_1aa1932c00d578042d0f7c4a5504cb14d1" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_status_job" kindref="compound">StatusJob</ref> *</type>
+        <definition>StatusJob* JobQueue::current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="63" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_job_queue_1a099c34f8ed34eb355a01635b23235a06" prot="private" static="no" mutable="no">
+        <type>wxMutex</type>
+        <definition>wxMutex JobQueue::mutex</definition>
+        <argsstring></argsstring>
+        <name>mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="65" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_job_queue_1aed770e1578fe6cf644cc707755d2a0c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>JobQueue::JobQueue</definition>
+        <argsstring>()</argsstring>
+        <name>JobQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="9" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_job_queue_1a1481b2b329815e064d108e078ad86a40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JobQueue::queue</definition>
+        <argsstring>(StatusJob *job)</argsstring>
+        <name>queue</name>
+        <param>
+          <type><ref refid="struct_status_job" kindref="compound">StatusJob</ref> *</type>
+          <declname>job</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="12" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_job_queue_1aa97130eb26603ec90cae7883c0f83f94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JobQueue::unlink</definition>
+        <argsstring>(StatusJob *job)</argsstring>
+        <name>unlink</name>
+        <param>
+          <type><ref refid="struct_status_job" kindref="compound">StatusJob</ref> *</type>
+          <declname>job</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="19" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_job_queue_1a642e5a86cee74874a6c6ae3e8ff47da2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JobQueue::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="28" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="27" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/jobqueue.hpp" line="8" bodyfile="/Users/ericgallager/Tiggit/jobqueue.hpp" bodystart="7" bodyend="66"/>
+    <listofallmembers>
+      <member refid="struct_job_queue_1aa1932c00d578042d0f7c4a5504cb14d1" prot="private" virt="non-virtual"><scope>JobQueue</scope><name>current</name></member>
+      <member refid="struct_job_queue_1aed770e1578fe6cf644cc707755d2a0c1" prot="public" virt="non-virtual"><scope>JobQueue</scope><name>JobQueue</name></member>
+      <member refid="struct_job_queue_1ad787a7e4929d8232d89d57ccd06e1dd2" prot="private" virt="non-virtual"><scope>JobQueue</scope><name>list</name></member>
+      <member refid="struct_job_queue_1a099c34f8ed34eb355a01635b23235a06" prot="private" virt="non-virtual"><scope>JobQueue</scope><name>mutex</name></member>
+      <member refid="struct_job_queue_1a1481b2b329815e064d108e078ad86a40" prot="public" virt="non-virtual"><scope>JobQueue</scope><name>queue</name></member>
+      <member refid="struct_job_queue_1aa97130eb26603ec90cae7883c0f83f94" prot="public" virt="non-virtual"><scope>JobQueue</scope><name>unlink</name></member>
+      <member refid="struct_job_queue_1a642e5a86cee74874a6c6ae3e8ff47da2" prot="public" virt="non-virtual"><scope>JobQueue</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

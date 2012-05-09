@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_the_frame" kind="struct" prot="public">
+    <compoundname>TheFrame</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_the_frame_1af6010efde01e0794faddedc72e9eac97" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl* TheFrame::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="209" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1aaec391e39d3889423449cadfbb29dedd" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::urlname</definition>
+        <argsstring></argsstring>
+        <name>urlname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="209" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a5d04a58aa1d746c35881fc6fbffad5aa" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="209" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a48698e0f4c7b4a1db42491d0143758c0" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::launch</definition>
+        <argsstring></argsstring>
+        <name>launch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="209" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a2ec780680616cd64db368f7c39f28a1c" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="209" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1addb6dd16069e457b08799de2e53b7ef2" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::desc</definition>
+        <argsstring></argsstring>
+        <name>desc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a257dfb4c7b3076b0ff0cf49bd45f3836" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::homepage</definition>
+        <argsstring></argsstring>
+        <name>homepage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1aa6a5fa2e6df89cae92395f8202f3881b" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::devname</definition>
+        <argsstring></argsstring>
+        <name>devname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a6aae57bd50626fbf8cc38e7e09452b43" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::shot</definition>
+        <argsstring></argsstring>
+        <name>shot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1aa7c44c9ff43d20a07b516d27ee06c92f" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::paypal</definition>
+        <argsstring></argsstring>
+        <name>paypal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1ada2dd050eda7659c3a68572ce52422db" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::buypage</definition>
+        <argsstring></argsstring>
+        <name>buypage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a2b2b76468fa284d39c1bc21c67dfdcde" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a091ebeaec82a9703c898eb7ffd0c9fe5" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl * TheFrame::tags</definition>
+        <argsstring></argsstring>
+        <name>tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="210" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1ac30c1cecc3315fa527fdc333b4f18dde" prot="public" static="no" mutable="no">
+        <type>wxPanel *</type>
+        <definition>wxPanel* TheFrame::panel</definition>
+        <argsstring></argsstring>
+        <name>panel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="211" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1ac54ac3f656876082566591d9622323e0" prot="public" static="no" mutable="no">
+        <type>wxBoxSizer *</type>
+        <definition>wxBoxSizer* TheFrame::sizer</definition>
+        <argsstring></argsstring>
+        <name>sizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="212" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_the_frame_1a31d1e4b9cd1fa6fc9be8eb4f1484d561" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TheFrame::urlChanged</definition>
+        <argsstring></argsstring>
+        <name>urlChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="216" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_the_frame_1a8e85fd4a635ab80ef171d22208c846e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl* TheFrame::addText</definition>
+        <argsstring>(const std::string &amp;name, int id, int spacing=6)</argsstring>
+        <name>addText</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>spacing</declname>
+          <defval>6</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="219" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="218" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1ac97010df2b6347ede1ab359dc6b996ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl* TheFrame::addMultiText</definition>
+        <argsstring>(const std::string &amp;name, int id, int spacing=6)</argsstring>
+        <name>addMultiText</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>spacing</declname>
+          <defval>6</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="235" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="234" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1ae034ad586fea4cf0e2bc9b4e2d659dac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TheFrame::TheFrame</definition>
+        <argsstring>()</argsstring>
+        <name>TheFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="254" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="251" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1a299f106f69543e75c8f4c2b26246516e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::onTitleChange</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onTitleChange</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="318" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="317" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1aa3f4279cc4ced529fe31d44a24c23f23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::onURLChange</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onURLChange</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="360" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="359" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1a9042a0a3277c7ac1e9e628ea7327ea0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::set</definition>
+        <argsstring>(Json::Value &amp;v, const std::string &amp;key, const wxTextCtrl *txt)</argsstring>
+        <name>set</name>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const wxTextCtrl *</type>
+          <declname>txt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="368" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="367" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1ae8a29d6e5f0df491dfde4d41182b6cfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::set</definition>
+        <argsstring>(Json::Value &amp;v, const std::string &amp;key, const std::string &amp;value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="373" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="372" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1ac06553e384df8d78b6e43f6ec2e07569" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TheFrame::fixImage</definition>
+        <argsstring>(const std::string &amp;url, const std::string &amp;imgfile)</argsstring>
+        <name>fixImage</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>imgfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="379" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="378" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1ad0c8b9f18646b6b9d0787241409bd0d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::onSave</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onSave</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="425" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="424" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1af65b416093b66925a7884709b52fab77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::onClear</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onClear</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="503" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="503" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1aa6fc0c5ccb328dfa6dba6d251026a93c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::onWebsite</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onWebsite</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="506" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="505" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_the_frame_1a8a83eff87c5c265f1c0bd195849808b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TheFrame::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="511" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="510" bodyend="534"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/tigmaker.cpp" line="208" bodyfile="/Users/ericgallager/Tiggit/tigmaker.cpp" bodystart="207" bodyend="535"/>
+    <listofallmembers>
+      <member refid="struct_the_frame_1ac97010df2b6347ede1ab359dc6b996ba" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>addMultiText</name></member>
+      <member refid="struct_the_frame_1a8e85fd4a635ab80ef171d22208c846e8" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>addText</name></member>
+      <member refid="struct_the_frame_1ada2dd050eda7659c3a68572ce52422db" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>buypage</name></member>
+      <member refid="struct_the_frame_1a8a83eff87c5c265f1c0bd195849808b9" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>clear</name></member>
+      <member refid="struct_the_frame_1addb6dd16069e457b08799de2e53b7ef2" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>desc</name></member>
+      <member refid="struct_the_frame_1aa6a5fa2e6df89cae92395f8202f3881b" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>devname</name></member>
+      <member refid="struct_the_frame_1ac06553e384df8d78b6e43f6ec2e07569" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>fixImage</name></member>
+      <member refid="struct_the_frame_1a257dfb4c7b3076b0ff0cf49bd45f3836" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>homepage</name></member>
+      <member refid="struct_the_frame_1a48698e0f4c7b4a1db42491d0143758c0" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>launch</name></member>
+      <member refid="struct_the_frame_1af65b416093b66925a7884709b52fab77" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>onClear</name></member>
+      <member refid="struct_the_frame_1ad0c8b9f18646b6b9d0787241409bd0d1" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>onSave</name></member>
+      <member refid="struct_the_frame_1a299f106f69543e75c8f4c2b26246516e" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>onTitleChange</name></member>
+      <member refid="struct_the_frame_1aa3f4279cc4ced529fe31d44a24c23f23" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>onURLChange</name></member>
+      <member refid="struct_the_frame_1aa6fc0c5ccb328dfa6dba6d251026a93c" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>onWebsite</name></member>
+      <member refid="struct_the_frame_1ac30c1cecc3315fa527fdc333b4f18dde" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>panel</name></member>
+      <member refid="struct_the_frame_1aa7c44c9ff43d20a07b516d27ee06c92f" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>paypal</name></member>
+      <member refid="struct_the_frame_1a9042a0a3277c7ac1e9e628ea7327ea0a" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>set</name></member>
+      <member refid="struct_the_frame_1ae8a29d6e5f0df491dfde4d41182b6cfa" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>set</name></member>
+      <member refid="struct_the_frame_1a6aae57bd50626fbf8cc38e7e09452b43" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>shot</name></member>
+      <member refid="struct_the_frame_1ac54ac3f656876082566591d9622323e0" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>sizer</name></member>
+      <member refid="struct_the_frame_1a091ebeaec82a9703c898eb7ffd0c9fe5" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>tags</name></member>
+      <member refid="struct_the_frame_1ae034ad586fea4cf0e2bc9b4e2d659dac" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>TheFrame</name></member>
+      <member refid="struct_the_frame_1af6010efde01e0794faddedc72e9eac97" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>title</name></member>
+      <member refid="struct_the_frame_1a2b2b76468fa284d39c1bc21c67dfdcde" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>type</name></member>
+      <member refid="struct_the_frame_1a5d04a58aa1d746c35881fc6fbffad5aa" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>url</name></member>
+      <member refid="struct_the_frame_1a31d1e4b9cd1fa6fc9be8eb4f1484d561" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>urlChanged</name></member>
+      <member refid="struct_the_frame_1aaec391e39d3889423449cadfbb29dedd" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>urlname</name></member>
+      <member refid="struct_the_frame_1a2ec780680616cd64db368f7c39f28a1c" prot="public" virt="non-virtual"><scope>TheFrame</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

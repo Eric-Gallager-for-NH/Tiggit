@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$struct_list_tab_non_empty.html" title="ListTabNonEmpty" alt="" coords="291,187,424,213"/>
+<area shape="rect" id="node4" href="$struct_list_tab.html" title="ListTab" alt="" coords="323,109,391,136"/>
+<area shape="rect" id="node6" href="$struct_tab_base.html" title="TabBase" alt="" coords="5,5,83,32"/>
+<area shape="rect" id="node8" href="$struct_screenshot_callback.html" title="ScreenshotCallback" alt="" coords="107,5,251,32"/>
+<area shape="rect" id="node10" href="$class_my_list.html" title="MyList" alt="" coords="275,5,337,32"/>
+<area shape="rect" id="node12" href="$class_list_keeper.html" title="ListKeeper" alt="" coords="363,5,453,32"/>
+<area shape="rect" id="node14" href="$struct_status_notify.html" title="StatusNotify" alt="" coords="478,5,577,32"/>
+<area shape="rect" id="node16" href="$struct_image_viewer.html" title="ImageViewer" alt="" coords="602,5,704,32"/>
+</map>

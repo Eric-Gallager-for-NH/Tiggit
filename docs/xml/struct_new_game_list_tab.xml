@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_new_game_list_tab" kind="struct" prot="public">
+    <compoundname>NewGameListTab</compoundname>
+    <basecompoundref refid="struct_list_tab_non_empty" prot="public" virt="non-virtual">ListTabNonEmpty</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_new_game_list_tab_1aed520c852a1c799ab27302147a1e89fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NewGameListTab::NewGameListTab</definition>
+        <argsstring>(wxNotebook *parent, StatusNotify *s)</argsstring>
+        <name>NewGameListTab</name>
+        <param>
+          <type>wxNotebook *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_status_notify" kindref="compound">StatusNotify</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1162" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1160" bodyend="1165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="492">
+        <label>ListTabNonEmpty</label>
+        <link refid="struct_list_tab_non_empty"/>
+        <childnode refid="493" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="494">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+      <node id="491">
+        <label>NewGameListTab</label>
+        <link refid="struct_new_game_list_tab"/>
+        <childnode refid="492" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="502">
+        <label>ListKeeper</label>
+        <link refid="class_list_keeper"/>
+      </node>
+      <node id="497">
+        <label>ListTabNonEmpty</label>
+        <link refid="struct_list_tab_non_empty"/>
+        <childnode refid="498" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="500" relation="public-inheritance">
+        </childnode>
+        <childnode refid="501" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+        <childnode refid="502" relation="usage">
+          <edgelabel>lister</edgelabel>
+        </childnode>
+        <childnode refid="503" relation="usage">
+          <edgelabel>stat</edgelabel>
+        </childnode>
+        <childnode refid="504" relation="usage">
+          <edgelabel>ad_img</edgelabel>
+          <edgelabel>screenshot</edgelabel>
+        </childnode>
+      </node>
+      <node id="501">
+        <label>MyList</label>
+        <link refid="class_my_list"/>
+      </node>
+      <node id="504">
+        <label>ImageViewer</label>
+        <link refid="struct_image_viewer"/>
+      </node>
+      <node id="500">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="503">
+        <label>StatusNotify</label>
+        <link refid="struct_status_notify"/>
+      </node>
+      <node id="499">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+      <node id="496">
+        <label>NewGameListTab</label>
+        <link refid="struct_new_game_list_tab"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="1159" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="1158" bodyend="1166"/>
+    <listofallmembers>
+      <member refid="struct_list_tab_1a2e50792652938b8951b5f5cd8375e676" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>ad_img</name></member>
+      <member refid="struct_list_tab_1a717880bb4007ad796d693c40dee5a235" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>b1</name></member>
+      <member refid="struct_list_tab_1ae710bdff9444264da4547870352b8f7e" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>b2</name></member>
+      <member refid="struct_tab_base_1a4274555386ba73360e42ac1162deb0ee" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>book</name></member>
+      <member refid="struct_list_tab_1a7d2c1821b95a97f4586d52df15bc1e30" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>createTagList</name></member>
+      <member refid="struct_list_tab_1a05044166fa2e690c3f17a71f2e27121f" prot="public" virt="virtual"><scope>NewGameListTab</scope><name>dataChanged</name></member>
+      <member refid="struct_list_tab_1afc980d99c305488242a583bc61225fe0" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>doAction</name></member>
+      <member refid="struct_list_tab_1a62965404468a435a88f9be74f8723a9a" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>fixButtons</name></member>
+      <member refid="struct_list_tab_non_empty_1a7bd81757123eda9b7c317c321bf32e30" prot="public" virt="virtual"><scope>NewGameListTab</scope><name>insertMe</name></member>
+      <member refid="struct_list_tab_1afde1244ddb9ad9256bbb8e06b2d042cf" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>last_launch</name></member>
+      <member refid="struct_list_tab_1ae338fee99b46c8e34b6dd6f5682c1c4a" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>list</name></member>
+      <member refid="struct_list_tab_1a8cb4eb9896f9daef228123c00f6a9434" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>lister</name></member>
+      <member refid="struct_list_tab_1a70c339cd735a3a3b45a9e6a5649ebe83" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>listHasChanged</name></member>
+      <member refid="struct_list_tab_1ae6cd15376dc53a931817fba5f1106dc4" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>ListTab</name></member>
+      <member refid="struct_list_tab_non_empty_1a2d51affea22726ec818f2f7568be15cf" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>ListTabNonEmpty</name></member>
+      <member refid="struct_new_game_list_tab_1aed520c852a1c799ab27302147a1e89fe" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>NewGameListTab</name></member>
+      <member refid="struct_list_tab_1a0c24b27f20cdb38e0eb673245f7c0542" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onButton</name></member>
+      <member refid="struct_list_tab_1a65e30fb2ab50bc4a324dec7a0a8a5014" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onContextClick</name></member>
+      <member refid="struct_list_tab_1a7052d63cb8a4552553f794c257c06675" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onGamePage</name></member>
+      <member refid="struct_list_tab_1a7adba5f85eb8d87734efe27efd40c5ca" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onListActivate</name></member>
+      <member refid="struct_list_tab_1ad2dfddbd6e0083f682a5689cc5411352" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onListDeselect</name></member>
+      <member refid="struct_list_tab_1ac062d6e7b531ad8ec65a9ad307ea7022" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onListRightClick</name></member>
+      <member refid="struct_list_tab_1adadc2db079b8ad23165040e50ad77831" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onListSelect</name></member>
+      <member refid="struct_list_tab_1a0787fa1f6df1f6fe44326a5a144895ca" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onRating</name></member>
+      <member refid="struct_list_tab_1ad8eb6ed06371784633dd1cf96b734490" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onSearch</name></member>
+      <member refid="struct_list_tab_1a7e159fadab965b718ab25ac1f0803c47" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onSortChange</name></member>
+      <member refid="struct_list_tab_1aeaa3bc9c78c225387d50c6f8c2b7f036" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onTagSelect</name></member>
+      <member refid="struct_list_tab_1ad329091d9da6e2bcb40f6073dc3564ee" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>onUrlEvent</name></member>
+      <member refid="struct_list_tab_1a1df919aeb4e6e4dd48ab0da3292311fe" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>rateBox</name></member>
+      <member refid="struct_list_tab_1a25203a99208d6288ca3f54fe86936751" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>rateString</name></member>
+      <member refid="struct_list_tab_1a0340593c73e4e54d9736c82dfc8ee6b5" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>rateText</name></member>
+      <member refid="struct_list_tab_1a6908d6262334eda4cf4ad03ff3c399e9" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>screenshot</name></member>
+      <member refid="struct_list_tab_1a63daf34961a1c832eb936fbf7761846b" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>select</name></member>
+      <member refid="struct_tab_base_1acc8a88abc1a420c704c8bc5143c4c8bd" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>selectMe</name></member>
+      <member refid="struct_list_tab_1a5aff2789c36a9d39abc5efb2f2b0c0b1" prot="public" virt="virtual"><scope>NewGameListTab</scope><name>shotIsReady</name></member>
+      <member refid="struct_list_tab_1a6f6ea57ef9c4e90c5ca094aec8b7a2b7" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>startDownload</name></member>
+      <member refid="struct_list_tab_1a517e64070a34971184ce0b3845327045" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>stat</name></member>
+      <member refid="struct_list_tab_1a77ce1163d4dd1c18f445a1166aab77b3" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>statusChanged</name></member>
+      <member refid="struct_list_tab_1a21e9abb2480d7a8e829853c9e5c5dcb9" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>supportButton</name></member>
+      <member refid="struct_tab_base_1af426aaeb43b31c090cbc30c5dd692c1b" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>TabBase</name></member>
+      <member refid="struct_list_tab_1a1440cd81fe735ee69c052d9736d37c02" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>tabName</name></member>
+      <member refid="struct_tab_base_1a3c2fcafc0c5e81f7815749e24374145d" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>tabNum</name></member>
+      <member refid="struct_list_tab_1af108fa3fbdbfd6932d24793bac2edfe7" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>taglist</name></member>
+      <member refid="struct_list_tab_1ab890f6a57f3841ba918853aa2e87a5d4" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>tags</name></member>
+      <member refid="struct_list_tab_1ae57fa84a43f1e1ad95ee2747247f749d" prot="public" virt="virtual"><scope>NewGameListTab</scope><name>takeFocus</name></member>
+      <member refid="struct_list_tab_1afcd593559b802e861a66a658a60c645a" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>textView</name></member>
+      <member refid="struct_tab_base_1ab9384b404604ca14a9a5e105410b4a1d" prot="public" virt="virtual"><scope>NewGameListTab</scope><name>tick</name></member>
+      <member refid="struct_list_tab_1a73445ff0fc8883e21d1ed20a051d95fc" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>updateGameInfo</name></member>
+      <member refid="struct_list_tab_1aadb7063955574c13d9eea164a32fdb5b" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>updateSelection</name></member>
+      <member refid="struct_list_tab_1a9b8d8bc1ae764b235c7445b3d1ca196a" prot="public" virt="non-virtual"><scope>NewGameListTab</scope><name>updateStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

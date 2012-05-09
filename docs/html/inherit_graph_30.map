@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_progress_holder.html" title="ProgressHolder" alt="" coords="6,31,125,57"/>
+<area shape="rect" id="node3" href="$struct_cache_fetcher.html" title="CacheFetcher" alt="" coords="174,5,282,32"/>
+<area shape="rect" id="node5" href="$struct_updater.html" title="Updater" alt="" coords="192,56,264,83"/>
+</map>

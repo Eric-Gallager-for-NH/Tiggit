@@ -1,0 +1,49 @@
+.TH "TabBase" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TabBase \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBListTab\fP, and \fBNewsTab\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTabBase\fP (wxNotebook *parent)"
+.br
+.ti -1c
+.RI "virtual void \fBtakeFocus\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBtick\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBdataChanged\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBinsertMe\fP ()"
+.br
+.ti -1c
+.RI "bool \fBselectMe\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "wxNotebook * \fBbook\fP"
+.br
+.ti -1c
+.RI "int \fBtabNum\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file tabbase\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

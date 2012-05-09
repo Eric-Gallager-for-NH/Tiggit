@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_list_keeper_1_1_download_sort" kind="struct" prot="private">
+    <compoundname>ListKeeper::DownloadSort</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ListKeeper::SortBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_list_keeper_1_1_download_sort_1ae0d75d348a4abb6dc49a9f3e7b428999" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListKeeper::DownloadSort::DownloadSort</definition>
+        <argsstring>(DataList &amp;d)</argsstring>
+        <name>DownloadSort</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="104" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_keeper_1_1_download_sort_1aee3f16e6c71d97c0905321ece4b88a96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ListKeeper::DownloadSort::isLess</definition>
+        <argsstring>(DataList::Entry &amp;a, DataList::Entry &amp;b)</argsstring>
+        <name>isLess</name>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="106" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="377">
+        <label>ListKeeper::DownloadSort</label>
+        <childnode refid="378" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="378">
+        <label>ListKeeper::SortBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="381">
+        <label>DataList</label>
+        <link refid="struct_data_list"/>
+      </node>
+      <node id="379">
+        <label>ListKeeper::DownloadSort</label>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="380">
+        <label>ListKeeper::SortBase</label>
+        <childnode refid="381" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="103" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="102" bodyend="109"/>
+    <listofallmembers>
+      <member refid="struct_list_keeper_1_1_sort_base_1a59cc3a966c6ad77e8d2aed632448d5f6" prot="public" virt="non-virtual"><scope>ListKeeper::DownloadSort</scope><name>data</name></member>
+      <member refid="struct_list_keeper_1_1_download_sort_1ae0d75d348a4abb6dc49a9f3e7b428999" prot="public" virt="non-virtual"><scope>ListKeeper::DownloadSort</scope><name>DownloadSort</name></member>
+      <member refid="struct_list_keeper_1_1_download_sort_1aee3f16e6c71d97c0905321ece4b88a96" prot="public" virt="non-virtual"><scope>ListKeeper::DownloadSort</scope><name>isLess</name></member>
+      <member refid="struct_list_keeper_1_1_sort_base_1a46a7074f8c4d1c68dfa246147f108c44" prot="public" virt="non-virtual"><scope>ListKeeper::DownloadSort</scope><name>operator()</name></member>
+      <member refid="struct_list_keeper_1_1_sort_base_1ac03394fb5503d3ab09ea463e80ba05b5" prot="public" virt="non-virtual"><scope>ListKeeper::DownloadSort</scope><name>SortBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

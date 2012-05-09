@@ -1,0 +1,62 @@
+\hypertarget{class_json_1_1_value_allocator}{\section{Json\-:\-:Value\-Allocator Class Reference}
+\label{class_json_1_1_value_allocator}\index{Json\-::\-Value\-Allocator@{Json\-::\-Value\-Allocator}}
+}
+
+
+Experimental do not use\-: Allocator to customize member name and string value memory management done by Value.  
+
+
+
+
+{\ttfamily \#include $<$value.\-h$>$}
+
+
+
+Inheritance diagram for Json\-:\-:Value\-Allocator\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_json_1_1_value_allocator__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ {\bfseries unknown} =  (unsigned)-\/1
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_json_1_1_value_allocator_af2370043912c62bb2f3d3277b2c0a125}{virtual char $\ast$ {\bfseries make\-Member\-Name} (const char $\ast$member\-Name)=0}\label{class_json_1_1_value_allocator_af2370043912c62bb2f3d3277b2c0a125}
+
+\item 
+\hypertarget{class_json_1_1_value_allocator_ae8206cbaf1004994696a1ffec0d7e29a}{virtual void {\bfseries release\-Member\-Name} (char $\ast$member\-Name)=0}\label{class_json_1_1_value_allocator_ae8206cbaf1004994696a1ffec0d7e29a}
+
+\item 
+\hypertarget{class_json_1_1_value_allocator_aaa63197291f55d060541a01fcf5a5dfc}{virtual char $\ast$ {\bfseries duplicate\-String\-Value} (const char $\ast$value, unsigned int length=unknown)=0}\label{class_json_1_1_value_allocator_aaa63197291f55d060541a01fcf5a5dfc}
+
+\item 
+\hypertarget{class_json_1_1_value_allocator_aa75c50f08bab7db386673ab355668c99}{virtual void {\bfseries release\-String\-Value} (char $\ast$value)=0}\label{class_json_1_1_value_allocator_aa75c50f08bab7db386673ab355668c99}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Experimental do not use\-: Allocator to customize member name and string value memory management done by Value. 
+
+
+\begin{DoxyItemize}
+\item make\-Member\-Name() and release\-Member\-Name() are called to respectively duplicate and free an \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4eae8386dcfc36d1ae897745f7b4f77a1f6}{Json\-::object\-Value} member name.
+\item duplicate\-String\-Value() and release\-String\-Value() are called similarly to duplicate and free a \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4ea804ef857affea2d415843c73f261c258}{Json\-::string\-Value} value. 
+\end{DoxyItemize}
+
+Definition at line 523 of file value.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+libs/jsoncpp/include/json/value.\-h\item 
+libs/jsoncpp/src/json\-\_\-value.\-cpp\end{DoxyCompactItemize}

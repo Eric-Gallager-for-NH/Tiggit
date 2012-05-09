@@ -1,0 +1,47 @@
+.TH "FileGetter" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FileGetter \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetBase\fP (boost::filesystem::path bdir)"
+.br
+.ti -1c
+.RI "std::string \fBgetPath\fP (const std::string &file)"
+.br
+.ti -1c
+.RI "std::string \fBcopyTo\fP (const std::string &from, const std::string &to)"
+.br
+.ti -1c
+.RI "std::string \fBgetCache\fP (const std::string &local, const std::string &url, bool cacheFirst=true)"
+.br
+.ti -1c
+.RI "std::string \fBgetFile\fP (const std::string &from)"
+.br
+.ti -1c
+.RI "std::string \fBgetTo\fP (const std::string &url, const std::string &dest)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBTmpDir\fP * \fBtmp\fP"
+.br
+.ti -1c
+.RI "boost::filesystem::path \fBbase\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file filegetter\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

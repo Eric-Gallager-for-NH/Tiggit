@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="namespace_json" kind="namespace">
+    <compoundname>Json</compoundname>
+    <innerclass refid="protocol_json_1_1_j_s_o_n___a_p_i" prot="public">Json::JSON_API</innerclass>
+    <innerclass refid="class_json_1_1_path_argument" prot="public">Json::PathArgument</innerclass>
+    <innerclass refid="class_json_1_1_path" prot="public">Json::Path</innerclass>
+    <innerclass refid="class_json_1_1_value_allocator" prot="public">Json::ValueAllocator</innerclass>
+    <innerclass refid="class_json_1_1_value_iterator_base" prot="public">Json::ValueIteratorBase</innerclass>
+    <innerclass refid="class_json_1_1_value_const_iterator" prot="public">Json::ValueConstIterator</innerclass>
+    <innerclass refid="class_json_1_1_value_iterator" prot="public">Json::ValueIterator</innerclass>
+    <innerclass refid="class_json_1_1_batch_allocator" prot="public">Json::BatchAllocator</innerclass>
+    <innerclass refid="class_json_1_1_default_value_allocator" prot="public">Json::DefaultValueAllocator</innerclass>
+    <innerclass refid="struct_json_1_1_dummy_value_allocator_initializer" prot="public">Json::DummyValueAllocatorInitializer</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_json_1a7d654b75c16a57007925868e38212b4e" prot="public" static="no">
+        <name>ValueType</name>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4ea7d9899633b4409bd3fc107e6737f8391" prot="public">
+          <name>nullValue</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+<para>&apos;null&apos; value </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4eae5a9d708d5c9e23ae9bf98898522512d" prot="public">
+          <name>intValue</name>
+          <briefdescription>
+<para>signed integer value </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4eaea788d9a3bb00adc6d68d97d43e1ccd3" prot="public">
+          <name>uintValue</name>
+          <briefdescription>
+<para>unsigned integer value </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4eab837c7b869c14d8be712deb45c9e490e" prot="public">
+          <name>realValue</name>
+          <briefdescription>
+<para>double value </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4ea804ef857affea2d415843c73f261c258" prot="public">
+          <name>stringValue</name>
+          <briefdescription>
+<para>UTF-8 string value. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4ea14c30dbf4da86f7b809be299f671f7fd" prot="public">
+          <name>booleanValue</name>
+          <briefdescription>
+<para>bool value </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4eadc8f264f36b55b063c78126b335415f4" prot="public">
+          <name>arrayValue</name>
+          <briefdescription>
+<para>array value (ordered list) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a7d654b75c16a57007925868e38212b4eae8386dcfc36d1ae897745f7b4f77a1f6" prot="public">
+          <name>objectValue</name>
+          <briefdescription>
+<para>object value (collection of name/value pairs). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Type of the value held by a Value object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="24" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351" prot="public" static="no">
+        <name>CommentPlacement</name>
+        <enumvalue id="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351a52f1733775460517b2ea6bedf4906d52" prot="public">
+          <name>commentBefore</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+<para>a comment placed on the line before a value </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351a008a230a0586de54f30b76afe70fdcfa" prot="public">
+          <name>commentAfterOnSameLine</name>
+          <briefdescription>
+<para>a comment just after a value on the same line </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351ac5784ca53b12250888ddb642b06aebef" prot="public">
+          <name>commentAfter</name>
+          <briefdescription>
+<para>a comment on the line after a value (only make sense for root value) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_json_1a4fc417c23905b2ae9e2c47d197a45351abcbd3eb00417335e094e4a03379659b5" prot="public">
+          <name>numberOfCommentPlacement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="36" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="35" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_json_1a08122e8005b706d982e48cca1e2119c7" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int Json::Int</definition>
+        <argsstring></argsstring>
+        <name>Int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/forwards.h" line="19" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/forwards.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_json_1a800fb90eb6ee8d5d62b600c06f87f7d4" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int Json::UInt</definition>
+        <argsstring></argsstring>
+        <name>UInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/forwards.h" line="20" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/forwards.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_json_1a9367f953132a439a4336c014414643bd" prot="public" static="yes" mutable="no">
+        <type>struct Json::DummyValueAllocatorInitializer</type>
+        <definition>struct Json::DummyValueAllocatorInitializer  Json::dummyValueAllocatorInitializer</definition>
+        <argsstring></argsstring>
+        <name>dummyValueAllocatorInitializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="110"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_json_1a4d245ef719cc0853e8e78eb5f99c16e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream &amp; Json::operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;, Value &amp;)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <defname>sin</defname>
+        </param>
+        <param>
+          <type>Value &amp;</type>
+          <defname>root</defname>
+        </param>
+        <briefdescription>
+<para>Read from &apos;sin&apos; into &apos;root&apos;. </para>        </briefdescription>
+        <detaileddescription>
+<para>Always keep comments from the input JSON.</para><para>This can be used to read a file into a particular sub-object. For example: <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Json::Value<sp/>root;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>root[</highlight><highlight class="stringliteral">&quot;dir&quot;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&quot;file&quot;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>root;</highlight></codeline>
+</programlisting> Result: <verbatim>    {
+        &quot;dir&quot;: {
+            &quot;file&quot;: {
+                // The input stream JSON would be nested here.
+            }
+        }
+    }</verbatim> <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>on parse error. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="namespace_json_1a87bc83d7e90fc666d28aa16727deda2f" kindref="member">Json::operator&lt;&lt;()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/reader.h" line="192" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" bodystart="875" bodyend="882"/>
+        <references refid="namespace_json_1a4d245ef719cc0853e8e78eb5f99c16e5" compoundref="json__reader_8cpp" startline="875" endline="882">operator&gt;&gt;</references>
+        <referencedby refid="namespace_json_1a4d245ef719cc0853e8e78eb5f99c16e5" compoundref="json__reader_8cpp" startline="875" endline="882">operator&gt;&gt;</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a5d3eba6789f9a9c1ab563ff8b4a5090f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string <ref refid="protocol_json_1_1_j_s_o_n___a_p_i" kindref="compound">JSON_API</ref></type>
+        <definition>std::string Json::valueToString</definition>
+        <argsstring>(Int value)</argsstring>
+        <name>valueToString</name>
+        <param>
+          <type>Int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/writer.h" line="160" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="42" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a4d43b0ff222bd3975bcf1babca0b978f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string <ref refid="protocol_json_1_1_j_s_o_n___a_p_i" kindref="compound">JSON_API</ref></type>
+        <definition>std::string Json::valueToString</definition>
+        <argsstring>(UInt value)</argsstring>
+        <name>valueToString</name>
+        <param>
+          <type>UInt</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/writer.h" line="161" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a99995d7dafa4f4970b349d7d3c8d1d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string <ref refid="protocol_json_1_1_j_s_o_n___a_p_i" kindref="compound">JSON_API</ref></type>
+        <definition>std::string Json::valueToString</definition>
+        <argsstring>(double value)</argsstring>
+        <name>valueToString</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/writer.h" line="162" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="66" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a979ed531f091985e22f0051cd2a8e341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string <ref refid="protocol_json_1_1_j_s_o_n___a_p_i" kindref="compound">JSON_API</ref></type>
+        <definition>std::string Json::valueToString</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>valueToString</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/writer.h" line="163" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1aa0c8235a4a5c6599da5d3332743db8ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string <ref refid="protocol_json_1_1_j_s_o_n___a_p_i" kindref="compound">JSON_API</ref></type>
+        <definition>std::string Json::valueToQuotedString</definition>
+        <argsstring>(const char *value)</argsstring>
+        <name>valueToQuotedString</name>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/writer.h" line="164" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="111" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a87bc83d7e90fc666d28aa16727deda2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; Json::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;, const Value &amp;root)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <defname>sout</defname>
+        </param>
+        <param>
+          <type>const Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>Output using the StyledStreamWriter. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="namespace_json_1a4d245ef719cc0853e8e78eb5f99c16e5" kindref="member">Json::operator&gt;&gt;()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/writer.h" line="168" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="821" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a7378f09d8f10ef3ccbb2aeefe7ff41d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Json::in</definition>
+        <argsstring>(Reader::Char c, Reader::Char c1, Reader::Char c2, Reader::Char c3, Reader::Char c4)</argsstring>
+        <name>in</name>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c2</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c3</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" line="48" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1af3dfd6ed13183fdcfaab3ca57b42d3e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Json::in</definition>
+        <argsstring>(Reader::Char c, Reader::Char c1, Reader::Char c2, Reader::Char c3, Reader::Char c4, Reader::Char c5)</argsstring>
+        <name>in</name>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c1</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c2</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c3</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c4</declname>
+        </param>
+        <param>
+          <type>Reader::Char</type>
+          <declname>c5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" line="54" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a4d6ab0f651348832e5cc49b577a854d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Json::containsNewLine</definition>
+        <argsstring>(Reader::Location begin, Reader::Location end)</argsstring>
+        <name>containsNewLine</name>
+        <param>
+          <type>Reader::Location</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>Reader::Location</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" line="62" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1adf0456e397a18cd7218a7b51dfc13c73" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string Json::codePointToUTF8</definition>
+        <argsstring>(unsigned int cp)</argsstring>
+        <name>codePointToUTF8</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>cp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" line="70" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_reader.cpp" bodystart="69" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a55c29a5375e53382368f928692bd2d4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_json_1_1_value_allocator" kindref="compound">ValueAllocator</ref> *&amp;</type>
+        <definition>static ValueAllocator*&amp; Json::valueAllocator</definition>
+        <argsstring>()</argsstring>
+        <name>valueAllocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" line="99" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a0381e631737f51331065a388f4f59197" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Json::isControlCharacter</definition>
+        <argsstring>(char ch)</argsstring>
+        <name>isControlCharacter</name>
+        <param>
+          <type>char</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" line="17" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1aa11b210ff98a4f4dd4e2df19260f8c3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Json::containsControlCharacter</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>containsControlCharacter</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" line="22" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="21" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_json_1a0c9ecf21515ffa8092201ad908609dc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Json::uintToString</definition>
+        <argsstring>(unsigned int value, char *&amp;current)</argsstring>
+        <name>uintToString</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>char *&amp;</type>
+          <declname>current</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" line="32" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_writer.cpp" bodystart="30" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>JSON (JavaScript Object Notation). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/features.h" line="6"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,54 @@
+.TH "Json::ValueAllocator" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Json::ValueAllocator \- 
+.PP
+Experimental do not use: Allocator to customize member name and string value memory management done by Value\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <value\&.h>\fP
+.PP
+Inherited by \fBJson::DefaultValueAllocator\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum { \fBunknown\fP =  (unsigned)-1 }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual char * \fBmakeMemberName\fP (const char *memberName)=0"
+.br
+.ti -1c
+.RI "virtual void \fBreleaseMemberName\fP (char *memberName)=0"
+.br
+.ti -1c
+.RI "virtual char * \fBduplicateStringValue\fP (const char *value, unsigned int length=unknown)=0"
+.br
+.ti -1c
+.RI "virtual void \fBreleaseStringValue\fP (char *value)=0"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Experimental do not use: Allocator to customize member name and string value memory management done by Value\&. 
+
+.IP "\(bu" 2
+makeMemberName() and releaseMemberName() are called to respectively duplicate and free an \fBJson::objectValue\fP member name\&.
+.IP "\(bu" 2
+duplicateStringValue() and releaseStringValue() are called similarly to duplicate and free a \fBJson::stringValue\fP value\&. 
+.PP
+
+.PP
+Definition at line 523 of file value\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_default_value_array_allocator" kind="class" prot="public">
+    <compoundname>DefaultValueArrayAllocator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_default_value_array_allocator_1a281c7aae08341a4d8c83c0f4991e4c76" prot="private" static="no" mutable="no">
+        <type>BatchAllocator&lt; ValueInternalArray, 1 &gt;</type>
+        <definition>BatchAllocator&lt;ValueInternalArray,1&gt; DefaultValueArrayAllocator::arraysAllocator_</definition>
+        <argsstring></argsstring>
+        <name>arraysAllocator_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="137" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_default_value_array_allocator_1a47d9faedb2abaaada5ba1665c64d37a9" prot="private" static="no" mutable="no">
+        <type>BatchAllocator&lt; Value, ValueInternalArray::itemsPerPage &gt;</type>
+        <definition>BatchAllocator&lt;Value,ValueInternalArray::itemsPerPage&gt; DefaultValueArrayAllocator::pagesAllocator_</definition>
+        <argsstring></argsstring>
+        <name>pagesAllocator_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="138" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_default_value_array_allocator_1aa8ed9b17a623feaae4b6b39b0afd4503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DefaultValueArrayAllocator::~DefaultValueArrayAllocator</definition>
+        <argsstring>()</argsstring>
+        <name>~DefaultValueArrayAllocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="80" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_array_allocator_1a8689ed26ea893863259338c15d838b41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ValueInternalArray *</type>
+        <definition>virtual ValueInternalArray* DefaultValueArrayAllocator::newArray</definition>
+        <argsstring>()</argsstring>
+        <name>newArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="84" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_array_allocator_1a2d56726cd560f97c3589026be8a65d95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ValueInternalArray *</type>
+        <definition>virtual ValueInternalArray* DefaultValueArrayAllocator::newArrayCopy</definition>
+        <argsstring>(const ValueInternalArray &amp;other)</argsstring>
+        <name>newArrayCopy</name>
+        <param>
+          <type>const ValueInternalArray &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="91" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="90" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_array_allocator_1adac32a54d25ee1aee7df3b19527ffb57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DefaultValueArrayAllocator::destructArray</definition>
+        <argsstring>(ValueInternalArray *array)</argsstring>
+        <name>destructArray</name>
+        <param>
+          <type>ValueInternalArray *</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="98" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="97" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_array_allocator_1a2a5376fbd5ac116ef985935e569d0492" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DefaultValueArrayAllocator::reallocateArrayPageIndex</definition>
+        <argsstring>(Value **&amp;indexes, ValueInternalArray::PageIndex &amp;indexCount, ValueInternalArray::PageIndex minNewIndexCount)</argsstring>
+        <name>reallocateArrayPageIndex</name>
+        <param>
+          <type>Value **&amp;</type>
+          <declname>indexes</declname>
+        </param>
+        <param>
+          <type>ValueInternalArray::PageIndex &amp;</type>
+          <declname>indexCount</declname>
+        </param>
+        <param>
+          <type>ValueInternalArray::PageIndex</type>
+          <declname>minNewIndexCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="109" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_array_allocator_1a315ffaf5d7d8ca65c10f9468814866f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DefaultValueArrayAllocator::releaseArrayPageIndex</definition>
+        <argsstring>(Value **indexes, ValueInternalArray::PageIndex indexCount)</argsstring>
+        <name>releaseArrayPageIndex</name>
+        <param>
+          <type>Value **</type>
+          <declname>indexes</declname>
+        </param>
+        <param>
+          <type>ValueInternalArray::PageIndex</type>
+          <declname>indexCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="121" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="119" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_array_allocator_1a7b5bf432a9564dbfe5c1e8c38f54f64a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>Value *</type>
+        <definition>virtual Value* DefaultValueArrayAllocator::allocateArrayPage</definition>
+        <argsstring>()</argsstring>
+        <name>allocateArrayPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="127" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_array_allocator_1a4f01eadeb6149a2417f8a7fff2e3ea6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DefaultValueArrayAllocator::releaseArrayPage</definition>
+        <argsstring>(Value *value)</argsstring>
+        <name>releaseArrayPage</name>
+        <param>
+          <type>Value *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="132" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="131" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><xrefsect id="todo_1_todo000001"><xreftitle>Todo</xreftitle><xrefdescription><para>make this thread-safe (lock when accessign batch allocator) </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" line="77" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalarray.inl" bodystart="76" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class_default_value_array_allocator_1a7b5bf432a9564dbfe5c1e8c38f54f64a" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>allocateArrayPage</name></member>
+      <member refid="class_default_value_array_allocator_1a281c7aae08341a4d8c83c0f4991e4c76" prot="private" virt="non-virtual"><scope>DefaultValueArrayAllocator</scope><name>arraysAllocator_</name></member>
+      <member refid="class_default_value_array_allocator_1adac32a54d25ee1aee7df3b19527ffb57" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>destructArray</name></member>
+      <member refid="class_default_value_array_allocator_1a8689ed26ea893863259338c15d838b41" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>newArray</name></member>
+      <member refid="class_default_value_array_allocator_1a2d56726cd560f97c3589026be8a65d95" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>newArrayCopy</name></member>
+      <member refid="class_default_value_array_allocator_1a47d9faedb2abaaada5ba1665c64d37a9" prot="private" virt="non-virtual"><scope>DefaultValueArrayAllocator</scope><name>pagesAllocator_</name></member>
+      <member refid="class_default_value_array_allocator_1a2a5376fbd5ac116ef985935e569d0492" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>reallocateArrayPageIndex</name></member>
+      <member refid="class_default_value_array_allocator_1a4f01eadeb6149a2417f8a7fff2e3ea6d" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>releaseArrayPage</name></member>
+      <member refid="class_default_value_array_allocator_1a315ffaf5d7d8ca65c10f9468814866f4" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>releaseArrayPageIndex</name></member>
+      <member refid="class_default_value_array_allocator_1aa8ed9b17a623feaae4b6b39b0afd4503" prot="public" virt="virtual"><scope>DefaultValueArrayAllocator</scope><name>~DefaultValueArrayAllocator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

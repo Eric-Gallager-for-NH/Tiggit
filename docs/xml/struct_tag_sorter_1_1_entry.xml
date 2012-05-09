@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_tag_sorter_1_1_entry" kind="struct" prot="public">
+    <compoundname>TagSorter::Entry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_tag_sorter_1_1_entry_1aba6b22382c6f86c043c0e66affeb7c83" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string TagSorter::Entry::tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="39" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tag_sorter_1_1_entry_1a83ddb24161db23f4fcf78414dec92209" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; TagSorter::Entry::games</definition>
+        <argsstring></argsstring>
+        <name>games</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="40" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tag_sorter_1_1_entry_1a8c8e3460c17533175c189862f70ab251" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TagSorter::Entry::important</definition>
+        <argsstring></argsstring>
+        <name>important</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="41" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_tag_sorter_1_1_entry_1a9d66aff1ff44d1c519c0c25382cc9085" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TagSorter::Entry::operator&lt;</definition>
+        <argsstring>(const Entry &amp;other) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="struct_tag_sorter_1_1_entry" kindref="compound">Entry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="44" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="43" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="38" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="37" bodyend="57"/>
+    <listofallmembers>
+      <member refid="struct_tag_sorter_1_1_entry_1a83ddb24161db23f4fcf78414dec92209" prot="public" virt="non-virtual"><scope>TagSorter::Entry</scope><name>games</name></member>
+      <member refid="struct_tag_sorter_1_1_entry_1a8c8e3460c17533175c189862f70ab251" prot="public" virt="non-virtual"><scope>TagSorter::Entry</scope><name>important</name></member>
+      <member refid="struct_tag_sorter_1_1_entry_1a9d66aff1ff44d1c519c0c25382cc9085" prot="public" virt="non-virtual"><scope>TagSorter::Entry</scope><name>operator&lt;</name></member>
+      <member refid="struct_tag_sorter_1_1_entry_1aba6b22382c6f86c043c0e66affeb7c83" prot="public" virt="non-virtual"><scope>TagSorter::Entry</scope><name>tag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

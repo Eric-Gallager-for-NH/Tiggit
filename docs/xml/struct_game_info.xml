@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_game_info" kind="struct" prot="public">
+    <compoundname>GameInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_game_info_1aa207ee4bfcebec16fcef64c2b0f6bfca" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+        <definition>DataList::Entry&amp; GameInfo::entry</definition>
+        <argsstring></argsstring>
+        <name>entry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="28" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1aba474f531fb97a06211f05413f111e02" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::urlname</definition>
+        <argsstring></argsstring>
+        <name>urlname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1af961f7540b9fb7ca93eff924ee573558" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::idname</definition>
+        <argsstring></argsstring>
+        <name>idname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1a633a412612e2144dfbfb370d18f97720" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1a907380dc6fd528c9806196780402423a" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::tigurl</definition>
+        <argsstring></argsstring>
+        <name>tigurl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1a4ffd5954ea71f92ff977e368d251b87a" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::timeString</definition>
+        <argsstring></argsstring>
+        <name>timeString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1adde89478e87a5ce417a3f75aaf8c9381" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::rating</definition>
+        <argsstring></argsstring>
+        <name>rating</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1a3b6fae2b20901fcf9ef266c584976503" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::dlCount</definition>
+        <argsstring></argsstring>
+        <name>dlCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1ab0605f63186107f4d96868775b5acf40" prot="public" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_game_info_1a52d181b6c3f07dbd847f141efedbc878" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameInfo::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="294" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1aec77cd7d7d4605e113bdd09f1357c801" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_status_job" kindref="compound">StatusJob</ref> *</type>
+        <definition>StatusJob* GameInfo::job</definition>
+        <argsstring></argsstring>
+        <name>job</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="301" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1a0f6c8d26e9b12c0d1843a5d580ff5734" prot="private" static="no" mutable="no">
+        <type>wxString</type>
+        <definition>wxString GameInfo::msg</definition>
+        <argsstring></argsstring>
+        <name>msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="304" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_game_info_1adc4a3cded41b0d8bf104f4fee74f26d1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_screenshot_loader" kindref="compound">ScreenshotLoader</ref></type>
+        <definition>ScreenshotLoader GameInfo::screen</definition>
+        <argsstring></argsstring>
+        <name>screen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="307" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_game_info_1a2a709ceaa4edb84f1e3f08eeafe9d17e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameInfo::isInstalled</definition>
+        <argsstring>() const </argsstring>
+        <name>isInstalled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="35" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a0a71afc85ba8cf5e470fdc0825bc751e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameInfo::isWorking</definition>
+        <argsstring>() const </argsstring>
+        <name>isWorking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="36" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a58a48b11381e016e88d580177eaa6139" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameInfo::isUnpacking</definition>
+        <argsstring>() const </argsstring>
+        <name>isUnpacking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="37" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a685c55a5e2fee6af7c800a460df6a8e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameInfo::isDownloading</definition>
+        <argsstring>() const </argsstring>
+        <name>isDownloading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="38" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a8047e6a6df266b91fffcbcc359e06701" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GameInfo::isNone</definition>
+        <argsstring>() const </argsstring>
+        <name>isNone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="39" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a57a16e880b689e6111a14e961b5bbcef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::rateGame</definition>
+        <argsstring>(int rating)</argsstring>
+        <name>rateGame</name>
+        <param>
+          <type>int</type>
+          <declname>rating</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="43" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="42" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1af0d17cc502f6302a341abeed1c9f53a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GameInfo::myRating</definition>
+        <argsstring>()</argsstring>
+        <name>myRating</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="65" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a98db2c16d0342333c5a60d14d28eac38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::startDownload</definition>
+        <argsstring>()</argsstring>
+        <name>startDownload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="71" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="70" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1acfbacf7a61b452f9f371d93dbb48c5d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GameInfo::updateStatus</definition>
+        <argsstring>()</argsstring>
+        <name>updateStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="103" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="102" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1aef1cf58d4fa76510fbb628a91b7cb086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::requestShot</definition>
+        <argsstring>(ScreenshotCallback *cb=NULL)</argsstring>
+        <name>requestShot</name>
+        <param>
+          <type><ref refid="struct_screenshot_callback" kindref="compound">ScreenshotCallback</ref> *</type>
+          <declname>cb</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="213" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="212" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1ab215e599c4d10634db667bb128012170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::abortJob</definition>
+        <argsstring>()</argsstring>
+        <name>abortJob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="233" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="232" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1af4fe6666fb744e716b4953b2e83a2d5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const wxString &amp;</type>
+        <definition>const wxString&amp; GameInfo::getStatus</definition>
+        <argsstring>() const </argsstring>
+        <name>getStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="242" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="242" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1aeb4267b9235b836bd748a4dcfedab075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::setInstalled</definition>
+        <argsstring>()</argsstring>
+        <name>setInstalled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="247" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="247" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1af5ebf3dd171e83709cc6072b1200d5f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::setUninstalled</definition>
+        <argsstring>()</argsstring>
+        <name>setUninstalled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="248" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a9010b4758082c1f904224505f3efcecb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameInfo::GameInfo</definition>
+        <argsstring>(DataList::Entry &amp;e)</argsstring>
+        <name>GameInfo</name>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="252" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="250" bodyend="277"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_game_info_1a611d2e932e53685c0acf0692839d9d0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_game_info" kindref="compound">GameInfo</ref> &amp;</type>
+        <definition>static GameInfo&amp; GameInfo::conv</definition>
+        <argsstring>(DataList::Entry &amp;e)</argsstring>
+        <name>conv</name>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="280" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="279" bodyend="285"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_game_info_1adb2878ef769e26af7747bf5bd00a87a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::setDownloading</definition>
+        <argsstring>()</argsstring>
+        <name>setDownloading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="296" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1af9f680fcd3f42e886a5df8784f5f26c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::setUnpacking</definition>
+        <argsstring>()</argsstring>
+        <name>setUnpacking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="297" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="297" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_game_info_1a547417d4f920d0ae70ce593495849e63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameInfo::setStatus</definition>
+        <argsstring>(const wxString &amp;m)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="298" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="298" bodyend="298"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="struct_game_info_1a0eb51615e77a9c605f86ebc9e5d8b8c1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxString</type>
+        <definition>static wxString GameInfo::sizify</definition>
+        <argsstring>(int size)</argsstring>
+        <name>sizify</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="311" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="310" bodyend="321"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="413">
+        <label>DataList::Entry</label>
+        <link refid="struct_data_list_1_1_entry"/>
+        <childnode refid="414" relation="usage">
+          <edgelabel>tigInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="412">
+        <label>GameInfo</label>
+        <link refid="struct_game_info"/>
+        <childnode refid="413" relation="usage">
+          <edgelabel>entry</edgelabel>
+        </childnode>
+      </node>
+      <node id="414">
+        <label>DataList::TigInfo</label>
+        <link refid="struct_data_list_1_1_tig_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/gameinfo.hpp" line="27" bodyfile="/Users/ericgallager/Tiggit/gameinfo.hpp" bodystart="26" bodyend="322"/>
+    <listofallmembers>
+      <member refid="struct_game_info_1ab215e599c4d10634db667bb128012170" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>abortJob</name></member>
+      <member refid="struct_game_info_1a611d2e932e53685c0acf0692839d9d0d" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>conv</name></member>
+      <member refid="struct_game_info_1a3b6fae2b20901fcf9ef266c584976503" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>dlCount</name></member>
+      <member refid="struct_game_info_1aa207ee4bfcebec16fcef64c2b0f6bfca" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>entry</name></member>
+      <member refid="struct_game_info_1a9010b4758082c1f904224505f3efcecb" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>GameInfo</name></member>
+      <member refid="struct_game_info_1af4fe6666fb744e716b4953b2e83a2d5c" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>getStatus</name></member>
+      <member refid="struct_game_info_1af961f7540b9fb7ca93eff924ee573558" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>idname</name></member>
+      <member refid="struct_game_info_1a685c55a5e2fee6af7c800a460df6a8e8" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>isDownloading</name></member>
+      <member refid="struct_game_info_1a2a709ceaa4edb84f1e3f08eeafe9d17e" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>isInstalled</name></member>
+      <member refid="struct_game_info_1a8047e6a6df266b91fffcbcc359e06701" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>isNone</name></member>
+      <member refid="struct_game_info_1a58a48b11381e016e88d580177eaa6139" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>isUnpacking</name></member>
+      <member refid="struct_game_info_1a0a71afc85ba8cf5e470fdc0825bc751e" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>isWorking</name></member>
+      <member refid="struct_game_info_1aec77cd7d7d4605e113bdd09f1357c801" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>job</name></member>
+      <member refid="struct_game_info_1a0f6c8d26e9b12c0d1843a5d580ff5734" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>msg</name></member>
+      <member refid="struct_game_info_1af0d17cc502f6302a341abeed1c9f53a4" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>myRating</name></member>
+      <member refid="struct_game_info_1a633a412612e2144dfbfb370d18f97720" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>name</name></member>
+      <member refid="struct_game_info_1ab0605f63186107f4d96868775b5acf40" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>price</name></member>
+      <member refid="struct_game_info_1a57a16e880b689e6111a14e961b5bbcef" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>rateGame</name></member>
+      <member refid="struct_game_info_1adde89478e87a5ce417a3f75aaf8c9381" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>rating</name></member>
+      <member refid="struct_game_info_1aef1cf58d4fa76510fbb628a91b7cb086" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>requestShot</name></member>
+      <member refid="struct_game_info_1adc4a3cded41b0d8bf104f4fee74f26d1" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>screen</name></member>
+      <member refid="struct_game_info_1adb2878ef769e26af7747bf5bd00a87a0" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>setDownloading</name></member>
+      <member refid="struct_game_info_1aeb4267b9235b836bd748a4dcfedab075" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>setInstalled</name></member>
+      <member refid="struct_game_info_1a547417d4f920d0ae70ce593495849e63" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>setStatus</name></member>
+      <member refid="struct_game_info_1af5ebf3dd171e83709cc6072b1200d5f7" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>setUninstalled</name></member>
+      <member refid="struct_game_info_1af9f680fcd3f42e886a5df8784f5f26c9" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>setUnpacking</name></member>
+      <member refid="struct_game_info_1a0eb51615e77a9c605f86ebc9e5d8b8c1" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>sizify</name></member>
+      <member refid="struct_game_info_1a98db2c16d0342333c5a60d14d28eac38" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>startDownload</name></member>
+      <member refid="struct_game_info_1a52d181b6c3f07dbd847f141efedbc878" prot="private" virt="non-virtual"><scope>GameInfo</scope><name>status</name></member>
+      <member refid="struct_game_info_1a907380dc6fd528c9806196780402423a" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>tigurl</name></member>
+      <member refid="struct_game_info_1a4ffd5954ea71f92ff977e368d251b87a" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>timeString</name></member>
+      <member refid="struct_game_info_1acfbacf7a61b452f9f371d93dbb48c5d1" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>updateStatus</name></member>
+      <member refid="struct_game_info_1aba474f531fb97a06211f05413f111e02" prot="public" virt="non-virtual"><scope>GameInfo</scope><name>urlname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

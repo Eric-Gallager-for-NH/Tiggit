@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_list_keeper_1_1_date_sort" kind="struct" prot="private">
+    <compoundname>ListKeeper::DateSort</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ListKeeper::SortBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_list_keeper_1_1_date_sort_1aa8578c6016aefd5c444313e20a94242d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListKeeper::DateSort::DateSort</definition>
+        <argsstring>(DataList &amp;d)</argsstring>
+        <name>DateSort</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="123" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_keeper_1_1_date_sort_1ac51bd984d3da58e375f0b47b9b3dfa16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ListKeeper::DateSort::isLess</definition>
+        <argsstring>(DataList::Entry &amp;a, DataList::Entry &amp;b)</argsstring>
+        <name>isLess</name>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="125" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="124" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="338">
+        <label>ListKeeper::DateSort</label>
+        <childnode refid="339" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="339">
+        <label>ListKeeper::SortBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="340">
+        <label>ListKeeper::DateSort</label>
+        <childnode refid="341" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>DataList</label>
+        <link refid="struct_data_list"/>
+      </node>
+      <node id="341">
+        <label>ListKeeper::SortBase</label>
+        <childnode refid="342" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="122" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="121" bodyend="128"/>
+    <listofallmembers>
+      <member refid="struct_list_keeper_1_1_sort_base_1a59cc3a966c6ad77e8d2aed632448d5f6" prot="public" virt="non-virtual"><scope>ListKeeper::DateSort</scope><name>data</name></member>
+      <member refid="struct_list_keeper_1_1_date_sort_1aa8578c6016aefd5c444313e20a94242d" prot="public" virt="non-virtual"><scope>ListKeeper::DateSort</scope><name>DateSort</name></member>
+      <member refid="struct_list_keeper_1_1_date_sort_1ac51bd984d3da58e375f0b47b9b3dfa16" prot="public" virt="non-virtual"><scope>ListKeeper::DateSort</scope><name>isLess</name></member>
+      <member refid="struct_list_keeper_1_1_sort_base_1a46a7074f8c4d1c68dfa246147f108c44" prot="public" virt="non-virtual"><scope>ListKeeper::DateSort</scope><name>operator()</name></member>
+      <member refid="struct_list_keeper_1_1_sort_base_1ac03394fb5503d3ab09ea463e80ba05b5" prot="public" virt="non-virtual"><scope>ListKeeper::DateSort</scope><name>SortBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

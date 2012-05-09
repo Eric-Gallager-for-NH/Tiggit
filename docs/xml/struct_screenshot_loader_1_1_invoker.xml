@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_screenshot_loader_1_1_invoker" kind="struct" prot="private">
+    <compoundname>ScreenshotLoader::Invoker</compoundname>
+    <basecompoundref refid="struct_status_job" prot="public" virt="non-virtual">StatusJob</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_screenshot_loader_1_1_invoker_1a40483970008786807cb9b1930b6b4961" prot="public" static="no" mutable="no">
+        <type><ref refid="class_screenshot_loader" kindref="compound">ScreenshotLoader</ref> *</type>
+        <definition>ScreenshotLoader* ScreenshotLoader::Invoker::loader</definition>
+        <argsstring></argsstring>
+        <name>loader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/screenshot_loader.hpp" line="21" bodyfile="/Users/ericgallager/Tiggit/screenshot_loader.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_screenshot_loader_1_1_invoker_1a0e1c8fd04fc94f0cfbead53c11ec858f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_screenshot_callback" kindref="compound">ScreenshotCallback</ref> *</type>
+        <definition>ScreenshotCallback* ScreenshotLoader::Invoker::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/screenshot_loader.hpp" line="22" bodyfile="/Users/ericgallager/Tiggit/screenshot_loader.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_screenshot_loader_1_1_invoker_1af01088107acd0842d82decc189b79251" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ScreenshotLoader::Invoker::Invoker</definition>
+        <argsstring>(ScreenshotLoader *l, ScreenshotCallback *c)</argsstring>
+        <name>Invoker</name>
+        <param>
+          <type><ref refid="class_screenshot_loader" kindref="compound">ScreenshotLoader</ref> *</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_screenshot_callback" kindref="compound">ScreenshotCallback</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/screenshot_loader.hpp" line="26" bodyfile="/Users/ericgallager/Tiggit/screenshot_loader.hpp" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_screenshot_loader_1_1_invoker_1a4c2cd4835e83d900947fbc0b3b2b31b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScreenshotLoader::Invoker::executeJob</definition>
+        <argsstring>()</argsstring>
+        <name>executeJob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/screenshot_loader.hpp" line="31" bodyfile="/Users/ericgallager/Tiggit/screenshot_loader.hpp" bodystart="30" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="434">
+        <label>StatusJob</label>
+        <link refid="struct_status_job"/>
+      </node>
+      <node id="433">
+        <label>ScreenshotLoader::Invoker</label>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="438">
+        <label>ThreadJob</label>
+        <link refid="struct_thread_job"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="436">
+        <label>StatusJob</label>
+        <link refid="struct_status_job"/>
+      </node>
+      <node id="437">
+        <label>ScreenshotLoader</label>
+        <link refid="class_screenshot_loader"/>
+        <childnode refid="438" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>ScreenshotLoader::Invoker</label>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+        <childnode refid="437" relation="usage">
+          <edgelabel>loader</edgelabel>
+        </childnode>
+        <childnode refid="439" relation="usage">
+          <edgelabel>cb</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/screenshot_loader.hpp" line="20" bodyfile="/Users/ericgallager/Tiggit/screenshot_loader.hpp" bodystart="19" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct_status_job_1a06e0afdd705e4c9873de208a5fc40579" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>abort</name></member>
+      <member refid="struct_status_job_1a48bef51411d1ea0513a452efeb729937" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>abortRequested</name></member>
+      <member refid="struct_screenshot_loader_1_1_invoker_1a0e1c8fd04fc94f0cfbead53c11ec858f" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>cb</name></member>
+      <member refid="struct_screenshot_loader_1_1_invoker_1a4c2cd4835e83d900947fbc0b3b2b31b4" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>executeJob</name></member>
+      <member refid="struct_status_job_1a96846d13ece51fcc292fb8de0f170f42" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>getError</name></member>
+      <member refid="struct_status_job_1ad759e3f36454061c889e6172bb600e3a" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>hasStarted</name></member>
+      <member refid="struct_screenshot_loader_1_1_invoker_1af01088107acd0842d82decc189b79251" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>Invoker</name></member>
+      <member refid="struct_status_job_1a2bb0bca42f45961de04636eaa680e51e" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>isAbort</name></member>
+      <member refid="struct_status_job_1ace0dda0b3f7e7fb958f970877052ef14" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>isBusy</name></member>
+      <member refid="struct_status_job_1a9ab1cde6269061b8de7bcf829c8435f5" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>isError</name></member>
+      <member refid="struct_status_job_1a9493c6bbbfc33be95016785b8f979d83" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>isFinished</name></member>
+      <member refid="struct_status_job_1abdc7540975bb641ec05ad225cafaf752" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>isNonSuccess</name></member>
+      <member refid="struct_status_job_1a147ccff65fd3e287cff5df61fb0b85c4" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>isSuccess</name></member>
+      <member refid="struct_screenshot_loader_1_1_invoker_1a40483970008786807cb9b1930b6b4961" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>loader</name></member>
+      <member refid="struct_status_job_1a43292a61c894235e4d7c41468a1c67ba" prot="public" virt="virtual"><scope>ScreenshotLoader::Invoker</scope><name>run</name></member>
+      <member refid="struct_status_job_1af02e101615feba1c7c573ffd47e4bf7f" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>runNoThread</name></member>
+      <member refid="struct_status_job_1abe811fbc93ef865a8cfe1b9e846c535f" prot="protected" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>setAbort</name></member>
+      <member refid="struct_status_job_1a7ffbcc5914a8de0f05e6277f557590ca" prot="protected" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>setBusy</name></member>
+      <member refid="struct_status_job_1a27329cdb3ecb7af96174c2d82990ee40" prot="protected" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>setDone</name></member>
+      <member refid="struct_status_job_1adcf8da2ad775e9426112ed39db5f7d3b" prot="protected" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>setError</name></member>
+      <member refid="struct_status_job_1a027e316e0d11862f130c153d86a7bcb2" prot="protected" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>setNone</name></member>
+      <member refid="struct_status_job_1ac5b169cdbe634bdc4a205229982e2e8b" prot="public" virt="non-virtual"><scope>ScreenshotLoader::Invoker</scope><name>StatusJob</name></member>
+      <member refid="struct_status_job_1adaccfd7adffb90324fd94afce80d05d2" prot="public" virt="virtual"><scope>ScreenshotLoader::Invoker</scope><name>~StatusJob</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

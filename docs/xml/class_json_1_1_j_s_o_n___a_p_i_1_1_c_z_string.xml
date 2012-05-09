@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string" kind="class" prot="private">
+    <compoundname>Json::JSON_API::CZString</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60" prot="public" static="no">
+        <name>DuplicationPolicy</name>
+        <enumvalue id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a9c2afce63101ffec9c07c3f750389733" prot="public">
+          <name>noDuplication</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a0544e14d1dfb13c9f1625bf62fd328dd" prot="public">
+          <name>duplicate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a9e11013465e4cd38d031aadc0d20b4d3" prot="public">
+          <name>duplicateOnCopy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="138" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="137" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a6283042fb5e68c1a1adb2a380e1f1335" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Json::JSON_API::CZString::cstr_</definition>
+        <argsstring></argsstring>
+        <name>cstr_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="155" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a78b2a741e380a2cd57b4183a9e7f0f3a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Json::JSON_API::CZString::index_</definition>
+        <argsstring></argsstring>
+        <name>index_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="156" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a655d9561ea1cc7c99688a666f5924194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::JSON_API::CZString::CZString</definition>
+        <argsstring>(int index)</argsstring>
+        <name>CZString</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a71fffe96f1b98bc0d026b39aac12e895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::JSON_API::CZString::CZString</definition>
+        <argsstring>(const char *cstr, DuplicationPolicy allocate)</argsstring>
+        <name>CZString</name>
+        <param>
+          <type>const char *</type>
+          <declname>cstr</declname>
+        </param>
+        <param>
+          <type>DuplicationPolicy</type>
+          <declname>allocate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a6a0c93122e9ced7eddfcf50290d3fc57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::JSON_API::CZString::CZString</definition>
+        <argsstring>(const CZString &amp;other)</argsstring>
+        <name>CZString</name>
+        <param>
+          <type>const CZString &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a8e8e7f3a0211db21833e65d8c290cc75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::JSON_API::CZString::~CZString</definition>
+        <argsstring>()</argsstring>
+        <name>~CZString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1ac65e957804672ea7f01e96855af28483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CZString &amp;</type>
+        <definition>CZString&amp; Json::JSON_API::CZString::operator=</definition>
+        <argsstring>(const CZString &amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const CZString &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1afab060efed1d079d29e0ba9f13898e93" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Json::JSON_API::CZString::operator&lt;</definition>
+        <argsstring>(const CZString &amp;other) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const CZString &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a0e700db1cd27c6db4597d845b622ef44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Json::JSON_API::CZString::operator==</definition>
+        <argsstring>(const CZString &amp;other) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const CZString &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1af0dfcbd513741af256bec6c23ca498a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Json::JSON_API::CZString::index</definition>
+        <argsstring>() const </argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a738a08165088dfb3b1be2672a8365646" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* Json::JSON_API::CZString::c_str</definition>
+        <argsstring>() const </argsstring>
+        <name>c_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adb76ccf654d11aff7bde2995affbd896" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Json::JSON_API::CZString::isStaticString</definition>
+        <argsstring>() const </argsstring>
+        <name>isStaticString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1ad06d74c549a97a8b8822764d8ceb5e68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Json::JSON_API::CZString::swap</definition>
+        <argsstring>(CZString &amp;other)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>CZString &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="135" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="134" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a738a08165088dfb3b1be2672a8365646" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>c_str</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a6283042fb5e68c1a1adb2a380e1f1335" prot="private" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>cstr_</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a655d9561ea1cc7c99688a666f5924194" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>CZString</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a71fffe96f1b98bc0d026b39aac12e895" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>CZString</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a6a0c93122e9ced7eddfcf50290d3fc57" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>CZString</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a0544e14d1dfb13c9f1625bf62fd328dd" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>duplicate</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a9e11013465e4cd38d031aadc0d20b4d3" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>duplicateOnCopy</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>DuplicationPolicy</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1af0dfcbd513741af256bec6c23ca498a0" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>index</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a78b2a741e380a2cd57b4183a9e7f0f3a" prot="private" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>index_</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adb76ccf654d11aff7bde2995affbd896" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>isStaticString</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1adaa1dee015a078f1b17f287b4206fa60a9c2afce63101ffec9c07c3f750389733" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>noDuplication</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1afab060efed1d079d29e0ba9f13898e93" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>operator&lt;</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1ac65e957804672ea7f01e96855af28483" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>operator=</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a0e700db1cd27c6db4597d845b622ef44" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>operator==</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1ad06d74c549a97a8b8822764d8ceb5e68" prot="private" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>swap</name></member>
+      <member refid="class_json_1_1_j_s_o_n___a_p_i_1_1_c_z_string_1a8e8e7f3a0211db21833e65d8c290cc75" prot="public" virt="non-virtual"><scope>Json::JSON_API::CZString</scope><name>~CZString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

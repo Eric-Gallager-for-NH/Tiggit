@@ -1,0 +1,87 @@
+.TH "ListKeeper" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ListKeeper \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBDateSort\fP"
+.br
+.ti -1c
+.RI "struct \fBDownloadSort\fP"
+.br
+.ti -1c
+.RI "struct \fBPriceSort\fP"
+.br
+.ti -1c
+.RI "struct \fBRateSort\fP"
+.br
+.ti -1c
+.RI "struct \fBSortBase\fP"
+.br
+.ti -1c
+.RI "struct \fBTitleSort\fP"
+.br
+.in -1c
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum { \fBSL_ALL\fP =  1, \fBSL_FREEWARE\fP =  2, \fBSL_DEMOS\fP =  3, \fBSL_NEW\fP =  4, \fBSL_INSTALL\fP =  8 }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBListKeeper\fP (\fBDataList\fP &dt, int select=SL_ALL)"
+.br
+.ti -1c
+.RI "void \fBsortTitle\fP ()"
+.br
+.ti -1c
+.RI "void \fBsortDate\fP ()"
+.br
+.ti -1c
+.RI "void \fBsortRating\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetSubSelection\fP (const std::vector< int > &sel)"
+.br
+.ti -1c
+.RI "void \fBclearSubSelection\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetReverse\fP (bool rev)"
+.br
+.ti -1c
+.RI "void \fBsetSearch\fP (const std::string &str)"
+.br
+.ti -1c
+.RI "\fBDataList::Entry\fP & \fBget\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBreset\fP ()"
+.br
+.ti -1c
+.RI "int \fBbaseSize\fP ()"
+.br
+.ti -1c
+.RI "int \fBsize\fP ()"
+.br
+.ti -1c
+.RI "const std::vector< int > & \fBgetBaseList\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file listkeeper\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

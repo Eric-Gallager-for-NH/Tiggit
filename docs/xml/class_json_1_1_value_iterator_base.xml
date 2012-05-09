@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_json_1_1_value_iterator_base" kind="class" prot="public">
+    <compoundname>Json::ValueIteratorBase</compoundname>
+    <derivedcompoundref refid="class_json_1_1_value_const_iterator" prot="public" virt="non-virtual">Json::ValueConstIterator</derivedcompoundref>
+    <derivedcompoundref refid="class_json_1_1_value_iterator" prot="public" virt="non-virtual">Json::ValueIterator</derivedcompoundref>
+    <includes refid="value_8h" local="no">value.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_json_1_1_value_iterator_base_1a9d3a3c7ce5cdefe23cb486239cf07bb5" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int Json::ValueIteratorBase::size_t</definition>
+        <argsstring></argsstring>
+        <name>size_t</name>
+        <reimplementedby refid="class_json_1_1_value_const_iterator_1a8685219d214dbd2b763357ae94fb0f27">size_t</reimplementedby>
+        <reimplementedby refid="class_json_1_1_value_iterator_1a308b8932ffc83eaa9d12dadd5c11a7dd">size_t</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="882" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="882" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_json_1_1_value_iterator_base_1a4e44bf8cbd17ec8d6e2c185904a15ebd" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int Json::ValueIteratorBase::difference_type</definition>
+        <argsstring></argsstring>
+        <name>difference_type</name>
+        <reimplementedby refid="class_json_1_1_value_const_iterator_1a32b36aa9d76e2b48ca74fb6e1979a95a">difference_type</reimplementedby>
+        <reimplementedby refid="class_json_1_1_value_iterator_1a2be1a9aa60bbfc8812e9dd1a7f1a8786">difference_type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="883" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="883" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_json_1_1_value_iterator_base_1a9d2a940d03ea06d20d972f41a89149ee" prot="public" static="no">
+        <type><ref refid="class_json_1_1_value_iterator_base" kindref="compound">ValueIteratorBase</ref></type>
+        <definition>typedef ValueIteratorBase Json::ValueIteratorBase::SelfType</definition>
+        <argsstring></argsstring>
+        <name>SelfType</name>
+        <reimplementedby refid="class_json_1_1_value_const_iterator_1a0c2e33e7eb5a80dd8709fb28ece83933">SelfType</reimplementedby>
+        <reimplementedby refid="class_json_1_1_value_iterator_1a23357670fdad61792670d86f62db7e16">SelfType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="884" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="884" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_1_1_value_iterator_base_1ab3138ce8af8301cca3b041ea55cb922a" prot="private" static="no" mutable="no">
+        <type>Value::ObjectValues::iterator</type>
+        <definition>Value::ObjectValues::iterator Json::ValueIteratorBase::current_</definition>
+        <argsstring></argsstring>
+        <name>current_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="933" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="933" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_1_1_value_iterator_base_1a3e08b114a1aed9bde518c527f94a8c59" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Json::ValueIteratorBase::isNull_</definition>
+        <argsstring></argsstring>
+        <name>isNull_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="935" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="935" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a9ea825541dda0d057fbc0ff8a3d2c76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ValueIteratorBase::ValueIteratorBase</definition>
+        <argsstring>()</argsstring>
+        <name>ValueIteratorBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="886" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a38e5d4351341621d69ec0647bebd6393" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ValueIteratorBase::ValueIteratorBase</definition>
+        <argsstring>(const Value::ObjectValues::iterator &amp;current)</argsstring>
+        <name>ValueIteratorBase</name>
+        <param>
+          <type>const Value::ObjectValues::iterator &amp;</type>
+          <declname>current</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="888" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1afc656672ac28502f640ade32c38c1b56" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Json::ValueIteratorBase::operator==</definition>
+        <argsstring>(const SelfType &amp;other) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_json_1_1_value_iterator_base" kindref="compound">SelfType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="895" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="894" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a18c2dd42e0bb989ace141bfe9de52792" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Json::ValueIteratorBase::operator!=</definition>
+        <argsstring>(const SelfType &amp;other) const </argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="class_json_1_1_value_iterator_base" kindref="compound">SelfType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="900" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="899" bodyend="902"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1ab786787fcad68ca5e8745aaf520fa17f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>difference_type</type>
+        <definition>difference_type Json::ValueIteratorBase::operator-</definition>
+        <argsstring>(const SelfType &amp;other) const </argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="class_json_1_1_value_iterator_base" kindref="compound">SelfType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="905" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="904" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a7fe8b45ba67da5f01dc54273242c5f46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Value</type>
+        <definition>Value ValueIteratorBase::key</definition>
+        <argsstring>() const </argsstring>
+        <name>key</name>
+        <briefdescription>
+<para>Return either the index or the member name of the referenced value as a Value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="910" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="157" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a5671376c32cb0fb95cbe0934be3ea5af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UInt</type>
+        <definition>UInt ValueIteratorBase::index</definition>
+        <argsstring>() const </argsstring>
+        <name>index</name>
+        <briefdescription>
+<para>Return the index of the referenced Value. -1 if it is not an arrayValue. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="913" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="181" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1ac71f27274c0326832dedec3060133a0d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * ValueIteratorBase::memberName</definition>
+        <argsstring>() const </argsstring>
+        <name>memberName</name>
+        <briefdescription>
+<para>Return the member name of the referenced Value. &quot;&quot; if it is not an objectValue. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="916" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="197" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a4ca11f1e5a984554b79fc98dd69577c0" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Value &amp;</type>
+        <definition>Value &amp; ValueIteratorBase::deref</definition>
+        <argsstring>() const </argsstring>
+        <name>deref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="919" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="51" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a5ed55be0046592580110a79d16003c2b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ValueIteratorBase::increment</definition>
+        <argsstring>()</argsstring>
+        <name>increment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="921" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="64" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1ab1a5b6694984a2c53567174126938d8c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ValueIteratorBase::decrement</definition>
+        <argsstring>()</argsstring>
+        <name>decrement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="923" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="77" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a79eff2632ecabafeb19aa74d066061fe" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>difference_type</type>
+        <definition>ValueIteratorBase::difference_type ValueIteratorBase::computeDistance</definition>
+        <argsstring>(const SelfType &amp;other) const </argsstring>
+        <name>computeDistance</name>
+        <param>
+          <type>const <ref refid="class_json_1_1_value_iterator_base" kindref="compound">SelfType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="925" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="90" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a1ffe2d20b6476f84e055aa1094fe70c6" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ValueIteratorBase::isEqual</definition>
+        <argsstring>(const SelfType &amp;other) const </argsstring>
+        <name>isEqual</name>
+        <param>
+          <type>const <ref refid="class_json_1_1_value_iterator_base" kindref="compound">SelfType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="927" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="127" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_value_iterator_base_1a938659a563d99d0199b655b3747367f2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ValueIteratorBase::copy</definition>
+        <argsstring>(const SelfType &amp;other)</argsstring>
+        <name>copy</name>
+        <param>
+          <type>const <ref refid="class_json_1_1_value_iterator_base" kindref="compound">SelfType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="929" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="144" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>base class for Value iterators. </para>    </briefdescription>
+    <detaileddescription>
+<para><verbatim> </verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="661">
+        <label>Json::ValueIterator</label>
+        <link refid="class_json_1_1_value_iterator"/>
+        <childnode refid="659" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="659">
+        <label>Json::ValueIteratorBase</label>
+        <link refid="class_json_1_1_value_iterator_base"/>
+      </node>
+      <node id="660">
+        <label>Json::ValueConstIterator</label>
+        <link refid="class_json_1_1_value_const_iterator"/>
+        <childnode refid="659" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="880" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="879" bodyend="944"/>
+    <listofallmembers>
+      <member refid="class_json_1_1_value_iterator_base_1a79eff2632ecabafeb19aa74d066061fe" prot="protected" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>computeDistance</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a938659a563d99d0199b655b3747367f2" prot="protected" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>copy</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1ab3138ce8af8301cca3b041ea55cb922a" prot="private" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>current_</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1ab1a5b6694984a2c53567174126938d8c" prot="protected" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>decrement</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a4ca11f1e5a984554b79fc98dd69577c0" prot="protected" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>deref</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a4e44bf8cbd17ec8d6e2c185904a15ebd" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>difference_type</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a5ed55be0046592580110a79d16003c2b" prot="protected" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>increment</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a5671376c32cb0fb95cbe0934be3ea5af" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>index</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a1ffe2d20b6476f84e055aa1094fe70c6" prot="protected" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>isEqual</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a3e08b114a1aed9bde518c527f94a8c59" prot="private" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>isNull_</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a7fe8b45ba67da5f01dc54273242c5f46" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>key</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1ac71f27274c0326832dedec3060133a0d" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>memberName</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a18c2dd42e0bb989ace141bfe9de52792" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>operator!=</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1ab786787fcad68ca5e8745aaf520fa17f" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>operator-</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1afc656672ac28502f640ade32c38c1b56" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>operator==</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a9d2a940d03ea06d20d972f41a89149ee" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>SelfType</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a9d3a3c7ce5cdefe23cb486239cf07bb5" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>size_t</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a9ea825541dda0d057fbc0ff8a3d2c76f" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>ValueIteratorBase</name></member>
+      <member refid="class_json_1_1_value_iterator_base_1a38e5d4351341621d69ec0647bebd6393" prot="public" virt="non-virtual"><scope>Json::ValueIteratorBase</scope><name>ValueIteratorBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

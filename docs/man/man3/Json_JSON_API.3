@@ -1,0 +1,781 @@
+.TH "Json::JSON_API" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Json::JSON_API \- 
+.PP
+Configuration passed to reader and writer\&. This configuration object can be used to force the Reader or Writer to behave in a standard conforming way\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <features\&.h>\fP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBCommentInfo\fP"
+.br
+.ti -1c
+.RI "class \fBCZString\fP"
+.br
+.ti -1c
+.RI "class \fBErrorInfo\fP"
+.br
+.ti -1c
+.RI "class \fBToken\fP"
+.br
+.ti -1c
+.RI "union \fBValueHolder\fP"
+.br
+.in -1c
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "typedef char \fBChar\fP"
+.br
+.ti -1c
+.RI "typedef const Char * \fBLocation\fP"
+.br
+.ti -1c
+.RI "typedef std::vector< std::string > \fBMembers\fP"
+.br
+.ti -1c
+.RI "typedef \fBValueIterator\fP \fBiterator\fP"
+.br
+.ti -1c
+.RI "typedef \fBValueConstIterator\fP \fBconst_iterator\fP"
+.br
+.ti -1c
+.RI "typedef Json::UInt \fBUInt\fP"
+.br
+.ti -1c
+.RI "typedef Json::Int \fBInt\fP"
+.br
+.ti -1c
+.RI "typedef UInt \fBArrayIndex\fP"
+.br
+.ti -1c
+.RI "typedef std::map< CZString, \fBValue\fP > \fBObjectValues\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBFeatures\fP ()"
+.br
+.RI "\fIInitialize the configuration like JsonConfig::allFeatures;\&. \fP"
+.ti -1c
+.RI "\fBReader\fP ()"
+.br
+.RI "\fIConstructs a Reader allowing all features for parsing\&. \fP"
+.ti -1c
+.RI "\fBReader\fP (const \fBFeatures\fP &features)"
+.br
+.RI "\fIConstructs a Reader allowing the specified feature set for parsing\&. \fP"
+.ti -1c
+.RI "bool \fBparse\fP (const std::string &document, \fBValue\fP &root, bool collectComments=true)"
+.br
+.RI "\fIRead a Value from a \fCJSON\fP document\&. \fP"
+.ti -1c
+.RI "bool \fBparse\fP (const char *beginDoc, const char *endDoc, \fBValue\fP &root, bool collectComments=true)"
+.br
+.RI "\fIRead a Value from a \fCJSON\fP document\&. \fP"
+.ti -1c
+.RI "bool \fBparse\fP (std::istream &is, \fBValue\fP &root, bool collectComments=true)"
+.br
+.RI "\fIParse from input stream\&. \fP"
+.ti -1c
+.RI "std::string \fBgetFormatedErrorMessages\fP () const "
+.br
+.RI "\fIReturns a user friendly string that list errors in the parsed document\&. \fP"
+.ti -1c
+.RI "\fBStaticString\fP (const char *czstring)"
+.br
+.ti -1c
+.RI "\fBoperator const char *\fP () const "
+.br
+.ti -1c
+.RI "const char * \fBc_str\fP () const "
+.br
+.ti -1c
+.RI "\fBValue\fP (\fBValueType\fP type=\fBnullValue\fP)"
+.br
+.RI "\fICreate a default Value of the given type\&. \fP"
+.ti -1c
+.RI "\fBValue\fP (Int value)"
+.br
+.ti -1c
+.RI "\fBValue\fP (UInt value)"
+.br
+.ti -1c
+.RI "\fBValue\fP (double value)"
+.br
+.ti -1c
+.RI "\fBValue\fP (const char *value)"
+.br
+.ti -1c
+.RI "\fBValue\fP (const char *beginValue, const char *endValue)"
+.br
+.ti -1c
+.RI "\fBValue\fP (const StaticString &value)"
+.br
+.RI "\fIConstructs a value from a static string\&. \fP"
+.ti -1c
+.RI "\fBValue\fP (const std::string &value)"
+.br
+.ti -1c
+.RI "\fBValue\fP (bool value)"
+.br
+.ti -1c
+.RI "\fBValue\fP (const \fBValue\fP &other)"
+.br
+.ti -1c
+.RI "\fBValue\fP & \fBoperator=\fP (const \fBValue\fP &other)"
+.br
+.ti -1c
+.RI "void \fBswap\fP (\fBValue\fP &other)"
+.br
+.ti -1c
+.RI "\fBValueType\fP \fBtype\fP () const "
+.br
+.ti -1c
+.RI "bool \fBoperator<\fP (const \fBValue\fP &other) const "
+.br
+.ti -1c
+.RI "bool \fBoperator<=\fP (const \fBValue\fP &other) const "
+.br
+.ti -1c
+.RI "bool \fBoperator>=\fP (const \fBValue\fP &other) const "
+.br
+.ti -1c
+.RI "bool \fBoperator>\fP (const \fBValue\fP &other) const "
+.br
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBValue\fP &other) const "
+.br
+.ti -1c
+.RI "bool \fBoperator!=\fP (const \fBValue\fP &other) const "
+.br
+.ti -1c
+.RI "int \fBcompare\fP (const \fBValue\fP &other)"
+.br
+.ti -1c
+.RI "const char * \fBasCString\fP () const "
+.br
+.ti -1c
+.RI "std::string \fBasString\fP () const "
+.br
+.ti -1c
+.RI "Int \fBasInt\fP () const "
+.br
+.ti -1c
+.RI "UInt \fBasUInt\fP () const "
+.br
+.ti -1c
+.RI "double \fBasDouble\fP () const "
+.br
+.ti -1c
+.RI "bool \fBasBool\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisNull\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisBool\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisInt\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisUInt\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisIntegral\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisDouble\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisNumeric\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisString\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisArray\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisObject\fP () const "
+.br
+.ti -1c
+.RI "bool \fBisConvertibleTo\fP (\fBValueType\fP other) const "
+.br
+.ti -1c
+.RI "UInt \fBsize\fP () const "
+.br
+.RI "\fINumber of values in array or object\&. \fP"
+.ti -1c
+.RI "bool \fBempty\fP () const "
+.br
+.RI "\fIReturn true if empty array, empty object, or null; otherwise, false\&. \fP"
+.ti -1c
+.RI "bool \fBoperator!\fP () const "
+.br
+.RI "\fIReturn isNull() \fP"
+.ti -1c
+.RI "void \fBclear\fP ()"
+.br
+.ti -1c
+.RI "void \fBresize\fP (UInt \fBsize\fP)"
+.br
+.ti -1c
+.RI "\fBValue\fP & \fBoperator[]\fP (UInt index)"
+.br
+.ti -1c
+.RI "const \fBValue\fP & \fBoperator[]\fP (UInt index) const "
+.br
+.ti -1c
+.RI "\fBValue\fP \fBget\fP (UInt index, const \fBValue\fP &defaultValue) const "
+.br
+.ti -1c
+.RI "bool \fBisValidIndex\fP (UInt index) const "
+.br
+.RI "\fIReturn true if index < \fBsize()\fP\&. \fP"
+.ti -1c
+.RI "\fBValue\fP & \fBappend\fP (const \fBValue\fP &value)"
+.br
+.RI "\fIAppend value to array at the end\&. \fP"
+.ti -1c
+.RI "\fBValue\fP & \fBoperator[]\fP (const char *key)"
+.br
+.RI "\fIAccess an object value by name, create a null member if it does not exist\&. \fP"
+.ti -1c
+.RI "const \fBValue\fP & \fBoperator[]\fP (const char *key) const "
+.br
+.RI "\fIAccess an object value by name, returns null if there is no member with that name\&. \fP"
+.ti -1c
+.RI "\fBValue\fP & \fBoperator[]\fP (const std::string &key)"
+.br
+.RI "\fIAccess an object value by name, create a null member if it does not exist\&. \fP"
+.ti -1c
+.RI "const \fBValue\fP & \fBoperator[]\fP (const std::string &key) const "
+.br
+.RI "\fIAccess an object value by name, returns null if there is no member with that name\&. \fP"
+.ti -1c
+.RI "\fBValue\fP & \fBoperator[]\fP (const StaticString &key)"
+.br
+.RI "\fIAccess an object value by name, create a null member if it does not exist\&. \fP"
+.ti -1c
+.RI "\fBValue\fP \fBget\fP (const char *key, const \fBValue\fP &defaultValue) const "
+.br
+.RI "\fIReturn the member named key if it exist, defaultValue otherwise\&. \fP"
+.ti -1c
+.RI "\fBValue\fP \fBget\fP (const std::string &key, const \fBValue\fP &defaultValue) const "
+.br
+.RI "\fIReturn the member named key if it exist, defaultValue otherwise\&. \fP"
+.ti -1c
+.RI "\fBValue\fP \fBremoveMember\fP (const char *key)"
+.br
+.RI "\fIRemove and return the named member\&. \fP"
+.ti -1c
+.RI "\fBValue\fP \fBremoveMember\fP (const std::string &key)"
+.br
+.RI "\fISame as \fBremoveMember(const char*)\fP \fP"
+.ti -1c
+.RI "bool \fBisMember\fP (const char *key) const "
+.br
+.RI "\fIReturn true if the object has a member named key\&. \fP"
+.ti -1c
+.RI "bool \fBisMember\fP (const std::string &key) const "
+.br
+.RI "\fIReturn true if the object has a member named key\&. \fP"
+.ti -1c
+.RI "Members \fBgetMemberNames\fP () const "
+.br
+.RI "\fIReturn a list of the member names\&. \fP"
+.ti -1c
+.RI "void \fBsetComment\fP (const char *comment, \fBCommentPlacement\fP placement)"
+.br
+.RI "\fIComments must be //\&.\&.\&. or /* \&.\&.\&. */\&. \fP"
+.ti -1c
+.RI "void \fBsetComment\fP (const std::string &comment, \fBCommentPlacement\fP placement)"
+.br
+.RI "\fIComments must be //\&.\&.\&. or /* \&.\&.\&. */\&. \fP"
+.ti -1c
+.RI "bool \fBhasComment\fP (\fBCommentPlacement\fP placement) const "
+.br
+.ti -1c
+.RI "std::string \fBgetComment\fP (\fBCommentPlacement\fP placement) const "
+.br
+.RI "\fIInclude delimiters and embedded newlines\&. \fP"
+.ti -1c
+.RI "std::string \fBtoStyledString\fP () const "
+.br
+.ti -1c
+.RI "\fBconst_iterator\fP \fBbegin\fP () const "
+.br
+.ti -1c
+.RI "\fBconst_iterator\fP \fBend\fP () const "
+.br
+.ti -1c
+.RI "\fBiterator\fP \fBbegin\fP ()"
+.br
+.ti -1c
+.RI "\fBiterator\fP \fBend\fP ()"
+.br
+.ti -1c
+.RI "virtual std::string \fBwrite\fP (const \fBValue\fP &root)=0"
+.br
+.ti -1c
+.RI "\fBFastWriter\fP ()"
+.br
+.ti -1c
+.RI "void \fBenableYAMLCompatibility\fP ()"
+.br
+.ti -1c
+.RI "virtual std::string \fBwrite\fP (const \fBValue\fP &root)"
+.br
+.ti -1c
+.RI "\fBStyledWriter\fP ()"
+.br
+.ti -1c
+.RI "virtual std::string \fBwrite\fP (const \fBValue\fP &root)"
+.br
+.RI "\fISerialize a Value in \fCJSON\fP format\&. \fP"
+.ti -1c
+.RI "\fBStyledStreamWriter\fP (std::string indentation='\\t')"
+.br
+.ti -1c
+.RI "void \fBwrite\fP (std::ostream &out, const \fBValue\fP &root)"
+.br
+.RI "\fISerialize a Value in \fCJSON\fP format\&. \fP"
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBFeatures\fP \fBall\fP ()"
+.br
+.RI "\fIA configuration that allows all features and assumes all strings are UTF-8\&. \fP"
+.ti -1c
+.RI "static \fBFeatures\fP \fBstrictMode\fP ()"
+.br
+.RI "\fIA configuration that is strictly compatible with the JSON specification\&. \fP"
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBallowComments_\fP"
+.br
+.RI "\fI\fCtrue\fP if comments are allowed\&. Default: \fCtrue\fP\&. \fP"
+.ti -1c
+.RI "bool \fBstrictRoot_\fP"
+.br
+.RI "\fI\fCtrue\fP if root must be either an array or an object value\&. Default: \fCfalse\fP\&. \fP"
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static const \fBValue\fP \fBnull\fP"
+.br
+.ti -1c
+.RI "static const Int \fBminInt\fP"
+.br
+.ti -1c
+.RI "static const Int \fBmaxInt\fP"
+.br
+.ti -1c
+.RI "static const UInt \fBmaxUInt\fP"
+.br
+.in -1c
+.SS "Friends"
+
+.in +1c
+.ti -1c
+.RI "class \fBValueIteratorBase\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Configuration passed to reader and writer\&. This configuration object can be used to force the Reader or Writer to behave in a standard conforming way\&. 
+
+Writes a Value in \fCJSON\fP format in a human friendly way, to a stream rather than to a string\&.
+.PP
+Writes a Value in \fCJSON\fP format in a human friendly way\&.
+.PP
+Outputs a Value in \fCJSON\fP format without formatting (not human friendly)\&.
+.PP
+Abstract class for writers\&.
+.PP
+Represents a \fCJSON\fP value\&.
+.PP
+Lightweight wrapper to tag static string\&.
+.PP
+Unserialize a \fCJSON\fP document into a Value\&.
+.PP
+.PP
+.nf
+ .fi
+.PP
+.PP
+Value constructor and objectValue member assignement takes advantage of the StaticString and avoid the cost of string duplication when storing the string or the member name\&.
+.PP
+Example of usage: 
+.PP
+.nf
+ Json::Value aValue( StaticString('some text') );
+ Json::Value object;
+ static const StaticString code('code');
+ object[code] = 1234;
+
+.fi
+.PP
+.PP
+This class is a discriminated union wrapper that can represents a:
+.IP "\(bu" 2
+signed integer [range: Value::minInt - Value::maxInt]
+.IP "\(bu" 2
+unsigned integer (range: 0 - Value::maxUInt)
+.IP "\(bu" 2
+double
+.IP "\(bu" 2
+UTF-8 string
+.IP "\(bu" 2
+boolean
+.IP "\(bu" 2
+'null'
+.IP "\(bu" 2
+an ordered list of Value
+.IP "\(bu" 2
+collection of name/value pairs (javascript object)
+.PP
+.PP
+The type of the held value is represented by a \fBValueType\fP and can be obtained using type()\&.
+.PP
+values of an \fBobjectValue\fP or \fBarrayValue\fP can be accessed using \fBoperator[]()\fP methods\&. Non const methods will automatically create the a \fBnullValue\fP element if it does not exist\&. The sequence of an \fBarrayValue\fP will be automatically resize and initialized with \fBnullValue\fP\&. \fBresize()\fP can be used to enlarge or truncate an \fBarrayValue\fP\&.
+.PP
+The \fBget()\fP methods can be used to obtanis default value in the case the required element does not exist\&.
+.PP
+It is possible to iterate over the list of a \fBobjectValue\fP values using the \fBgetMemberNames()\fP method\&.
+.PP
+The JSON document is written in a single line\&. It is not intended for 'human' consumption, but may be usefull to support feature such as RPC where bandwith is limited\&. 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBReader\fP, \fBValue\fP
+.RE
+.PP
+The rules for line break and indent are as follow:
+.IP "\(bu" 2
+Object value:
+.IP "  \(bu" 4
+if empty then print {} without indent and line break
+.IP "  \(bu" 4
+if not empty the print '{', line break & indent, print one value per line and then unindent and line break and print '}'\&.
+.PP
+
+.IP "\(bu" 2
+Array value:
+.IP "  \(bu" 4
+if empty then print [] without indent and line break
+.IP "  \(bu" 4
+if the array contains no object value, empty array or some other value types, and all the values fit on one lines, then print the array on a single line\&.
+.IP "  \(bu" 4
+otherwise, it the values do not fit on one line, or the array contains object or non empty array, then print one value per line\&.
+.PP
+
+.PP
+.PP
+If the Value have comments then they are outputed according to their \fBCommentPlacement\fP\&.
+.PP
+\fBSee also:\fP
+.RS 4
+\fBReader\fP, \fBValue\fP, Value::setComment()
+.RE
+.PP
+The rules for line break and indent are as follow:
+.IP "\(bu" 2
+Object value:
+.IP "  \(bu" 4
+if empty then print {} without indent and line break
+.IP "  \(bu" 4
+if not empty the print '{', line break & indent, print one value per line and then unindent and line break and print '}'\&.
+.PP
+
+.IP "\(bu" 2
+Array value:
+.IP "  \(bu" 4
+if empty then print [] without indent and line break
+.IP "  \(bu" 4
+if the array contains no object value, empty array or some other value types, and all the values fit on one lines, then print the array on a single line\&.
+.IP "  \(bu" 4
+otherwise, it the values do not fit on one line, or the array contains object or non empty array, then print one value per line\&.
+.PP
+
+.PP
+.PP
+If the Value have comments then they are outputed according to their \fBCommentPlacement\fP\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIindentation\fP Each level will be indented by this amount extra\&. 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBReader\fP, \fBValue\fP, Value::setComment() 
+.RE
+.PP
+
+.PP
+Definition at line 12 of file features\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static \fBFeatures\fP \fBJson::JSON_API::all\fP ()\fC [static]\fP"
+
+.PP
+A configuration that allows all features and assumes all strings are UTF-8\&. .IP "\(bu" 2
+C & C++ comments are allowed
+.IP "\(bu" 2
+Root object can be any JSON value
+.IP "\(bu" 2
+Assumes Value strings are encoded in UTF-8 
+.PP
+
+.SS "\fBValue\fP& \fBJson::JSON_API::append\fP (const \fBValue\fP &value)"
+
+.PP
+Append value to array at the end\&. Equivalent to jsonvalue[jsonvalue\&.size()] = value; 
+.SS "void \fBJson::JSON_API::clear\fP ()"
+Remove all object members and array elements\&. 
+.PP
+\fBPrecondition:\fP
+.RS 4
+type() is arrayValue, objectValue, or nullValue 
+.RE
+.PP
+\fBPostcondition:\fP
+.RS 4
+type() is unchanged 
+.RE
+.PP
+
+.SS "\fBValue\fP \fBJson::JSON_API::get\fP (UIntindex, const \fBValue\fP &defaultValue) const"
+If the array contains at least index+1 elements, returns the element value, otherwise returns defaultValue\&. 
+.SS "std::string \fBJson::JSON_API::getFormatedErrorMessages\fP () const"
+
+.PP
+Returns a user friendly string that list errors in the parsed document\&. \fBReturns:\fP
+.RS 4
+Formatted error message with the list of errors with their location in the parsed document\&. An empty string is returned if no error occurred during parsing\&. 
+.RE
+.PP
+
+.SS "Members \fBJson::JSON_API::getMemberNames\fP () const"
+
+.PP
+Return a list of the member names\&. If null, return an empty list\&. 
+.PP
+\fBPrecondition:\fP
+.RS 4
+type() is objectValue or nullValue 
+.RE
+.PP
+\fBPostcondition:\fP
+.RS 4
+if type() was nullValue, it remains nullValue 
+.RE
+.PP
+
+.SS "\fBValue\fP& Json::JSON_API::operator[] (UIntindex)"
+Access an array element (zero based index )\&. If the array contains less than index element, then null value are inserted in the array so that its size is index+1\&. (You may need to say 'value[0u]' to get your compiler to distinguish this from the operator[] which takes a string\&.) 
+.SS "const \fBValue\fP& Json::JSON_API::operator[] (UIntindex) const"
+Access an array element (zero based index ) (You may need to say 'value[0u]' to get your compiler to distinguish this from the operator[] which takes a string\&.) 
+.SS "\fBValue\fP& Json::JSON_API::operator[] (const StaticString &key)"
+
+.PP
+Access an object value by name, create a null member if it does not exist\&. If the object as no entry for that name, then the member name used to store the new entry is not duplicated\&. Example of use: 
+.PP
+.nf
+ Json::Value object;
+ static const StaticString code('code');
+ object[code] = 1234;
+
+.fi
+.PP
+ 
+.SS "bool \fBJson::JSON_API::parse\fP (const std::string &document, \fBValue\fP &root, boolcollectComments = \fCtrue\fP)"
+
+.PP
+Read a Value from a \fCJSON\fP document\&. \fBParameters:\fP
+.RS 4
+\fIdocument\fP UTF-8 encoded string containing the document to read\&. 
+.br
+\fIroot\fP [out] Contains the root value of the document if it was successfully parsed\&. 
+.br
+\fIcollectComments\fP \fCtrue\fP to collect comment and allow writing them back during serialization, \fCfalse\fP to discard comments\&. This parameter is ignored if Features::allowComments_ is \fCfalse\fP\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fCtrue\fP if the document was successfully parsed, \fCfalse\fP if an error occurred\&. 
+.RE
+.PP
+
+.SS "bool \fBJson::JSON_API::parse\fP (const char *beginDoc, const char *endDoc, \fBValue\fP &root, boolcollectComments = \fCtrue\fP)"
+
+.PP
+Read a Value from a \fCJSON\fP document\&. \fBParameters:\fP
+.RS 4
+\fIdocument\fP UTF-8 encoded string containing the document to read\&. 
+.br
+\fIroot\fP [out] Contains the root value of the document if it was successfully parsed\&. 
+.br
+\fIcollectComments\fP \fCtrue\fP to collect comment and allow writing them back during serialization, \fCfalse\fP to discard comments\&. This parameter is ignored if Features::allowComments_ is \fCfalse\fP\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fCtrue\fP if the document was successfully parsed, \fCfalse\fP if an error occurred\&. 
+.RE
+.PP
+
+.SS "bool \fBJson::JSON_API::parse\fP (std::istream &is, \fBValue\fP &root, boolcollectComments = \fCtrue\fP)"
+
+.PP
+Parse from input stream\&. \fBSee also:\fP
+.RS 4
+Json::operator>>(std::istream&, Json::Value&)\&. 
+.RE
+.PP
+
+.SS "\fBValue\fP \fBJson::JSON_API::removeMember\fP (const char *key)"
+
+.PP
+Remove and return the named member\&. Do nothing if it did not exist\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+the removed Value, or null\&. 
+.RE
+.PP
+\fBPrecondition:\fP
+.RS 4
+type() is objectValue or nullValue 
+.RE
+.PP
+\fBPostcondition:\fP
+.RS 4
+type() is unchanged 
+.RE
+.PP
+
+.SS "void \fBJson::JSON_API::resize\fP (UIntsize)"
+Resize the array to size elements\&. New elements are initialized to null\&. May only be called on nullValue or arrayValue\&. 
+.PP
+\fBPrecondition:\fP
+.RS 4
+type() is arrayValue or nullValue 
+.RE
+.PP
+\fBPostcondition:\fP
+.RS 4
+type() is arrayValue 
+.RE
+.PP
+
+.SS "static \fBFeatures\fP \fBJson::JSON_API::strictMode\fP ()\fC [static]\fP"
+
+.PP
+A configuration that is strictly compatible with the JSON specification\&. .IP "\(bu" 2
+Comments are forbidden\&.
+.IP "\(bu" 2
+Root object must be either an array or an object value\&.
+.IP "\(bu" 2
+Assumes Value strings are encoded in UTF-8 
+.PP
+
+.SS "void \fBJson::JSON_API::swap\fP (\fBValue\fP &other)"
+Swap values\&. 
+.PP
+\fBNote:\fP
+.RS 4
+Currently, comments are intentionally not swapped, for both logic and efficiency\&. 
+.RE
+.PP
+
+.SS "\fBJson::JSON_API::Value\fP (\fBValueType\fPtype = \fC\fBnullValue\fP\fP)"
+
+.PP
+Create a default Value of the given type\&. .PP
+.nf
+   This is a very useful constructor.
+   To create an empty array, pass arrayValue.
+   To create an empty object, pass objectValue.
+   Another Value can then be set to this one by assignment.
+   This is useful since clear() and resize() will not alter types.
+
+   Examples:
+.fi
+.PP
+ 
+.PP
+.nf
+        Json::Value null_value; // null
+        Json::Value arr_value(Json::arrayValue); // []
+        Json::Value obj_value(Json::objectValue); // {}
+
+.fi
+.PP
+ 
+.SS "\fBJson::JSON_API::Value\fP (const StaticString &value)"
+
+.PP
+Constructs a value from a static string\&. Like other value string constructor but do not duplicate the string for internal storage\&. The given string must remain alive after the call to this constructor\&. Example of usage: 
+.PP
+.nf
+ Json::Value aValue( StaticString('some text') );
+
+.fi
+.PP
+ 
+.SS "virtual std::string Json::JSON_API::write (const \fBValue\fP &root)\fC [virtual]\fP"
+
+.PP
+Serialize a Value in \fCJSON\fP format\&. \fBParameters:\fP
+.RS 4
+\fIroot\fP Value to serialize\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+String containing the JSON document that represents the root value\&. 
+.RE
+.PP
+
+.SS "void Json::JSON_API::write (std::ostream &out, const \fBValue\fP &root)"
+
+.PP
+Serialize a Value in \fCJSON\fP format\&. \fBParameters:\fP
+.RS 4
+\fIout\fP Stream to write to\&. (Can be ostringstream, e\&.g\&.) 
+.br
+\fIroot\fP Value to serialize\&. 
+.RE
+.PP
+\fBNote:\fP
+.RS 4
+There is no point in deriving from Writer, since write() should not return a value\&. 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_json_1_1_batch_allocator_1_1_batch_info" kind="struct" prot="private">
+    <compoundname>Json::BatchAllocator::BatchInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_json_1_1_batch_allocator_1_1_batch_info_1acc4f49589b6df51db1a67bf2ee2d336a" prot="public" static="no" mutable="no">
+        <type>BatchInfo *</type>
+        <definition>BatchInfo* Json::BatchAllocator&lt; AllocatedType, objectPerAllocation &gt;::BatchInfo::next_</definition>
+        <argsstring></argsstring>
+        <name>next_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" line="91" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_json_1_1_batch_allocator_1_1_batch_info_1a61f1740851eda82927a3d434179414b0" prot="public" static="no" mutable="no">
+        <type>AllocatedType *</type>
+        <definition>AllocatedType* Json::BatchAllocator&lt; AllocatedType, objectPerAllocation &gt;::BatchInfo::used_</definition>
+        <argsstring></argsstring>
+        <name>used_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" line="92" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_json_1_1_batch_allocator_1_1_batch_info_1a3ae3cfb3e7474cc562929b515dba8453" prot="public" static="no" mutable="no">
+        <type>AllocatedType *</type>
+        <definition>AllocatedType* Json::BatchAllocator&lt; AllocatedType, objectPerAllocation &gt;::BatchInfo::end_</definition>
+        <argsstring></argsstring>
+        <name>end_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" line="93" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_json_1_1_batch_allocator_1_1_batch_info_1a206b15040f6f036303d49f05fe0fed21" prot="public" static="no" mutable="no">
+        <type>AllocatedType</type>
+        <definition>AllocatedType Json::BatchAllocator&lt; AllocatedType, objectPerAllocation &gt;::BatchInfo::buffer_[objectPerAllocation]</definition>
+        <argsstring>[objectPerAllocation]</argsstring>
+        <name>buffer_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" line="94" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="314">
+        <label>Json::BatchAllocator&lt; AllocatedType, objectPerAllocation &gt;::BatchInfo</label>
+        <childnode refid="314" relation="usage">
+          <edgelabel>next_</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" line="90" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_batchallocator.h" bodystart="89" bodyend="95"/>
+    <listofallmembers>
+      <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1a206b15040f6f036303d49f05fe0fed21" prot="public" virt="non-virtual"><scope>Json::BatchAllocator::BatchInfo</scope><name>buffer_</name></member>
+      <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1a3ae3cfb3e7474cc562929b515dba8453" prot="public" virt="non-virtual"><scope>Json::BatchAllocator::BatchInfo</scope><name>end_</name></member>
+      <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1acc4f49589b6df51db1a67bf2ee2d336a" prot="public" virt="non-virtual"><scope>Json::BatchAllocator::BatchInfo</scope><name>next_</name></member>
+      <member refid="struct_json_1_1_batch_allocator_1_1_batch_info_1a61f1740851eda82927a3d434179414b0" prot="public" virt="non-virtual"><scope>Json::BatchAllocator::BatchInfo</scope><name>used_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

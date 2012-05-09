@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_list_keeper_1_1_title_sort" kind="struct" prot="private">
+    <compoundname>ListKeeper::TitleSort</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ListKeeper::SortBase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_list_keeper_1_1_title_sort_1a57c12a0a440842da3d79a276a81f3d5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListKeeper::TitleSort::TitleSort</definition>
+        <argsstring>(DataList &amp;d)</argsstring>
+        <name>TitleSort</name>
+        <param>
+          <type><ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="58" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_list_keeper_1_1_title_sort_1a7ede068cec9b73e9961c817673118997" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ListKeeper::TitleSort::isLess</definition>
+        <argsstring>(DataList::Entry &amp;a, DataList::Entry &amp;b)</argsstring>
+        <name>isLess</name>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="60" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="59" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_list_keeper_1_1_title_sort_1a1dd8241afc153b328916d888b61dcf87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ListKeeper::TitleSort::isLessStatic</definition>
+        <argsstring>(DataList::Entry &amp;a, DataList::Entry &amp;b)</argsstring>
+        <name>isLessStatic</name>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_data_list_1_1_entry" kindref="compound">DataList::Entry</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="64" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="63" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="623">
+        <label>ListKeeper::SortBase</label>
+      </node>
+      <node id="622">
+        <label>ListKeeper::TitleSort</label>
+        <childnode refid="623" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="626">
+        <label>DataList</label>
+        <link refid="struct_data_list"/>
+      </node>
+      <node id="625">
+        <label>ListKeeper::SortBase</label>
+        <childnode refid="626" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="624">
+        <label>ListKeeper::TitleSort</label>
+        <childnode refid="625" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/listkeeper.hpp" line="57" bodyfile="/Users/ericgallager/Tiggit/listkeeper.hpp" bodystart="56" bodyend="68"/>
+    <listofallmembers>
+      <member refid="struct_list_keeper_1_1_sort_base_1a59cc3a966c6ad77e8d2aed632448d5f6" prot="public" virt="non-virtual"><scope>ListKeeper::TitleSort</scope><name>data</name></member>
+      <member refid="struct_list_keeper_1_1_title_sort_1a7ede068cec9b73e9961c817673118997" prot="public" virt="non-virtual"><scope>ListKeeper::TitleSort</scope><name>isLess</name></member>
+      <member refid="struct_list_keeper_1_1_title_sort_1a1dd8241afc153b328916d888b61dcf87" prot="public" virt="non-virtual"><scope>ListKeeper::TitleSort</scope><name>isLessStatic</name></member>
+      <member refid="struct_list_keeper_1_1_sort_base_1a46a7074f8c4d1c68dfa246147f108c44" prot="public" virt="non-virtual"><scope>ListKeeper::TitleSort</scope><name>operator()</name></member>
+      <member refid="struct_list_keeper_1_1_sort_base_1ac03394fb5503d3ab09ea463e80ba05b5" prot="public" virt="non-virtual"><scope>ListKeeper::TitleSort</scope><name>SortBase</name></member>
+      <member refid="struct_list_keeper_1_1_title_sort_1a57c12a0a440842da3d79a276a81f3d5c" prot="public" virt="non-virtual"><scope>ListKeeper::TitleSort</scope><name>TitleSort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

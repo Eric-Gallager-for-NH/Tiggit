@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_sort_options" kind="struct" prot="public">
+    <compoundname>SortOptions</compoundname>
+    <derivedcompoundref refid="struct_game_sort_options" prot="public" virt="non-virtual">GameSortOptions</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sort_options_1a717e586bc0927918693720ae30a66394" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void SortOptions::addSortOptions</definition>
+        <argsstring>(wxWindow *parent, wxBoxSizer *pane) const =0</argsstring>
+        <name>addSortOptions</name>
+        <reimplementedby refid="struct_game_sort_options_1a07d340aa5c46550a502278036b9d23ca">addSortOptions</reimplementedby>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>wxBoxSizer *</type>
+          <declname>pane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="327"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="578">
+        <label>GameSortOptions</label>
+        <link refid="struct_game_sort_options"/>
+        <childnode refid="577" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="577">
+        <label>SortOptions</label>
+        <link refid="struct_sort_options"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="326" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="325" bodyend="328"/>
+    <listofallmembers>
+      <member refid="struct_sort_options_1a717e586bc0927918693720ae30a66394" prot="public" virt="pure-virtual"><scope>SortOptions</scope><name>addSortOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

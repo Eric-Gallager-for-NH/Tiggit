@@ -1,0 +1,93 @@
+.TH "Json::ValueIteratorBase" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Json::ValueIteratorBase \- 
+.PP
+base class for Value iterators\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <value\&.h>\fP
+.PP
+Inherited by \fBJson::ValueConstIterator\fP, and \fBJson::ValueIterator\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "typedef unsigned int \fBsize_t\fP"
+.br
+.ti -1c
+.RI "typedef int \fBdifference_type\fP"
+.br
+.ti -1c
+.RI "typedef \fBValueIteratorBase\fP \fBSelfType\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBValueIteratorBase\fP (const Value::ObjectValues::iterator &current)"
+.br
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBSelfType\fP &other) const "
+.br
+.ti -1c
+.RI "bool \fBoperator!=\fP (const \fBSelfType\fP &other) const "
+.br
+.ti -1c
+.RI "difference_type \fBoperator-\fP (const \fBSelfType\fP &other) const "
+.br
+.ti -1c
+.RI "Value \fBkey\fP () const "
+.br
+.RI "\fIReturn either the index or the member name of the referenced value as a Value\&. \fP"
+.ti -1c
+.RI "UInt \fBindex\fP () const "
+.br
+.RI "\fIReturn the index of the referenced Value\&. -1 if it is not an arrayValue\&. \fP"
+.ti -1c
+.RI "const char * \fBmemberName\fP () const "
+.br
+.RI "\fIReturn the member name of the referenced Value\&. '' if it is not an objectValue\&. \fP"
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "Value & \fBderef\fP () const "
+.br
+.ti -1c
+.RI "void \fBincrement\fP ()"
+.br
+.ti -1c
+.RI "void \fBdecrement\fP ()"
+.br
+.ti -1c
+.RI "difference_type \fBcomputeDistance\fP (const \fBSelfType\fP &other) const "
+.br
+.ti -1c
+.RI "bool \fBisEqual\fP (const \fBSelfType\fP &other) const "
+.br
+.ti -1c
+.RI "void \fBcopy\fP (const \fBSelfType\fP &other)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+base class for Value iterators\&. 
+
+.PP
+.nf
+ .fi
+.PP
+ 
+.PP
+Definition at line 879 of file value\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

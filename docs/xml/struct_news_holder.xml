@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_news_holder" kind="struct" prot="public">
+    <compoundname>NewsHolder</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_news_holder_1a5662cdc4eac38a9c6a919a945ad450ff" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_news_item" kindref="compound">NewsItem</ref> &gt;</type>
+        <definition>std::vector&lt;NewsItem&gt; NewsHolder::items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="29" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_news_holder_1a3066673800034ade96e7f9ea0f0f3c38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsHolder::addItem</definition>
+        <argsstring>(int id, time_t time, const std::string &amp;sub, const std::string &amp;body, bool isRead=false)</argsstring>
+        <name>addItem</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>time_t</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>sub</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isRead</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="32" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_holder_1a40e573fbb8eed20431b25195ae154c48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsHolder::addItem</definition>
+        <argsstring>(int id, time_t time, const wxString &amp;subject, const wxString &amp;body, bool isRead=false)</argsstring>
+        <name>addItem</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>time_t</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>subject</declname>
+        </param>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isRead</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="40" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="39" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_holder_1ac8fb0907404b1ae52138bac62f8808b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsHolder::writeStatus</definition>
+        <argsstring>()</argsstring>
+        <name>writeStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="57" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="56" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_holder_1a49e4596d7f38230fb41aa30e1930c2af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsHolder::reload</definition>
+        <argsstring>()</argsstring>
+        <name>reload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="70" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="69" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="28" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="27" bodyend="130"/>
+    <listofallmembers>
+      <member refid="struct_news_holder_1a3066673800034ade96e7f9ea0f0f3c38" prot="public" virt="non-virtual"><scope>NewsHolder</scope><name>addItem</name></member>
+      <member refid="struct_news_holder_1a40e573fbb8eed20431b25195ae154c48" prot="public" virt="non-virtual"><scope>NewsHolder</scope><name>addItem</name></member>
+      <member refid="struct_news_holder_1a5662cdc4eac38a9c6a919a945ad450ff" prot="public" virt="non-virtual"><scope>NewsHolder</scope><name>items</name></member>
+      <member refid="struct_news_holder_1a49e4596d7f38230fb41aa30e1930c2af" prot="public" virt="non-virtual"><scope>NewsHolder</scope><name>reload</name></member>
+      <member refid="struct_news_holder_1ac8fb0907404b1ae52138bac62f8808b6" prot="public" virt="non-virtual"><scope>NewsHolder</scope><name>writeStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

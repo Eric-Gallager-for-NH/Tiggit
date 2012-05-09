@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_screenshot_callback" kind="struct" prot="public">
+    <compoundname>ScreenshotCallback</compoundname>
+    <derivedcompoundref refid="struct_list_tab" prot="public" virt="non-virtual">ListTab</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_screenshot_callback_1ad07ade488ea05e0b397baee0ef2dc923" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ScreenshotCallback::shotIsReady</definition>
+        <argsstring>(const std::string &amp;id, const wxImage &amp;shot)=0</argsstring>
+        <name>shotIsReady</name>
+        <reimplementedby refid="struct_list_tab_1a5aff2789c36a9d39abc5efb2f2b0c0b1">shotIsReady</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const wxImage &amp;</type>
+          <declname>shot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/screenshot_loader.hpp" line="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="554">
+        <label>ListTabNonEmpty</label>
+        <link refid="struct_list_tab_non_empty"/>
+        <childnode refid="551" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="552">
+        <label>FreewareListTab</label>
+        <link refid="struct_freeware_list_tab"/>
+        <childnode refid="551" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>ListTab</label>
+        <link refid="struct_list_tab"/>
+        <childnode refid="550" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="550">
+        <label>ScreenshotCallback</label>
+        <link refid="struct_screenshot_callback"/>
+      </node>
+      <node id="555">
+        <label>DemoListTab</label>
+        <link refid="struct_demo_list_tab"/>
+        <childnode refid="554" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>InstalledListTab</label>
+        <link refid="struct_installed_list_tab"/>
+        <childnode refid="551" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="556">
+        <label>NewGameListTab</label>
+        <link refid="struct_new_game_list_tab"/>
+        <childnode refid="554" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/ericgallager/Tiggit/screenshot_loader.hpp" line="11" bodyfile="/Users/ericgallager/Tiggit/screenshot_loader.hpp" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="struct_screenshot_callback_1ad07ade488ea05e0b397baee0ef2dc923" prot="public" virt="pure-virtual"><scope>ScreenshotCallback</scope><name>shotIsReady</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

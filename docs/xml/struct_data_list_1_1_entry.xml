@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_data_list_1_1_entry" kind="struct" prot="public">
+    <compoundname>DataList::Entry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1a3570d10a0a91b36f2aa168358780fb26" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t DataList::Entry::add_time</definition>
+        <argsstring></argsstring>
+        <name>add_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="23" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1a7e228cc6a51be4121e6046c520db834d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DataList::Entry::isNew</definition>
+        <argsstring></argsstring>
+        <name>isNew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="26" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1a463b8dffcc4795702cfa07e6e5e85226" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DataList::Entry::rating</definition>
+        <argsstring></argsstring>
+        <name>rating</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="29" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1a4569e2cc7972bde2c9fc76cfc8f2c5a4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DataList::Entry::rateCount</definition>
+        <argsstring></argsstring>
+        <name>rateCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="30" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1aa9c367fa7ff5a9dedad2b218bf236fb1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DataList::Entry::dlCount</definition>
+        <argsstring></argsstring>
+        <name>dlCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="30" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1a7daddeb1b5a554f5e90c6d2412f7bf87" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DataList::Entry::urlname</definition>
+        <argsstring></argsstring>
+        <name>urlname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1acfb0798ef471cacca9eb9ddbcdcf652e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DataList::Entry::idname</definition>
+        <argsstring></argsstring>
+        <name>idname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1aa6005496790c98b990851fd318d7638b" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DataList::Entry::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1aebe64f40bc0f9b49539ea93f07e28404" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DataList::Entry::tigurl</definition>
+        <argsstring></argsstring>
+        <name>tigurl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="33" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1ac4d5d7719f43bfa907065ce2e9ccd4fb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_data_list_1_1_tig_info" kindref="compound">TigInfo</ref></type>
+        <definition>TigInfo DataList::Entry::tigInfo</definition>
+        <argsstring></argsstring>
+        <name>tigInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="35" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_data_list_1_1_entry_1ae79a1cc41ad00797a2df1c70c4a4e604" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* DataList::Entry::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="39" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="389">
+        <label>DataList::Entry</label>
+        <link refid="struct_data_list_1_1_entry"/>
+        <childnode refid="390" relation="usage">
+          <edgelabel>tigInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="390">
+        <label>DataList::TigInfo</label>
+        <link refid="struct_data_list_1_1_tig_info"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/datalist.hpp" line="21" bodyfile="/Users/ericgallager/Tiggit/datalist.hpp" bodystart="20" bodyend="40"/>
+    <listofallmembers>
+      <member refid="struct_data_list_1_1_entry_1a3570d10a0a91b36f2aa168358780fb26" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>add_time</name></member>
+      <member refid="struct_data_list_1_1_entry_1aa9c367fa7ff5a9dedad2b218bf236fb1" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>dlCount</name></member>
+      <member refid="struct_data_list_1_1_entry_1acfb0798ef471cacca9eb9ddbcdcf652e" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>idname</name></member>
+      <member refid="struct_data_list_1_1_entry_1ae79a1cc41ad00797a2df1c70c4a4e604" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>info</name></member>
+      <member refid="struct_data_list_1_1_entry_1a7e228cc6a51be4121e6046c520db834d" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>isNew</name></member>
+      <member refid="struct_data_list_1_1_entry_1aa6005496790c98b990851fd318d7638b" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>name</name></member>
+      <member refid="struct_data_list_1_1_entry_1a4569e2cc7972bde2c9fc76cfc8f2c5a4" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>rateCount</name></member>
+      <member refid="struct_data_list_1_1_entry_1a463b8dffcc4795702cfa07e6e5e85226" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>rating</name></member>
+      <member refid="struct_data_list_1_1_entry_1ac4d5d7719f43bfa907065ce2e9ccd4fb" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>tigInfo</name></member>
+      <member refid="struct_data_list_1_1_entry_1aebe64f40bc0f9b49539ea93f07e28404" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>tigurl</name></member>
+      <member refid="struct_data_list_1_1_entry_1a7daddeb1b5a554f5e90c6d2412f7bf87" prot="public" virt="non-virtual"><scope>DataList::Entry</scope><name>urlname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

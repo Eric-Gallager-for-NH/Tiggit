@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_news_tab" kind="struct" prot="public">
+    <compoundname>NewsTab</compoundname>
+    <basecompoundref refid="struct_tab_base" prot="public" virt="non-virtual">TabBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_news_tab_1a3f0fc116ca5ce5e7cf3dfc9aa62501ca" prot="public" static="no" mutable="no">
+        <type><ref refid="class_news_list" kindref="compound">NewsList</ref> *</type>
+        <definition>NewsList* NewsTab::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="222" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_news_tab_1a4b1361cf9d8dbfaefc4570ee7883ffbf" prot="public" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl* NewsTab::textView</definition>
+        <argsstring></argsstring>
+        <name>textView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="223" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_news_tab_1a57330a8c7df10f9e15dce62d733822d5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_news_holder" kindref="compound">NewsHolder</ref></type>
+        <definition>NewsHolder NewsTab::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="224" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_news_tab_1a26891e84a277b53155d728a81656788b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NewsTab::NewsTab</definition>
+        <argsstring>(wxNotebook *parent)</argsstring>
+        <name>NewsTab</name>
+        <param>
+          <type>wxNotebook *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="228" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="226" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1ad1beae83135fabcb9f273986cffb652e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::reloadData</definition>
+        <argsstring>()</argsstring>
+        <name>reloadData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="282" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="281" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1ae1db997ca2fb9a030a6e26a1229f4916" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::onWebsite</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onWebsite</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="287" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="286" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1a8cd14a0315d4c2474a5a7f174cef1766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::onGetNews</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onGetNews</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="300" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1a2e62d6db19c9c0ea19796f6907eed2ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::onReadAll</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>onReadAll</name>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="305" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="304" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1a64ebd2fda35c1db71c8f1443b61368a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::onListSelect</definition>
+        <argsstring>(wxListEvent &amp;event)</argsstring>
+        <name>onListSelect</name>
+        <param>
+          <type>wxListEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="314" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="313" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1a3fbd97fa384fd8ea6a04a14c33b9897d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::updateTabName</definition>
+        <argsstring>()</argsstring>
+        <name>updateTabName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="328" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="327" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1ad2748bcf03633e621ac3cc1da08700c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::onListDeselect</definition>
+        <argsstring>(wxListEvent &amp;event)</argsstring>
+        <name>onListDeselect</name>
+        <param>
+          <type>wxListEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="341" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="340" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1a32e0ad41f8d49e689816e08d52f43ee0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NewsTab::onUrlEvent</definition>
+        <argsstring>(wxTextUrlEvent &amp;event)</argsstring>
+        <name>onUrlEvent</name>
+        <param>
+          <type>wxTextUrlEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="347" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="346" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1ab7f276b0d863e45af46df1b4caf56ad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void NewsTab::takeFocus</definition>
+        <argsstring>()</argsstring>
+        <name>takeFocus</name>
+        <reimplements refid="struct_tab_base_1ab3e91bf9e981c736d15800324ac22dbb">takeFocus</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="356" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="355" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1ae338ae593a329a92f4bb360e47adb3e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void NewsTab::dataChanged</definition>
+        <argsstring>()</argsstring>
+        <name>dataChanged</name>
+        <reimplements refid="struct_tab_base_1a612044dd2c5cf7a1dd81fb6e3a4779f0">dataChanged</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="358" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="358" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_news_tab_1a92cd045fe93885b4052682eaa8a7ab3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void NewsTab::insertMe</definition>
+        <argsstring>()</argsstring>
+        <name>insertMe</name>
+        <reimplements refid="struct_tab_base_1a7369a5f3cbe3fe6a9d2185ceb0ed26fe">insertMe</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="361" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="360" bodyend="364"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="511">
+        <label>NewsTab</label>
+        <link refid="struct_news_tab"/>
+        <childnode refid="512" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="512">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="515">
+        <label>NewsHolder</label>
+        <link refid="struct_news_holder"/>
+      </node>
+      <node id="516">
+        <label>NewsList</label>
+        <link refid="class_news_list"/>
+      </node>
+      <node id="513">
+        <label>NewsTab</label>
+        <link refid="struct_news_tab"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+        <childnode refid="515" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="516" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+      </node>
+      <node id="514">
+        <label>TabBase</label>
+        <link refid="struct_tab_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/newstab.hpp" line="221" bodyfile="/Users/ericgallager/Tiggit/newstab.hpp" bodystart="220" bodyend="365"/>
+    <listofallmembers>
+      <member refid="struct_tab_base_1a4274555386ba73360e42ac1162deb0ee" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>book</name></member>
+      <member refid="struct_news_tab_1a57330a8c7df10f9e15dce62d733822d5" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>data</name></member>
+      <member refid="struct_news_tab_1ae338ae593a329a92f4bb360e47adb3e9" prot="public" virt="virtual"><scope>NewsTab</scope><name>dataChanged</name></member>
+      <member refid="struct_news_tab_1a92cd045fe93885b4052682eaa8a7ab3e" prot="public" virt="virtual"><scope>NewsTab</scope><name>insertMe</name></member>
+      <member refid="struct_news_tab_1a3f0fc116ca5ce5e7cf3dfc9aa62501ca" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>list</name></member>
+      <member refid="struct_news_tab_1a26891e84a277b53155d728a81656788b" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>NewsTab</name></member>
+      <member refid="struct_news_tab_1a8cd14a0315d4c2474a5a7f174cef1766" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>onGetNews</name></member>
+      <member refid="struct_news_tab_1ad2748bcf03633e621ac3cc1da08700c3" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>onListDeselect</name></member>
+      <member refid="struct_news_tab_1a64ebd2fda35c1db71c8f1443b61368a2" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>onListSelect</name></member>
+      <member refid="struct_news_tab_1a2e62d6db19c9c0ea19796f6907eed2ce" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>onReadAll</name></member>
+      <member refid="struct_news_tab_1a32e0ad41f8d49e689816e08d52f43ee0" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>onUrlEvent</name></member>
+      <member refid="struct_news_tab_1ae1db997ca2fb9a030a6e26a1229f4916" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>onWebsite</name></member>
+      <member refid="struct_news_tab_1ad1beae83135fabcb9f273986cffb652e" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>reloadData</name></member>
+      <member refid="struct_tab_base_1acc8a88abc1a420c704c8bc5143c4c8bd" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>selectMe</name></member>
+      <member refid="struct_tab_base_1af426aaeb43b31c090cbc30c5dd692c1b" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>TabBase</name></member>
+      <member refid="struct_tab_base_1a3c2fcafc0c5e81f7815749e24374145d" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>tabNum</name></member>
+      <member refid="struct_news_tab_1ab7f276b0d863e45af46df1b4caf56ad4" prot="public" virt="virtual"><scope>NewsTab</scope><name>takeFocus</name></member>
+      <member refid="struct_news_tab_1a4b1361cf9d8dbfaefc4570ee7883ffbf" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>textView</name></member>
+      <member refid="struct_tab_base_1ab9384b404604ca14a9a5e105410b4a1d" prot="public" virt="virtual"><scope>NewsTab</scope><name>tick</name></member>
+      <member refid="struct_news_tab_1a3fbd97fa384fd8ea6a04a14c33b9897d" prot="public" virt="non-virtual"><scope>NewsTab</scope><name>updateTabName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

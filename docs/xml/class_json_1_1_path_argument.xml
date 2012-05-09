@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_json_1_1_path_argument" kind="class" prot="public">
+    <compoundname>Json::PathArgument</compoundname>
+    <includes refid="value_8h" local="no">value.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9" prot="private" static="no">
+        <name>Kind</name>
+        <enumvalue id="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9afa8c7a261ccb8ae5171d2372321c2698" prot="private">
+          <name>kindNone</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9ae5a976b898111903334cb131f5e03dc4" prot="private">
+          <name>kindIndex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9a74f5968d06c01701b7a46092c33ba7d1" prot="private">
+          <name>kindKey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="463" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="462" bodyend="467"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_json_1_1_path_argument_1a4877239a6b7f09fbf5a61ca68a49d74c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="454" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_json_1_1_path_argument_1a5d901b404323b61f066fb1adb3babfe1" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Json::PathArgument::key_</definition>
+        <argsstring></argsstring>
+        <name>key_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="468" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_1_1_path_argument_1a22cec332c6d6c9a7ffae886020fff45d" prot="private" static="no" mutable="no">
+        <type>UInt</type>
+        <definition>UInt Json::PathArgument::index_</definition>
+        <argsstring></argsstring>
+        <name>index_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="469" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_json_1_1_path_argument_1ad4bc4b544b155a3d9c7788572ecf991b" prot="private" static="no" mutable="no">
+        <type>Kind</type>
+        <definition>Kind Json::PathArgument::kind_</definition>
+        <argsstring></argsstring>
+        <name>kind_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="470" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_json_1_1_path_argument_1a3c96ed20c56a55eb76d37a11553c528e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::PathArgument::PathArgument</definition>
+        <argsstring>()</argsstring>
+        <name>PathArgument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="456" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="1512" bodyend="1515"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_path_argument_1aac8f1bee92e1955d4902acccbbc73a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::PathArgument::PathArgument</definition>
+        <argsstring>(UInt index)</argsstring>
+        <name>PathArgument</name>
+        <param>
+          <type>UInt</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="457"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_path_argument_1a9690417a8a40e6e49f2acdf6c9281345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::PathArgument::PathArgument</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>PathArgument</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="458" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="1525" bodyend="1529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_json_1_1_path_argument_1a08f872cfee4fc600f7fa3bcaaff0d41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Json::PathArgument::PathArgument</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>PathArgument</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="459" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_value.cpp" bodystart="1532" bodyend="1536"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Experimental and untested: represents an element of the &quot;path&quot; to access a node. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="452" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="451" bodyend="471"/>
+    <listofallmembers>
+      <member refid="class_json_1_1_path_argument_1a22cec332c6d6c9a7ffae886020fff45d" prot="private" virt="non-virtual"><scope>Json::PathArgument</scope><name>index_</name></member>
+      <member refid="class_json_1_1_path_argument_1a5d901b404323b61f066fb1adb3babfe1" prot="private" virt="non-virtual"><scope>Json::PathArgument</scope><name>key_</name></member>
+      <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9" prot="private" virt="non-virtual"><scope>Json::PathArgument</scope><name>Kind</name></member>
+      <member refid="class_json_1_1_path_argument_1ad4bc4b544b155a3d9c7788572ecf991b" prot="private" virt="non-virtual"><scope>Json::PathArgument</scope><name>kind_</name></member>
+      <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9ae5a976b898111903334cb131f5e03dc4" prot="private" virt="non-virtual"><scope>Json::PathArgument</scope><name>kindIndex</name></member>
+      <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9a74f5968d06c01701b7a46092c33ba7d1" prot="private" virt="non-virtual"><scope>Json::PathArgument</scope><name>kindKey</name></member>
+      <member refid="class_json_1_1_path_argument_1a2420bbad778573c147e578701b84d9b9afa8c7a261ccb8ae5171d2372321c2698" prot="private" virt="non-virtual"><scope>Json::PathArgument</scope><name>kindNone</name></member>
+      <member refid="class_json_1_1_path_argument_1a4877239a6b7f09fbf5a61ca68a49d74c" prot="public" virt="non-virtual"><scope>Json::PathArgument</scope><name>Path</name></member>
+      <member refid="class_json_1_1_path_argument_1a3c96ed20c56a55eb76d37a11553c528e" prot="public" virt="non-virtual"><scope>Json::PathArgument</scope><name>PathArgument</name></member>
+      <member refid="class_json_1_1_path_argument_1aac8f1bee92e1955d4902acccbbc73a70" prot="public" virt="non-virtual"><scope>Json::PathArgument</scope><name>PathArgument</name></member>
+      <member refid="class_json_1_1_path_argument_1a9690417a8a40e6e49f2acdf6c9281345" prot="public" virt="non-virtual"><scope>Json::PathArgument</scope><name>PathArgument</name></member>
+      <member refid="class_json_1_1_path_argument_1a08f872cfee4fc600f7fa3bcaaff0d41c" prot="public" virt="non-virtual"><scope>Json::PathArgument</scope><name>PathArgument</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

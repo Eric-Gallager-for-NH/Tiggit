@@ -1,0 +1,47 @@
+.TH "DefaultValueArrayAllocator" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DefaultValueArrayAllocator \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual ValueInternalArray * \fBnewArray\fP ()"
+.br
+.ti -1c
+.RI "virtual ValueInternalArray * \fBnewArrayCopy\fP (const ValueInternalArray &other)"
+.br
+.ti -1c
+.RI "virtual void \fBdestructArray\fP (ValueInternalArray *array)"
+.br
+.ti -1c
+.RI "virtual void \fBreallocateArrayPageIndex\fP (Value **&indexes, ValueInternalArray::PageIndex &indexCount, ValueInternalArray::PageIndex minNewIndexCount)"
+.br
+.ti -1c
+.RI "virtual void \fBreleaseArrayPageIndex\fP (Value **indexes, ValueInternalArray::PageIndex indexCount)"
+.br
+.ti -1c
+.RI "virtual Value * \fBallocateArrayPage\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBreleaseArrayPage\fP (Value *value)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBTodo\fP
+.RS 4
+make this thread-safe (lock when accessign batch allocator) 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file json_internalarray\&.inl\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

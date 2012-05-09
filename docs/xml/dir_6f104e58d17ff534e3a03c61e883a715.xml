@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_6f104e58d17ff534e3a03c61e883a715" kind="dir">
+    <compoundname>libs/jsoncpp/</compoundname>
+    <innerdir refid="dir_b7e040a2e4bf497614c856e961f9beaa">libs/jsoncpp/include/</innerdir>
+    <innerdir refid="dir_c2df278eb659a2cb8119305da464ca07">libs/jsoncpp/src/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/"/>
+  </compounddef>
+</doxygen>

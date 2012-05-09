@@ -1,0 +1,38 @@
+.TH "NewsHolder" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+NewsHolder \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBaddItem\fP (int id, time_t time, const std::string &sub, const std::string &body, bool isRead=false)"
+.br
+.ti -1c
+.RI "void \fBaddItem\fP (int id, time_t time, const wxString &subject, const wxString &body, bool isRead=false)"
+.br
+.ti -1c
+.RI "void \fBwriteStatus\fP ()"
+.br
+.ti -1c
+.RI "void \fBreload\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::vector< \fBNewsItem\fP > \fBitems\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 27 of file newstab\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

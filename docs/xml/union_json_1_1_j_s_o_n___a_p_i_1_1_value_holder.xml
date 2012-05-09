@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder" kind="union" prot="private">
+    <compoundname>Json::JSON_API::ValueHolder</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a69447aef976ba698b1309849c5a8b1ec" prot="public" static="no" mutable="no">
+        <type>Int</type>
+        <definition>Int Json::JSON_API::ValueHolder::int_</definition>
+        <argsstring></argsstring>
+        <name>int_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="427" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1aa6fbfc68f7cd548212c6bbbfbad8217c" prot="public" static="no" mutable="no">
+        <type>UInt</type>
+        <definition>UInt Json::JSON_API::ValueHolder::uint_</definition>
+        <argsstring></argsstring>
+        <name>uint_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="428" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a160f620371ac748a39a55160fe234f65" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Json::JSON_API::ValueHolder::real_</definition>
+        <argsstring></argsstring>
+        <name>real_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="429" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a2a1cf84b55e8cc909b7586d5708be273" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Json::JSON_API::ValueHolder::bool_</definition>
+        <argsstring></argsstring>
+        <name>bool_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="430" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a0a4d74cbc666629281cb320b6128ce97" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* Json::JSON_API::ValueHolder::string_</definition>
+        <argsstring></argsstring>
+        <name>string_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="431" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a19d9be6fc2db18235fff356bb4788076" prot="public" static="no" mutable="no">
+        <type>ObjectValues *</type>
+        <definition>ObjectValues* Json::JSON_API::ValueHolder::map_</definition>
+        <argsstring></argsstring>
+        <name>map_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="436" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" line="426" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/include/json/value.h" bodystart="425" bodyend="438"/>
+    <listofallmembers>
+      <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a2a1cf84b55e8cc909b7586d5708be273" prot="public" virt="non-virtual"><scope>Json::JSON_API::ValueHolder</scope><name>bool_</name></member>
+      <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a69447aef976ba698b1309849c5a8b1ec" prot="public" virt="non-virtual"><scope>Json::JSON_API::ValueHolder</scope><name>int_</name></member>
+      <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a19d9be6fc2db18235fff356bb4788076" prot="public" virt="non-virtual"><scope>Json::JSON_API::ValueHolder</scope><name>map_</name></member>
+      <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a160f620371ac748a39a55160fe234f65" prot="public" virt="non-virtual"><scope>Json::JSON_API::ValueHolder</scope><name>real_</name></member>
+      <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1a0a4d74cbc666629281cb320b6128ce97" prot="public" virt="non-virtual"><scope>Json::JSON_API::ValueHolder</scope><name>string_</name></member>
+      <member refid="union_json_1_1_j_s_o_n___a_p_i_1_1_value_holder_1aa6fbfc68f7cd548212c6bbbfbad8217c" prot="public" virt="non-virtual"><scope>Json::JSON_API::ValueHolder</scope><name>uint_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

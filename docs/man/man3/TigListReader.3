@@ -1,0 +1,66 @@
+.TH "TigListReader" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TigListReader \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBfailThis\fP (const std::string &msg)"
+.br
+.ti -1c
+.RI "std::string \fBgetTigFile\fP (const std::string &name, const std::string &url, bool cacheFirst=true)"
+.br
+.ti -1c
+.RI "bool \fBdecodeTigUrl\fP (const std::string &name, const std::string &url, \fBDataList::TigInfo\fP &data, bool cacheFirst=true)"
+.br
+.ti -1c
+.RI "void \fBaddTests\fP (\fBDataList\fP &data)"
+.br
+.ti -1c
+.RI "void \fBloadData\fP (const std::string &file, \fBDataList\fP &data)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBfail\fP (const std::string &msg)"
+.br
+.ti -1c
+.RI "static std::string \fBURL\fP (std::string res)"
+.br
+.ti -1c
+.RI "static bool \fBdecodeTigFile\fP (const std::string &file, \fBDataList::TigInfo\fP &t)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBfilename\fP"
+.br
+.ti -1c
+.RI "std::string \fBchannel\fP"
+.br
+.ti -1c
+.RI "std::string \fBdesc\fP"
+.br
+.ti -1c
+.RI "std::string \fBlocation\fP"
+.br
+.ti -1c
+.RI "std::string \fBhomepage\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file data_reader\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

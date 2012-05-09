@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_tmp_dir" kind="struct" prot="public">
+    <compoundname>TmpDir</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_tmp_dir_1a08da41cc77d03afe359b7deb49229105" prot="public" static="no" mutable="no">
+        <type>boost::filesystem::path</type>
+        <definition>boost::filesystem::path TmpDir::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tmpdir.hpp" line="9" bodyfile="/Users/ericgallager/Tiggit/tmpdir.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_tmp_dir_1ab485557a85cf415394ddbcae7d0fe4f7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TmpDir::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tmpdir.hpp" line="10" bodyfile="/Users/ericgallager/Tiggit/tmpdir.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_tmp_dir_1ab6eb3c14ad940888b62323724d288b0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TmpDir::TmpDir</definition>
+        <argsstring>(const boost::filesystem::path &amp;_dir)</argsstring>
+        <name>TmpDir</name>
+        <param>
+          <type>const boost::filesystem::path &amp;</type>
+          <declname>_dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tmpdir.hpp" line="12" bodyfile="/Users/ericgallager/Tiggit/tmpdir.hpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tmp_dir_1a4e472400ff21a5390200d605bf5e358b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TmpDir::~TmpDir</definition>
+        <argsstring>()</argsstring>
+        <name>~TmpDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tmpdir.hpp" line="14" bodyfile="/Users/ericgallager/Tiggit/tmpdir.hpp" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tmp_dir_1a676580b8e88aa59aecf47e4dbf60c046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string TmpDir::get</definition>
+        <argsstring>(const std::string &amp;file)</argsstring>
+        <name>get</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tmpdir.hpp" line="20" bodyfile="/Users/ericgallager/Tiggit/tmpdir.hpp" bodystart="19" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/tmpdir.hpp" line="8" bodyfile="/Users/ericgallager/Tiggit/tmpdir.hpp" bodystart="7" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_tmp_dir_1ab485557a85cf415394ddbcae7d0fe4f7" prot="public" virt="non-virtual"><scope>TmpDir</scope><name>created</name></member>
+      <member refid="struct_tmp_dir_1a08da41cc77d03afe359b7deb49229105" prot="public" virt="non-virtual"><scope>TmpDir</scope><name>dir</name></member>
+      <member refid="struct_tmp_dir_1a676580b8e88aa59aecf47e4dbf60c046" prot="public" virt="non-virtual"><scope>TmpDir</scope><name>get</name></member>
+      <member refid="struct_tmp_dir_1ab6eb3c14ad940888b62323724d288b0e" prot="public" virt="non-virtual"><scope>TmpDir</scope><name>TmpDir</name></member>
+      <member refid="struct_tmp_dir_1a4e472400ff21a5390200d605bf5e358b" prot="public" virt="non-virtual"><scope>TmpDir</scope><name>~TmpDir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

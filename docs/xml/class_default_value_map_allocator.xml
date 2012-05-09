@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_default_value_map_allocator" kind="class" prot="public">
+    <compoundname>DefaultValueMapAllocator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_default_value_map_allocator_1a0efd0c7645f050effc2830e95174fdb8" prot="private" static="no" mutable="no">
+        <type>BatchAllocator&lt; ValueInternalMap, 1 &gt;</type>
+        <definition>BatchAllocator&lt;ValueInternalMap,1&gt; DefaultValueMapAllocator::mapsAllocator_</definition>
+        <argsstring></argsstring>
+        <name>mapsAllocator_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="131" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_default_value_map_allocator_1a36bcfe24217f819dd656fe8aca949384" prot="private" static="no" mutable="no">
+        <type>BatchAllocator&lt; ValueInternalLink, 1 &gt;</type>
+        <definition>BatchAllocator&lt;ValueInternalLink,1&gt; DefaultValueMapAllocator::linksAllocator_</definition>
+        <argsstring></argsstring>
+        <name>linksAllocator_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="132" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_default_value_map_allocator_1af58f1000da938b453f499270642db381" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ValueInternalMap *</type>
+        <definition>virtual ValueInternalMap* DefaultValueMapAllocator::newMap</definition>
+        <argsstring>()</argsstring>
+        <name>newMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="86" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_map_allocator_1a4edf94de1fe95c7722421694c3ac101f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ValueInternalMap *</type>
+        <definition>virtual ValueInternalMap* DefaultValueMapAllocator::newMapCopy</definition>
+        <argsstring>(const ValueInternalMap &amp;other)</argsstring>
+        <name>newMapCopy</name>
+        <param>
+          <type>const ValueInternalMap &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="93" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="92" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_map_allocator_1aa37cddbdf061065dbe6cb12e9de5ac08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DefaultValueMapAllocator::destructMap</definition>
+        <argsstring>(ValueInternalMap *map)</argsstring>
+        <name>destructMap</name>
+        <param>
+          <type>ValueInternalMap *</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="100" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="99" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_map_allocator_1a1dc9a181273b90fa7098313316c53fcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ValueInternalLink *</type>
+        <definition>virtual ValueInternalLink* DefaultValueMapAllocator::allocateMapBuckets</definition>
+        <argsstring>(unsigned int size)</argsstring>
+        <name>allocateMapBuckets</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="109" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_map_allocator_1a45a33b35da50dc69c47dfd31e49c1b0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DefaultValueMapAllocator::releaseMapBuckets</definition>
+        <argsstring>(ValueInternalLink *links)</argsstring>
+        <name>releaseMapBuckets</name>
+        <param>
+          <type>ValueInternalLink *</type>
+          <declname>links</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="114" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_map_allocator_1acc658ce4f2d738fd4db6222c8f89defd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ValueInternalLink *</type>
+        <definition>virtual ValueInternalLink* DefaultValueMapAllocator::allocateMapLink</definition>
+        <argsstring>()</argsstring>
+        <name>allocateMapLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="119" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_value_map_allocator_1ad6998891b5b25c53d28055eed8e4a355" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DefaultValueMapAllocator::releaseMapLink</definition>
+        <argsstring>(ValueInternalLink *link)</argsstring>
+        <name>releaseMapLink</name>
+        <param>
+          <type>ValueInternalLink *</type>
+          <declname>link</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="126" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="125" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><xrefsect id="todo_1_todo000002"><xreftitle>Todo</xreftitle><xrefdescription><para>make this thread-safe (lock when accessign batch allocator) </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" line="83" bodyfile="/Users/ericgallager/Tiggit/libs/jsoncpp/src/json_internalmap.inl" bodystart="82" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_default_value_map_allocator_1a1dc9a181273b90fa7098313316c53fcf" prot="public" virt="virtual"><scope>DefaultValueMapAllocator</scope><name>allocateMapBuckets</name></member>
+      <member refid="class_default_value_map_allocator_1acc658ce4f2d738fd4db6222c8f89defd" prot="public" virt="virtual"><scope>DefaultValueMapAllocator</scope><name>allocateMapLink</name></member>
+      <member refid="class_default_value_map_allocator_1aa37cddbdf061065dbe6cb12e9de5ac08" prot="public" virt="virtual"><scope>DefaultValueMapAllocator</scope><name>destructMap</name></member>
+      <member refid="class_default_value_map_allocator_1a36bcfe24217f819dd656fe8aca949384" prot="private" virt="non-virtual"><scope>DefaultValueMapAllocator</scope><name>linksAllocator_</name></member>
+      <member refid="class_default_value_map_allocator_1a0efd0c7645f050effc2830e95174fdb8" prot="private" virt="non-virtual"><scope>DefaultValueMapAllocator</scope><name>mapsAllocator_</name></member>
+      <member refid="class_default_value_map_allocator_1af58f1000da938b453f499270642db381" prot="public" virt="virtual"><scope>DefaultValueMapAllocator</scope><name>newMap</name></member>
+      <member refid="class_default_value_map_allocator_1a4edf94de1fe95c7722421694c3ac101f" prot="public" virt="virtual"><scope>DefaultValueMapAllocator</scope><name>newMapCopy</name></member>
+      <member refid="class_default_value_map_allocator_1a45a33b35da50dc69c47dfd31e49c1b0e" prot="public" virt="virtual"><scope>DefaultValueMapAllocator</scope><name>releaseMapBuckets</name></member>
+      <member refid="class_default_value_map_allocator_1ad6998891b5b25c53d28055eed8e4a355" prot="public" virt="virtual"><scope>DefaultValueMapAllocator</scope><name>releaseMapLink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_cache_fetcher" kind="struct" prot="public">
+    <compoundname>CacheFetcher</compoundname>
+    <basecompoundref refid="class_progress_holder" prot="public" virt="non-virtual">ProgressHolder</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_cache_fetcher_1abb040b6dad48853c48e7b0cd34e42ebf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CacheFetcher::CacheFetcher</definition>
+        <argsstring>(wxApp *app)</argsstring>
+        <name>CacheFetcher</name>
+        <param>
+          <type>wxApp *</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/cache_fetcher.hpp" line="15" bodyfile="/Users/ericgallager/Tiggit/cache_fetcher.hpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_cache_fetcher_1a63555c553b64215451c7309d587ef870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CacheFetcher::goDoItAlready</definition>
+        <argsstring>()</argsstring>
+        <name>goDoItAlready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/cache_fetcher.hpp" line="18" bodyfile="/Users/ericgallager/Tiggit/cache_fetcher.hpp" bodystart="17" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="315">
+        <label>CacheFetcher</label>
+        <link refid="struct_cache_fetcher"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>ProgressHolder</label>
+        <link refid="class_progress_holder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="317">
+        <label>CacheFetcher</label>
+        <link refid="struct_cache_fetcher"/>
+        <childnode refid="318" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>ProgressHolder</label>
+        <link refid="class_progress_holder"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/cache_fetcher.hpp" line="12" bodyfile="/Users/ericgallager/Tiggit/cache_fetcher.hpp" bodystart="11" bodyend="82"/>
+    <listofallmembers>
+      <member refid="struct_cache_fetcher_1abb040b6dad48853c48e7b0cd34e42ebf" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>CacheFetcher</name></member>
+      <member refid="struct_cache_fetcher_1a63555c553b64215451c7309d587ef870" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>goDoItAlready</name></member>
+      <member refid="class_progress_holder_1ab768d833bea7d8b96f9875b95fc43cce" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>ProgressHolder</name></member>
+      <member refid="class_progress_holder_1a8d6e91204bedfe650ef3c03e4da264a1" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>pulse</name></member>
+      <member refid="class_progress_holder_1aa5d4a3606651c7c6b6d18d88b9d1a059" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>setMsg</name></member>
+      <member refid="class_progress_holder_1a8c13297dc5ad35585dd476c25d415a27" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>setMsg</name></member>
+      <member refid="class_progress_holder_1ad63d5b6b5623add47e065a773ba0b832" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>update</name></member>
+      <member refid="class_progress_holder_1a8e5222f876b4ad904f12f0c4e14ab88c" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>yield</name></member>
+      <member refid="class_progress_holder_1ae19b37d810d58c5497b6befeeb2f66d5" prot="public" virt="non-virtual"><scope>CacheFetcher</scope><name>~ProgressHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_tag_sorter" kind="struct" prot="public">
+    <compoundname>TagSorter</compoundname>
+    <innerclass refid="struct_tag_sorter_1_1_entry" prot="public">TagSorter::Entry</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_tag_sorter_1a78d113d99b9e79aa1dd8cdd378226273" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::set&lt; std::string &gt; &gt;</type>
+        <definition>std::vector&lt;std::set&lt;std::string&gt; &gt; TagSorter::allTags</definition>
+        <argsstring></argsstring>
+        <name>allTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="35" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_tag_sorter_1a85d9bb52fa8c1b7864883ae9ef0c240a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagSorter::makeTagList</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;selection, std::vector&lt; Entry &gt; &amp;output)</argsstring>
+        <name>makeTagList</name>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>selection</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_tag_sorter_1_1_entry" kindref="compound">Entry</ref> &gt; &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="63" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="61" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_tag_sorter_1a9042c82ca3bd3264c699159b43f25851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagSorter::process</definition>
+        <argsstring>(const DataList &amp;data)</argsstring>
+        <name>process</name>
+        <param>
+          <type>const <ref refid="struct_data_list" kindref="compound">DataList</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="122" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="121" bodyend="177"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/Tiggit/tag_sorter.hpp" line="34" bodyfile="/Users/ericgallager/Tiggit/tag_sorter.hpp" bodystart="33" bodyend="178"/>
+    <listofallmembers>
+      <member refid="struct_tag_sorter_1a78d113d99b9e79aa1dd8cdd378226273" prot="public" virt="non-virtual"><scope>TagSorter</scope><name>allTags</name></member>
+      <member refid="struct_tag_sorter_1a85d9bb52fa8c1b7864883ae9ef0c240a" prot="public" virt="non-virtual"><scope>TagSorter</scope><name>makeTagList</name></member>
+      <member refid="struct_tag_sorter_1a9042c82ca3bd3264c699159b43f25851" prot="public" virt="non-virtual"><scope>TagSorter</scope><name>process</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

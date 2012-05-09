@@ -1,0 +1,768 @@
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i}{\section{Json\-:\-:J\-S\-O\-N\-\_\-\-A\-P\-I Protocol Reference}
+\label{protocol_json_1_1_j_s_o_n___a_p_i}\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+}
+
+
+Configuration passed to reader and writer. This configuration object can be used to force the Reader or Writer to behave in a standard conforming way.  
+
+
+
+
+{\ttfamily \#include $<$features.\-h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries Comment\-Info}
+\item 
+class {\bfseries C\-Z\-String}
+\item 
+class {\bfseries Error\-Info}
+\item 
+class {\bfseries Token}
+\item 
+union {\bfseries Value\-Holder}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aaa40995a01a083f11fdb518ab1546366}{typedef char {\bfseries Char}}\label{protocol_json_1_1_j_s_o_n___a_p_i_aaa40995a01a083f11fdb518ab1546366}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ac78c2a0788236409a83cd3fbb15cc27e}{typedef const Char $\ast$ {\bfseries Location}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ac78c2a0788236409a83cd3fbb15cc27e}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a69a83395b9a01ee28dbc5026a322ad56}{typedef std\-::vector$<$ std\-::string $>$ {\bfseries Members}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a69a83395b9a01ee28dbc5026a322ad56}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a682f4e1bbed287f1ab85ee0912d68b3e}{typedef \hyperlink{class_json_1_1_value_iterator}{Value\-Iterator} {\bfseries iterator}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a682f4e1bbed287f1ab85ee0912d68b3e}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a8f629afe15b29cf656d532bb9b4509e4}{typedef \hyperlink{class_json_1_1_value_const_iterator}{Value\-Const\-Iterator} {\bfseries const\-\_\-iterator}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a8f629afe15b29cf656d532bb9b4509e4}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a065237d47a9dffbf14ad04842ff50586}{typedef Json\-::\-U\-Int {\bfseries U\-Int}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a065237d47a9dffbf14ad04842ff50586}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_abed1de75991fb8d5afe4a4854def6293}{typedef Json\-::\-Int {\bfseries Int}}\label{protocol_json_1_1_j_s_o_n___a_p_i_abed1de75991fb8d5afe4a4854def6293}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ad35740d876f51395815a4fa8a353859f}{typedef U\-Int {\bfseries Array\-Index}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ad35740d876f51395815a4fa8a353859f}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a10657a8f9bc6f360dae4016fe8cc7650}{typedef std\-::map$<$ C\-Z\-String, \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} $>$ {\bfseries Object\-Values}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a10657a8f9bc6f360dae4016fe8cc7650}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ad689444ef42491b89324975696f0ed58}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ad689444ef42491b89324975696f0ed58}{Features} ()}\label{protocol_json_1_1_j_s_o_n___a_p_i_ad689444ef42491b89324975696f0ed58}
+
+\begin{DoxyCompactList}\small\item\em Initialize the configuration like Json\-Config\-::all\-Features;. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a8d5594b46204fb65661a8c96c015ea54}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a8d5594b46204fb65661a8c96c015ea54}{Reader} ()}\label{protocol_json_1_1_j_s_o_n___a_p_i_a8d5594b46204fb65661a8c96c015ea54}
+
+\begin{DoxyCompactList}\small\item\em Constructs a Reader allowing all features for parsing. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ada43ccb4bc15d260528629cb7aebb8ff}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ada43ccb4bc15d260528629cb7aebb8ff}{Reader} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ad689444ef42491b89324975696f0ed58}{Features} \&features)}\label{protocol_json_1_1_j_s_o_n___a_p_i_ada43ccb4bc15d260528629cb7aebb8ff}
+
+\begin{DoxyCompactList}\small\item\em Constructs a Reader allowing the specified feature set for parsing. \end{DoxyCompactList}\item 
+bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ae59036936fda704af5ff0dd27d759d61}{parse} (const std\-::string \&document, \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&root, bool collect\-Comments=true)
+\begin{DoxyCompactList}\small\item\em Read a Value from a \href{http://www.json.org}{\tt J\-S\-O\-N} document. \end{DoxyCompactList}\item 
+bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a30735cd943a02164996275abe1712224}{parse} (const char $\ast$begin\-Doc, const char $\ast$end\-Doc, \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&root, bool collect\-Comments=true)
+\begin{DoxyCompactList}\small\item\em Read a Value from a \href{http://www.json.org}{\tt J\-S\-O\-N} document. \end{DoxyCompactList}\item 
+bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a54923dcea65f8fc8d91f5625e7aa3cc7}{parse} (std\-::istream \&is, \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&root, bool collect\-Comments=true)
+\begin{DoxyCompactList}\small\item\em Parse from input stream. \end{DoxyCompactList}\item 
+std\-::string \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ad2995c11c6aeb7719af179c0eacb6c85}{get\-Formated\-Error\-Messages} () const 
+\begin{DoxyCompactList}\small\item\em Returns a user friendly string that list errors in the parsed document. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_afdc014f5f606d49f78bae1467f6b28d5}{{\bfseries Static\-String} (const char $\ast$czstring)}\label{protocol_json_1_1_j_s_o_n___a_p_i_afdc014f5f606d49f78bae1467f6b28d5}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ad2611e5ce83556c555cdc40ef5f52c8e}{{\bfseries operator const char $\ast$} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_ad2611e5ce83556c555cdc40ef5f52c8e}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_adc66a5168f8d6578974acfb0d8f5a1e6}{const char $\ast$ {\bfseries c\-\_\-str} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_adc66a5168f8d6578974acfb0d8f5a1e6}
+
+\item 
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} (\hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4e}{Value\-Type} type=\hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4ea7d9899633b4409bd3fc107e6737f8391}{null\-Value})
+\begin{DoxyCompactList}\small\item\em Create a default Value of the given type. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ae81d6899887463e4fe0bdad8b06e1214}{{\bfseries Value} (Int value)}\label{protocol_json_1_1_j_s_o_n___a_p_i_ae81d6899887463e4fe0bdad8b06e1214}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_af3c698ea7116db3d779d92ad50feb2ee}{{\bfseries Value} (U\-Int value)}\label{protocol_json_1_1_j_s_o_n___a_p_i_af3c698ea7116db3d779d92ad50feb2ee}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_abd1299b9965e82812a6494522cc3c804}{{\bfseries Value} (double value)}\label{protocol_json_1_1_j_s_o_n___a_p_i_abd1299b9965e82812a6494522cc3c804}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a87d184b04b4759a059f396df660834b9}{{\bfseries Value} (const char $\ast$value)}\label{protocol_json_1_1_j_s_o_n___a_p_i_a87d184b04b4759a059f396df660834b9}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ae288a97eaaf54fe2d16f3b73d060d22a}{{\bfseries Value} (const char $\ast$begin\-Value, const char $\ast$end\-Value)}\label{protocol_json_1_1_j_s_o_n___a_p_i_ae288a97eaaf54fe2d16f3b73d060d22a}
+
+\item 
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a5514e83243c886dbb4594877ada2ce05}{Value} (const Static\-String \&value)
+\begin{DoxyCompactList}\small\item\em Constructs a value from a static string. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a58fa65d882bdcdea20e5764f8f0d2292}{{\bfseries Value} (const std\-::string \&value)}\label{protocol_json_1_1_j_s_o_n___a_p_i_a58fa65d882bdcdea20e5764f8f0d2292}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a6266f6b439a379762e4ed9ee05dbf304}{{\bfseries Value} (bool value)}\label{protocol_json_1_1_j_s_o_n___a_p_i_a6266f6b439a379762e4ed9ee05dbf304}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a709821fe15c19a356dc3abc00b8ad292}{{\bfseries Value} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other)}\label{protocol_json_1_1_j_s_o_n___a_p_i_a709821fe15c19a356dc3abc00b8ad292}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ab245ee01674caee18a91e8cc87c2f7ac}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& {\bfseries operator=} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other)}\label{protocol_json_1_1_j_s_o_n___a_p_i_ab245ee01674caee18a91e8cc87c2f7ac}
+
+\item 
+void \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_acd0deaad6c3835fd057f329218f6c78b}{swap} (\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other)
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a1e05ba0c1b4c635981f7db242f536aa9}{\hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4e}{Value\-Type} {\bfseries type} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a1e05ba0c1b4c635981f7db242f536aa9}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a37c9af31151c60153def8e3c53c26fef}{bool {\bfseries operator$<$} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a37c9af31151c60153def8e3c53c26fef}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_afe7405443a6a9777e146d7b835532af6}{bool {\bfseries operator$<$=} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_afe7405443a6a9777e146d7b835532af6}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a1d58bf0d52f6a5760b5f1e770b8c6c54}{bool {\bfseries operator$>$=} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a1d58bf0d52f6a5760b5f1e770b8c6c54}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a18055d5016d673fb207be6518f325b40}{bool {\bfseries operator$>$} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a18055d5016d673fb207be6518f325b40}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aa773b3cbd476257324a8579d339b60ae}{bool {\bfseries operator==} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_aa773b3cbd476257324a8579d339b60ae}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ac9b1d8303479e87d9dca80f1971e468e}{bool {\bfseries operator!=} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_ac9b1d8303479e87d9dca80f1971e468e}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a98c906aed283705945ea693031f105b3}{int {\bfseries compare} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&other)}\label{protocol_json_1_1_j_s_o_n___a_p_i_a98c906aed283705945ea693031f105b3}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a56ad69d36b4b27a573b3493e0bf0212a}{const char $\ast$ {\bfseries as\-C\-String} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a56ad69d36b4b27a573b3493e0bf0212a}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a3f32deabbc8f4ed1d9da1a3545babd23}{std\-::string {\bfseries as\-String} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a3f32deabbc8f4ed1d9da1a3545babd23}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a1da1c5b1138be15feede099d947ed158}{Int {\bfseries as\-Int} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a1da1c5b1138be15feede099d947ed158}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_afb2e6a5c3d381cde5e7e02a1a4641329}{U\-Int {\bfseries as\-U\-Int} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_afb2e6a5c3d381cde5e7e02a1a4641329}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a7921fd40211de8aa1b61326c79a58d9e}{double {\bfseries as\-Double} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a7921fd40211de8aa1b61326c79a58d9e}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ac5e3e813258a7637b4467c88ca585871}{bool {\bfseries as\-Bool} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_ac5e3e813258a7637b4467c88ca585871}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a63c0f5de55c4fcd72c6269684885f425}{bool {\bfseries is\-Null} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a63c0f5de55c4fcd72c6269684885f425}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a86a66d68a18c0b152fa31e10b0cb2c95}{bool {\bfseries is\-Bool} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a86a66d68a18c0b152fa31e10b0cb2c95}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aa1b6301097515a678d6a744f3de5fc22}{bool {\bfseries is\-Int} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_aa1b6301097515a678d6a744f3de5fc22}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a1fee24acc606c8332b2940504e479057}{bool {\bfseries is\-U\-Int} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a1fee24acc606c8332b2940504e479057}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a0202a62646e9308ea82e560b6295f526}{bool {\bfseries is\-Integral} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a0202a62646e9308ea82e560b6295f526}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_acfe1475c5adbc1b3f4dd9bcbb8301c8d}{bool {\bfseries is\-Double} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_acfe1475c5adbc1b3f4dd9bcbb8301c8d}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ab6ff52ba51fd5228a3ed66dbd4efaaa8}{bool {\bfseries is\-Numeric} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_ab6ff52ba51fd5228a3ed66dbd4efaaa8}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a17ed6283d9e74a8a078020fd8771f749}{bool {\bfseries is\-String} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a17ed6283d9e74a8a078020fd8771f749}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a6afef1570befb40341239347856d9e59}{bool {\bfseries is\-Array} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a6afef1570befb40341239347856d9e59}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a67e726c5b4ce4a58890cc97ba8b29207}{bool {\bfseries is\-Object} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a67e726c5b4ce4a58890cc97ba8b29207}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_abc53ac28592be34fea30939b6b4aaf84}{bool {\bfseries is\-Convertible\-To} (\hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4e}{Value\-Type} other) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_abc53ac28592be34fea30939b6b4aaf84}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a59da16946e6731036931b55a99a75515}{U\-Int \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a59da16946e6731036931b55a99a75515}{size} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a59da16946e6731036931b55a99a75515}
+
+\begin{DoxyCompactList}\small\item\em Number of values in array or object. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ac4df215181adfe71317a5a378ebca834}{bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ac4df215181adfe71317a5a378ebca834}{empty} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_ac4df215181adfe71317a5a378ebca834}
+
+\begin{DoxyCompactList}\small\item\em Return true if empty array, empty object, or null; otherwise, false. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a3c4925561838c0a32698efeea2c983d6}{bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3c4925561838c0a32698efeea2c983d6}{operator!} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a3c4925561838c0a32698efeea2c983d6}
+
+\begin{DoxyCompactList}\small\item\em Return is\-Null() \end{DoxyCompactList}\item 
+void \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a797068fda331886f3d122d851d1d1927}{clear} ()
+\item 
+void \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ab50185f6fb23e943d6af6fbac8ffde7a}{resize} (U\-Int \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a59da16946e6731036931b55a99a75515}{size})
+\item 
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_afde1c2fbf32013aa59a1cf1d34d772e4}{operator\mbox{[}$\,$\mbox{]}} (U\-Int index)
+\item 
+const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a5208dd58be0836ad3fdc975eae30d8f2}{operator\mbox{[}$\,$\mbox{]}} (U\-Int index) const 
+\item 
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a9d2d6f0eee92a5f5f5a671a0aecab038}{get} (U\-Int index, const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&default\-Value) const 
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a8b89e8a408b6011c0b91d95a04de4298}{bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a8b89e8a408b6011c0b91d95a04de4298}{is\-Valid\-Index} (U\-Int index) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a8b89e8a408b6011c0b91d95a04de4298}
+
+\begin{DoxyCompactList}\small\item\em Return true if index $<$ \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a59da16946e6731036931b55a99a75515}{size()}. \end{DoxyCompactList}\item 
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a31921682fc5b1489f9c8c877f713bfba}{append} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&value)
+\begin{DoxyCompactList}\small\item\em Append value to array at the end. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ad8f864b718e965c32025be4baa6eef1a}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ad8f864b718e965c32025be4baa6eef1a}{operator\mbox{[}$\,$\mbox{]}} (const char $\ast$key)}\label{protocol_json_1_1_j_s_o_n___a_p_i_ad8f864b718e965c32025be4baa6eef1a}
+
+\begin{DoxyCompactList}\small\item\em Access an object value by name, create a null member if it does not exist. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_abe48631bc52b7503787da386a7ecba99}{const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_abe48631bc52b7503787da386a7ecba99}{operator\mbox{[}$\,$\mbox{]}} (const char $\ast$key) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_abe48631bc52b7503787da386a7ecba99}
+
+\begin{DoxyCompactList}\small\item\em Access an object value by name, returns null if there is no member with that name. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ae9013b28547b7723932674da5fe738d6}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ae9013b28547b7723932674da5fe738d6}{operator\mbox{[}$\,$\mbox{]}} (const std\-::string \&key)}\label{protocol_json_1_1_j_s_o_n___a_p_i_ae9013b28547b7723932674da5fe738d6}
+
+\begin{DoxyCompactList}\small\item\em Access an object value by name, create a null member if it does not exist. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ae6d008b652a42b7d67d91114193df82b}{const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ae6d008b652a42b7d67d91114193df82b}{operator\mbox{[}$\,$\mbox{]}} (const std\-::string \&key) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_ae6d008b652a42b7d67d91114193df82b}
+
+\begin{DoxyCompactList}\small\item\em Access an object value by name, returns null if there is no member with that name. \end{DoxyCompactList}\item 
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \& \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a8e5d70129219a62c3d54e0a230c74523}{operator\mbox{[}$\,$\mbox{]}} (const Static\-String \&key)
+\begin{DoxyCompactList}\small\item\em Access an object value by name, create a null member if it does not exist. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a883d6ce140e5bd2dac32f0321b2f0b96}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a883d6ce140e5bd2dac32f0321b2f0b96}{get} (const char $\ast$key, const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&default\-Value) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a883d6ce140e5bd2dac32f0321b2f0b96}
+
+\begin{DoxyCompactList}\small\item\em Return the member named key if it exist, default\-Value otherwise. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aa21732e6c5e1eced8a7eaafa00502521}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_aa21732e6c5e1eced8a7eaafa00502521}{get} (const std\-::string \&key, const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&default\-Value) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_aa21732e6c5e1eced8a7eaafa00502521}
+
+\begin{DoxyCompactList}\small\item\em Return the member named key if it exist, default\-Value otherwise. \end{DoxyCompactList}\item 
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_adfff71c85ae69604406249612234959c}{remove\-Member} (const char $\ast$key)
+\begin{DoxyCompactList}\small\item\em Remove and return the named member. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a9a8efed29e3f58cf60a12a519ab389e3}{\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a9a8efed29e3f58cf60a12a519ab389e3}{remove\-Member} (const std\-::string \&key)}\label{protocol_json_1_1_j_s_o_n___a_p_i_a9a8efed29e3f58cf60a12a519ab389e3}
+
+\begin{DoxyCompactList}\small\item\em Same as \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_adfff71c85ae69604406249612234959c}{remove\-Member(const char$\ast$)} \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a819238e22ec268c91bfdfdc5b3b5a3eb}{bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a819238e22ec268c91bfdfdc5b3b5a3eb}{is\-Member} (const char $\ast$key) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a819238e22ec268c91bfdfdc5b3b5a3eb}
+
+\begin{DoxyCompactList}\small\item\em Return true if the object has a member named key. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ad9013e5497326a588f6a964ca7bc84e9}{bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ad9013e5497326a588f6a964ca7bc84e9}{is\-Member} (const std\-::string \&key) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_ad9013e5497326a588f6a964ca7bc84e9}
+
+\begin{DoxyCompactList}\small\item\em Return true if the object has a member named key. \end{DoxyCompactList}\item 
+Members \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a0c5199d4810f25527d0fba6833b7b85b}{get\-Member\-Names} () const 
+\begin{DoxyCompactList}\small\item\em Return a list of the member names. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aff860343cf603b1710489977991cac53}{void \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_aff860343cf603b1710489977991cac53}{set\-Comment} (const char $\ast$comment, \hyperlink{namespace_json_a4fc417c23905b2ae9e2c47d197a45351}{Comment\-Placement} placement)}\label{protocol_json_1_1_j_s_o_n___a_p_i_aff860343cf603b1710489977991cac53}
+
+\begin{DoxyCompactList}\small\item\em Comments must be //... or /$\ast$ ... $\ast$/. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aa8749c9a1e02179c70a54dd5fe75594c}{void \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_aa8749c9a1e02179c70a54dd5fe75594c}{set\-Comment} (const std\-::string \&comment, \hyperlink{namespace_json_a4fc417c23905b2ae9e2c47d197a45351}{Comment\-Placement} placement)}\label{protocol_json_1_1_j_s_o_n___a_p_i_aa8749c9a1e02179c70a54dd5fe75594c}
+
+\begin{DoxyCompactList}\small\item\em Comments must be //... or /$\ast$ ... $\ast$/. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_adf2053f4104f527e65d5d2dde6d04b8a}{bool {\bfseries has\-Comment} (\hyperlink{namespace_json_a4fc417c23905b2ae9e2c47d197a45351}{Comment\-Placement} placement) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_adf2053f4104f527e65d5d2dde6d04b8a}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_adcc81670e36675e2be93f68f24d1d621}{std\-::string \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_adcc81670e36675e2be93f68f24d1d621}{get\-Comment} (\hyperlink{namespace_json_a4fc417c23905b2ae9e2c47d197a45351}{Comment\-Placement} placement) const }\label{protocol_json_1_1_j_s_o_n___a_p_i_adcc81670e36675e2be93f68f24d1d621}
+
+\begin{DoxyCompactList}\small\item\em Include delimiters and embedded newlines. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_af39a693bbc2f3f9596dac0d5cd053924}{std\-::string {\bfseries to\-Styled\-String} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_af39a693bbc2f3f9596dac0d5cd053924}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a9de7e8069f73c1dbf86f86716bc01e78}{\hyperlink{class_json_1_1_value_const_iterator}{const\-\_\-iterator} {\bfseries begin} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a9de7e8069f73c1dbf86f86716bc01e78}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a64e93247c3079bf3b4aa078a05581391}{\hyperlink{class_json_1_1_value_const_iterator}{const\-\_\-iterator} {\bfseries end} () const }\label{protocol_json_1_1_j_s_o_n___a_p_i_a64e93247c3079bf3b4aa078a05581391}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ae919de999d9edd844b8853660b448db4}{\hyperlink{class_json_1_1_value_iterator}{iterator} {\bfseries begin} ()}\label{protocol_json_1_1_j_s_o_n___a_p_i_ae919de999d9edd844b8853660b448db4}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a41f8f58a62416e4da34edb26f8d880c1}{\hyperlink{class_json_1_1_value_iterator}{iterator} {\bfseries end} ()}\label{protocol_json_1_1_j_s_o_n___a_p_i_a41f8f58a62416e4da34edb26f8d880c1}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aeb007c2dc036bd1accab064f36e591c9}{virtual std\-::string {\bfseries write} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&root)=0}\label{protocol_json_1_1_j_s_o_n___a_p_i_aeb007c2dc036bd1accab064f36e591c9}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a4cd498bc45daeff40b5a9d07bf880822}{{\bfseries Fast\-Writer} ()}\label{protocol_json_1_1_j_s_o_n___a_p_i_a4cd498bc45daeff40b5a9d07bf880822}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a4a9b42293fcfb7bb8415f4b23f44f353}{void {\bfseries enable\-Y\-A\-M\-L\-Compatibility} ()}\label{protocol_json_1_1_j_s_o_n___a_p_i_a4a9b42293fcfb7bb8415f4b23f44f353}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_acfac8c5774ac05e3fd04f4a8b8a59785}{virtual std\-::string {\bfseries write} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&root)}\label{protocol_json_1_1_j_s_o_n___a_p_i_acfac8c5774ac05e3fd04f4a8b8a59785}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a5c86edefaffa6a79ef2e2dba5a1c359c}{{\bfseries Styled\-Writer} ()}\label{protocol_json_1_1_j_s_o_n___a_p_i_a5c86edefaffa6a79ef2e2dba5a1c359c}
+
+\item 
+virtual std\-::string \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_acfac8c5774ac05e3fd04f4a8b8a59785}{write} (const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&root)
+\begin{DoxyCompactList}\small\item\em Serialize a Value in \href{http://www.json.org}{\tt J\-S\-O\-N} format. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_aad71cf3227df61afb2b7402ab03eba2e}{{\bfseries Styled\-Stream\-Writer} (std\-::string indentation=\char`\"{}$\backslash$t\char`\"{})}\label{protocol_json_1_1_j_s_o_n___a_p_i_aad71cf3227df61afb2b7402ab03eba2e}
+
+\item 
+void \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ae61ccd20341537c6f7b7212097db574d}{write} (std\-::ostream \&out, const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} \&root)
+\begin{DoxyCompactList}\small\item\em Serialize a Value in \href{http://www.json.org}{\tt J\-S\-O\-N} format. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ad689444ef42491b89324975696f0ed58}{Features} \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a597c6015488c43c485760edda8cfdf5c}{all} ()
+\begin{DoxyCompactList}\small\item\em A configuration that allows all features and assumes all strings are U\-T\-F-\/8. \end{DoxyCompactList}\item 
+static \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ad689444ef42491b89324975696f0ed58}{Features} \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_af354da64e0f08333590de851180e1b41}{strict\-Mode} ()
+\begin{DoxyCompactList}\small\item\em A configuration that is strictly compatible with the J\-S\-O\-N specification. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a647b2843efe8a0a69353ab915527eafe}{bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a647b2843efe8a0a69353ab915527eafe}{allow\-Comments\-\_\-}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a647b2843efe8a0a69353ab915527eafe}
+
+\begin{DoxyCompactList}\small\item\em {\ttfamily true} if comments are allowed. Default\-: {\ttfamily true}. \end{DoxyCompactList}\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a309a273d34b98d60ba6479343f4974e3}{bool \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a309a273d34b98d60ba6479343f4974e3}{strict\-Root\-\_\-}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a309a273d34b98d60ba6479343f4974e3}
+
+\begin{DoxyCompactList}\small\item\em {\ttfamily true} if root must be either an array or an object value. Default\-: {\ttfamily false}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ac93090d15c633f942a091a876dcb8f9c}{static const \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value} {\bfseries null}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ac93090d15c633f942a091a876dcb8f9c}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a3c6b7f48958ebf357522e14c82f21a90}{static const Int {\bfseries min\-Int}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a3c6b7f48958ebf357522e14c82f21a90}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a34e3ac05230d2b91916958f036b4badd}{static const Int {\bfseries max\-Int}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a34e3ac05230d2b91916958f036b4badd}
+
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a3cdaa96e9bbf12202d61005e87f70697}{static const U\-Int {\bfseries max\-U\-Int}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a3cdaa96e9bbf12202d61005e87f70697}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ad016df56489e5d360735457afba2f649}{class {\bfseries Value\-Iterator\-Base}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ad016df56489e5d360735457afba2f649}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Configuration passed to reader and writer. This configuration object can be used to force the Reader or Writer to behave in a standard conforming way. 
+
+Writes a Value in \href{http://www.json.org}{\tt J\-S\-O\-N} format in a human friendly way, to a stream rather than to a string.
+
+Writes a Value in \href{http://www.json.org}{\tt J\-S\-O\-N} format in a human friendly way.
+
+Outputs a Value in \href{http://www.json.org}{\tt J\-S\-O\-N} format without formatting (not human friendly).
+
+Abstract class for writers.
+
+Represents a \href{http://www.json.org}{\tt J\-S\-O\-N} value.
+
+Lightweight wrapper to tag static string.
+
+Unserialize a \href{http://www.json.org}{\tt J\-S\-O\-N} document into a Value.
+
+\begin{DoxyVerb} \end{DoxyVerb}
+
+
+Value constructor and object\-Value member assignement takes advantage of the Static\-String and avoid the cost of string duplication when storing the string or the member name.
+
+Example of usage\-: 
+\begin{DoxyCode}
+ Json::Value aValue( StaticString("some text") );
+ Json::Value object;
+ static const StaticString code("code");
+ object[code] = 1234;
+\end{DoxyCode}
+
+
+This class is a discriminated union wrapper that can represents a\-:
+\begin{DoxyItemize}
+\item signed integer \mbox{[}range\-: Value\-::min\-Int -\/ Value\-::max\-Int\mbox{]}
+\item unsigned integer (range\-: 0 -\/ Value\-::max\-U\-Int)
+\item double
+\item U\-T\-F-\/8 string
+\item boolean
+\item 'null'
+\item an ordered list of Value
+\item collection of name/value pairs (javascript object)
+\end{DoxyItemize}
+
+The type of the held value is represented by a \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4e}{Value\-Type} and can be obtained using type().
+
+values of an \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4eae8386dcfc36d1ae897745f7b4f77a1f6}{object\-Value} or \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4eadc8f264f36b55b063c78126b335415f4}{array\-Value} can be accessed using \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_afde1c2fbf32013aa59a1cf1d34d772e4}{operator\mbox{[}$\,$\mbox{]}()} methods. Non const methods will automatically create the a \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4ea7d9899633b4409bd3fc107e6737f8391}{null\-Value} element if it does not exist. The sequence of an \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4eadc8f264f36b55b063c78126b335415f4}{array\-Value} will be automatically resize and initialized with \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4ea7d9899633b4409bd3fc107e6737f8391}{null\-Value}. \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_ab50185f6fb23e943d6af6fbac8ffde7a}{resize()} can be used to enlarge or truncate an \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4eadc8f264f36b55b063c78126b335415f4}{array\-Value}.
+
+The \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a9d2d6f0eee92a5f5f5a671a0aecab038}{get()} methods can be used to obtanis default value in the case the required element does not exist.
+
+It is possible to iterate over the list of a \hyperlink{namespace_json_a7d654b75c16a57007925868e38212b4eae8386dcfc36d1ae897745f7b4f77a1f6}{object\-Value} values using the \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a0c5199d4810f25527d0fba6833b7b85b}{get\-Member\-Names()} method.
+
+The J\-S\-O\-N document is written in a single line. It is not intended for 'human' consumption, but may be usefull to support feature such as R\-P\-C where bandwith is limited. \begin{DoxySeeAlso}{See also}
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a8d5594b46204fb65661a8c96c015ea54}{Reader}, \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value}
+\end{DoxySeeAlso}
+The rules for line break and indent are as follow\-:
+\begin{DoxyItemize}
+\item Object value\-:
+\begin{DoxyItemize}
+\item if empty then print \{\} without indent and line break
+\item if not empty the print '\{', line break \& indent, print one value per line and then unindent and line break and print '\}'.
+\end{DoxyItemize}
+\item Array value\-:
+\begin{DoxyItemize}
+\item if empty then print \mbox{[}\mbox{]} without indent and line break
+\item if the array contains no object value, empty array or some other value types, and all the values fit on one lines, then print the array on a single line.
+\item otherwise, it the values do not fit on one line, or the array contains object or non empty array, then print one value per line.
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+If the Value have comments then they are outputed according to their \hyperlink{namespace_json_a4fc417c23905b2ae9e2c47d197a45351}{Comment\-Placement}.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a8d5594b46204fb65661a8c96c015ea54}{Reader}, \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value}, Value\-::set\-Comment()
+\end{DoxySeeAlso}
+The rules for line break and indent are as follow\-:
+\begin{DoxyItemize}
+\item Object value\-:
+\begin{DoxyItemize}
+\item if empty then print \{\} without indent and line break
+\item if not empty the print '\{', line break \& indent, print one value per line and then unindent and line break and print '\}'.
+\end{DoxyItemize}
+\item Array value\-:
+\begin{DoxyItemize}
+\item if empty then print \mbox{[}\mbox{]} without indent and line break
+\item if the array contains no object value, empty array or some other value types, and all the values fit on one lines, then print the array on a single line.
+\item otherwise, it the values do not fit on one line, or the array contains object or non empty array, then print one value per line.
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+If the Value have comments then they are outputed according to their \hyperlink{namespace_json_a4fc417c23905b2ae9e2c47d197a45351}{Comment\-Placement}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em indentation} & Each level will be indented by this amount extra. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a8d5594b46204fb65661a8c96c015ea54}{Reader}, \hyperlink{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{Value}, Value\-::set\-Comment() 
+\end{DoxySeeAlso}
+
+
+Definition at line 12 of file features.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a597c6015488c43c485760edda8cfdf5c}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!all@{all}}
+\index{all@{all}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{all}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Features} {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::all} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a597c6015488c43c485760edda8cfdf5c}
+
+
+A configuration that allows all features and assumes all strings are U\-T\-F-\/8. 
+
+
+\begin{DoxyItemize}
+\item C \& C++ comments are allowed
+\item Root object can be any J\-S\-O\-N value
+\item Assumes Value strings are encoded in U\-T\-F-\/8 
+\end{DoxyItemize}\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a31921682fc5b1489f9c8c877f713bfba}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!append@{append}}
+\index{append@{append}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{append}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Value}\& {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::append} (
+\begin{DoxyParamCaption}
+\item[{const {\bf Value} \&}]{value}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a31921682fc5b1489f9c8c877f713bfba}
+
+
+Append value to array at the end. 
+
+Equivalent to jsonvalue\mbox{[}jsonvalue.\-size()\mbox{]} = value; \hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a797068fda331886f3d122d851d1d1927}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!clear@{clear}}
+\index{clear@{clear}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::clear} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a797068fda331886f3d122d851d1d1927}
+Remove all object members and array elements. \begin{DoxyPrecond}{Precondition}
+type() is array\-Value, object\-Value, or null\-Value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+type() is unchanged 
+\end{DoxyPostcond}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a9d2d6f0eee92a5f5f5a671a0aecab038}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!get@{get}}
+\index{get@{get}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Value} {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::get} (
+\begin{DoxyParamCaption}
+\item[{U\-Int}]{index, }
+\item[{const {\bf Value} \&}]{default\-Value}
+\end{DoxyParamCaption}
+) const}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a9d2d6f0eee92a5f5f5a671a0aecab038}
+If the array contains at least index+1 elements, returns the element value, otherwise returns default\-Value. \hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ad2995c11c6aeb7719af179c0eacb6c85}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!get\-Formated\-Error\-Messages@{get\-Formated\-Error\-Messages}}
+\index{get\-Formated\-Error\-Messages@{get\-Formated\-Error\-Messages}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{get\-Formated\-Error\-Messages}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::get\-Formated\-Error\-Messages} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ad2995c11c6aeb7719af179c0eacb6c85}
+
+
+Returns a user friendly string that list errors in the parsed document. 
+
+\begin{DoxyReturn}{Returns}
+Formatted error message with the list of errors with their location in the parsed document. An empty string is returned if no error occurred during parsing. 
+\end{DoxyReturn}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a0c5199d4810f25527d0fba6833b7b85b}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!get\-Member\-Names@{get\-Member\-Names}}
+\index{get\-Member\-Names@{get\-Member\-Names}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{get\-Member\-Names}]{\setlength{\rightskip}{0pt plus 5cm}Members {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::get\-Member\-Names} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a0c5199d4810f25527d0fba6833b7b85b}
+
+
+Return a list of the member names. 
+
+If null, return an empty list. \begin{DoxyPrecond}{Precondition}
+type() is object\-Value or null\-Value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+if type() was null\-Value, it remains null\-Value 
+\end{DoxyPostcond}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_afde1c2fbf32013aa59a1cf1d34d772e4}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Value}\& Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{U\-Int}]{index}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_afde1c2fbf32013aa59a1cf1d34d772e4}
+Access an array element (zero based index ). If the array contains less than index element, then null value are inserted in the array so that its size is index+1. (You may need to say 'value\mbox{[}0u\mbox{]}' to get your compiler to distinguish this from the operator\mbox{[}\mbox{]} which takes a string.) \hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a5208dd58be0836ad3fdc975eae30d8f2}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Value}\& Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{U\-Int}]{index}
+\end{DoxyParamCaption}
+) const}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a5208dd58be0836ad3fdc975eae30d8f2}
+Access an array element (zero based index ) (You may need to say 'value\mbox{[}0u\mbox{]}' to get your compiler to distinguish this from the operator\mbox{[}\mbox{]} which takes a string.) \hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a8e5d70129219a62c3d54e0a230c74523}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Value}\& Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const Static\-String \&}]{key}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a8e5d70129219a62c3d54e0a230c74523}
+
+
+Access an object value by name, create a null member if it does not exist. 
+
+If the object as no entry for that name, then the member name used to store the new entry is not duplicated. Example of use\-: 
+\begin{DoxyCode}
+ Json::Value object;
+ static const StaticString code("code");
+ object[code] = 1234;
+\end{DoxyCode}
+ \hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ae59036936fda704af5ff0dd27d759d61}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!parse@{parse}}
+\index{parse@{parse}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::parse} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{document, }
+\item[{{\bf Value} \&}]{root, }
+\item[{bool}]{collect\-Comments = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ae59036936fda704af5ff0dd27d759d61}
+
+
+Read a Value from a \href{http://www.json.org}{\tt J\-S\-O\-N} document. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em document} & U\-T\-F-\/8 encoded string containing the document to read. \\
+\hline
+{\em root} & \mbox{[}out\mbox{]} Contains the root value of the document if it was successfully parsed. \\
+\hline
+{\em collect\-Comments} & {\ttfamily true} to collect comment and allow writing them back during serialization, {\ttfamily false} to discard comments. This parameter is ignored if Features\-::allow\-Comments\-\_\- is {\ttfamily false}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the document was successfully parsed, {\ttfamily false} if an error occurred. 
+\end{DoxyReturn}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a30735cd943a02164996275abe1712224}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!parse@{parse}}
+\index{parse@{parse}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::parse} (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{begin\-Doc, }
+\item[{const char $\ast$}]{end\-Doc, }
+\item[{{\bf Value} \&}]{root, }
+\item[{bool}]{collect\-Comments = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a30735cd943a02164996275abe1712224}
+
+
+Read a Value from a \href{http://www.json.org}{\tt J\-S\-O\-N} document. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em document} & U\-T\-F-\/8 encoded string containing the document to read. \\
+\hline
+{\em root} & \mbox{[}out\mbox{]} Contains the root value of the document if it was successfully parsed. \\
+\hline
+{\em collect\-Comments} & {\ttfamily true} to collect comment and allow writing them back during serialization, {\ttfamily false} to discard comments. This parameter is ignored if Features\-::allow\-Comments\-\_\- is {\ttfamily false}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the document was successfully parsed, {\ttfamily false} if an error occurred. 
+\end{DoxyReturn}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a54923dcea65f8fc8d91f5625e7aa3cc7}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!parse@{parse}}
+\index{parse@{parse}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::parse} (
+\begin{DoxyParamCaption}
+\item[{std\-::istream \&}]{is, }
+\item[{{\bf Value} \&}]{root, }
+\item[{bool}]{collect\-Comments = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a54923dcea65f8fc8d91f5625e7aa3cc7}
+
+
+Parse from input stream. 
+
+\begin{DoxySeeAlso}{See also}
+Json\-::operator$>$$>$(std\-::istream\&, Json\-::\-Value\&). 
+\end{DoxySeeAlso}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_adfff71c85ae69604406249612234959c}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!remove\-Member@{remove\-Member}}
+\index{remove\-Member@{remove\-Member}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{remove\-Member}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Value} {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::remove\-Member} (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{key}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_adfff71c85ae69604406249612234959c}
+
+
+Remove and return the named member. 
+
+Do nothing if it did not exist. \begin{DoxyReturn}{Returns}
+the removed Value, or null. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+type() is object\-Value or null\-Value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+type() is unchanged 
+\end{DoxyPostcond}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ab50185f6fb23e943d6af6fbac8ffde7a}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!resize@{resize}}
+\index{resize@{resize}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{resize}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::resize} (
+\begin{DoxyParamCaption}
+\item[{U\-Int}]{size}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ab50185f6fb23e943d6af6fbac8ffde7a}
+Resize the array to size elements. New elements are initialized to null. May only be called on null\-Value or array\-Value. \begin{DoxyPrecond}{Precondition}
+type() is array\-Value or null\-Value 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+type() is array\-Value 
+\end{DoxyPostcond}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_af354da64e0f08333590de851180e1b41}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!strict\-Mode@{strict\-Mode}}
+\index{strict\-Mode@{strict\-Mode}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{strict\-Mode}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Features} {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::strict\-Mode} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{protocol_json_1_1_j_s_o_n___a_p_i_af354da64e0f08333590de851180e1b41}
+
+
+A configuration that is strictly compatible with the J\-S\-O\-N specification. 
+
+
+\begin{DoxyItemize}
+\item Comments are forbidden.
+\item Root object must be either an array or an object value.
+\item Assumes Value strings are encoded in U\-T\-F-\/8 
+\end{DoxyItemize}\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_acd0deaad6c3835fd057f329218f6c78b}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!swap@{swap}}
+\index{swap@{swap}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{swap}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::swap} (
+\begin{DoxyParamCaption}
+\item[{{\bf Value} \&}]{other}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_acd0deaad6c3835fd057f329218f6c78b}
+Swap values. \begin{DoxyNote}{Note}
+Currently, comments are intentionally not swapped, for both logic and efficiency. 
+\end{DoxyNote}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!Value@{Value}}
+\index{Value@{Value}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::\-Value} (
+\begin{DoxyParamCaption}
+\item[{{\bf Value\-Type}}]{type = {\ttfamily {\bf null\-Value}}}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a3a85c4423131080eb9300546d6130dfd}
+
+
+Create a default Value of the given type. 
+
+\begin{DoxyVerb}   This is a very useful constructor.
+   To create an empty array, pass arrayValue.
+   To create an empty object, pass objectValue.
+   Another Value can then be set to this one by assignment.
+   This is useful since clear() and resize() will not alter types.
+
+   Examples:
+\end{DoxyVerb}
+ 
+\begin{DoxyCode}
+        Json::Value null_value; // null
+        Json::Value arr_value(Json::arrayValue); // []
+        Json::Value obj_value(Json::objectValue); // {}
+\end{DoxyCode}
+ \hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_a5514e83243c886dbb4594877ada2ce05}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!Value@{Value}}
+\index{Value@{Value}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::\-Value} (
+\begin{DoxyParamCaption}
+\item[{const Static\-String \&}]{value}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_a5514e83243c886dbb4594877ada2ce05}
+
+
+Constructs a value from a static string. 
+
+Like other value string constructor but do not duplicate the string for internal storage. The given string must remain alive after the call to this constructor. Example of usage\-: 
+\begin{DoxyCode}
+ Json::Value aValue( StaticString("some text") );
+\end{DoxyCode}
+ \hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_acfac8c5774ac05e3fd04f4a8b8a59785}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!write@{write}}
+\index{write@{write}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::write (
+\begin{DoxyParamCaption}
+\item[{const {\bf Value} \&}]{root}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{protocol_json_1_1_j_s_o_n___a_p_i_acfac8c5774ac05e3fd04f4a8b8a59785}
+
+
+Serialize a Value in \href{http://www.json.org}{\tt J\-S\-O\-N} format. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em root} & Value to serialize. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String containing the J\-S\-O\-N document that represents the root value. 
+\end{DoxyReturn}
+\hypertarget{protocol_json_1_1_j_s_o_n___a_p_i_ae61ccd20341537c6f7b7212097db574d}{\index{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}!write@{write}}
+\index{write@{write}!Json::JSON_API@{Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I}}
+\subsubsection[{write}]{\setlength{\rightskip}{0pt plus 5cm}void Json\-::\-J\-S\-O\-N\-\_\-\-A\-P\-I\-::write (
+\begin{DoxyParamCaption}
+\item[{std\-::ostream \&}]{out, }
+\item[{const {\bf Value} \&}]{root}
+\end{DoxyParamCaption}
+)}}\label{protocol_json_1_1_j_s_o_n___a_p_i_ae61ccd20341537c6f7b7212097db574d}
+
+
+Serialize a Value in \href{http://www.json.org}{\tt J\-S\-O\-N} format. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & Stream to write to. (Can be ostringstream, e.\-g.) \\
+\hline
+{\em root} & Value to serialize. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+There is no point in deriving from Writer, since write() should not return a value. 
+\end{DoxyNote}
+
+
+The documentation for this protocol was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+libs/jsoncpp/include/json/features.\-h\item 
+libs/jsoncpp/include/json/reader.\-h\item 
+libs/jsoncpp/include/json/value.\-h\item 
+libs/jsoncpp/include/json/writer.\-h\end{DoxyCompactItemize}

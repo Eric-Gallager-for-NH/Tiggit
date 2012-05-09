@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="win32__setup_8cpp" kind="file">
+    <compoundname>win32_setup.cpp</compoundname>
+    <includes local="no">windows.h</includes>
+    <includes local="no">shlobj.h</includes>
+    <includes local="no">shellapi.h</includes>
+    <includes local="no">boost/filesystem.hpp</includes>
+    <includes local="no">string</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">fstream</includes>
+    <incdepgraph>
+      <node id="981">
+        <label>windows.h</label>
+      </node>
+      <node id="986">
+        <label>stdexcept</label>
+      </node>
+      <node id="980">
+        <label>win32_setup.cpp</label>
+        <link refid="win32_setup.cpp"/>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="987" relation="include">
+        </childnode>
+      </node>
+      <node id="985">
+        <label>string</label>
+      </node>
+      <node id="987">
+        <label>fstream</label>
+      </node>
+      <node id="984">
+        <label>boost/filesystem.hpp</label>
+      </node>
+      <node id="982">
+        <label>shlobj.h</label>
+      </node>
+      <node id="983">
+        <label>shellapi.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="win32__setup_8cpp_1ac35de693d4d779c539c1804a796d7c13" prot="public" static="no" mutable="no">
+        <type>TCHAR</type>
+        <definition>TCHAR pathbuf[MAX_PATH]</definition>
+        <argsstring>[MAX_PATH]</argsstring>
+        <name>pathbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="12" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="win32__setup_8cpp_1a7099019568b624998479b21c8c702e9b" prot="public" static="no" mutable="no">
+        <type>WCHAR</type>
+        <definition>WCHAR wbuf[MAX_PATH]</definition>
+        <argsstring>[MAX_PATH]</argsstring>
+        <name>wbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="13" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="win32__setup_8cpp_1aaf6b4bbb50c8858dd2dfe69df46c86c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>fs::path</type>
+        <definition>fs::path getPathCSIDL</definition>
+        <argsstring>(int csidl)</argsstring>
+        <name>getPathCSIDL</name>
+        <param>
+          <type>int</type>
+          <declname>csidl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="16" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="win32__setup_8cpp_1a4278e6b4c9e9e3dc3544f9948d52c8fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>fs::path</type>
+        <definition>fs::path getBinPath</definition>
+        <argsstring>(const std::string &amp;appName)</argsstring>
+        <name>getBinPath</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>appName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="22" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="win32__setup_8cpp_1a5bffa27a564345281432c357f3b77047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>fs::path</type>
+        <definition>fs::path getExe</definition>
+        <argsstring>()</argsstring>
+        <name>getExe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="27" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="win32__setup_8cpp_1a1c86c7e624db230f3145dbd9e5cb7491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>WCHAR *</type>
+        <definition>WCHAR* toWide</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>toWide</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="34" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="win32__setup_8cpp_1a89676a335e5f795005c8efabc4322f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fail</definition>
+        <argsstring>(const std::string &amp;msg)</argsstring>
+        <name>fail</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="40" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="win32__setup_8cpp_1a0d25ec31069528699d51c2b38f3b6967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void createLinks</definition>
+        <argsstring>(const std::string name, const std::string &amp;exe)</argsstring>
+        <name>createLinks</name>
+        <param>
+          <type>const std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>exe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="45" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="44" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="win32__setup_8cpp_1a5e1173b5d176328ee074f8f3bf9f845f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void copy_files</definition>
+        <argsstring>(fs::path from, fs::path to)</argsstring>
+        <name>copy_files</name>
+        <param>
+          <type>fs::path</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>fs::path</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="95" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="94" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="win32__setup_8cpp_1a64003026af65adda19bfdd071fe6f566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int WINAPI</type>
+        <definition>int WINAPI WinMain</definition>
+        <argsstring>(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, INT nCmdShow)</argsstring>
+        <name>WinMain</name>
+        <param>
+          <type>HINSTANCE</type>
+          <declname>hInstance</declname>
+        </param>
+        <param>
+          <type>HINSTANCE</type>
+          <declname>hPrevInstance</declname>
+        </param>
+        <param>
+          <type>LPSTR</type>
+          <declname>lpCmdLine</declname>
+        </param>
+        <param>
+          <type>INT</type>
+          <declname>nCmdShow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/win32_setup.cpp" line="125" bodyfile="/Users/ericgallager/Tiggit/win32_setup.cpp" bodystart="123" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;shlobj.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;shellapi.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/filesystem.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fs<sp/>=<sp/>boost::filesystem;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">TCHAR<sp/>pathbuf[MAX_PATH];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">WCHAR<sp/>wbuf[MAX_PATH];</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">fs::path<sp/>getPathCSIDL(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>csidl)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>SHGetFolderPath(NULL,<sp/>csidl,<sp/>NULL,<sp/>0,<sp/>pathbuf);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fs::path(pathbuf);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">fs::path<sp/>getBinPath(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;appName)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>getPathCSIDL(CSIDL_LOCAL_APPDATA)<sp/>/<sp/>appName<sp/>/<sp/></highlight><highlight class="stringliteral">&quot;bin&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">fs::path<sp/>getExe()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>GetModuleFileName(NULL,<sp/>pathbuf,<sp/>MAX_PATH);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fs::path(pathbuf);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Note:<sp/>pointer<sp/>only<sp/>valid<sp/>until<sp/>next<sp/>run</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">WCHAR<sp/>*toWide(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;str)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>MultiByteToWideChar(CP_ACP,<sp/>0,<sp/>str.c_str(),<sp/>-1,<sp/>wbuf,<sp/>MAX_PATH);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>wbuf;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>fail(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;msg)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(msg);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>createLinks(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;exe)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>CoInitialize(NULL);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>HRESULT<sp/>res;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>IShellLink<sp/>*lnk<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>res<sp/>=<sp/>CoCreateInstance(CLSID_ShellLink,<sp/>NULL,<sp/>CLSCTX_INPROC_SERVER,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IID_IShellLink,<sp/>reinterpret_cast&lt;void**&gt;(&amp;lnk));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!SUCCEEDED(res))</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>fail(</highlight><highlight class="stringliteral">&quot;Couldn&apos;t<sp/>create<sp/>shortcut<sp/>links&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>lnk-&gt;SetPath(exe.c_str());</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>lnk-&gt;SetDescription(name.c_str());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//lnk-&gt;SetIconLocation(&quot;where&quot;,<sp/>0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>IPersistFile<sp/>*pf<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>res<sp/>=<sp/>lnk-&gt;QueryInterface(IID_IPersistFile,<sp/>reinterpret_cast&lt;void**&gt;(&amp;pf));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!SUCCEEDED(res))</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>lnk-&gt;Release();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fail(</highlight><highlight class="stringliteral">&quot;Couldn&apos;t<sp/>create<sp/>shortcut<sp/>links&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>this<sp/>for<sp/>links<sp/>you<sp/>don&apos;t<sp/>want<sp/>to<sp/>highlight,<sp/>ie.<sp/>everything</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>except<sp/>the<sp/>main<sp/>program<sp/>link.<sp/>May<sp/>need<sp/>some<sp/>rewriting.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/>PROPVARIANT<sp/>pvar;</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/>pvar.vt<sp/>=<sp/>VT_BOOL;</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/>pvar.boolVal<sp/>=<sp/>VARIANT_TRUE;</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/>pf-&gt;SetValue(PKEY_AppUserModel_ExcludeFromShowInNewInstall,<sp/>pvar);</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>std::string<sp/>lname<sp/>=<sp/>name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.lnk&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Save<sp/>desktop<sp/>link</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>fs::path<sp/>link<sp/>=<sp/>getPathCSIDL(CSIDL_DESKTOPDIRECTORY)<sp/>/<sp/>lname;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>pf-&gt;Save(toWide(link.string()),<sp/>TRUE);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>start<sp/>menu<sp/>directory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>link<sp/>=<sp/>getPathCSIDL(CSIDL_PROGRAMS)<sp/>/<sp/>name;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>fs::create_directories(link);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Save<sp/>the<sp/>start<sp/>menu<sp/>link</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>link<sp/>/=<sp/>lname;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>pf-&gt;Save(toWide(link.string()),<sp/>TRUE);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>pf-&gt;Release();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>lnk-&gt;Release();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>copy_files(fs::path<sp/>from,<sp/>fs::path<sp/>to)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">boost::filesystem;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Copy<sp/>files<sp/>over</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>directory_iterator<sp/>iter(from),<sp/>end;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>iter<sp/>!=<sp/>end;<sp/>++iter)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>path<sp/>p<sp/>=<sp/>iter-&gt;path();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>process<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!is_regular_file(p))<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Skip<sp/>setup.exe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(p.leaf()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;setup.exe&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Destination</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>path<sp/>dest<sp/>=<sp/>to<sp/>/<sp/>p.leaf();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Remove<sp/>destination,<sp/>if<sp/>it<sp/>exists</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(exists(dest))</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">remove</highlight><highlight class="normal">(dest);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copy<sp/>the<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>copy_file(p,<sp/>dest);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>WINAPI<sp/>WinMain(HINSTANCE<sp/>hInstance,<sp/>HINSTANCE<sp/>hPrevInstance,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LPSTR<sp/>lpCmdLine,<sp/>INT<sp/>nCmdShow)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>fs::path<sp/>bin<sp/>=<sp/>getBinPath(</highlight><highlight class="stringliteral">&quot;tiggit&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>std::string<sp/>dest_exe<sp/>=<sp/>(bin/</highlight><highlight class="stringliteral">&quot;tiggit.exe&quot;</highlight><highlight class="normal">).</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>std::string<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Tiggit<sp/>Game<sp/>Installer&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>bin/<sp/>exists</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fs::create_directories(bin);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copy<sp/>all<sp/>our<sp/>sibling<sp/>files<sp/>to<sp/>bin/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fs::path<sp/>from<sp/>=<sp/>getExe().parent_path();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>copy_files(from,<sp/>bin);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>shortcuts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>createLinks(name,<sp/>dest_exe);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(std::exception<sp/>&amp;e)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(NULL,<sp/>e.what(),<sp/></highlight><highlight class="stringliteral">&quot;Error&quot;</highlight><highlight class="normal">,<sp/>MB_ICONERROR);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Run<sp/>the<sp/>installed<sp/>program</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>ShellExecute(NULL,<sp/></highlight><highlight class="stringliteral">&quot;open&quot;</highlight><highlight class="normal">,<sp/>dest_exe.c_str(),</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL,<sp/>NULL,<sp/>SW_SHOW);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/ericgallager/Tiggit/win32_setup.cpp"/>
+  </compounddef>
+</doxygen>

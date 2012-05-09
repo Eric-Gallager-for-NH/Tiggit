@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$struct_demo_list_tab.html" title="DemoListTab" alt="" coords="5,229,109,256"/>
+<area shape="rect" id="node11" href="$struct_new_game_list_tab.html" title="NewGameListTab" alt="" coords="134,229,268,256"/>
+<area shape="rect" id="node2" href="$struct_list_tab.html" title="ListTab" alt="" coords="95,80,163,107"/>
+<area shape="rect" id="node4" href="$struct_tab_base.html" title="TabBase" alt="" coords="24,5,101,32"/>
+<area shape="rect" id="node6" href="$struct_screenshot_callback.html" title="ScreenshotCallback" alt="" coords="125,5,269,32"/>
+</map>

@@ -1,0 +1,70 @@
+.TH "Json::BatchAllocator< AllocatedType, objectPerAllocation >" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Json::BatchAllocator< AllocatedType, objectPerAllocation > \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBBatchInfo\fP"
+.br
+.in -1c
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "typedef AllocatedType \fBType\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBatchAllocator\fP (unsigned int objectsPerPage=255)"
+.br
+.ti -1c
+.RI "AllocatedType * \fBallocate\fP ()"
+.br
+.ti -1c
+.RI "void \fBrelease\fP (AllocatedType *object)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<typename AllocatedType, const unsigned int objectPerAllocation>class Json::BatchAllocator< AllocatedType, objectPerAllocation >"
+
+.PP
+Definition at line 25 of file json_batchallocator\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "template<typename AllocatedType , const unsigned int objectPerAllocation> AllocatedType* \fBJson::BatchAllocator\fP< AllocatedType, objectPerAllocation >::\fBallocate\fP ()\fC [inline]\fP"
+allocate space for an array of objectPerAllocation object\&. 
+.PP
+\fBWarning:\fP
+.RS 4
+it is the responsability of the caller to call objects constructors\&. 
+.RE
+.PP
+
+.PP
+Definition at line 53 of file json_batchallocator\&.h\&.
+.SS "template<typename AllocatedType , const unsigned int objectPerAllocation> void \fBJson::BatchAllocator\fP< AllocatedType, objectPerAllocation >::\fBrelease\fP (AllocatedType *object)\fC [inline]\fP"
+Release the object\&. 
+.PP
+\fBWarning:\fP
+.RS 4
+it is the responsability of the caller to actually destruct the object\&. 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file json_batchallocator\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.

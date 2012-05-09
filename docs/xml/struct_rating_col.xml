@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="struct_rating_col" kind="struct" prot="public">
+    <compoundname>RatingCol</compoundname>
+    <basecompoundref refid="struct_column_handler" prot="public" virt="non-virtual">ColumnHandler</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_rating_col_1a4515abb05881ab3f67dbeeb58765de22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>wxString</type>
+        <definition>wxString RatingCol::getText</definition>
+        <argsstring>(GameInfo &amp;e)</argsstring>
+        <name>getText</name>
+        <reimplements refid="struct_column_handler_1acc8693935219ae4e189b9b862e2c735d">getText</reimplements>
+        <param>
+          <type><ref refid="struct_game_info" kindref="compound">GameInfo</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="279" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="278" bodyend="281"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="547">
+        <label>ColumnHandler</label>
+        <link refid="struct_column_handler"/>
+      </node>
+      <node id="546">
+        <label>RatingCol</label>
+        <link refid="struct_rating_col"/>
+        <childnode refid="547" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="549">
+        <label>ColumnHandler</label>
+        <link refid="struct_column_handler"/>
+      </node>
+      <node id="548">
+        <label>RatingCol</label>
+        <link refid="struct_rating_col"/>
+        <childnode refid="549" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/Tiggit/tiggit.cpp" line="277" bodyfile="/Users/ericgallager/Tiggit/tiggit.cpp" bodystart="276" bodyend="282"/>
+    <listofallmembers>
+      <member refid="struct_rating_col_1a4515abb05881ab3f67dbeeb58765de22" prot="public" virt="virtual"><scope>RatingCol</scope><name>getText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

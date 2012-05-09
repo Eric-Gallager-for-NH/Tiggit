@@ -1,0 +1,35 @@
+.TH "CurlGet" 3 "Tue May 8 2012" "Tiggit" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CurlGet \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "typedef int(* \fBProgFunc\fP )(void *, double, double, double, double)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static size_t \fBstream_write\fP (void *buffer, size_t size, size_t num, void *strm)"
+.br
+.ti -1c
+.RI "static void \fBget\fP (const std::string &url, const std::string &file, ProgFunc fn=NULL, void *data=NULL)"
+.br
+.ti -1c
+.RI "static void \fBget\fP (const std::string &url, std::ostream &out, ProgFunc fn=NULL, void *data=NULL)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 14 of file curl_get\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tiggit from the source code\&.
