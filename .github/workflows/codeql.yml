@@ -66,10 +66,26 @@ jobs:
     - name: Dependencies
       run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev mlocate plocate
 
+    - name: Cache object files
+      id: vcpkg-cache
+      uses: actions/cache@v3
+      with:
+        path: vcpkg_installed  # vcpkg generates this dir next to vcpkg.json
+        # the final key part needs to be changed if anything in the build process changes that is not already included here
+        key: vcpkg-cache-master-${{ env.IMAGE_VERSION }}-${{ hashFiles('CMakeLists.txt') }}-0001
+
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.1.3
+
+    - name: More dependencies
+      run: vcpkg install wxwidgets
+
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2
+      env:
+        VCPKG_FEATURE_FLAGS: dependencygraph
 
     # Command-line programs to run using the OS shell.
     # See:
