@@ -64,7 +64,7 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Dependencies
-      run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake
+      run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev jsoncpp mlocate plocate
 
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build manually (see below)
@@ -81,6 +81,23 @@ jobs:
     # - run: |
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
+
+    - name: Debug failure
+      if: failure()
+      run: |
+        if test -x "$(which locate)"; then \
+          locate wxwidgets; \
+        elif test -x "$(which glocate)"; then \
+          glocate wxwidgets;
+        elif test -x "$(which mlocate)"; then \
+          mlocate wxwidgets; \
+        elif test -x "$(which plocate)"; then \
+          plocate wxwidgets; \
+        elif test -x "$(which mdfind)"; then \
+          mdfind wxwidgets; \
+        elif test -x "$(which find)"; then \
+          find / -name wxwidgets; \
+        fi
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
