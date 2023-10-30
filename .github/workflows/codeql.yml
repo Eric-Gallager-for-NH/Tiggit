@@ -64,7 +64,17 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Dependencies
-      run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev mlocate plocate libdbus-1-dev libxi-dev libxtst-dev linux-libc-dev libx11-dev libxft-dev libxext-dev libgles2-mesa-dev gtk+3.0 x11-xserver-utils libxkbcommon-dev libxkbcommon0 libxkbcommon-x11-0 libxkbcommon-x11-dev libxkbcommon-tools gettext cairo-5c lxrandr
+      run: |
+        sudo apt-get update
+        sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev mlocate plocate libdbus-1-dev libxi-dev libxtst-dev linux-libc-dev libx11-dev libxft-dev libxext-dev libgles2-mesa-dev gtk+3.0 x11-xserver-utils libxkbcommon-dev libxkbcommon0 libxkbcommon-x11-0 libxkbcommon-x11-dev libxkbcommon-tools gettext cairo-5c lxrandr openssl curl harfbuzz pango
+        if test -x "$(which snap)"; then \
+          echo "attempting to use $(which snap) to install some wxwidgets-related things..."; \
+          snap install wxDateCalc wxdatefrom; \
+        fi
+        if test -x "$(which apk)"; then \
+          echo "attempting to use $(which apk) to get some additional linux headers..."; \
+          apk add linux-headers; \
+        fi
 
     - name: Cache object files
       id: vcpkg-cache
@@ -99,7 +109,10 @@ jobs:
       if: failure()
       run: |
         # shellcheck disable=SC2038
-        find /usr/local/share/vcpkg/buildtrees/gtk3 -name "*.log" | xargs cat
+        if test -d /usr/local/share/vcpkg/buildtrees/gtk3; then \
+          echo "Seeing if gtk3 had a build failure under vcpkg..."; \
+          find /usr/local/share/vcpkg/buildtrees/gtk3 -name "*.log" | xargs cat; \
+        fi
         if test -x "$(which locate)"; then \
           echo "attempting to use $(which locate) to look for wxwidgets..."; \
           locate wxwidgets 2>/dev/null; \
