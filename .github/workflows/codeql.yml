@@ -64,7 +64,7 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Dependencies
-      run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev mlocate plocate libdbus-1-dev libxi-dev libxtst-dev linux-libc-dev libx11-dev libxft-dev libxext-dev libgles2-mesa-dev gtk+3.0 xrandr
+      run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev mlocate plocate libdbus-1-dev libxi-dev libxtst-dev linux-libc-dev libx11-dev libxft-dev libxext-dev libgles2-mesa-dev gtk+3.0 x11-xserver-utils
 
     - name: Cache object files
       id: vcpkg-cache
