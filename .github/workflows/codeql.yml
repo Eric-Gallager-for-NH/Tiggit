@@ -64,7 +64,7 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Dependencies
-      run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev mlocate plocate libdbus-1-dev libxi-dev libxtst-dev linux-libc-dev libx11-dev libxft-dev libxext-dev libgles2-mesa-dev gtk+3.0 x11-xserver-utils libxkbcommon-dev libxkbcommon0 libxkbcommon-x11-0 libxkbcommon-x11-dev libxkbcommon-tools gettext cairo-5c lxrandr python-xrandr
+      run: sudo apt-get update && sudo apt-get install libwxbase3.0-0v5 libwxgtk3.0-gtk3-0v5 codeblocks filezilla cmake libzzip-dev mlocate plocate libdbus-1-dev libxi-dev libxtst-dev linux-libc-dev libx11-dev libxft-dev libxext-dev libgles2-mesa-dev gtk+3.0 x11-xserver-utils libxkbcommon-dev libxkbcommon0 libxkbcommon-x11-0 libxkbcommon-x11-dev libxkbcommon-tools gettext cairo-5c lxrandr
 
     - name: Cache object files
       id: vcpkg-cache
@@ -101,17 +101,23 @@ jobs:
         # shellcheck disable=SC2038
         find /usr/local/share/vcpkg/buildtrees/gtk3 -name "*.log" | xargs cat
         if test -x "$(which locate)"; then \
-          locate wxwidgets; \
+          echo "attempting to use $(which locate) to look for wxwidgets..."; \
+          locate wxwidgets 2>/dev/null; \
         elif test -x "$(which glocate)"; then \
-          glocate wxwidgets;
+          echo "attempting to use $(which glocate) to look for wxwidgets..."; \
+          glocate wxwidgets 2>/dev/null;
         elif test -x "$(which mlocate)"; then \
-          mlocate wxwidgets; \
+          echo "attempting to use $(which mlocate) to look for wxwidgets..."; \
+          mlocate wxwidgets 2>/dev/null; \
         elif test -x "$(which plocate)"; then \
-          plocate wxwidgets; \
+          echo "attempting to use $(which plocate) to look for wxwidgets..."; \
+          plocate wxwidgets 2>/dev/null; \
         elif test -x "$(which mdfind)"; then \
-          mdfind wxwidgets; \
+          echo "attempting to use $(which mdfind) to look for wxwidgets..."; \
+          mdfind wxwidgets 2>/dev/null; \
         elif test -x "$(which find)"; then \
-          find / -name wxwidgets; \
+          echo "attempting to use $(which find) to look for wxwidgets..."; \
+          find / -name wxwidgets 2>/dev/null; \
         fi
 
     - name: Perform CodeQL Analysis
